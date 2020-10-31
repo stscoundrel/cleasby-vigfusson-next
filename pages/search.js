@@ -17,8 +17,9 @@ export async function getStaticProps() {
 }
 
 export default function Search({ words, query = '' }) {
+  const initialResults = query ? searchDictionary(query, words) : []
   const [search, setSearch] = useState(query)
-  const [results, setResults] = useState([])
+  const [results, setResults] = useState(initialResults)
 
   const handleSearch = (e) => {
     e.preventDefault()
@@ -27,10 +28,6 @@ export default function Search({ words, query = '' }) {
 
   if (!words) {
     return null
-  }
-
-  if (query) {
-    setResults(searchDictionary(search, words))
   }
 
   return (
