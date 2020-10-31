@@ -1,5 +1,8 @@
 import { getDictionary } from 'cleasby-vigfusson-dictionary'
-import { getAllWords, getByLetter, getWord } from 'lib/services/dictionary'
+import { VALID_AS_FIRST } from 'old-norse-alphabet'
+import {
+  getAllWords, getByLetter, getWord, getAlphabet,
+} from 'lib/services/dictionary'
 
 describe('Dictionary tests', () => {
   test('Gets array of words', () => {
@@ -52,5 +55,11 @@ describe('Dictionary tests', () => {
     expect(word3.word.toLowerCase()).toBe('þögull')
     expect(word3.slug).toBe('thogull')
     expect(word3.definitions).toEqual(['adj. <i>silent, of silent habits,</i> Hm. 6; hann var maðr þ., ríklundaðr ok úþýðr, Hkr. i. 28; hann var þögull, ekki nafn festisk við hann, Sæm. 96; hinn þögli áss, Edda 17; Viðars ins þögla, 60; horskr ok þögull, Hm.; sí-þögull, <i>mute;</i> see þagall.'])
+  })
+
+  test('Dictionary gets alphabet constants', () => {
+    const alphabet = getAlphabet()
+
+    expect(alphabet).toEqual(VALID_AS_FIRST)
   })
 })
