@@ -12,7 +12,7 @@ describe('SEO / meta tags tests', () => {
 
     const result = getSeo(dictionary[10], 'word')
 
-    expect(result).toMatchObject(expected)
+    expect(result).toEqual(expected)
   })
 
   test('Handles "letter" seo fields', () => {
@@ -23,7 +23,7 @@ describe('SEO / meta tags tests', () => {
 
     const result = getSeo(dictionary.slice(0, 10), 'letter')
 
-    expect(result).toMatchObject(expected)
+    expect(result).toEqual(expected)
   })
 
   test('Handles default response', () => {
@@ -34,6 +34,6 @@ describe('SEO / meta tags tests', () => {
 
     const result = getSeo()
 
-    expect(result).toMatchObject(expected)
+    expect(result).toEqual(expected)
   })
 })

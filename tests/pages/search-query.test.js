@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom'
-import Search, { getStaticProps } from 'pages/search'
+import Search, { getServerSideProps } from 'pages/search/[search]'
 import renderer from 'react-test-renderer'
 import { getAllWords } from 'lib/services/dictionary'
 
-describe('Search page: render', () => {
+describe('Search query page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
     ReactDOM.render(<Search words={getAllWords().slice(0, 100)} />, div)
@@ -27,15 +27,16 @@ describe('Search page: render', () => {
   })
 })
 
-describe('Search page: data fetching', () => {
-  test('getStaticProps works', async () => {
+describe('Search query page: data fetching', () => {
+  test('getServerSideProps works', async () => {
     const expected = {
       props: {
         words: getAllWords(),
+        query: 'staekja',
       },
     }
 
-    const result = await getStaticProps()
+    const result = await getServerSideProps({ params: { search: 'staekja' } })
 
     expect(result).toEqual(expected)
   })

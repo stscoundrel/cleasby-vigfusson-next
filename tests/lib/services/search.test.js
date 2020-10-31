@@ -19,7 +19,7 @@ describe('Search tests', () => {
       slug: 'abbadis',
     }
 
-    expect(result[0]).toMatchObject(expected)
+    expect(result[0]).toEqual(expected)
   })
 
   test('Finds results from descriptions', () => {
@@ -31,7 +31,7 @@ describe('Search tests', () => {
       slug: 'abbadis',
     }
 
-    expect(result[0]).toMatchObject(expected)
+    expect(result[0]).toEqual(expected)
   })
 
   test('Finds results from slug', () => {
@@ -43,6 +43,6 @@ describe('Search tests', () => {
       slug: 'adal-vellir',
     }
 
-    expect(result[0]).toMatchObject(expected)
+    expect(result[0]).toEqual(expected)
   })
 })

@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom'
-import Word from 'pages/word/[word]'
+import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
 import renderer from 'react-test-renderer'
 
-describe('Word page', () => {
+describe('Word page: render', () => {
   const word = {
     word: 'Völva',
     definitions: [
@@ -21,5 +21,34 @@ describe('Word page', () => {
   test('Matches snapshot', () => {
     const tree = renderer.create(<Word entry={word} />).toJSON()
     expect(tree).toMatchSnapshot()
+  })
+})
+
+describe('Word page: data fetching', () => {
+  test('getStaticPaths works', async () => {
+    const expected = {
+      paths: {},
+      fallback: false,
+    }
+
+    const result = await getStaticPaths()
+
+    expect(result).toMatchObject(expected)
+  })
+
+  test('getStaticProps works', async () => {
+    const expected = {
+      props: {
+        entry: {
+          word: 'stækja',
+          definitions: ['u, f. <i>a bad stench.</i>'],
+          slug: 'staekja',
+        },
+      },
+    }
+
+    const result = await getStaticProps({ params: { word: 'staekja' } })
+
+    expect(result).toEqual(expected)
   })
 })

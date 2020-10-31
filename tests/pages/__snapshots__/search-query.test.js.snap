@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Search page: render Matches snapshot 1`] = `
+exports[`Search query page: render Matches snapshot 1`] = `
 <div>
   <form
     onSubmit={[Function]}
@@ -20,7 +20,7 @@ exports[`Search page: render Matches snapshot 1`] = `
 </div>
 `;
 
-exports[`Search page: render Matches snapshot with given query 1`] = `
+exports[`Search query page: render Matches snapshot with given query 1`] = `
 <div>
   <form
     onSubmit={[Function]}
