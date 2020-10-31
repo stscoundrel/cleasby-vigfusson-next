@@ -9,6 +9,7 @@ module.exports = {
     jest: true,
   },
   globals: {
+    document: true,
     'jest/globals': true,
   },
   plugins: [
