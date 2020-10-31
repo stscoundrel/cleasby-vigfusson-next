@@ -6,7 +6,7 @@ import { getAllWords } from 'lib/services/dictionary'
 describe('Index page', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Index />, div)
+    ReactDOM.render(<Index words={getAllWords().slice(0, 100)} />, div)
     ReactDOM.unmountComponentAtNode(div)
   })
 

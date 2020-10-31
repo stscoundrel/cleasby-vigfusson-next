@@ -1,0 +1,43 @@
+// Services.
+import { getAlphabet, getByLetter } from 'lib/services/dictionary'
+
+/**
+ * Get list of possible letter pages
+ */
+export async function getStaticPaths() {
+  const letters = getAlphabet()
+  const paths = letters.map((letter) => ({
+    params: { letter },
+  }))
+
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
+/**
+ * Get words by letter.
+ */
+export async function getStaticProps({ params }) {
+  const { letter } = params
+  const words = getByLetter(letter)
+
+  return {
+    props: {
+      words,
+    },
+  }
+}
+
+export default function Letter({ words }) {
+  if (!words) {
+    return null
+  }
+
+  return (
+    <div>
+      { words.map((word, index) => <p key={`${word.word}-${index}`}>{word.word}</p>) }
+    </div>
+  )
+}
