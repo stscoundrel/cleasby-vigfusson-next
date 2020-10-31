@@ -11,6 +11,12 @@ export async function getStaticPaths() {
     params: { word: word.slug },
   }))
 
+  // Saves a lot of build time for testing.
+  // return {
+  //   paths: [],
+  //   fallback: 'blocking',
+  // }
+
   return {
     paths,
     fallback: false,
