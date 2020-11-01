@@ -2627,10 +2627,10 @@ clean-stack@^2.0.0:
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
 
-cleasby-vigfusson-dictionary@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.2.tgz#a34815f3bc48fe27d83051dcb058c3c971a4065b"
-  integrity sha512-6o7kgsRr/7nfF3CdT4S+Iq8eDPlZcC/er4MA0qIyuvsMLEr+d49tFsD2NAUf95TPjq9YCl4qKYtLyqZDvbxYwQ==
+cleasby-vigfusson-dictionary@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.3.tgz#a30bfa05f4ca061f4c3d9364924a8a2e4a2fbe65"
+  integrity sha512-eT9Wo1DNQq8484UjuZ8DHE45tarDTHSMRf/QHc35uk+976a/j222MKlD9YPl74Fj84s185XgPwwguo0gJxGO/A==
 
 cliui@^6.0.0:
   version "6.0.0"

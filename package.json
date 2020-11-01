@@ -23,7 +23,7 @@
     "test": "jest --verbose --runInBand --passWithNoTests"
   },
   "dependencies": {
-    "cleasby-vigfusson-dictionary": "^1.0.2",
+    "cleasby-vigfusson-dictionary": "^1.0.3",
     "next": "10.0.0",
     "old-norse-alphabet": "^1.0.0",
     "react": "17.0.1",
