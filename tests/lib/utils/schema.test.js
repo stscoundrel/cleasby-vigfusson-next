@@ -12,7 +12,7 @@ describe('Schema structure tests', () => {
         '@type': 'DefinedTerm',
         '@id': 'https://cleasbyvigfusson.test/word/aedi-vindr',
         name: 'Cleasby & Vigfusson Dictionary - Æði-vindr',
-        description: 'm. <i>a furious gale,</i> Barl. 150.',
+        description: 'm. a furious gale, Barl. 150.',
         inDefinedTermSet: 'https://cleasbyvigfusson.test',
       },
     )
@@ -37,7 +37,7 @@ describe('Schema structure tests', () => {
           '@type': 'DefinedTerm',
           '@id': 'https://cleasbyvigfusson.test/word/aedi-vindr',
           name: 'Cleasby & Vigfusson Dictionary - Æði-vindr',
-          description: 'm. <i>a furious gale,</i> Barl. 150.',
+          description: 'm. a furious gale, Barl. 150.',
           inDefinedTermSet: 'https://cleasbyvigfusson.test',
         },
         {
@@ -45,7 +45,7 @@ describe('Schema structure tests', () => {
           '@type': 'DefinedTerm',
           '@id': 'https://cleasbyvigfusson.test/word/aedr',
           name: 'Cleasby & Vigfusson Dictionary - Æðr',
-          description: 'i. e. <strong>œðr,</strong> adj. [from vaða, óð], <i>fordable;</i> áin var ó-œð, Bs. i. 349; hón (the river Rhine) var eigi œð, ok engi var brú eða farkostr yfir, Karl. 41.',
+          description: '1. i. e. œðr, adj. [from vaða, óð], fordable; áin var ó-œð, Bs. i. 349; hón (the river Rhine) var eigi œð, ok engi var brú eða farkostr yfir, Karl. 41.',
           inDefinedTermSet: 'https://cleasbyvigfusson.test',
         },
       ],
