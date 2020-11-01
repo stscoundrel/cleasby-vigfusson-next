@@ -45,7 +45,7 @@ describe('Schema structure tests', () => {
           '@type': 'DefinedTerm',
           '@id': 'https://cleasbyvigfusson.test/word/aedr',
           name: 'Cleasby & Vigfusson Dictionary - Æðr',
-          description: '<strong>1.</strong>',
+          description: 'i. e. <strong>œðr,</strong> adj. [from vaða, óð], <i>fordable;</i> áin var ó-œð, Bs. i. 349; hón (the river Rhine) var eigi œð, ok engi var brú eða farkostr yfir, Karl. 41.',
           inDefinedTermSet: 'https://cleasbyvigfusson.test',
         },
       ],
