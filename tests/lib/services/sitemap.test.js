@@ -1,6 +1,7 @@
 import { getContent, getSitemap } from 'lib/services/sitemap'
 
 describe('Sitemap tests', () => {
+  process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'
   const content = getContent()
 
   test('Sitemap content is an array', () => {
