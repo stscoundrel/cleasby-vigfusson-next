@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component Letter layout Matches snapshot 1`] = `
+Array [
+  <main />,
+  <footer />,
+]
+`;
+
+exports[`Layout component Word layout Matches snapshot 1`] = `
+Array [
+  <main />,
+  <footer />,
+]
+`;

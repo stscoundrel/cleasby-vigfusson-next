@@ -1,6 +1,9 @@
 // Services.
 import { getAlphabet, getByLetter } from 'lib/services/dictionary'
 
+// Components.
+import Layout from 'components/Layout'
+
 /**
  * Get list of possible letter pages
  */
@@ -36,8 +39,8 @@ export default function Letter({ words }) {
   }
 
   return (
-    <div>
+     <Layout type="letter" content={words}>
       { words.map((word, index) => <p key={`${word.word}-${index}`}>{word.word}</p>) }
-    </div>
+    </Layout>
   )
 }

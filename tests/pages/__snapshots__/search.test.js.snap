@@ -1,50 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Search page: render Matches snapshot 1`] = `
-<div>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      name="search"
-      onChange={[Function]}
-      type="text"
-      value=""
-    />
-    <button
-      type="submit"
+Array [
+  <main>
+    <form
+      onSubmit={[Function]}
     >
-      Search
-    </button>
-  </form>
-</div>
+      <input
+        name="search"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+  </main>,
+  <footer />,
+]
 `;
 
 exports[`Search page: render Matches snapshot with given query 1`] = `
-<div>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      name="search"
-      onChange={[Function]}
-      type="text"
-      value="afar-breidr"
-    />
-    <button
-      type="submit"
+Array [
+  <main>
+    <form
+      onSubmit={[Function]}
     >
-      Search
-    </button>
-  </form>
-  <a
-    href="/word/afar-breidr"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    <p>
-      afar-breiðr
-    </p>
-  </a>
-</div>
+      <input
+        name="search"
+        onChange={[Function]}
+        type="text"
+        value="afar-breidr"
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <a
+      href="/word/afar-breidr"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <p>
+        afar-breiðr
+      </p>
+    </a>
+  </main>,
+  <footer />,
+]
 `;

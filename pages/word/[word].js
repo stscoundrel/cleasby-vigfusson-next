@@ -1,6 +1,9 @@
 // Services.
 import { getAllWords, getWord } from 'lib/services/dictionary'
 
+// Components.
+import Layout from 'components/Layout'
+
 /**
  * Get list of all possible word pages.
  */
@@ -43,8 +46,8 @@ export default function Word({ entry }) {
   }
 
   return (
-    <div>
+    <Layout type="word" content={entry}>
       <p>{entry.word} = {entry.definitions.join(' ')}</p>
-    </div>
+    </Layout>
   )
 }

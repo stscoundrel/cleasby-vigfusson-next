@@ -11,7 +11,7 @@ describe('Letter page: render', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Letter words={getByLetter('s')} />).toJSON()
+    const tree = renderer.create(<Letter words={getByLetter('a')} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

@@ -1,6 +1,9 @@
 // Services.
 import { getAllWords } from 'lib/services/dictionary'
 
+// Components.
+import Layout from 'components/Layout'
+
 import Link from 'next/link'
 
 export async function getStaticProps() {
@@ -20,7 +23,7 @@ export default function Index({ words }) {
   }
 
   return (
-    <div>
+    <Layout>
       { words.map((word) => (
         <Link key={`link${word.slug}`} href={`/word/${word.slug}`}>
           <a key={`a-${word.slug}`}>
@@ -28,6 +31,6 @@ export default function Index({ words }) {
           </a>
         </Link>
       )) }
-    </div>
+    </Layout>
   )
 }

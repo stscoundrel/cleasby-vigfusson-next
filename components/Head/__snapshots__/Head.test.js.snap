@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Head component Letter head Matches snapshot 1`] = `null`;
+
+exports[`Head component Word head Matches snapshot 1`] = `null`;

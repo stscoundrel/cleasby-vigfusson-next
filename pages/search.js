@@ -4,6 +4,9 @@ import { searchDictionary } from 'lib/services/search'
 
 import { useState } from 'react'
 
+// Components.
+import Layout from 'components/Layout'
+
 import Link from 'next/link'
 
 export async function getStaticProps() {
@@ -31,7 +34,7 @@ export default function Search({ words, query = '' }) {
   }
 
   return (
-    <div>
+    <Layout>
       <form onSubmit={(e) => handleSearch(e)}>
         <input type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
         <button type="submit">Search</button>
@@ -46,6 +49,6 @@ export default function Search({ words, query = '' }) {
           </Link>
         ))
       }
-    </div>
+    </Layout>
   )
 }
