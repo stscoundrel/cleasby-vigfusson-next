@@ -1,19 +1,21 @@
 import { getSitemapContent, formatSitemap } from 'lib/services/sitemap'
 import { SitemapStream, streamToPromise } from 'sitemap'
+import { hasProperty } from 'spyrjari'
+import { isArray } from 'volva'
 
 describe('Sitemap tests', () => {
   process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'
   const content = getSitemapContent()
 
   test('Sitemap content is an array', () => {
-    expect(Array.isArray(content)).toBeTruthy()
+    expect(isArray(content)).toBeTruthy()
   })
 
   test('Sitemap content objects are in correct format.', () => {
     content.forEach((entry) => {
-      expect(Object.prototype.hasOwnProperty.call(entry, 'url')).toBeTruthy()
-      expect(Object.prototype.hasOwnProperty.call(entry, 'changefreq')).toBeTruthy()
-      expect(Object.prototype.hasOwnProperty.call(entry, 'priority')).toBeTruthy()
+      expect(hasProperty(entry, 'url')).toBeTruthy()
+      expect(hasProperty(entry, 'changefreq')).toBeTruthy()
+      expect(hasProperty(entry, 'priority')).toBeTruthy()
     })
   })
 

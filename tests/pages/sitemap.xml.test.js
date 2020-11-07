@@ -28,7 +28,7 @@ describe('Sitemap page: data fetching', () => {
 
     await getServerSideProps({ res })
 
-    // Ensure getStaticProps modified response.
+    // Ensure getServerSideProps modified response.
     expect(res.finished).toBeTruthy()
     expect(res._headers).toEqual({ 'content-type': 'text/xml' }) // eslint-disable-line
 

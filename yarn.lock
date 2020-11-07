@@ -7503,6 +7503,11 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
+spyrjari@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/spyrjari/-/spyrjari-1.0.0.tgz#54737978405c37d2909b33fe80f3c7c3f0fdaf3c"
+  integrity sha512-VfMYY5mn5ujyzDzCKy9QIQXjPY62ybE5nzRxYAM0qS7Ddq0O78zNuZftoEl3xKVtbJskaR+Id7Nu+XbDNtTFDQ==
+
 sshpk@^1.7.0:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/sshpk/-/sshpk-1.16.1.tgz#fb661c0bef29b39db40769ee39fa70093d6f6877"
@@ -8298,6 +8303,11 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+volva@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/volva/-/volva-1.0.3.tgz#0606b15259b005425ef8ace61f8f423cb085ccc6"
+  integrity sha512-A4dHZsB3LZzQqwrS35bG6kjECUVQyQrE8+eyMFkJEl6PwDaRgsQzxrJ6E+HPUmKL/ZyMN5tNxWL9yWtjnFCEBQ==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"

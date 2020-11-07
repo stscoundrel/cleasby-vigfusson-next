@@ -1,5 +1,6 @@
 import { getAllWords } from 'lib/services/dictionary'
 import { searchDictionary } from 'lib/services/search'
+import { isArray } from 'volva'
 
 describe('Search tests', () => {
   const dictionary = getAllWords()
@@ -7,7 +8,7 @@ describe('Search tests', () => {
   test('Returns array of results', () => {
     const result = searchDictionary('skilja', dictionary)
 
-    expect(Array.isArray(result)).toBeTruthy()
+    expect(isArray(result)).toBeTruthy()
   })
 
   test('Returns results in correct formatting', () => {

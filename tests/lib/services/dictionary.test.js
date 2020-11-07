@@ -3,12 +3,13 @@ import { VALID_AS_FIRST } from 'old-norse-alphabet'
 import {
   getAllWords, getByLetter, getWord, getAlphabet,
 } from 'lib/services/dictionary'
+import { isArray } from 'volva'
 
 describe('Dictionary tests', () => {
   test('Gets array of words', () => {
     const dictionary = getAllWords()
 
-    expect(Array.isArray(dictionary)).toBeTruthy()
+    expect(isArray(dictionary)).toBeTruthy()
   })
 
   test('Dictionary is not identical with original source.', () => {
