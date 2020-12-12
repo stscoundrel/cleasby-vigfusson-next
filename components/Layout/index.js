@@ -4,13 +4,13 @@ import Footer from 'components/Footer'
 import Navigation from 'components/Navigation'
 
 export default function Layout({
-  type, content, children, letters,
+  type, content, children, letters, noSearch = false,
 }) {
   return (
     <>
       <Head type={type} content={content}></Head>
       <main>
-        <Navigation letters={letters} />
+        <Navigation letters={letters} noSearch={noSearch}/>
         {children}
       </main>
       <Footer />

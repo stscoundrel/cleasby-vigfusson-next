@@ -35,7 +35,7 @@ export default function Search({ words, query = '', letters }) {
   }
 
   return (
-    <Layout letters={letters} >
+    <Layout letters={letters} noSearch={true}>
       <form onSubmit={(e) => handleSearch(e)}>
         <input type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
         <button type="submit">Search</button>

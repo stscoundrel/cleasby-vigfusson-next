@@ -1,16 +1,22 @@
 // Components.
 import LetterLink from 'components/LetterLink'
+import Search from 'components/Search'
 
-export default function Navigation({ letters }) {
+// Styles.
+import styles from './Navigation.module.scss'
+
+export default function Navigation({ letters, noSearch = false }) {
   return (
     <nav>
-      <ul>
+      <ul className={styles.list}>
         {letters.map((entry) => (
-          <li key={entry.slug}>
+          <li className={styles.listItem} key={entry.slug}>
             <LetterLink letter={entry} />
           </li>
         ))}
       </ul>
+
+      { !noSearch && <Search /> }
     </nav>
   )
 }

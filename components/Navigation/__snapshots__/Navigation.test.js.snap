@@ -2,8 +2,12 @@
 
 exports[`Navigation component Matches snapshot 1`] = `
 <nav>
-  <ul>
-    <li>
+  <ul
+    className="list"
+  >
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/a"
         onClick={[Function]}
@@ -12,7 +16,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         a
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/a2"
         onClick={[Function]}
@@ -21,7 +27,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         á
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/b"
         onClick={[Function]}
@@ -30,7 +38,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         b
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/d"
         onClick={[Function]}
@@ -39,7 +49,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         d
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/e"
         onClick={[Function]}
@@ -48,7 +60,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         e
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/e2"
         onClick={[Function]}
@@ -57,7 +71,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         é
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/f"
         onClick={[Function]}
@@ -66,7 +82,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         f
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/g"
         onClick={[Function]}
@@ -75,7 +93,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         g
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/h"
         onClick={[Function]}
@@ -84,7 +104,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         h
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/i"
         onClick={[Function]}
@@ -93,7 +115,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         i
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/i2"
         onClick={[Function]}
@@ -102,7 +126,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         í
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/j"
         onClick={[Function]}
@@ -111,7 +137,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         j
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/k"
         onClick={[Function]}
@@ -120,7 +148,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         k
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/l"
         onClick={[Function]}
@@ -129,7 +159,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         l
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/m"
         onClick={[Function]}
@@ -138,7 +170,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         m
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/n"
         onClick={[Function]}
@@ -147,7 +181,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         n
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/o"
         onClick={[Function]}
@@ -156,7 +192,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         o
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/o2"
         onClick={[Function]}
@@ -165,7 +203,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         ó
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/p"
         onClick={[Function]}
@@ -174,7 +214,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         p
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/r"
         onClick={[Function]}
@@ -183,7 +225,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         r
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/s"
         onClick={[Function]}
@@ -192,7 +236,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         s
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/t"
         onClick={[Function]}
@@ -201,7 +247,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         t
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/u"
         onClick={[Function]}
@@ -210,7 +258,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         u
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/u2"
         onClick={[Function]}
@@ -219,7 +269,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         ú
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/v"
         onClick={[Function]}
@@ -228,7 +280,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         v
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/y"
         onClick={[Function]}
@@ -237,7 +291,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         y
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/y2"
         onClick={[Function]}
@@ -246,7 +302,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         ý
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/th"
         onClick={[Function]}
@@ -255,7 +313,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         þ
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/ae"
         onClick={[Function]}
@@ -264,7 +324,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         æ
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/oe3"
         onClick={[Function]}
@@ -273,7 +335,9 @@ exports[`Navigation component Matches snapshot 1`] = `
         œ
       </a>
     </li>
-    <li>
+    <li
+      className="listItem"
+    >
       <a
         href="/letter/oe"
         onClick={[Function]}
@@ -283,5 +347,20 @@ exports[`Navigation component Matches snapshot 1`] = `
       </a>
     </li>
   </ul>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      name="search"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
 </nav>
 `;
