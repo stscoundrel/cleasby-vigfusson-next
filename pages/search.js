@@ -1,8 +1,9 @@
+import { useRouter } from 'next/router'
+import { useState, useEffect } from 'react'
+
 // Services.
 import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 import { searchDictionary } from 'lib/services/search'
-
-import { useState } from 'react'
 
 // Components.
 import Layout from 'components/Layout'
@@ -20,14 +21,23 @@ export async function getStaticProps() {
   }
 }
 
-export default function Search({ words, query = '', letters }) {
-  const initialResults = query ? searchDictionary(query, words) : []
-  const [search, setSearch] = useState(query)
-  const [results, setResults] = useState(initialResults)
+export default function Search({ words, letters }) {
+  const router = useRouter()
+  const [search, setSearch] = useState('')
+  const [results, setResults] = useState([])
+
+  useEffect(() => {
+    if (search !== router.query.query) {
+      setSearch(router.query.query)
+      setResults(searchDictionary(router.query.query, words))
+    }
+  }, [router.query])
 
   const handleSearch = (e) => {
     e.preventDefault()
-    setResults(searchDictionary(search, words))
+    const url = search !== '' ? `/search?query=${search}` : '/search'
+
+    router.push(url, undefined, { shallow: true })
   }
 
   if (!words) {
@@ -42,6 +52,8 @@ export default function Search({ words, query = '', letters }) {
       </form>
 
       <WordList words={results} />
+
+      { results.length === 0 && <p>No search results</p> }
     </Layout>
   )
 }

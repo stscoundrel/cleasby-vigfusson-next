@@ -3,6 +3,17 @@ import Search, { getStaticProps } from 'pages/search'
 import renderer from 'react-test-renderer'
 import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 
+/**
+ * Mock router
+ */
+jest.mock('next/router', () => ({
+  useRouter() {
+    return {
+      query: {},
+    }
+  },
+}))
+
 describe('Search page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
@@ -10,19 +21,8 @@ describe('Search page: render', () => {
     ReactDOM.unmountComponentAtNode(div)
   })
 
-  test('Does not crash with given query', () => {
-    const div = document.createElement('div')
-    ReactDOM.render(<Search words={getAllWords().slice(0, 100)} query='afar-breidr' letters={getAlphabet()} />, div)
-    ReactDOM.unmountComponentAtNode(div)
-  })
-
   test('Matches snapshot', () => {
     const tree = renderer.create(<Search words={getAllWords()} letters={getAlphabet()} />).toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-
-  test('Matches snapshot with given query', () => {
-    const tree = renderer.create(<Search words={getAllWords()} query='afar-breidr' letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
