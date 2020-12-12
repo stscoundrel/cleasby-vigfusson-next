@@ -21,8 +21,6 @@ export default function Index({ words }) {
     return null
   }
 
-  console.log(words.slice(50, 55))
-
   return (
     <Layout>
       <WordList words={words} />

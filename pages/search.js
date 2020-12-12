@@ -6,8 +6,7 @@ import { useState } from 'react'
 
 // Components.
 import Layout from 'components/Layout'
-
-import Link from 'next/link'
+import WordList from 'components/WordList'
 
 export async function getStaticProps() {
   const words = getAllWords()
@@ -40,15 +39,7 @@ export default function Search({ words, query = '' }) {
         <button type="submit">Search</button>
       </form>
 
-      {
-        results.map((word) => (
-          <Link key={word.slug} href={`/word/${word.slug}`}>
-            <a key={word.word}>
-              <p>{word.word}</p>
-            </a>
-          </Link>
-        ))
-      }
+      <WordList words={results} />
     </Layout>
   )
 }
