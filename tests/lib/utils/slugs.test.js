@@ -6,6 +6,8 @@ describe('Slug utils', () => {
     expect(slugifyLetter('í')).toEqual('i2')
     expect(slugifyLetter('ǫ')).toEqual('oe4')
     expect(slugifyLetter('a')).toEqual('a')
+    expect(slugifyLetter('þ')).toEqual('th')
+    expect(slugifyLetter('æ')).toEqual('ae')
   })
 
   test('Slugifys words', () => {
@@ -17,5 +19,7 @@ describe('Slug utils', () => {
     expect(decodeLetter('i2')).toEqual('í')
     expect(decodeLetter('oe4')).toEqual('ǫ')
     expect(decodeLetter('a')).toEqual('a')
+    expect(decodeLetter('th')).toEqual('þ')
+    expect(decodeLetter('ae')).toEqual('æ')
   })
 })
