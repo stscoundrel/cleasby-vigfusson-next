@@ -25,6 +25,11 @@ export default function Index({ words, letters }) {
 
   return (
     <Layout letters={letters}>
+      <header>
+        <h1>Cleasby & Vigfusson Old Norse dictionary</h1>
+        <p>Online version of the classic Old Norse / Old Icelandic
+        dictionary by Richard Cleasby & Gudbrand Vigfusson</p>
+      </header>
       <WordList words={words} />
     </Layout>
   )

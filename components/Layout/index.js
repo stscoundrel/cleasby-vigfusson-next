@@ -13,7 +13,7 @@ export default function Layout({
         <Navigation letters={letters} noSearch={noSearch}/>
         {children}
       </main>
-      <Footer />
+      <Footer letters={letters}/>
     </>
   )
 }

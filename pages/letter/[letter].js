@@ -39,17 +39,22 @@ export async function getStaticProps({ params }) {
     props: {
       words,
       letters,
+      letter,
     },
   }
 }
 
-export default function Letter({ words, letters }) {
+export default function Letter({ words, letter, letters }) {
   if (!words) {
     return null
   }
 
   return (
      <Layout type="letter" content={words} letters={letters}>
+      <header>
+        <h1>Letter {letter.toUpperCase()}</h1>
+        <p>{words.length} Old Norse words starting with letter <em>{letter}</em></p>
+      </header>
       <WordList words={words} />
     </Layout>
   )
