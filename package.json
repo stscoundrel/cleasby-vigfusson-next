@@ -20,7 +20,8 @@
     "start": "next start",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "test": "jest --verbose --runInBand --passWithNoTests"
+    "jest": "jest --verbose --runInBand --passWithNoTests",
+    "test": "yarn lint && yarn jest"
   },
   "dependencies": {
     "cleasby-vigfusson-dictionary": "^1.0.3",

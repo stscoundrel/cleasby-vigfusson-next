@@ -3,8 +3,7 @@ import { getAllWords } from 'lib/services/dictionary'
 
 // Components.
 import Layout from 'components/Layout'
-
-import Link from 'next/link'
+import WordList from 'components/WordList'
 
 export async function getStaticProps() {
   const allWords = getAllWords()
@@ -22,15 +21,11 @@ export default function Index({ words }) {
     return null
   }
 
+  console.log(words.slice(50, 55))
+
   return (
     <Layout>
-      { words.map((word) => (
-        <Link key={`link${word.slug}`} href={`/word/${word.slug}`}>
-          <a key={`a-${word.slug}`}>
-            <p>{word.word}</p>
-          </a>
-        </Link>
-      )) }
+      <WordList words={words} />
     </Layout>
   )
 }
