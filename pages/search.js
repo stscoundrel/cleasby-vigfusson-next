@@ -27,7 +27,7 @@ export default function Search({ words, letters }) {
   const [results, setResults] = useState([])
 
   useEffect(() => {
-    if (search !== router.query.query) {
+    if (router.query.query) {
       setSearch(router.query.query)
       setResults(searchDictionary(router.query.query, words))
     }
