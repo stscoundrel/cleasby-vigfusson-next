@@ -1,5 +1,5 @@
 // Services.
-import { getAllWords } from 'lib/services/dictionary'
+import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 
 // Search layout.
 import SearchPage from 'pages/search'
@@ -7,15 +7,17 @@ import SearchPage from 'pages/search'
 export async function getServerSideProps({ params }) {
   const { search } = params
   const words = getAllWords()
+  const letters = getAlphabet()
 
   return {
     props: {
       words,
       query: search,
+      letters,
     },
   }
 }
 
-export default function Search({ words, query }) {
-  return <SearchPage words={words} query={query} />
+export default function Search({ words, query, letters }) {
+  return <SearchPage words={words} query={query} letters={letters} />
 }

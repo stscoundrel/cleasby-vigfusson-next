@@ -1,28 +1,28 @@
 import ReactDOM from 'react-dom'
 import Search, { getStaticProps } from 'pages/search'
 import renderer from 'react-test-renderer'
-import { getAllWords } from 'lib/services/dictionary'
+import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 
 describe('Search page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Search words={getAllWords().slice(0, 100)} />, div)
+    ReactDOM.render(<Search words={getAllWords().slice(0, 100)} letters={getAlphabet()} />, div)
     ReactDOM.unmountComponentAtNode(div)
   })
 
   test('Does not crash with given query', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Search words={getAllWords().slice(0, 100)} query='afar-breidr' />, div)
+    ReactDOM.render(<Search words={getAllWords().slice(0, 100)} query='afar-breidr' letters={getAlphabet()} />, div)
     ReactDOM.unmountComponentAtNode(div)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Search words={getAllWords()} />).toJSON()
+    const tree = renderer.create(<Search words={getAllWords()} letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Matches snapshot with given query', () => {
-    const tree = renderer.create(<Search words={getAllWords()} query='afar-breidr' />).toJSON()
+    const tree = renderer.create(<Search words={getAllWords()} query='afar-breidr' letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
@@ -32,6 +32,7 @@ describe('Search page: data fetching', () => {
     const expected = {
       props: {
         words: getAllWords(),
+        letters: getAlphabet(),
       },
     }
 

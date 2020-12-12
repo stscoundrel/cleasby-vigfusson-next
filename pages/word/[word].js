@@ -1,5 +1,5 @@
 // Services.
-import { getAllWords, getWord } from 'lib/services/dictionary'
+import { getAllWords, getWord, getAlphabet } from 'lib/services/dictionary'
 
 // Components.
 import Layout from 'components/Layout'
@@ -33,21 +33,23 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { word } = params
   const entry = getWord(word)
+  const letters = getAlphabet()
 
   return {
     props: {
       entry,
+      letters,
     },
   }
 }
 
-export default function Word({ entry }) {
+export default function Word({ entry, letters }) {
   if (!entry) {
     return null
   }
 
   return (
-    <Layout type="word" content={entry}>
+    <Layout type="word" content={entry} letters={letters}>
       <WordDefinition data={entry} />
     </Layout>
   )

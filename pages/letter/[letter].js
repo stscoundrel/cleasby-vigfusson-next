@@ -26,21 +26,23 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { letter } = params
   const words = getByLetter(letter)
+  const letters = getAlphabet()
 
   return {
     props: {
       words,
+      letters,
     },
   }
 }
 
-export default function Letter({ words }) {
+export default function Letter({ words, letters }) {
   if (!words) {
     return null
   }
 
   return (
-     <Layout type="letter" content={words}>
+     <Layout type="letter" content={words} letters={letters}>
       <WordList words={words} />
     </Layout>
   )

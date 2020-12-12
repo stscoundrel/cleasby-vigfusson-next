@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom'
 import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
 import renderer from 'react-test-renderer'
+import { getAlphabet } from 'lib/services/dictionary'
 
 describe('Word page: render', () => {
   const word = {
@@ -14,12 +15,12 @@ describe('Word page: render', () => {
 
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Word entry={word} />, div)
+    ReactDOM.render(<Word entry={word} letters={getAlphabet()} />, div)
     ReactDOM.unmountComponentAtNode(div)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Word entry={word} />).toJSON()
+    const tree = renderer.create(<Word entry={word} letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
@@ -44,6 +45,7 @@ describe('Word page: data fetching', () => {
           definitions: ['u, f. <i>a bad stench.</i>'],
           slug: 'staekja',
         },
+        letters: getAlphabet(),
       },
     }
 

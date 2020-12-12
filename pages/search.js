@@ -1,5 +1,5 @@
 // Services.
-import { getAllWords } from 'lib/services/dictionary'
+import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 import { searchDictionary } from 'lib/services/search'
 
 import { useState } from 'react'
@@ -10,15 +10,17 @@ import WordList from 'components/WordList'
 
 export async function getStaticProps() {
   const words = getAllWords()
+  const letters = getAlphabet()
 
   return {
     props: {
       words,
+      letters,
     },
   }
 }
 
-export default function Search({ words, query = '' }) {
+export default function Search({ words, query = '', letters }) {
   const initialResults = query ? searchDictionary(query, words) : []
   const [search, setSearch] = useState(query)
   const [results, setResults] = useState(initialResults)
@@ -33,7 +35,7 @@ export default function Search({ words, query = '' }) {
   }
 
   return (
-    <Layout>
+    <Layout letters={letters} >
       <form onSubmit={(e) => handleSearch(e)}>
         <input type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
         <button type="submit">Search</button>
