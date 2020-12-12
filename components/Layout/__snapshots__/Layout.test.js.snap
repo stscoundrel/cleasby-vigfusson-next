@@ -16,7 +16,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%A1"
+            href="/letter/a2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -52,7 +52,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%A9"
+            href="/letter/e2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -97,7 +97,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%AD"
+            href="/letter/i2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -160,7 +160,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%B3"
+            href="/letter/o2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -214,7 +214,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%BA"
+            href="/letter/u2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -232,15 +232,6 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/w"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            w
-          </a>
-        </li>
-        <li>
-          <a
             href="/letter/y"
             onClick={[Function]}
             onMouseEnter={[Function]}
@@ -250,7 +241,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%BD"
+            href="/letter/y2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -259,7 +250,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%BE"
+            href="/letter/th"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -268,7 +259,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%A6"
+            href="/letter/ae"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -277,29 +268,20 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C7%AB"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            ǫ
-          </a>
-        </li>
-        <li>
-          <a
-            href="/letter/%C3%B8"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            ø
-          </a>
-        </li>
-        <li>
-          <a
-            href="/letter/%C5%93"
+            href="/letter/oe3"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
             œ
+          </a>
+        </li>
+        <li>
+          <a
+            href="/letter/oe"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            ö
           </a>
         </li>
       </ul>
@@ -325,7 +307,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%A1"
+            href="/letter/a2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -361,7 +343,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%A9"
+            href="/letter/e2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -406,7 +388,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%AD"
+            href="/letter/i2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -469,7 +451,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%B3"
+            href="/letter/o2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -523,7 +505,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%BA"
+            href="/letter/u2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -541,15 +523,6 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/w"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            w
-          </a>
-        </li>
-        <li>
-          <a
             href="/letter/y"
             onClick={[Function]}
             onMouseEnter={[Function]}
@@ -559,7 +532,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%BD"
+            href="/letter/y2"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -568,7 +541,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%BE"
+            href="/letter/th"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -577,7 +550,7 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C3%A6"
+            href="/letter/ae"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
@@ -586,29 +559,20 @@ Array [
         </li>
         <li>
           <a
-            href="/letter/%C7%AB"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            ǫ
-          </a>
-        </li>
-        <li>
-          <a
-            href="/letter/%C3%B8"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-          >
-            ø
-          </a>
-        </li>
-        <li>
-          <a
-            href="/letter/%C5%93"
+            href="/letter/oe3"
             onClick={[Function]}
             onMouseEnter={[Function]}
           >
             œ
+          </a>
+        </li>
+        <li>
+          <a
+            href="/letter/oe"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            ö
           </a>
         </li>
       </ul>

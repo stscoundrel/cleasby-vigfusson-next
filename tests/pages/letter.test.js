@@ -20,7 +20,7 @@ describe('Letter page: data fetching', () => {
   test('getStaticPaths works', async () => {
     const expected = {
       paths: getAlphabet().map((letter) => ({
-        params: { letter },
+        params: { letter: letter.slug },
       })),
       fallback: false,
     }

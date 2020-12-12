@@ -1,9 +1,9 @@
 import { getDictionary } from 'cleasby-vigfusson-dictionary'
-import { VALID_AS_FIRST } from 'old-norse-alphabet'
 import {
   getAllWords, getByLetter, getWord, getAlphabet,
 } from 'lib/services/dictionary'
 import { isArray } from 'volva'
+import { matchesSchema } from 'jafningjar'
 
 describe('Dictionary tests', () => {
   const dictionary = getAllWords()
@@ -61,9 +61,16 @@ describe('Dictionary tests', () => {
     expect(word3.definitions).toEqual(['adj. <i>silent, of silent habits,</i> Hm. 6; hann var maðr þ., ríklundaðr ok úþýðr, Hkr. i. 28; hann var þögull, ekki nafn festisk við hann, Sæm. 96; hinn þögli áss, Edda 17; Viðars ins þögla, 60; horskr ok þögull, Hm.; sí-þögull, <i>mute;</i> see þagall.'])
   })
 
-  test('Dictionary gets alphabet constants', () => {
+  test('Dictionary gets alphabet constants with slugs', () => {
     const alphabet = getAlphabet()
 
-    expect(alphabet).toEqual(VALID_AS_FIRST)
+    const expected = {
+      letter: '',
+      slug: '',
+    }
+
+    alphabet.forEach((entry) => {
+      expect(matchesSchema(entry, expected)).toBeTruthy()
+    })
   })
 })

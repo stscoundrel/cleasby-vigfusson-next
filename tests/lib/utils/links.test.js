@@ -16,7 +16,7 @@ describe('Link utils', () => {
   test('Formats letter links', () => {
     const expected = 'https://cleasbyvigfusson.test/letter/ae'
 
-    const result = getLetterLink('æ')
+    const result = getLetterLink({ letter: 'æ', slug: 'ae' })
 
     expect(result).toEqual(expected)
   })

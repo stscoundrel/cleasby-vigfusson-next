@@ -5,9 +5,9 @@ export default function Navigation({ letters }) {
   return (
     <nav>
       <ul>
-        {letters.map((letter) => (
-          <li key={letter}>
-            <LetterLink letter={letter} />
+        {letters.map((entry) => (
+          <li key={entry.slug}>
+            <LetterLink letter={entry} />
           </li>
         ))}
       </ul>

@@ -1,5 +1,6 @@
 // Services.
 import { getAlphabet, getByLetter } from 'lib/services/dictionary'
+import { decodeLetter } from 'lib/utils/slugs'
 
 // Components.
 import Layout from 'components/Layout'
@@ -11,7 +12,7 @@ import WordList from 'components/WordList'
 export async function getStaticPaths() {
   const letters = getAlphabet()
   const paths = letters.map((letter) => ({
-    params: { letter },
+    params: { letter: letter.slug },
   }))
 
   return {
@@ -25,7 +26,7 @@ export async function getStaticPaths() {
  */
 export async function getStaticProps({ params }) {
   const { letter } = params
-  const words = getByLetter(letter)
+  const words = getByLetter(decodeLetter(letter))
   const letters = getAlphabet()
 
   return {
