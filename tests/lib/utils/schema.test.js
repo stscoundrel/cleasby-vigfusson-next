@@ -56,6 +56,43 @@ describe('Schema structure tests', () => {
     expect(result).toEqual(expected)
   })
 
+  test('Handles "breadcrumbs" Schema', () => {
+    const expected = JSON.stringify(
+      {
+        '@context': 'https://schema.org/',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'First breadcrumb',
+            item: 'https://cleasbyvigfusson.test/first-link',
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Second breadcrumb',
+            item: 'https://cleasbyvigfusson.test/second-link',
+          },
+        ],
+      },
+    )
+
+    const breadcrumbs = [
+      {
+        label: 'First breadcrumb',
+        url: '/first-link',
+      },
+      {
+        label: 'Second breadcrumb',
+        url: '/second-link',
+      },
+    ]
+    const result = getSchema(breadcrumbs, 'breadcrumbs')
+
+    expect(result).toEqual(expected)
+  })
+
   test('Handles "default" Schema', () => {
     const expected = JSON.stringify(
       {
