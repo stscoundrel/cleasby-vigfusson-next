@@ -24,7 +24,7 @@ export default function Index({ words, letters }) {
   }
 
   return (
-    <Layout letters={letters}>
+    <Layout letters={letters} type='page'>
       <header>
         <h1>Cleasby & Vigfusson Old Norse dictionary</h1>
         <p>Online version of the classic Old Norse / Old Icelandic

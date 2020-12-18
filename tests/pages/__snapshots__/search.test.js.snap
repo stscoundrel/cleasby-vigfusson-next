@@ -350,6 +350,23 @@ Array [
         </li>
       </ul>
     </nav>
+    <div>
+      <a
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Cleasby & Vigfusson Dictionary
+      </a>
+      <script
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"}]}",
+          }
+        }
+        type="application/ld+json"
+      />
+    </div>
     <form
       onSubmit={[Function]}
     >

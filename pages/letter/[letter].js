@@ -32,14 +32,15 @@ export async function getStaticPaths() {
  */
 export async function getStaticProps({ params }) {
   const { letter } = params
-  const words = getByLetter(decodeLetter(letter))
+  const decodedLetter = decodeLetter(letter)
+  const words = getByLetter(decodedLetter)
   const letters = getAlphabet()
 
   return {
     props: {
       words,
       letters,
-      letter,
+      letter: decodedLetter,
     },
   }
 }
