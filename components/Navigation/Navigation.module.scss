@@ -6,14 +6,31 @@
 
 .wrap {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .list {
   display: flex;
-  flex-basis: 80%;
+  flex-wrap: wrap;
+  flex-basis: 100%;
   justify-content: space-between;
 }
 
 .listItem {
-  flex: 1;
+  flex-basis: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrap {
+    flex-wrap: nowrap;
+  }
+
+  .list {
+    flex-wrap: nowrap;
+    flex-basis: 80%;
+  }
+
+  .listItem {
+    flex: 1;
+  }
 }

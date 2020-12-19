@@ -29,6 +29,7 @@ h1,
   line-height: $h1-line-height-mobile;
   letter-spacing: $h1-letter-spacing-mobile;
   font-weight: $h1-font-weight-mobile;
+  margin-bottom: 0.75rem;
 }
 
 h2,
@@ -37,6 +38,7 @@ h2,
   line-height: $h2-line-height-mobile;
   letter-spacing: $h2-letter-spacing-mobile;
   font-weight: $h2-font-weight-mobile;
+  margin-bottom: 1rem;
 }
 
 h3,
@@ -71,8 +73,29 @@ h6,
   font-weight: $h6-font-weight-mobile;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
 small {
   font-size: smaller;
+}
+
+a {
+  color: $color-blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media only screen and (min-width: 992px) {

@@ -1,18 +1,23 @@
+import styles from './WordDefinition.module.scss'
+
 export default function WordDefinition({ data }) {
   const { word, definitions } = data
 
   return (
-    <article>
+    <article className={styles.section}>
       <header>
-        <h1 lang="non">{word}</h1>
-        <p>Meaning of Old Norse word &quot;{word}&quot;</p>
+        <h1 className="capitalize" lang="non">{word}</h1>
+        <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em></p>
       </header>
 
-      <p><dfn>{word}</dfn> Old Norse word can mean:</p>
+      <p><dfn className="capitalize">{word}</dfn> Old Norse word can mean:</p>
       {definitions.map((definition, index) => (
-        <dl key={`definition-${index}`}>
+        <dl className={styles.definitionList} key={`definition-${index}`}>
           <dt><strong>{word}</strong></dt>
-          <dd dangerouslySetInnerHTML={ { __html: definition } }></dd>
+          <dd
+            className={styles.itemDescription}
+            dangerouslySetInnerHTML={ { __html: definition } }
+          ></dd>
         </dl>
       ))}
     </article>

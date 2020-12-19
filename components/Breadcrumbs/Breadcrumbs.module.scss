@@ -9,6 +9,7 @@
   text-decoration: none;
   padding-right: 15px;
   margin-right: 15px;
+  font-size: smaller;
 
   &::after {
     content: "/";
@@ -19,9 +20,17 @@
   &:last-of-type {
     font-weight: bold;
     text-decoration: underline;
+    margin-right: 0;
+    padding-right: 0;
 
     &::after {
       content: "";
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .link {
+    font-size: initial;
   }
 }

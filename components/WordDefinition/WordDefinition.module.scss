@@ -1,0 +1,17 @@
+.section {
+  padding: 20px 0;
+}
+
+.definitionList {
+  margin-bottom: 20px;
+}
+
+.itemDescription {
+  padding-left: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section {
+    max-width: 740px;
+  }
+}

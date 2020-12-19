@@ -46,6 +46,7 @@ export default function Head({ type, content }) {
           name='twitter:description'
           content={description}
         />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: schema } }/>
     </NextHead>
   )
