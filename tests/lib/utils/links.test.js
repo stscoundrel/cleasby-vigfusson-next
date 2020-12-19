@@ -6,7 +6,7 @@ describe('Link utils', () => {
   process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'
 
   test('Formats word links', () => {
-    const expected = 'https://cleasbyvigfusson.test/word/aedi-vindr'
+    const expected = 'https://cleasbyvigfusson.test/word/aedi-stormr'
 
     const result = getWordLink(dictionary[15])
 

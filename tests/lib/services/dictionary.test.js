@@ -73,4 +73,12 @@ describe('Dictionary tests', () => {
       expect(matchesSchema(entry, expected)).toBeTruthy()
     })
   })
+
+  test('Dictionary entries are alphabetically sorted', () => {
+    const maybeUnsorted = getByLetter('a')
+
+    const sortedDictionry = [...maybeUnsorted].sort((a, b) => a.word.localeCompare(b.word))
+
+    expect(maybeUnsorted).toEqual(sortedDictionry)
+  })
 })

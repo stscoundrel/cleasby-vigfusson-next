@@ -24,7 +24,7 @@
     "test": "yarn lint && yarn jest"
   },
   "dependencies": {
-    "cleasby-vigfusson-dictionary": "^1.0.4",
+    "cleasby-vigfusson-dictionary": "^1.0.5",
     "next": "10.0.0",
     "old-norse-alphabet": "^1.0.1",
     "react": "17.0.1",
