@@ -7,16 +7,17 @@ import styles from './Navigation.module.scss'
 
 export default function Navigation({ letters, noSearch = false }) {
   return (
-    <nav>
-      <ul className={styles.list}>
-        {letters.map((entry) => (
-          <li className={styles.listItem} key={entry.slug}>
-            <LetterLink letter={entry} />
-          </li>
-        ))}
-      </ul>
-
-      { !noSearch && <Search /> }
+    <nav className={styles.section}>
+      <div className={`${styles.wrap} container`}>
+        <ul className={styles.list}>
+          {letters.map((entry) => (
+            <li className={styles.listItem} key={entry.slug}>
+              <LetterLink letter={entry} />
+            </li>
+          ))}
+        </ul>
+        { !noSearch && <Search /> }
+      </div>
     </nav>
   )
 }

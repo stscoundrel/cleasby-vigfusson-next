@@ -29,6 +29,7 @@
     "old-norse-alphabet": "^1.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "reset-css": "^5.0.1",
     "sass": "^1.28.0",
     "sitemap": "^6.3.3",
     "slugify": "^1.4.5",

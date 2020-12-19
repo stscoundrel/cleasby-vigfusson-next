@@ -1,6 +1,17 @@
-.list {
-  list-style: none;
+.section {
+  color: white;
+  background-color: $color-blue;
+  padding: 16px 0;
+}
+
+.wrap {
   display: flex;
+}
+
+.list {
+  display: flex;
+  flex-basis: 80%;
+  justify-content: space-between;
 }
 
 .listItem {

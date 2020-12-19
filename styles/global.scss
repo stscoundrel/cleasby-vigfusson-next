@@ -1,0 +1,11 @@
+@import '~reset-css';
+@import 'variables';
+@import 'typography';
+@import 'containers';
+
+body,
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

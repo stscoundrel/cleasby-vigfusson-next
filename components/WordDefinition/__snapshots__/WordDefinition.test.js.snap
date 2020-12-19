@@ -9,12 +9,17 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       af-burðr
     </h1>
     <p>
-      <dfn>
-        af-burðr
-      </dfn>
-       Old Norse word can mean:
+      Meaning of Old Norse word "
+      af-burðr
+      "
     </p>
   </header>
+  <p>
+    <dfn>
+      af-burðr
+    </dfn>
+     Old Norse word can mean:
+  </p>
   <dl>
     <dt>
       <strong>

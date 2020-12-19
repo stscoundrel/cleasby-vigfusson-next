@@ -1,6 +1,7 @@
 import { getBreadcrumbs } from 'lib/utils/breadcrumbs'
 import { getSchema } from 'lib/utils/schema'
 import Link from 'next/link'
+import styles from './Breadcrumbs.module.scss'
 
 export default function Breadcrumbs({ type, content }) {
   const getBreadCrumbData = () => {
@@ -26,14 +27,16 @@ export default function Breadcrumbs({ type, content }) {
   const schema = getSchema(breadcrumbs, 'breadcrumbs')
 
   return (
-    <div>
-      {breadcrumbs.map(({ label, url }) => (
-        <Link key={url} href={url}>
-          <a>{label}</a>
-        </Link>
-      ))}
+    <nav className={styles.section}>
+      <div className="container">
+        {breadcrumbs.map(({ label, url }) => (
+          <Link key={url} href={url}>
+            <a className={styles.link}>{label}</a>
+          </Link>
+        ))}
 
-      <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: schema } }/>
-    </div>
+        <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: schema } }/>
+      </div>
+    </nav>
   )
 }

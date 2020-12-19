@@ -10,9 +10,11 @@ export default function Layout({
   return (
     <>
       <Head type={type} content={content}></Head>
-      <main>
+      <header>
         <Navigation letters={letters} noSearch={noSearch}/>
         <Breadcrumbs type={type} content={content} />
+      </header>
+      <main className="container">
         {children}
       </main>
       <Footer letters={letters}/>

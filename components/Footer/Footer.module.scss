@@ -1,0 +1,46 @@
+.section {
+  padding: 16px 0;
+  margin-top: 40px;
+  color: white;
+  background-color: $color-blue;
+
+  a {
+    color: white;
+  }
+}
+
+.about {
+  margin: 30px 0;
+}
+
+.navs {
+  display: flex;
+}
+
+.nav {
+  flex-basis: 50%;
+}
+
+.navColumns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navColumnItem {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.navTitle {
+  margin-bottom: 16px;
+}
+
+.copyright {
+  margin: 30px 0 20px;
+  display: block;
+  text-align: center;
+
+  a {
+    margin-left: 5px;
+  }
+}

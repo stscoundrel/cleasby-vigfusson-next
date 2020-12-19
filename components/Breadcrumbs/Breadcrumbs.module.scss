@@ -1,0 +1,27 @@
+.section {
+  border-bottom: 1px solid $color-blue;
+  padding: 16px 0;
+}
+
+.link {
+  position: relative;
+  color: $color-blue;
+  text-decoration: none;
+  padding-right: 15px;
+  margin-right: 15px;
+
+  &::after {
+    content: "/";
+    position: absolute;
+    right: 0;
+  }
+
+  &:last-of-type {
+    font-weight: bold;
+    text-decoration: underline;
+
+    &::after {
+      content: "";
+    }
+  }
+}

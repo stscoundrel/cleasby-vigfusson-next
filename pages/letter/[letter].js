@@ -54,7 +54,8 @@ export default function Letter({ words, letter, letters }) {
      <Layout type="letter" content={words} letters={letters}>
       <header>
         <h1>Letter {letter.toUpperCase()}</h1>
-        <p>{words.length} Old Norse words starting with letter <em>{letter}</em></p>
+        <small>Total of {words.length} words</small>
+        <p>Old Norse words starting with letter A</p>
       </header>
       <WordList words={words} />
     </Layout>

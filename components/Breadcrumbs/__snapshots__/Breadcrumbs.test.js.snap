@@ -1,82 +1,106 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Breadcrumbs component Default page: matches snapshot 1`] = `
-<div>
-  <a
-    href="/"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
+<nav
+  className="section"
+>
+  <div
+    className="container"
   >
-    Cleasby & Vigfusson Dictionary
-  </a>
-  <script
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"}]}",
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Cleasby & Vigfusson Dictionary
+    </a>
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"}]}",
+        }
       }
-    }
-    type="application/ld+json"
-  />
-</div>
+      type="application/ld+json"
+    />
+  </div>
+</nav>
 `;
 
 exports[`Breadcrumbs component Letter page: matches snapshot 1`] = `
-<div>
-  <a
-    href="/"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
+<nav
+  className="section"
+>
+  <div
+    className="container"
   >
-    Cleasby & Vigfusson Dictionary
-  </a>
-  <a
-    href="/letter/r"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    Letter R
-  </a>
-  <script
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter R\\",\\"item\\":\\"undefined/letter/r\\"}]}",
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Cleasby & Vigfusson Dictionary
+    </a>
+    <a
+      className="link"
+      href="/letter/r"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Letter R
+    </a>
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter R\\",\\"item\\":\\"undefined/letter/r\\"}]}",
+        }
       }
-    }
-    type="application/ld+json"
-  />
-</div>
+      type="application/ld+json"
+    />
+  </div>
+</nav>
 `;
 
 exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
-<div>
-  <a
-    href="/"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
+<nav
+  className="section"
+>
+  <div
+    className="container"
   >
-    Cleasby & Vigfusson Dictionary
-  </a>
-  <a
-    href="/letter/r"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    Letter R
-  </a>
-  <a
-    href="/word/random"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-  >
-    Random
-  </a>
-  <script
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter R\\",\\"item\\":\\"undefined/letter/r\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Random\\",\\"item\\":\\"undefined/word/random\\"}]}",
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Cleasby & Vigfusson Dictionary
+    </a>
+    <a
+      className="link"
+      href="/letter/r"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Letter R
+    </a>
+    <a
+      className="link"
+      href="/word/random"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Random
+    </a>
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter R\\",\\"item\\":\\"undefined/letter/r\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Random\\",\\"item\\":\\"undefined/word/random\\"}]}",
+        }
       }
-    }
-    type="application/ld+json"
-  />
-</div>
+      type="application/ld+json"
+    />
+  </div>
+</nav>
 `;

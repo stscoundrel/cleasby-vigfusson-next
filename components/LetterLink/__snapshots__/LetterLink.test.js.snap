@@ -2,6 +2,7 @@
 
 exports[`LetterLink component Matches snapshot 1`] = `
 <a
+  className="link"
   href="/letter/undefined"
   onClick={[Function]}
   onMouseEnter={[Function]}

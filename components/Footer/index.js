@@ -1,50 +1,58 @@
 import ExternalLink from 'components/ExternalLink'
 import LetterLink from 'components/LetterLink'
+import styles from './Footer.module.scss'
 
 export default function Footer({ letters }) {
   return (
-    <footer>
-      <hr />
+    <footer className={styles.section}>
+      <div className="container">
 
-      <section>
-        <h2>About</h2>
-        <p>Based on Cleasby & Vigfusson Dictionary Old Norse dictionary.</p>
-        <p><em>Icelandic-English</em> dictionary was started by Richard Cleasby and
-        finished by Gudbrand Vigfusson.</p>
-        <p>It was published in 1874,
-        which leads to there being many public domain versions of the book available.</p>
-      </section>
+        <section className={styles.about}>
+          <h2>About</h2>
+          <p>Based on Cleasby & Vigfusson Dictionary Old Norse dictionary.</p>
+          <p><em>Icelandic-English</em> dictionary was started by Richard Cleasby and
+          finished by Gudbrand Vigfusson.</p>
+          <p>It was published in 1874,
+          which leads to there being many public domain versions of the book available.</p>
+        </section>
 
-      <nav>
-        <p>Dictionary project</p>
-        <ul>
-          <li>
-            <ExternalLink
-              title="Source code"
-              href="https://github.com/stscoundrel/cleasby-vigfusson-next"
-            />
-          </li>
-          <li>
-            <ExternalLink
-              title="Data source"
-              href="https://github.com/stscoundrel/cleasby-vigfusson-dictionary"
-            />
-          </li>
-        </ul>
-      </nav>
+        <div className={styles.navs}>
+          <nav className={styles.nav}>
+            <h5 className={styles.navTitle}>Dictionary project</h5>
+            <ul>
+              <li>
+                <ExternalLink
+                  title="Source code"
+                  href="https://github.com/stscoundrel/cleasby-vigfusson-next"
+                />
+              </li>
+              <li>
+                <ExternalLink
+                  title="Data source"
+                  href="https://github.com/stscoundrel/cleasby-vigfusson-dictionary"
+                />
+              </li>
+            </ul>
+          </nav>
 
-      <nav>
-        <p>Quick links</p>
-        <ul>
-          {letters.map((entry) => (
-            <li key={entry.slug}>
-              <LetterLink letter={entry} />
-            </li>
-          ))}
-        </ul>
-      </nav>
-
-      <small>Copyright © 2020 Sampo Silvennoinen / StScoundrel</small>
+          <nav className={styles.nav}>
+            <h5 className={styles.navTitle}>Quick links</h5>
+            <ul className={styles.navColumns}>
+              {letters.map((entry) => (
+                <li className={styles.navColumnItem} key={entry.slug}>
+                  <LetterLink letter={entry} />
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+        <small className={styles.copyright}>Copyright © 2020
+          <ExternalLink
+            title="Sampo Silvennoinen / StScoundrel"
+            href="https://github.com/stscoundrel"
+          />
+        </small>
+      </div>
     </footer>
   )
 }

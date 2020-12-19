@@ -5,8 +5,10 @@ export default function WordDefinition({ data }) {
     <article>
       <header>
         <h1 lang="non">{word}</h1>
-        <p><dfn>{word}</dfn> Old Norse word can mean:</p>
+        <p>Meaning of Old Norse word &quot;{word}&quot;</p>
       </header>
+
+      <p><dfn>{word}</dfn> Old Norse word can mean:</p>
       {definitions.map((definition, index) => (
         <dl key={`definition-${index}`}>
           <dt><strong>{word}</strong></dt>
