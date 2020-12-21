@@ -36,6 +36,38 @@ export default function Footer({ letters }) {
           </nav>
 
           <nav className={styles.nav}>
+            <h5 className={styles.navTitle}>Related packages</h5>
+            <ul>
+              <li>
+                <ExternalLink
+                  title="Old Norse Alphabet"
+                  href="https://github.com/stscoundrel/old-norse-alphabet"
+                />
+              </li>
+              <li>
+                <ExternalLink
+                  title="Old Norse Alphabet Sort"
+                  href="https://github.com/stscoundrel/old-norse-alphabet-sort"
+                />
+              </li>
+              <li>
+                <ExternalLink
+                  title="Teljari"
+                  href="https://github.com/stscoundrel/teljari"
+                />
+              </li>
+              <li>
+                <ExternalLink
+                  title="Spyrjari"
+                  href="https://github.com/stscoundrel/spyrjari"
+                />
+              </li>
+
+
+            </ul>
+          </nav>
+
+          <nav className={styles.nav}>
             <h5 className={styles.navTitle}>Quick links</h5>
             <ul className={styles.navColumns}>
               {letters.map((entry) => (

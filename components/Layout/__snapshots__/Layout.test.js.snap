@@ -501,6 +501,53 @@ Array [
           <h5
             className="navTitle"
           >
+            Related packages
+          </h5>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/old-norse-alphabet"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Old Norse Alphabet
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/old-norse-alphabet-sort"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Old Norse Alphabet Sort
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/teljari"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Teljari
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/spyrjari"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Spyrjari
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav
+          className="nav"
+        >
+          <h5
+            className="navTitle"
+          >
             Quick links
           </h5>
           <ul
@@ -1397,6 +1444,53 @@ Array [
                 target="_blank"
               >
                 Data source
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav
+          className="nav"
+        >
+          <h5
+            className="navTitle"
+          >
+            Related packages
+          </h5>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/old-norse-alphabet"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Old Norse Alphabet
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/old-norse-alphabet-sort"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Old Norse Alphabet Sort
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/teljari"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Teljari
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/spyrjari"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Spyrjari
               </a>
             </li>
           </ul>
