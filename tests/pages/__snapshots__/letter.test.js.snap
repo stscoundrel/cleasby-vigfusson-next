@@ -418,7 +418,7 @@ Array [
         </a>
         <a
           className="link"
-          href="/letter/a"
+          href="/letter/A"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
@@ -427,7 +427,7 @@ Array [
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter A\\",\\"item\\":\\"undefined/letter/a\\"}]}",
+              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter A\\",\\"item\\":\\"undefined/letter/A\\"}]}",
             }
           }
           type="application/ld+json"
@@ -445,14 +445,24 @@ Array [
       </h1>
       <small>
         Total of 
-        1326
+        1411
          words
       </small>
       <p>
-        Old Norse words starting with letter A
+        Old Norse words starting with letter 
+        E
       </p>
     </header>
     <dl>
+      <dt>
+        <a
+          href="/word/a"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          A
+        </a>
+      </dt>
       <dt>
         <a
           href="/word/abbadis"
@@ -482,11 +492,110 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/ad"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AÐ
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ad-eins"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          að-eins
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ada"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AÐA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/adal"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AÐAL
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/adal-vellir"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aðal-vellir
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/adild"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aðild
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/adildar-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aðilðar-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/adili"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aðili
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/adils"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Aðils
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AF
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-audit"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           af-auðit
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-at"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-át
         </a>
       </dt>
       <dt>
@@ -608,6 +717,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-drattr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-dráttr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-drep"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -631,15 +749,6 @@ Array [
           onMouseEnter={[Function]}
         >
           af-drykkja
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-drattr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-dráttr
         </a>
       </dt>
       <dt>
@@ -725,6 +834,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-fedrast"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-feðrast
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-feldr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -739,15 +857,6 @@ Array [
           onMouseEnter={[Function]}
         >
           af-ferma
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-fedrast"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-feðrast
         </a>
       </dt>
       <dt>
@@ -914,20 +1023,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-gorvi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-görvi
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/af-gord"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           af-görð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-gorvi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-görvi
         </a>
       </dt>
       <dt>
@@ -1058,20 +1167,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-hlaup"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-hlaup
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/af-hladning"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           af-hlaðning
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-hlaup"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-hlaup
         </a>
       </dt>
       <dt>
@@ -1148,6 +1257,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-hyda"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-hýða
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-hofda"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1166,20 +1284,38 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-hyda"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-hýða
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/af-kaup"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           af-kaup
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-karaligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-káraligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-karligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-kárligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-karr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-kárr
         </a>
       </dt>
       <dt>
@@ -1229,33 +1365,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-karaligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-káraligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-karligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-kárligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-karr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-kárr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/af-lag"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1301,6 +1410,51 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-lat"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-lát
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-latr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-látr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-leiding"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-leiðing
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-leidingr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-leiðingr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-leidis"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-leiðis
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-leifar"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1342,33 +1496,6 @@ Array [
           onMouseEnter={[Function]}
         >
           af-leitr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-leiding"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-leiðing
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-leidingr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-leiðingr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-leidis"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-leiðis
         </a>
       </dt>
       <dt>
@@ -1445,38 +1572,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-lat"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-lát
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-latr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-látr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/af-logliga"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           af-lögliga
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-mynda"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-mynda
         </a>
       </dt>
       <dt>
@@ -1526,6 +1626,24 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-mynda"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-mynda
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-nam"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-nám
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-nefja"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1558,15 +1676,6 @@ Array [
           onMouseEnter={[Function]}
         >
           af-neyzla
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-nam"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-nám
         </a>
       </dt>
       <dt>
@@ -1616,6 +1725,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-rettr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-réttr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-rod"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1625,11 +1743,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-runi"
+          href="/word/af-rog"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          af-runi
+          af-róg
         </a>
       </dt>
       <dt>
@@ -1643,11 +1761,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-raekja"
+          href="/word/af-runi"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          af-rækja
+          af-runi
         </a>
       </dt>
       <dt>
@@ -1661,20 +1779,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-rettr"
+          href="/word/af-raekja"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          af-réttr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-rog"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-róg
+          af-rækja
         </a>
       </dt>
       <dt>
@@ -1715,6 +1824,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-sad"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-sáð
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-segja"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1742,6 +1860,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/af-sida"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-siða
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/af-sifja"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -1751,11 +1878,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-sida"
+          href="/word/af-sida-2"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          af-siða
+          af-síða
         </a>
       </dt>
       <dt>
@@ -2012,11 +2139,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-sad"
+          href="/word/af-synis"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          af-sáð
+          af-sýnis
         </a>
       </dt>
       <dt>
@@ -2026,24 +2153,6 @@ Array [
           onMouseEnter={[Function]}
         >
           af-sæll
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-sida-2"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-síða
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-synis"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-sýnis
         </a>
       </dt>
       <dt>
@@ -2282,24 +2391,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/af-at"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-át
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/af-aeta"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-æta
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/af-therra"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -2323,6 +2414,15 @@ Array [
           onMouseEnter={[Function]}
         >
           af-þváttr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/af-aeta"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-æta
         </a>
       </dt>
       <dt>
@@ -2386,6 +2486,15 @@ Array [
           onMouseEnter={[Function]}
         >
           afar-hreinn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/afar-illa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          afar-ílla
         </a>
       </dt>
       <dt>
@@ -2462,6 +2571,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/afar-udigr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          afar-úðigr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/afar-vel"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -2476,24 +2594,6 @@ Array [
           onMouseEnter={[Function]}
         >
           afar-yrði
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/afar-illa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          afar-ílla
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/afar-udigr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          afar-úðigr
         </a>
       </dt>
       <dt>
@@ -2615,6 +2715,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/afi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AFI
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/afkleyfis-samstafa"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -2638,6 +2747,15 @@ Array [
           onMouseEnter={[Function]}
         >
           afl
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/afl-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AFL
         </a>
       </dt>
       <dt>
@@ -2741,6 +2859,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/afla"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AFLA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/afla-brogd"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -2831,6 +2958,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aflats-korn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          afláts-korn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/afli"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -2863,15 +2999,6 @@ Array [
           onMouseEnter={[Function]}
         >
           aflugr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aflats-korn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          afláts-korn
         </a>
       </dt>
       <dt>
@@ -3110,6 +3237,33 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/agg"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AGG
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/agi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AGI
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/agn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AGN
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/agn-hald"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3128,20 +3282,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/agn-or"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          agn-ör
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/agn-ui"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           agn-úi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/agn-or"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          agn-ör
         </a>
       </dt>
       <dt>
@@ -3191,11 +3345,38 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aka"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AKA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/akarn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AKARN
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/akka"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           akka
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/akkeri"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AKKERI
         </a>
       </dt>
       <dt>
@@ -3227,6 +3408,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/akkeris-sat"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          akkeris-sát
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/akkeris-stokkr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3245,20 +3435,29 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/akkeris-sat"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          akkeris-sát
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/akkeris-saeti"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           akkeris-sæti
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/akkorda"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AKKORDA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/akr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AKR
         </a>
       </dt>
       <dt>
@@ -3425,6 +3624,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/akra-avoxtr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          akra-ávöxtr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/akra-gerdi"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3448,15 +3656,6 @@ Array [
           onMouseEnter={[Function]}
         >
           akra-spillir
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/akra-avoxtr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          akra-ávöxtr
         </a>
       </dt>
       <dt>
@@ -3497,11 +3696,29 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/akta"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AKTA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aktan"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           aktan
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AL-
         </a>
       </dt>
       <dt>
@@ -3623,15 +3840,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-bygdr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-bygðr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-bua"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3646,6 +3854,15 @@ Array [
           onMouseEnter={[Function]}
         >
           al-búinn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-bygdr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-bygðr
         </a>
       </dt>
       <dt>
@@ -3722,6 +3939,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-fadir"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-faðir
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-far"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3745,15 +3971,6 @@ Array [
           onMouseEnter={[Function]}
         >
           al-farinn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-fadir"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-faðir
         </a>
       </dt>
       <dt>
@@ -3785,6 +4002,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-fridr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-fríðr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-frjals"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3803,20 +4029,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-fridr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-fríðr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-fullr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           al-fullr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-fuinn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-fúinn
         </a>
       </dt>
       <dt>
@@ -3844,15 +4070,6 @@ Array [
           onMouseEnter={[Function]}
         >
           al-föðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-fuinn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-fúinn
         </a>
       </dt>
       <dt>
@@ -3920,6 +4137,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-godr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-góðr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-grar"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -3929,20 +4155,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-graenn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-grænn
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-groinn"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           al-gróinn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-graenn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-grænn
         </a>
       </dt>
       <dt>
@@ -3961,15 +4187,6 @@ Array [
           onMouseEnter={[Function]}
         >
           al-gyldr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-godr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-góðr
         </a>
       </dt>
       <dt>
@@ -4019,6 +4236,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-heidinn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-heiðinn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-heilagr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -4042,15 +4268,6 @@ Array [
           onMouseEnter={[Function]}
         >
           al-heilsa
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-heidinn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-heiðinn
         </a>
       </dt>
       <dt>
@@ -4145,38 +4362,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-hvitr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-hvítr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-haegr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-hægr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-haegd"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-hægð
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-husa"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           al-húsa
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-hvitr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-hvítr
         </a>
       </dt>
       <dt>
@@ -4195,6 +4394,24 @@ Array [
           onMouseEnter={[Function]}
         >
           al-hýsi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-haegd"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-hægð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-haegr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-hægr
         </a>
       </dt>
       <dt>
@@ -4307,20 +4524,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-lokit"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-lokit
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-lodinn"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           al-loðinn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-lokit"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-lokit
         </a>
       </dt>
       <dt>
@@ -4339,6 +4556,24 @@ Array [
           onMouseEnter={[Function]}
         >
           al-manna-
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-mattigr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-máttigr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-mattr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-máttr
         </a>
       </dt>
       <dt>
@@ -4388,20 +4623,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-mattigr"
+          href="/word/al-mugi"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          al-máttigr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-mattr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-máttr
+          al-múgi
         </a>
       </dt>
       <dt>
@@ -4429,15 +4655,6 @@ Array [
           onMouseEnter={[Function]}
         >
           al-mætti
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-mugi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-múgi
         </a>
       </dt>
       <dt>
@@ -4478,6 +4695,24 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-radinn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-ráðinn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-rann"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-ránn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-reyndr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -4505,24 +4740,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-rann"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-ránn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-radinn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-ráðinn
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-raemdr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -4546,6 +4763,15 @@ Array [
           onMouseEnter={[Function]}
         >
           al-satt
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-sattr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-sáttr
         </a>
       </dt>
       <dt>
@@ -4676,20 +4902,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-styfingr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-stýfingr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-styfdr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           al-stýfðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-styfingr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-stýfingr
         </a>
       </dt>
       <dt>
@@ -4721,20 +4947,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-sattr"
+          href="/word/al-svidr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          al-sáttr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-saett"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-sætt
+          Al-sviðr
         </a>
       </dt>
       <dt>
@@ -4757,6 +4974,24 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-saett"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-sætt
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-teligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-téligr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-tiliga"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -4775,20 +5010,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-teligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-téligr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-ugadr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           al-ugaðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-ud"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-úð
         </a>
       </dt>
       <dt>
@@ -4856,6 +5091,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-vapnadr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-vápnaðr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/al-vel"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -4919,11 +5163,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-vapnadr"
+          href="/word/al-viss"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          al-vápnaðr
+          al-víss
         </a>
       </dt>
       <dt>
@@ -4946,15 +5190,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-vaerliga"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-værliga
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-vaerd"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -4964,11 +5199,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-viss"
+          href="/word/al-vaerliga"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          al-víss
+          al-værliga
         </a>
       </dt>
       <dt>
@@ -4978,24 +5213,6 @@ Array [
           onMouseEnter={[Function]}
         >
           al-yrkr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-aestr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-æstr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/al-ud"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-úð
         </a>
       </dt>
       <dt>
@@ -5054,15 +5271,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/al-thaegr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          al-þægr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/al-thyda"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -5099,6 +5307,33 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/al-thaegr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-þægr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/al-aestr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          al-æstr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ala"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/alads-festr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -5122,6 +5357,15 @@ Array [
           onMouseEnter={[Function]}
         >
           ald-öðli
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/alda"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALDA
         </a>
       </dt>
       <dt>
@@ -5270,6 +5514,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aldin"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALDIN
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aldin-berandi"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -5365,6 +5618,15 @@ Array [
           onMouseEnter={[Function]}
         >
           aldor-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aldr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALDR
         </a>
       </dt>
       <dt>
@@ -5648,11 +5910,29 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/alin"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALIN
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/alka"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           alka
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/all-"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALL-
         </a>
       </dt>
       <dt>
@@ -5711,6 +5991,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/allr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALLR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/allra-handa"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -5729,6 +6018,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/alls"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALLS
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/alls-endis"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -5738,20 +6036,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/alls-herjar"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          alls-herjar
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/alls-hattar"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           alls-háttar
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/alls-herjar"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          alls-herjar
         </a>
       </dt>
       <dt>
@@ -5846,20 +6144,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/allsherjar-log"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          allsherjar-lög
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/allsherjar-lydr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           allsherjar-lýðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/allsherjar-log"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          allsherjar-lög
         </a>
       </dt>
       <dt>
@@ -6026,6 +6324,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/almr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALMR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/almusa"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -6053,11 +6360,38 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/alpt"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALPT
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/alr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/alri"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           alri
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/altari"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ALTARI
         </a>
       </dt>
       <dt>
@@ -6071,20 +6405,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/altaris-brik"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          altaris-brík
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/altaris-bok"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           altaris-bók
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/altaris-brik"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          altaris-brík
         </a>
       </dt>
       <dt>
@@ -6242,6 +6576,24 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aludar-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          alúðar-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aludar-vinr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          alúðar-vinr
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/alvoru-liga"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -6265,24 +6617,6 @@ Array [
           onMouseEnter={[Function]}
         >
           alvöru-samligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aludar-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          alúðar-maðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aludar-vinr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          alúðar-vinr
         </a>
       </dt>
       <dt>
@@ -6350,15 +6684,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/althingis-sekt"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          alþingis-sekt
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/althingis-satt"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -6368,11 +6693,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/althingissektar-hald"
+          href="/word/althingis-sekt"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          alþingissektar-hald
+          alþingis-sekt
         </a>
       </dt>
       <dt>
@@ -6382,6 +6707,15 @@ Array [
           onMouseEnter={[Function]}
         >
           alþingissáttar-hald
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/althingissektar-hald"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          alþingissektar-hald
         </a>
       </dt>
       <dt>
@@ -6449,6 +6783,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/althydu-vapn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          alþýðu-vápn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/althydu-vegr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -6476,20 +6819,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/althydu-vapn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          alþýðu-vápn
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/althydu-thyss"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           alþýðu-þyss
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ama"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AMA
         </a>
       </dt>
       <dt>
@@ -6539,11 +6882,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/ambod"
+          href="/word/ambatt"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          amboð
+          AMBÁTT
         </a>
       </dt>
       <dt>
@@ -6602,11 +6945,38 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/ambod"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          amboð
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/ami"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           ami
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/amlodi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AMLÓÐI
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/amma"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AMMA
         </a>
       </dt>
       <dt>
@@ -6647,6 +7017,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/an"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AN
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/an-konn"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -6661,6 +7040,24 @@ Array [
           onMouseEnter={[Function]}
         >
           an-tigna
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ana"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ANA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/and-"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AND-
         </a>
       </dt>
       <dt>
@@ -6782,20 +7179,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/and-lit"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          and-lit
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/and-lat"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           and-lát
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/and-lit"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          and-lit
         </a>
       </dt>
       <dt>
@@ -6841,6 +7238,15 @@ Array [
           onMouseEnter={[Function]}
         >
           and-orða
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/and-of"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          and-óf
         </a>
       </dt>
       <dt>
@@ -6944,6 +7350,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/and-stygd"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          and-stygð
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/and-styggiligr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -6958,15 +7373,6 @@ Array [
           onMouseEnter={[Function]}
         >
           and-styggr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/and-stygd"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          and-stygð
         </a>
       </dt>
       <dt>
@@ -7034,6 +7440,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/and-varda"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          and-varða
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/and-vari"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -7070,15 +7485,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/and-varda"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          and-varða
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/and-vegi"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -7088,11 +7494,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/and-virki"
+          href="/word/and-vidri"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          and-virki
+          and-viðri
         </a>
       </dt>
       <dt>
@@ -7106,20 +7512,20 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/and-virki"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          and-virki
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/and-vitni"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           and-vitni
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/and-vidri"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          and-viðri
         </a>
       </dt>
       <dt>
@@ -7169,11 +7575,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/and-of"
+          href="/word/anda"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          and-óf
+          ANDA
         </a>
       </dt>
       <dt>
@@ -7277,6 +7683,42 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/andlats-dagr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          andláts-dagr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/andlats-daegr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          andláts-dægr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/andlats-sorg"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          andláts-sorg
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/andlats-tid"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          andláts-tíð
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/andliga"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -7331,38 +7773,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/andlats-dagr"
+          href="/word/andrar"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          andláts-dagr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/andlats-daegr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          andláts-dægr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/andlats-sorg"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          andláts-sorg
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/andlats-tid"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          andláts-tíð
+          ANDRAR
         </a>
       </dt>
       <dt>
@@ -7412,6 +7827,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/anga"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ANGA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/angan"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -7448,6 +7872,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/angistar-ar"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          angistar-ár
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/angistar-neyd"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -7466,20 +7899,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/angistar-ar"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          angistar-ár
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/angistast"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           angistast
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/angr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ANGR
         </a>
       </dt>
       <dt>
@@ -7727,6 +8160,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/anna"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ANNA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/annarligr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -7736,11 +8178,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/annarr-hverr"
+          href="/word/annarr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          annarr-hverr
+          ANNARR
         </a>
       </dt>
       <dt>
@@ -7750,6 +8192,15 @@ Array [
           onMouseEnter={[Function]}
         >
           annarr-hvárr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/annarr-hverr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          annarr-hverr
         </a>
       </dt>
       <dt>
@@ -7804,6 +8255,15 @@ Array [
           onMouseEnter={[Function]}
         >
           annarsligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/annall"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ANNÁLL
         </a>
       </dt>
       <dt>
@@ -7961,11 +8421,38 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/api"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          API
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/apli"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          APLI
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/appella"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           appella
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/apr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          APR
         </a>
       </dt>
       <dt>
@@ -7984,6 +8471,15 @@ Array [
           onMouseEnter={[Function]}
         >
           aptan
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aptan-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          APTAN
         </a>
       </dt>
       <dt>
@@ -8069,6 +8565,24 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aptr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          APTR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aptr-a-bak"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aptr-á-bak
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aptr-bati"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8105,20 +8619,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/aptr-drepa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aptr-drepa
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/aptr-drattr"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           aptr-dráttr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aptr-drepa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aptr-drepa
         </a>
       </dt>
       <dt>
@@ -8339,15 +8853,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/aptr-a-bak"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aptr-á-bak
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/aptra"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8375,6 +8880,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/ar"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/ar-djup"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8398,6 +8912,78 @@ Array [
           onMouseEnter={[Function]}
         >
           ara-hreiðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/arda"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arða
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ardga"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arðga
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ardr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARÐR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ardr-for"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arðr-för
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ardr-gangr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arðr-gangr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ardr-jarn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arðr-járn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ardr-oxi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arðr-oxi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ards-geldingr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arðs-geldingr
         </a>
       </dt>
       <dt>
@@ -8510,6 +9096,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/arf-sokn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          arf-sókn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/arf-stoll"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8533,15 +9128,6 @@ Array [
           onMouseEnter={[Function]}
         >
           arf-svipting
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/arf-sokn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arf-sókn
         </a>
       </dt>
       <dt>
@@ -8654,11 +9240,29 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/arfi-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARFI
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/arfingi"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           arfingi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/arfr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARFR
         </a>
       </dt>
       <dt>
@@ -8762,6 +9366,24 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/argr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARGR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ari"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARI
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/arin-domr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8834,6 +9456,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/arinn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARINN
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/arins-horn"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8848,6 +9479,15 @@ Array [
           onMouseEnter={[Function]}
         >
           arins-járn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/arka"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARKA
         </a>
       </dt>
       <dt>
@@ -8942,6 +9582,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/armr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARMR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/arn-hofdi"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -8987,6 +9636,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/arr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/ars"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -9005,6 +9663,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/arta"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ARTA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/articulera"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -9014,74 +9681,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/arda"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arða
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ardga"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arðga
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ardr-for"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arðr-för
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ardr-gangr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arðr-gangr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ardr-jarn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arðr-járn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ardr-oxi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arðr-oxi
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ards-geldingr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          arðs-geldingr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/asalabia"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           asalabia
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/asi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ASI
         </a>
       </dt>
       <dt>
@@ -9113,6 +9726,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aska"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ASKA
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aska-smidr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -9127,6 +9749,15 @@ Array [
           onMouseEnter={[Function]}
         >
           aska-spillir
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/askr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ASKR
         </a>
       </dt>
       <dt>
@@ -9176,6 +9807,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/asni"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ASNI
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aspiciens-bok"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -9190,6 +9830,24 @@ Array [
           onMouseEnter={[Function]}
         >
           aspiciens-skrá
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/assa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ASSA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/at"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AT
         </a>
       </dt>
       <dt>
@@ -9302,20 +9960,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/at-ferli"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          at-ferli
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/at-ferd"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           at-ferð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/at-ferli"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          at-ferli
         </a>
       </dt>
       <dt>
@@ -9428,20 +10086,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/at-gorvi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          at-görvi
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/at-goezla"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           at-gœzla
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/at-gorvi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          at-görvi
         </a>
       </dt>
       <dt>
@@ -9635,20 +10293,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/at-lega"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          at-lega
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/at-lat"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           at-lát
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/at-lega"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          at-lega
         </a>
       </dt>
       <dt>
@@ -9667,6 +10325,15 @@ Array [
           onMouseEnter={[Function]}
         >
           at-orka
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/at-ras"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          at-rás
         </a>
       </dt>
       <dt>
@@ -9703,15 +10370,6 @@ Array [
           onMouseEnter={[Function]}
         >
           at-rið
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/at-ras"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          at-rás
         </a>
       </dt>
       <dt>
@@ -9788,6 +10446,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/at-sokn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          at-sókn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/at-spurning"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -9815,24 +10482,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/at-svif"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          at-svif
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/at-sokn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          at-sókn
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/at-sugr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -9842,11 +10491,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/at-tonn"
+          href="/word/at-svif"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          at-tönn
+          at-svif
         </a>
       </dt>
       <dt>
@@ -9856,6 +10505,15 @@ Array [
           onMouseEnter={[Function]}
         >
           at-tú
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/at-tonn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          at-tönn
         </a>
       </dt>
       <dt>
@@ -10049,15 +10707,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/atgorvi-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          atgörvi-maðr
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/atgord"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -10090,6 +10739,15 @@ Array [
           onMouseEnter={[Function]}
         >
           atgörðar-mikill
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/atgorvi-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          atgörvi-maðr
         </a>
       </dt>
       <dt>
@@ -10391,1010 +11049,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/aufi"
+          href="/word/aud-"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          aufi
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aufusa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aufusa
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aufusu-gestr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aufusu-gestr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aufusu-ord"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aufusu-orð
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aufvisu-svipr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aufvisu-svipr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-dapr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-dapr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-fagr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-fagr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-lit"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-lit
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-ljos"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-ljós
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-ljoss"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-ljóss
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-lysa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-lýsa
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-sjandi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-sjándi
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-surr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-súrr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-syn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-sýn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-syna"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-sýna
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aug-syniligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aug-sýniligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auk-nafn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auk-nafn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auk-nefna"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auk-nefna
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auk-nefni"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auk-nefni
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-dagr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-dagr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-hlutr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-hlutr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-nafn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-nafn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-smidi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-smíði
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-tungl"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-tungl
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-verk"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-verk
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auka-vika"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auka-vika
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aukan"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aukan
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auki"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auki
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aukning"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aukning
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auli"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auli
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aum-hjartadr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aum-hjartaðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aum-neglur"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aum-neglur
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aum-staddr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aum-staddr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aumindi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aumindi
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aumingi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aumingi
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aumka"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aumka
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aumkan"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aumkan
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aumleikr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aumleikr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aumligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aumligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aung-vit"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aung-vit
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-bord"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-borð
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-falr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-falr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-gati"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-gáti
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-konungr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-konungr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-skrida"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-skriða
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-skor"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-skór
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aur-vangr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aur-vangr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurigr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurigr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurrida-bekkr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurriða-bekkr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurrida-fiski"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurriða-fiski
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurrida-net"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurriða-net
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurrida-vatn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurriða-vatn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurridi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurriði
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aurvandils-ta"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aurvandils-tá
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aus-ker"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aus-ker
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ausa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          ausa
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ausla-gjald"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          ausla-gjald
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ausli"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          ausli
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-firzkr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-firzkr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-firdir"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-firðir
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-for"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-för
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-ker"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-ker
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-kylfir"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-kylfir
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-laegr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-lægr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-marr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-marr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-maðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-mal"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-mál
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-mork"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-mörk
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-roena"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-rœna
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-roenn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-rœnn
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aust-skota"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aust-skota
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-ferd"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-ferð
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-fjardar"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-fjarðar
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-gola"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-gola
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-kvama"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-kváma
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-maðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-sjor"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-sjór
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-verdr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-verðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-vedr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-veðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austan-vindr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austan-vindr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austarliga"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austarliga
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austastr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austastr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austfirdinga-bud"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austfirðinga-búð
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austfirdinga-domr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austfirðinga-dómr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austfirdinga-fjordungr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austfirðinga-fjórðungr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austfirdingr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austfirðingr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-biti"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-biti
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-ferd"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-ferð
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-halfa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-hálfa
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-kendr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-kendr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-lond"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-lönd
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-mal"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-mál
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-oka"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-oka
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-riki"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-ríki
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-rum"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-rúm
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-trog"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-trog
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-vegr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-vegr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-alfa"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-álfa
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-att"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-átt
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austr-aett"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austr-ætt
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrfarar-knorr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrfarar-knörr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrfarar-skip"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrfarar-skip
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrhalfu-lydr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrhálfu-lýðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrhalfu-thjod"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrhálfu-þjóð
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrvegs-konungar"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrvegs-konungar
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/austrvegs-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          austrvegs-maðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auvirds-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auvirðs-maðr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auvirds-skapr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auvirðs-skapr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/auvisla-bot"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auvisla-bót
+          AUÐ-
         </a>
       </dt>
       <dt>
@@ -11633,6 +11292,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aud-latinn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-látinn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aud-legd"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -11647,15 +11315,6 @@ Array [
           onMouseEnter={[Function]}
         >
           auð-ligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aud-latinn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-látinn
         </a>
       </dt>
       <dt>
@@ -11777,6 +11436,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aud-senn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-sénn
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aud-skeptr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -11813,51 +11481,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/aud-stafr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-stafr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aud-sveipr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-sveipr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aud-saeligr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-sæligr
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aud-saer"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-sær
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aud-senn"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-sénn
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/aud-sottligr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -11872,6 +11495,24 @@ Array [
           onMouseEnter={[Function]}
         >
           auð-sóttr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aud-stafr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-stafr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aud-sveipr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-sveipr
         </a>
       </dt>
       <dt>
@@ -11912,6 +11553,33 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/aud-saeligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-sæligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aud-saer"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-sær
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aud-trua"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-trúa
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/aud-tryggi"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -11930,15 +11598,6 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/aud-trua"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-trúa
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/aud-van"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -11953,6 +11612,15 @@ Array [
           onMouseEnter={[Function]}
         >
           auð-vandr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aud-van-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-ván
         </a>
       </dt>
       <dt>
@@ -12029,29 +11697,11 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/aud-van-2"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-ván
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/aud-vist"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           auð-víst
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/aud-aefi"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auð-æfi
         </a>
       </dt>
       <dt>
@@ -12070,6 +11720,15 @@ Array [
           onMouseEnter={[Function]}
         >
           auð-þrifligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aud-aefi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auð-æfi
         </a>
       </dt>
       <dt>
@@ -12110,6 +11769,15 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/audit"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUÐIT
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/audmi-madr"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -12146,20 +11814,20 @@ Array [
       </dt>
       <dt>
         <a
-          href="/word/audnar-sel"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          auðnar-sel
-        </a>
-      </dt>
-      <dt>
-        <a
           href="/word/audnar-odal"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           auðnar-óðal
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/audnar-sel"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auðnar-sel
         </a>
       </dt>
       <dt>
@@ -12200,11 +11868,1154 @@ Array [
       </dt>
       <dt>
         <a
+          href="/word/audr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUÐR
+        </a>
+      </dt>
+      <dt>
+        <a
           href="/word/audraedi"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           auðræði
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/audunn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Auðunn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aufi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aufi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aufusa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aufusa
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aufusu-gestr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aufusu-gestr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aufusu-ord"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aufusu-orð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aufvisu-svipr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aufvisu-svipr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-dapr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-dapr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-fagr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-fagr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-lit"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-lit
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-ljos"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-ljós
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-ljoss"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-ljóss
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-lysa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-lýsa
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-sjandi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-sjándi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-surr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-súrr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-syn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-sýn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-syna"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-sýna
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aug-syniligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aug-sýniligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auga"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUGA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auk"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUK
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auk-nafn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auk-nafn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auk-nefna"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auk-nefna
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auk-nefni"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auk-nefni
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUKA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-dagr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-dagr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-hlutr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-hlutr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-nafn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-nafn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-smidi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-smíði
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-tungl"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-tungl
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-verk"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-verk
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auka-vika"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auka-vika
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aukan"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aukan
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auki"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auki
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aukning"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aukning
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aulandi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AULANDI
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auli"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auli
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aum-hjartadr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aum-hjartaðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aum-neglur"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aum-neglur
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aum-staddr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aum-staddr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumindi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aumindi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumingi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aumingi
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumka"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aumka
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumkan"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aumkan
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumleikr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aumleikr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aumligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aumr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUMR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aung-vit"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aung-vit
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aungr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUNGR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-bord"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-borð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-falr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-falr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-gati"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-gáti
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-konungr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-konungr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-skor"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-skór
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-skrida"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-skriða
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aur-vangr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aur-vangr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurar"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AURAR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurigr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurigr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AURR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurrida-bekkr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurriða-bekkr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurrida-fiski"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurriða-fiski
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurrida-net"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurriða-net
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurrida-vatn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurriða-vatn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurridi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurriði
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aurvandils-ta"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aurvandils-tá
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aus-ker"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aus-ker
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ausa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ausa
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ausa-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUSA
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ausla-gjald"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ausla-gjald
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ausli"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ausli
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-firdir"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-firðir
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-firzkr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-firzkr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-for"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-för
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-ker"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-ker
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-kylfir"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-kylfir
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-laegr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-lægr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-marr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-marr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-mal"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-mál
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-mork"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-mörk
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-roena"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-rœna
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-roenn"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-rœnn
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/aust-skota"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aust-skota
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-ferd"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-ferð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-fjardar"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-fjarðar
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-gola"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-gola
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-kvama"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-kváma
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-sjor"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-sjór
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-vedr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-veðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-verdr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-verðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austan-vindr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austan-vindr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austarliga"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austarliga
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austastr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austastr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austfirdinga-bud"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austfirðinga-búð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austfirdinga-domr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austfirðinga-dómr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austfirdinga-fjordungr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austfirðinga-fjórðungr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austfirdingr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austfirðingr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-2"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AUSTR
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-alfa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-álfa
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-att"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-átt
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-biti"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-biti
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-ferd"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-ferð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-halfa"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-hálfa
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-kendr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-kendr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-konungr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Austr-konungr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-lond"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-lönd
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-mal"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-mál
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-oka"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-oka
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-riki"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-ríki
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-rum"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-rúm
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-trog"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-trog
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-vegr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-vegr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austr-aett"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austr-ætt
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrfarar-knorr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrfarar-knörr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrfarar-skip"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrfarar-skip
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrhalfu-lydr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrhálfu-lýðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrhalfu-thjod"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrhálfu-þjóð
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austri"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Austri
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrligr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrligr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrvegs-konungar"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrvegs-konungar
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/austrvegs-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          austrvegs-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auvirds-madr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auvirðs-maðr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auvirds-skapr"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auvirðs-skapr
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/auvisla-bot"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          auvisla-bót
+        </a>
+      </dt>
+      <dt>
+        <a
+          href="/word/ax"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          AX
         </a>
       </dt>
       <dt>
@@ -12340,51 +13151,6 @@ Array [
           onMouseEnter={[Function]}
         >
           ay
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/ad-eins"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          að-eins
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/adal-vellir"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aðal-vellir
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/adild"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aðild
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/adili"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aðili
-        </a>
-      </dt>
-      <dt>
-        <a
-          href="/word/adildar-madr"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          aðilðar-maðr
         </a>
       </dt>
     </dl>

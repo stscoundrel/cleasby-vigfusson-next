@@ -36,11 +36,11 @@ describe('Dictionary tests', () => {
     const þWords = getByLetter('þ')
 
     aWords.forEach((entry) => {
-      expect(entry.word.charAt(0)).toBe('a')
+      expect(entry.word.charAt(0).toLowerCase()).toBe('a')
     })
 
     þWords.forEach((entry) => {
-      expect(entry.word.charAt(0)).toBe('þ')
+      expect(entry.word.charAt(0).toLowerCase()).toBe('þ')
     })
   })
 
@@ -76,7 +76,7 @@ describe('Dictionary tests', () => {
   })
 
   test('Dictionary entries are alphabetically sorted', () => {
-    const maybeUnsorted = getByLetter('a')
+    const maybeUnsorted = getDictionary()
 
     const sortedDictionry = [...maybeUnsorted].sort((a, b) => (
       oldNorseSort(a.word.toLowerCase(), b.word.toLowerCase())))

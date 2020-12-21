@@ -1,14 +1,20 @@
-import { getByLetter } from 'lib/services/dictionary'
 import { getWordLink, getLetterLink } from 'lib/utils/links'
 
 describe('Link utils', () => {
-  const dictionary = getByLetter('æ')
   process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'
 
-  test('Formats word links', () => {
-    const expected = 'https://cleasbyvigfusson.test/word/aefin-liga'
+  const word = {
+    word: 'af-búð',
+    definitions: [
+      'f. <i>an ‘off-booth,’ side-booth, apartment,</i> Korm. 116.',
+    ],
+    slug: 'af-bud',
+  }
 
-    const result = getWordLink(dictionary[15])
+  test('Formats word links', () => {
+    const expected = 'https://cleasbyvigfusson.test/word/af-bud'
+
+    const result = getWordLink(word)
 
     expect(result).toEqual(expected)
   })
