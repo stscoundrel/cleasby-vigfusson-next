@@ -79,7 +79,7 @@ describe('Dictionary tests', () => {
     const maybeUnsorted = getDictionary()
 
     const sortedDictionry = [...maybeUnsorted].sort((a, b) => (
-      oldNorseSort(a.word.toLowerCase(), b.word.toLowerCase())))
+      oldNorseSort(a.word, b.word)))
 
     expect(maybeUnsorted).toEqual(sortedDictionry)
   })

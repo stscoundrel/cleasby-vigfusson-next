@@ -2643,10 +2643,10 @@ clean-stack@^2.0.0:
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
 
-cleasby-vigfusson-dictionary@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.7.tgz#3e631017b09a05da8d168bf95e076f74b851c57f"
-  integrity sha512-M3bawlPqYRIxwvD2+2DUpSzFntLvPbumYmHsI4FvfPycbwD/tbHCSUw1SQK+/F2y488aulXCZ1XVgpoSpZiEsw==
+cleasby-vigfusson-dictionary@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.8.tgz#23d11347076b3c92c3d0249706c9ae76c3bcdf6b"
+  integrity sha512-M5wNU11OnpJOFb5JlY6J8KW3xfth1MrdTLlo7SoDU1qeFwDejg6pEGLOUJhcAR6CeQQrjeDjfsQV1PbGLTiAIw==
 
 cliui@^6.0.0:
   version "6.0.0"
@@ -6155,10 +6155,10 @@ object.values@^1.1.1:
     es-abstract "^1.18.0-next.1"
     has "^1.0.3"
 
-old-norse-alphabet-sort@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/old-norse-alphabet-sort/-/old-norse-alphabet-sort-1.0.0.tgz#7eda97ef85b2b3aea0c9a756bca359cbb2aaec3a"
-  integrity sha512-zy4sCR8Z+pD34J9lBWZltTSwdpoKmDazBw6UgdwdatNijxsqkbcqE3kC4n2RAe0Jf/PGVomSNAXQ0uUIm44MjQ==
+old-norse-alphabet-sort@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/old-norse-alphabet-sort/-/old-norse-alphabet-sort-1.0.2.tgz#a0f80cda4cebbac6a5e306828b5f5728d0719dbc"
+  integrity sha512-lZrlDyaiwhZawE2itr1z9Zw7c7cTBxk65Tx4h1Z0eN7jTLo/0NzcUrJDXe47o59qgmXqfYdCpJMnmiDAla6Qww==
   dependencies:
     old-norse-alphabet "^1.0.1"
 
