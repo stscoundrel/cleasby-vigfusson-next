@@ -7,7 +7,7 @@ export default function Search() {
 
   const handleSearch = (e) => {
     e.preventDefault()
-    router.push(`/search/${search}`)
+    router.push(`/search/?query=${search}`)
   }
 
   return (
