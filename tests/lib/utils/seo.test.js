@@ -6,8 +6,8 @@ describe('SEO / meta tags tests', () => {
 
   test('Handles "word" seo fields', () => {
     const expected = {
-      title: 'Cleasby & Vigfusson Dictionary - Af-auðit',
-      description: 'Meaning of Old Norse word "af-auðit"',
+      title: 'Cleasby & Vigfusson Dictionary - Af-brúðigr',
+      description: 'Meaning of Old Norse word "af-brúðigr"',
     }
 
     const result = getSeo(dictionary[10], 'word')
@@ -18,7 +18,7 @@ describe('SEO / meta tags tests', () => {
   test('Handles "letter" seo fields', () => {
     const expected = {
       title: 'Cleasby & Vigfusson Dictionary - words starting with letter A',
-      description: 'Meanings of Old Norse words starting with "A", such as abbadís, abbast, abbindi and að-eins',
+      description: 'Meanings of Old Norse words starting with "A", such as abbadís, abbast, abbindi and af-auðit',
     }
 
     const result = getSeo(dictionary.slice(0, 10), 'letter')

@@ -4,6 +4,7 @@ import {
 } from 'lib/services/dictionary'
 import { isArray } from 'volva'
 import { matchesSchema } from 'jafningjar'
+import { oldNorseSort } from 'old-norse-alphabet-sort'
 
 describe('Dictionary tests', () => {
   const dictionary = getAllWords()
@@ -77,7 +78,8 @@ describe('Dictionary tests', () => {
   test('Dictionary entries are alphabetically sorted', () => {
     const maybeUnsorted = getByLetter('a')
 
-    const sortedDictionry = [...maybeUnsorted].sort((a, b) => a.word.localeCompare(b.word))
+    const sortedDictionry = [...maybeUnsorted].sort((a, b) => (
+      oldNorseSort(a.word.toLowerCase(), b.word.toLowerCase())))
 
     expect(maybeUnsorted).toEqual(sortedDictionry)
   })
