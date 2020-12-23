@@ -12,8 +12,8 @@ export default function Search() {
 
   return (
    <form onSubmit={(e) => handleSearch(e)}>
-      <input type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
-      <button type="submit">Search</button>
+      <input aria-label="Search" type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
+      <button name="submit" type="submit">Search</button>
     </form>
   )
 }

@@ -1,0 +1,24 @@
+.button {
+  display: block;
+  background-color: $color-blue;
+  border: 2px solid $color-blue;
+  color: white;
+  padding: 5px 15px;
+  margin: 20px 0;
+  min-width: 100px;
+  text-align: center;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-blue;
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .button {
+    display: inline-block;
+    margin: 15px 0;
+  }
+}

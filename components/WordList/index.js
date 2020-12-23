@@ -3,12 +3,12 @@ import styles from './WordList.module.scss'
 
 export default function WordList({ words }) {
   return (
-    <dl className={styles.list}>
+    <ul className={styles.list}>
       { words.map((word) => (
-        <dt key={word.slug}>
+        <li key={word.slug}>
           <WordLink data={word} />
-        </dt>
+        </li>
       )) }
-    </dl>
+    </ul>
   )
 }

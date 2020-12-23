@@ -8,7 +8,7 @@ exports[`Footer component Matches snapshot 1`] = `
     className="container"
   >
     <section
-      className="about"
+      className="section"
     >
       <h2>
         About
@@ -27,7 +27,7 @@ exports[`Footer component Matches snapshot 1`] = `
       </p>
     </section>
     <section
-      className="about"
+      className="section"
     >
       <h3>
         Old Norse language
@@ -45,11 +45,11 @@ exports[`Footer component Matches snapshot 1`] = `
       <nav
         className="nav"
       >
-        <h5
+        <h4
           className="navTitle"
         >
           Dictionary project
-        </h5>
+        </h4>
         <ul>
           <li>
             <a
@@ -74,11 +74,11 @@ exports[`Footer component Matches snapshot 1`] = `
       <nav
         className="nav"
       >
-        <h5
+        <h4
           className="navTitle"
         >
           Related packages
-        </h5>
+        </h4>
         <ul>
           <li>
             <a
@@ -121,11 +121,11 @@ exports[`Footer component Matches snapshot 1`] = `
       <nav
         className="nav"
       >
-        <h5
+        <h4
           className="navTitle"
         >
           Quick links
-        </h5>
+        </h4>
         <ul
           className="navColumns"
         >

@@ -58,7 +58,7 @@ describe('WordList component', () => {
     const tree = renderer.create(<WordList words={words} />)
     const { root } = tree
 
-    expect(root.findAllByType('dl').length).toEqual(1)
-    expect(root.findAllByType('dt').length).toEqual(5)
+    expect(root.findAllByType('ul').length).toEqual(1)
+    expect(root.findAllByType('li').length).toEqual(5)
   })
 })

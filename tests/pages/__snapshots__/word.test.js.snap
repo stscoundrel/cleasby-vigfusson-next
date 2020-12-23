@@ -389,12 +389,14 @@ Array [
           onSubmit={[Function]}
         >
           <input
+            aria-label="Search"
             name="search"
             onChange={[Function]}
             type="text"
             value=""
           />
           <button
+            name="submit"
             type="submit"
           >
             Search
@@ -516,7 +518,7 @@ Array [
       className="container"
     >
       <section
-        className="about"
+        className="section"
       >
         <h2>
           About
@@ -535,7 +537,7 @@ Array [
         </p>
       </section>
       <section
-        className="about"
+        className="section"
       >
         <h3>
           Old Norse language
@@ -553,11 +555,11 @@ Array [
         <nav
           className="nav"
         >
-          <h5
+          <h4
             className="navTitle"
           >
             Dictionary project
-          </h5>
+          </h4>
           <ul>
             <li>
               <a
@@ -582,11 +584,11 @@ Array [
         <nav
           className="nav"
         >
-          <h5
+          <h4
             className="navTitle"
           >
             Related packages
-          </h5>
+          </h4>
           <ul>
             <li>
               <a
@@ -629,11 +631,11 @@ Array [
         <nav
           className="nav"
         >
-          <h5
+          <h4
             className="navTitle"
           >
             Quick links
-          </h5>
+          </h4>
           <ul
             className="navColumns"
           >

@@ -5,12 +5,14 @@ exports[`Search component Matches snapshot 1`] = `
   onSubmit={[Function]}
 >
   <input
+    aria-label="Search"
     name="search"
     onChange={[Function]}
     type="text"
     value=""
   />
   <button
+    name="submit"
     type="submit"
   >
     Search

@@ -7,6 +7,7 @@
 .wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .list {
@@ -17,12 +18,14 @@
 }
 
 .listItem {
-  flex-basis: 10%;
+  flex-basis: 15%;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   .wrap {
     flex-wrap: nowrap;
+    justify-content: space-between;
   }
 
   .list {

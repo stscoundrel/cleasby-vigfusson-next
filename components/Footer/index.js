@@ -1,32 +1,35 @@
 import ExternalLink from 'components/ExternalLink'
 import LetterLink from 'components/LetterLink'
 import styles from './Footer.module.scss'
+import ContentArea from 'components/ContentArea'
 
 export default function Footer({ letters }) {
   return (
     <footer className={styles.section}>
       <div className="container">
 
-        <section className={styles.about}>
+        <ContentArea>
           <h2>About</h2>
           <p>Based on Cleasby & Vigfusson Dictionary Old Norse dictionary.</p>
           <p><em>Icelandic-English</em> dictionary was started by Richard Cleasby and
           finished by Gudbrand Vigfusson.</p>
           <p>It was published in 1874,
           which leads to there being many public domain versions of the book available.</p>
-        </section>
+        </ContentArea>
 
-        <section className={styles.about}>
+        <ContentArea>
           <h3>Old Norse language</h3>
-          <p>Old Norse was a North Germanic language that was spoken by inhabitants of 
+          <p>Old Norse was a North Germanic language that was spoken by inhabitants of
           Scandinavia and their overseas settlements from about the 7th to the 15th centuries.</p>
 
-          <p>Also known as "the viking language", "Old Nordic", or "Old Scandinavian"</p>
-        </section>
+          <p>Also known as &quot;the viking language&quot;,
+          &quot;Old Nordic&quot;, or
+          &quot;Old Scandinavian&quot;</p>
+        </ContentArea>
 
         <div className={styles.navs}>
           <nav className={styles.nav}>
-            <h5 className={styles.navTitle}>Dictionary project</h5>
+            <h4 className={styles.navTitle}>Dictionary project</h4>
             <ul>
               <li>
                 <ExternalLink
@@ -44,7 +47,7 @@ export default function Footer({ letters }) {
           </nav>
 
           <nav className={styles.nav}>
-            <h5 className={styles.navTitle}>Related packages</h5>
+            <h4 className={styles.navTitle}>Related packages</h4>
             <ul>
               <li>
                 <ExternalLink
@@ -75,7 +78,7 @@ export default function Footer({ letters }) {
           </nav>
 
           <nav className={styles.nav}>
-            <h5 className={styles.navTitle}>Quick links</h5>
+            <h4 className={styles.navTitle}>Quick links</h4>
             <ul className={styles.navColumns}>
               {letters.map((entry) => (
                 <li className={styles.navColumnItem} key={entry.slug}>
