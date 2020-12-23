@@ -4,6 +4,7 @@ import { decodeLetter } from 'lib/utils/slugs'
 
 // Components.
 import Layout from 'components/Layout'
+import LetterHeader from 'components/LetterHeader'
 import WordList from 'components/WordList'
 
 /**
@@ -52,11 +53,7 @@ export default function Letter({ words, letter, letters }) {
 
   return (
      <Layout type="letter" content={words} letters={letters}>
-      <header>
-        <h1>Letter {letter.toUpperCase()}</h1>
-        <small>Total of {words.length} words</small>
-        <p>Old Norse words starting with letter {letter.toUpperCase()}</p>
-      </header>
+      <LetterHeader letter={letter} count={words.length} />
       <WordList words={words} />
     </Layout>
   )

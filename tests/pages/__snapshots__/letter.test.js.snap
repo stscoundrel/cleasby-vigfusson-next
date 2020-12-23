@@ -438,12 +438,18 @@ Array [
   <main
     className="container"
   >
-    <header>
-      <h1>
+    <header
+      className="section"
+    >
+      <h1
+        className="title"
+      >
         Letter 
         E
       </h1>
-      <small>
+      <small
+        className="count"
+      >
         Total of 
         1411
          words
