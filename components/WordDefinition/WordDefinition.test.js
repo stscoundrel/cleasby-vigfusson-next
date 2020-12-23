@@ -27,7 +27,7 @@ describe('WordDefinition component', () => {
     const tree = renderer.create(<WordDefinition data={word} />)
     const { root } = tree
 
-    expect(root.findByType('h1').children).toEqual([word.word])
+    expect(root.findByType('h1').children).toEqual(['Af-burðr'])
   })
 
   test('Has correct amount of definitions', () => {

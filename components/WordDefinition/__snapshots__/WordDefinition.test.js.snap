@@ -9,7 +9,7 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       className="capitalize"
       lang="non"
     >
-      af-burðr
+      Af-burðr
     </h1>
     <p>
       Meaning of Old Norse word 

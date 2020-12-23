@@ -1,4 +1,5 @@
 import styles from './WordDefinition.module.scss'
+import {capitalize} from 'lib/utils/strings'
 
 export default function WordDefinition({ data }) {
   const { word, definitions } = data
@@ -6,11 +7,11 @@ export default function WordDefinition({ data }) {
   return (
     <article className={styles.section}>
       <header>
-        <h1 className="capitalize" lang="non">{word}</h1>
+        <h1 className="capitalize" lang="non">{capitalize(word)}</h1>
         <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em></p>
       </header>
 
-      <p><dfn className="capitalize">{word}</dfn> Old Norse word can mean:</p>
+      {definitions.length > 1 && <p><dfn className="capitalize">{word}</dfn> Old Norse word can mean:</p>}
       {definitions.map((definition, index) => (
         <dl className={styles.definitionList} key={`definition-${index}`}>
           <dt><strong>{word}</strong></dt>
