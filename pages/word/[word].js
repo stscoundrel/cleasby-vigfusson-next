@@ -17,9 +17,11 @@ import WordDefinition from 'components/WordDefinition'
 export async function getStaticPaths() {
   const words = getAllWords()
 
-  const paths = words.slice(5000).map((word) => ({
+  const paths = words.slice(0, 5000).map((word) => ({
     params: { word: word.slug },
   }))
+
+  console.log(paths.length)
 
   // Saves a lot of build time for testing.
   // return {
