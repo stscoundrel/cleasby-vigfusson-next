@@ -18,8 +18,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
-    "fix": "eslint . --fix",
+    "lint": "eslint components/**/*.js lib/**/*.js pages/**/*.js tests/**/*.js",
+    "fix": "eslint components/**/*.js lib/**/*.js pages/**/*.js tests/**/*.js --fix",
     "jest": "jest --verbose --runInBand --passWithNoTests",
     "test": "yarn lint && yarn jest"
   },
