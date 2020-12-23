@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom'
 import Footer from 'components/Footer'
-import renderer from 'react-test-renderer'
+// import renderer from 'react-test-renderer'
 
 const letters = [
   {
