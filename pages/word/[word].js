@@ -1,17 +1,23 @@
 // Services.
 import { getAllWords, getWord, getAlphabet } from 'lib/services/dictionary'
 
+// Utils.
+import { redirect404 } from 'lib/utils/redirect-404'
+
 // Components.
 import Layout from 'components/Layout'
 import WordDefinition from 'components/WordDefinition'
 
 /**
  * Get list of all possible word pages.
+ *
+ * Handles first 5000 on build time,
+ * rest as they are accessed.
  */
 export async function getStaticPaths() {
   const words = getAllWords()
 
-  const paths = words.map((word) => ({
+  const paths = words.slice(5000).map((word) => ({
     params: { word: word.slug },
   }))
 
@@ -23,7 +29,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false,
+    fallback: 'blocking',
   }
 }
 
@@ -33,6 +39,11 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { word } = params
   const entry = getWord(word)
+
+  if (!entry) {
+    return redirect404()
+  }
+
   const letters = getAlphabet()
 
   return {
