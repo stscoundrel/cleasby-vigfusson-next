@@ -21,6 +21,7 @@ h5,
 h6,
 .h6 {
   font-family: $font-heading;
+  margin-bottom: 1rem;
 }
 
 h1,
@@ -38,7 +39,6 @@ h2,
   line-height: $h2-line-height-mobile;
   letter-spacing: $h2-letter-spacing-mobile;
   font-weight: $h2-font-weight-mobile;
-  margin-bottom: 1rem;
 }
 
 h3,

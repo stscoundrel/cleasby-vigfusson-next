@@ -16,6 +16,14 @@ export default function Footer({ letters }) {
           which leads to there being many public domain versions of the book available.</p>
         </section>
 
+        <section className={styles.about}>
+          <h3>Old Norse language</h3>
+          <p>Old Norse was a North Germanic language that was spoken by inhabitants of 
+          Scandinavia and their overseas settlements from about the 7th to the 15th centuries.</p>
+
+          <p>Also known as "the viking language", "Old Nordic", or "Old Scandinavian"</p>
+        </section>
+
         <div className={styles.navs}>
           <nav className={styles.nav}>
             <h5 className={styles.navTitle}>Dictionary project</h5>
