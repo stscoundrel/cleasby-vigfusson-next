@@ -1,5 +1,5 @@
+import { capitalize } from 'lib/utils/strings'
 import styles from './WordDefinition.module.scss'
-import {capitalize} from 'lib/utils/strings'
 
 export default function WordDefinition({ data }) {
   const { word, definitions } = data

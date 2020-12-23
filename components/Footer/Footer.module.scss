@@ -15,10 +15,12 @@
 
 .navs {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .nav {
-  flex-basis: 50%;
+  flex-basis: 100%;
+  margin-bottom: 30px;
 }
 
 .navColumns {
@@ -42,5 +44,21 @@
 
   a {
     margin-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav {
+    flex-basis: 33.3%;
+  }
+
+  .navs {
+    margin-top: 45px;
   }
 }
