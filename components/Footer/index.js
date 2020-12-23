@@ -1,7 +1,7 @@
 import ExternalLink from 'components/ExternalLink'
 import LetterLink from 'components/LetterLink'
-import styles from './Footer.module.scss'
 import ContentArea from 'components/ContentArea'
+import styles from './Footer.module.scss'
 
 export default function Footer({ letters }) {
   return (

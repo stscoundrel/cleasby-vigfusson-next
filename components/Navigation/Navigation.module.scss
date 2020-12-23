@@ -29,11 +29,16 @@
   }
 
   .list {
-    flex-wrap: nowrap;
     flex-basis: 80%;
   }
 
   .listItem {
     flex: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .list {
+    flex-wrap: nowrap;
   }
 }
