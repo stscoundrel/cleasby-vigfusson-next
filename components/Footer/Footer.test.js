@@ -1,9 +1,17 @@
 import ReactDOM from 'react-dom'
 import Footer from 'components/Footer'
 import renderer from 'react-test-renderer'
-import { getAlphabet } from 'lib/services/dictionary'
 
-const letters = getAlphabet()
+const letters = [
+  {
+    slug: 'a',
+    letter: 'A',
+  },
+  {
+    slug: 'b',
+    letter: 'B',
+  },
+]
 
 describe('Footer component', () => {
   test('Does not crash', () => {
