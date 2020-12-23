@@ -5,7 +5,7 @@ export default function WordLink({ data }) {
 
   return (
    <Link key={`link${slug}`} href={`/word/${slug}`}>
-      <a>{word}</a>
+      <a>{word.toLowerCase()}</a>
     </Link>
   )
 }

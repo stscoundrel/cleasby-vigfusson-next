@@ -430,7 +430,9 @@ Array [
         Search
       </button>
     </form>
-    <dl />
+    <dl
+      className="list"
+    />
     <p>
       No search results
     </p>

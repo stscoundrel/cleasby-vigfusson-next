@@ -459,14 +459,16 @@ Array [
         E
       </p>
     </header>
-    <dl>
+    <dl
+      className="list"
+    >
       <dt>
         <a
           href="/word/a"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          A
+          a
         </a>
       </dt>
       <dt>
@@ -502,7 +504,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AÐ
+          að
         </a>
       </dt>
       <dt>
@@ -520,7 +522,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AÐA
+          aða
         </a>
       </dt>
       <dt>
@@ -529,7 +531,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AÐAL
+          aðal
         </a>
       </dt>
       <dt>
@@ -574,7 +576,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          Aðils
+          aðils
         </a>
       </dt>
       <dt>
@@ -583,7 +585,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AF
+          af
         </a>
       </dt>
       <dt>
@@ -2725,7 +2727,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AFI
+          afi
         </a>
       </dt>
       <dt>
@@ -2761,7 +2763,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AFL
+          afl
         </a>
       </dt>
       <dt>
@@ -2869,7 +2871,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AFLA
+          afla
         </a>
       </dt>
       <dt>
@@ -3247,7 +3249,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AGG
+          agg
         </a>
       </dt>
       <dt>
@@ -3256,7 +3258,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AGI
+          agi
         </a>
       </dt>
       <dt>
@@ -3265,7 +3267,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AGN
+          agn
         </a>
       </dt>
       <dt>
@@ -3355,7 +3357,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AKA
+          aka
         </a>
       </dt>
       <dt>
@@ -3364,7 +3366,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AKARN
+          akarn
         </a>
       </dt>
       <dt>
@@ -3382,7 +3384,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AKKERI
+          akkeri
         </a>
       </dt>
       <dt>
@@ -3454,7 +3456,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AKKORDA
+          akkorda
         </a>
       </dt>
       <dt>
@@ -3463,7 +3465,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AKR
+          akr
         </a>
       </dt>
       <dt>
@@ -3706,7 +3708,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AKTA
+          akta
         </a>
       </dt>
       <dt>
@@ -3724,7 +3726,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AL-
+          al-
         </a>
       </dt>
       <dt>
@@ -4957,7 +4959,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          Al-sviðr
+          al-sviðr
         </a>
       </dt>
       <dt>
@@ -5335,7 +5337,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALA
+          ala
         </a>
       </dt>
       <dt>
@@ -5371,7 +5373,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALDA
+          alda
         </a>
       </dt>
       <dt>
@@ -5524,7 +5526,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALDIN
+          aldin
         </a>
       </dt>
       <dt>
@@ -5632,7 +5634,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALDR
+          aldr
         </a>
       </dt>
       <dt>
@@ -5920,7 +5922,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALIN
+          alin
         </a>
       </dt>
       <dt>
@@ -5938,7 +5940,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALL-
+          all-
         </a>
       </dt>
       <dt>
@@ -6001,7 +6003,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALLR
+          allr
         </a>
       </dt>
       <dt>
@@ -6028,7 +6030,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALLS
+          alls
         </a>
       </dt>
       <dt>
@@ -6334,7 +6336,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALMR
+          almr
         </a>
       </dt>
       <dt>
@@ -6370,7 +6372,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALPT
+          alpt
         </a>
       </dt>
       <dt>
@@ -6379,7 +6381,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALR
+          alr
         </a>
       </dt>
       <dt>
@@ -6397,7 +6399,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ALTARI
+          altari
         </a>
       </dt>
       <dt>
@@ -6838,7 +6840,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AMA
+          ama
         </a>
       </dt>
       <dt>
@@ -6892,7 +6894,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AMBÁTT
+          ambátt
         </a>
       </dt>
       <dt>
@@ -6973,7 +6975,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AMLÓÐI
+          amlóði
         </a>
       </dt>
       <dt>
@@ -6982,7 +6984,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AMMA
+          amma
         </a>
       </dt>
       <dt>
@@ -7027,7 +7029,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AN
+          an
         </a>
       </dt>
       <dt>
@@ -7054,7 +7056,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANA
+          ana
         </a>
       </dt>
       <dt>
@@ -7063,7 +7065,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AND-
+          and-
         </a>
       </dt>
       <dt>
@@ -7585,7 +7587,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANDA
+          anda
         </a>
       </dt>
       <dt>
@@ -7783,7 +7785,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANDRAR
+          andrar
         </a>
       </dt>
       <dt>
@@ -7837,7 +7839,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANGA
+          anga
         </a>
       </dt>
       <dt>
@@ -7918,7 +7920,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANGR
+          angr
         </a>
       </dt>
       <dt>
@@ -8170,7 +8172,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANNA
+          anna
         </a>
       </dt>
       <dt>
@@ -8188,7 +8190,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANNARR
+          annarr
         </a>
       </dt>
       <dt>
@@ -8269,7 +8271,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ANNÁLL
+          annáll
         </a>
       </dt>
       <dt>
@@ -8431,7 +8433,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          API
+          api
         </a>
       </dt>
       <dt>
@@ -8440,7 +8442,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          APLI
+          apli
         </a>
       </dt>
       <dt>
@@ -8458,7 +8460,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          APR
+          apr
         </a>
       </dt>
       <dt>
@@ -8485,7 +8487,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          APTAN
+          aptan
         </a>
       </dt>
       <dt>
@@ -8575,7 +8577,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          APTR
+          aptr
         </a>
       </dt>
       <dt>
@@ -8890,7 +8892,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AR
+          ar
         </a>
       </dt>
       <dt>
@@ -8944,7 +8946,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARÐR
+          arðr
         </a>
       </dt>
       <dt>
@@ -9250,7 +9252,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARFI
+          arfi
         </a>
       </dt>
       <dt>
@@ -9268,7 +9270,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARFR
+          arfr
         </a>
       </dt>
       <dt>
@@ -9376,7 +9378,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARGR
+          argr
         </a>
       </dt>
       <dt>
@@ -9385,7 +9387,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARI
+          ari
         </a>
       </dt>
       <dt>
@@ -9466,7 +9468,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARINN
+          arinn
         </a>
       </dt>
       <dt>
@@ -9493,7 +9495,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARKA
+          arka
         </a>
       </dt>
       <dt>
@@ -9592,7 +9594,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARMR
+          armr
         </a>
       </dt>
       <dt>
@@ -9646,7 +9648,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARR
+          arr
         </a>
       </dt>
       <dt>
@@ -9673,7 +9675,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ARTA
+          arta
         </a>
       </dt>
       <dt>
@@ -9700,7 +9702,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ASI
+          asi
         </a>
       </dt>
       <dt>
@@ -9736,7 +9738,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ASKA
+          aska
         </a>
       </dt>
       <dt>
@@ -9763,7 +9765,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ASKR
+          askr
         </a>
       </dt>
       <dt>
@@ -9817,7 +9819,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ASNI
+          asni
         </a>
       </dt>
       <dt>
@@ -9844,7 +9846,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          ASSA
+          assa
         </a>
       </dt>
       <dt>
@@ -9853,7 +9855,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AT
+          at
         </a>
       </dt>
       <dt>
@@ -11059,7 +11061,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUÐ-
+          auð-
         </a>
       </dt>
       <dt>
@@ -11779,7 +11781,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUÐIT
+          auðit
         </a>
       </dt>
       <dt>
@@ -11878,7 +11880,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUÐR
+          auðr
         </a>
       </dt>
       <dt>
@@ -11896,7 +11898,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          Auðunn
+          auðunn
         </a>
       </dt>
       <dt>
@@ -12049,7 +12051,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUGA
+          auga
         </a>
       </dt>
       <dt>
@@ -12058,7 +12060,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUK
+          auk
         </a>
       </dt>
       <dt>
@@ -12094,7 +12096,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUKA
+          auka
         </a>
       </dt>
       <dt>
@@ -12193,7 +12195,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AULANDI
+          aulandi
         </a>
       </dt>
       <dt>
@@ -12292,7 +12294,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUMR
+          aumr
         </a>
       </dt>
       <dt>
@@ -12310,7 +12312,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUNGR
+          aungr
         </a>
       </dt>
       <dt>
@@ -12382,7 +12384,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AURAR
+          aurar
         </a>
       </dt>
       <dt>
@@ -12400,7 +12402,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AURR
+          aurr
         </a>
       </dt>
       <dt>
@@ -12481,7 +12483,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUSA
+          ausa
         </a>
       </dt>
       <dt>
@@ -12778,7 +12780,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AUSTR
+          austr
         </a>
       </dt>
       <dt>
@@ -12841,7 +12843,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          Austr-konungr
+          austr-konungr
         </a>
       </dt>
       <dt>
@@ -12958,7 +12960,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          Austri
+          austri
         </a>
       </dt>
       <dt>
@@ -13021,7 +13023,7 @@ Array [
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
-          AX
+          ax
         </a>
       </dt>
       <dt>
