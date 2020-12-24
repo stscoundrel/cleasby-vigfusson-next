@@ -63,6 +63,12 @@ export default function Footer({ letters }) {
               </li>
               <li>
                 <ExternalLink
+                  title="Gangleri"
+                  href="https://github.com/stscoundrel/gangleri"
+                />
+              </li>
+              <li>
+                <ExternalLink
                   title="Teljari"
                   href="https://github.com/stscoundrel/teljari"
                 />
