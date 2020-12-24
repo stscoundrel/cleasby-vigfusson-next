@@ -1,5 +1,5 @@
 // Services.
-import { getAllWords, getWord, getAlphabet } from 'lib/services/dictionary'
+import { getWord, getAlphabet } from 'lib/services/dictionary'
 
 // Utils.
 import { redirect404 } from 'lib/utils/redirect-404'
@@ -9,28 +9,14 @@ import Layout from 'components/Layout'
 import WordDefinition from 'components/WordDefinition'
 
 /**
- * Get list of all possible word pages.
+ * There are too many word paths for Vercel to build.
+ * It hits 16 000 file limit.
  *
- * Handles first 5000 on build time,
- * rest as they are accessed.
+ * Let's just build them as they are accessed.
  */
 export async function getStaticPaths() {
-  const words = getAllWords()
-
-  const paths = words.slice(0, 5000).map((word) => ({
-    params: { word: word.slug },
-  }))
-
-  console.log(paths.length)
-
-  // Saves a lot of build time for testing.
-  // return {
-  //   paths: [],
-  //   fallback: 'blocking',
-  // }
-
   return {
-    paths,
+    paths: [],
     fallback: 'blocking',
   }
 }
