@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom'
-import Sitemap, { getServerSideProps } from 'pages/sitemap.xml'
+import Sitemap, { getServerSideProps } from 'pages/sitemap-creator.xml'
 import renderer from 'react-test-renderer'
 import { createMocks } from 'node-mocks-http'
 
