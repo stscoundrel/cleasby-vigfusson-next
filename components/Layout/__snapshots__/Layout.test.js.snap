@@ -420,7 +420,7 @@ Array [
         </a>
         <a
           className="link"
-          href="/letter/A"
+          href="/letter/a"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
@@ -429,7 +429,7 @@ Array [
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter A\\",\\"item\\":\\"undefined/letter/A\\"}]}",
+              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter A\\",\\"item\\":\\"undefined/letter/a\\"}]}",
             }
           }
           type="application/ld+json"
@@ -1380,7 +1380,7 @@ Array [
         </a>
         <a
           className="link"
-          href="/letter/S"
+          href="/letter/s"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
@@ -1397,7 +1397,7 @@ Array [
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter S\\",\\"item\\":\\"undefined/letter/S\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Skilja\\",\\"item\\":\\"undefined/word/SKILJA\\"}]}",
+              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter S\\",\\"item\\":\\"undefined/letter/s\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Skilja\\",\\"item\\":\\"undefined/word/SKILJA\\"}]}",
             }
           }
           type="application/ld+json"
