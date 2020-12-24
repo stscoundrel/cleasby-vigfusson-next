@@ -19,4 +19,7 @@ module.exports = {
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
   },
   moduleDirectories: ['.', 'node_modules'],
+  setupFiles: [
+    '<rootDir>/setupTests.js',
+  ],
 };
