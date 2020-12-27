@@ -11,7 +11,7 @@ See live site [here](https://cleasby-vigfusson-dictionary.vercel.app/)
 - Search words & definitions
 - High test coverage.
 - Optimized for fast load times.
-- SEO & Schema optimized, high lighthouse scores
+- SEO, Accessibility and Schema optimized, high lighthouse scores
 
 ## Motivation
 
