@@ -1,10 +1,12 @@
 module.exports = {
   collectCoverageFrom: [
+    'components/**',
     'lib/**',
     'pages/**',
     '!**/*.d.ts',
     '!**/node_modules/**',
     '!.next/**',
+    '!**/*.js.snap',
   ],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   transform: {
