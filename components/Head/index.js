@@ -15,6 +15,7 @@ export default function Head({ type, content }) {
         <link rel='icon' type='image/png' sizes='48x48' href='/favicon-48x48.png' />
         <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
         <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
+        <link rel="apple-touch-icon" href="/favicon-96x96.png"></link>
         <meta
           name='description'
           content={description}
@@ -46,6 +47,8 @@ export default function Head({ type, content }) {
           name='twitter:description'
           content={description}
         />
+        <meta name="theme-color" content="#3b4f68" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: schema } }/>
     </NextHead>
