@@ -2,16 +2,19 @@
 
 exports[`Search component Matches snapshot 1`] = `
 <form
+  className="form"
   onSubmit={[Function]}
 >
   <input
     aria-label="Search"
+    className="input"
     name="search"
     onChange={[Function]}
     type="text"
     value=""
   />
   <button
+    className="button button--secondary button--no-margs"
     name="submit"
     type="submit"
   >

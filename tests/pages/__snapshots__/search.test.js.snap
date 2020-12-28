@@ -7,7 +7,27 @@ Array [
       className="section"
     >
       <div
-        className="wrap container"
+        className="topbar container"
+      >
+        <div
+          aria-label="Open menu"
+          className="hamburger"
+          onClick={[Function]}
+          role="button"
+        >
+          <span
+            className="part"
+          />
+          <span
+            className="part"
+          />
+          <span
+            className="part"
+          />
+        </div>
+      </div>
+      <div
+        className="content null container"
       >
         <ul
           className="list"

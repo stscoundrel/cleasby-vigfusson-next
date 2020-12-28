@@ -1,0 +1,34 @@
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.part {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.2s ease-out;
+}
+
+.open {
+  span {
+    &:nth-child(1) {
+      position: relative;
+      top: 9px;
+      transform: rotate(45deg);
+    }
+    &:nth-child(2) {
+      display: none;
+    }
+    &:nth-child(3) {
+      position: relative;
+      top: -7px;
+      transform: rotate(-45deg);
+    }
+  }
+}

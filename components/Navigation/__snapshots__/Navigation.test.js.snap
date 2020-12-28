@@ -5,7 +5,27 @@ exports[`Navigation component Matches snapshot 1`] = `
   className="section"
 >
   <div
-    className="wrap container"
+    className="topbar container"
+  >
+    <div
+      aria-label="Open menu"
+      className="hamburger"
+      onClick={[Function]}
+      role="button"
+    >
+      <span
+        className="part"
+      />
+      <span
+        className="part"
+      />
+      <span
+        className="part"
+      />
+    </div>
+  </div>
+  <div
+    className="content null container"
   >
     <ul
       className="list"
@@ -384,16 +404,19 @@ exports[`Navigation component Matches snapshot 1`] = `
       </li>
     </ul>
     <form
+      className="form"
       onSubmit={[Function]}
     >
       <input
         aria-label="Search"
+        className="input"
         name="search"
         onChange={[Function]}
         type="text"
         value=""
       />
       <button
+        className="button button--secondary button--no-margs"
         name="submit"
         type="submit"
       >
