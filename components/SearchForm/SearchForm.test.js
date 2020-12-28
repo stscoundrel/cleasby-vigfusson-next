@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 import renderer from 'react-test-renderer'
-import SeachForm from './index'
 import { getAllWords } from 'lib/services/dictionary'
+import SeachForm from './index'
 
 /**
  * Mock router
@@ -11,12 +11,11 @@ jest.mock('next/router', () => ({
     return {
       query: {
         query: 'madr',
-        criteria: 'headword'
+        criteria: 'headword',
       },
     }
   },
 }))
-
 
 describe('SearchForm component', () => {
   const dictionary = getAllWords()
