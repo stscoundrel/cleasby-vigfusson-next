@@ -436,15 +436,66 @@ Array [
     className="container"
   >
     <form
+      className="form"
       onSubmit={[Function]}
     >
+      <h1
+        className="h3"
+      >
+        Search
+      </h1>
       <input
+        className="input"
         name="search"
         onChange={[Function]}
         type="text"
         value=""
       />
+      <ul
+        className="list"
+      >
+        <p>
+          Search from:
+        </p>
+        <li
+          className="listItem"
+        >
+          <input
+            checked={true}
+            name="all"
+            onChange={[Function]}
+            type="radio"
+            value="criteria"
+          />
+           Everything
+        </li>
+        <li
+          className="listItem"
+        >
+          <input
+            checked={false}
+            name="headword"
+            onChange={[Function]}
+            type="radio"
+            value="criteria"
+          />
+           Headwords
+        </li>
+        <li
+          className="listItem"
+        >
+          <input
+            checked={false}
+            name="definitions"
+            onChange={[Function]}
+            type="radio"
+            value="criteria"
+          />
+           Definitions
+        </li>
+      </ul>
       <button
+        className="button"
         type="submit"
       >
         Search

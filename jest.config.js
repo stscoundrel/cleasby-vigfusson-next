@@ -7,6 +7,8 @@ module.exports = {
     '!**/node_modules/**',
     '!.next/**',
     '!**/*.js.snap',
+    '!**/*_app.js',
+    '!**/*_document.js',
   ],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   transform: {
