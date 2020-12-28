@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hamburger button Matches the snapshot 1`] = `
+<div
+  aria-label="Open menu"
+  className="hamburger"
+  onClick={[Function]}
+  role="button"
+>
+  <span
+    className="part"
+  />
+  <span
+    className="part"
+  />
+  <span
+    className="part"
+  />
+</div>
+`;

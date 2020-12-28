@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useRouter } from 'next/router'
+import styles from './Search.module.scss'
 
 export default function Search() {
   const [search, setSearch] = useState('')
@@ -11,9 +12,9 @@ export default function Search() {
   }
 
   return (
-   <form onSubmit={(e) => handleSearch(e)}>
-      <input aria-label="Search" type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
-      <button name="submit" type="submit">Search</button>
+   <form className={styles.form} onSubmit={(e) => handleSearch(e)}>
+      <input className={styles.input} aria-label="Search" type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
+      <button className="button button--secondary button--no-margs" name="submit" type="submit">Search</button>
     </form>
   )
 }
