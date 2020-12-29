@@ -16,7 +16,7 @@ export default function SearchForm({ words }) {
   const [results, setResults] = useState([])
 
   const getCriteria = (value) => {
-    if (value === 'all') {
+    if (!value || value === 'all') {
       return ['headword', 'definitions']
     }
 
@@ -38,7 +38,7 @@ export default function SearchForm({ words }) {
   useEffect(() => {
     if (router.query.query) {
       setSearch(router.query.query)
-      setSelectedCriteria(router.query.criteria)
+      setSelectedCriteria(router.query.criteria ?? 'all')
 
       const formattedCriteria = getCriteria(router.query.criteria)
       setResults(searchDictionary(router.query.query, words, formattedCriteria))
