@@ -11,9 +11,6 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
-  "engines": {
-    "node": "12.x"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
