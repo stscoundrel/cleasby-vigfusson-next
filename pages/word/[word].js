@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router'
+
 // Services.
 import { getWord, getAlphabet } from 'lib/services/dictionary'
 
@@ -7,6 +9,7 @@ import { redirect404 } from 'lib/utils/redirect-404'
 // Components.
 import Layout from 'components/Layout'
 import WordDefinition from 'components/WordDefinition'
+import Button from 'components/Button'
 
 /**
  * There are too many word paths for Vercel to build.
@@ -43,6 +46,8 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Word({ entry, letters }) {
+  const router = useRouter()
+
   if (!entry) {
     return null
   }
@@ -50,6 +55,7 @@ export default function Word({ entry, letters }) {
   return (
     <Layout type="word" content={entry} letters={letters}>
       <WordDefinition data={entry} />
+      <Button text="Back" action={() => router.back()} />
     </Layout>
   )
 }
