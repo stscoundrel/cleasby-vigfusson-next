@@ -533,6 +533,12 @@ Array [
         />
       </dl>
     </article>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      Back
+    </a>
   </main>,
   <footer
     className="section"
