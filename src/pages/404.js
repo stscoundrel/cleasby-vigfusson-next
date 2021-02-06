@@ -19,12 +19,11 @@ export async function getStaticProps() {
 }
 
 export default function ErrorPage404({ letters }) {
-
   return (
     <Layout type="page" letters={letters}>
       <ContentArea>
         <h1>Page not found</h1>
-        <p>Huh, that's weird.</p>
+        <p>Huh, that&apos;s weird.</p>
       </ContentArea>
     </Layout>
   )

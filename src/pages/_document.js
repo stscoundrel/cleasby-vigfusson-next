@@ -3,7 +3,7 @@ import Document, {
 } from 'next/document'
 
 class CustomDocument extends Document {
-  render() {
+  render() { // eslint-disable-line
     return (
       <Html lang="en">
         <Head />

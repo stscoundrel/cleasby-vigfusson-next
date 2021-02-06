@@ -25,7 +25,7 @@ module.exports = {
     },
     'import/resolver': {
       node: {
-        paths: ['.'],
+        paths: ['src'],
       },
     },
   },

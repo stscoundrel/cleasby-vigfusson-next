@@ -77,15 +77,13 @@ describe('Dictionary tests', () => {
 
   /**
    * This test needs Node 14 to pass.
-   * Currently Vercel only supports Node 12.
-   * Comment until Vercel has access to civilized world.
    */
-  // test('Dictionary entries are alphabetically sorted', () => {
-  //   const maybeUnsorted = getDictionary()
+  test('Dictionary entries are alphabetically sorted', () => {
+    const maybeUnsorted = getDictionary()
 
-  //   const sortedDictionry = [...maybeUnsorted].sort((a, b) => (
-  //     oldNorseSort(a.word, b.word)))
+    const sortedDictionry = [...maybeUnsorted].sort((a, b) => (
+      oldNorseSort(a.word, b.word)))
 
-  //   expect(maybeUnsorted).toEqual(sortedDictionry)
-  // })
+    expect(maybeUnsorted).toEqual(sortedDictionry)
+  })
 })
