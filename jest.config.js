@@ -1,8 +1,6 @@
 module.exports = {
   collectCoverageFrom: [
-    'components/**',
-    'lib/**',
-    'pages/**',
+    'src/**',
     '!**/*.d.ts',
     '!**/node_modules/**',
     '!.next/**',
@@ -22,7 +20,7 @@ module.exports = {
   moduleNameMapper: {
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
   },
-  moduleDirectories: ['.', 'node_modules'],
+  moduleDirectories: ['src', 'node_modules'],
   setupFiles: [
     '<rootDir>/setupTests.js',
   ],
