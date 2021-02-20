@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { searchDictionary } from 'lib/services/search'
 
 // Components.
-import WordList from 'components/WordList'
+import SearchResults from 'components/SearchResults'
 
 import styles from './SearchForm.module.scss'
 
@@ -65,7 +65,7 @@ export default function SearchForm({ words }) {
         <button className="button" type="submit">Search</button>
       </form>
 
-      <WordList words={results} />
+      <SearchResults words={results} />
 
       { results.length === 0 && <p>No search results</p> }
     </>
