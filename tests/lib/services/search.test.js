@@ -27,7 +27,9 @@ describe('Search tests', () => {
       word: 'abbadís',
       definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
       slug: 'abbadis',
-      foundIn: [],
+      foundIn: [
+        'In headword',
+      ],
     }
 
     expect(result[0]).toEqual(expected)
@@ -55,7 +57,9 @@ describe('Search tests', () => {
       word: 'aðal-vellir',
       definitions: ['m. pl. = óðalvellir, Rm.'],
       slug: 'adal-vellir',
-      foundIn: [],
+      foundIn: [
+        'In headword',
+      ],
     }
 
     expect(result[0]).toEqual(expected)

@@ -10,6 +10,10 @@ const formatResults = (results, search, criteria) => {
       })
     }
 
+    if (foundIn.length === 0) {
+      foundIn.push('In headword')
+    }
+
     return {
       ...result,
       foundIn,
