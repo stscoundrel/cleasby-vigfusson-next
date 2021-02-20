@@ -1,6 +1,7 @@
 import { getAllWords } from 'lib/services/dictionary'
 import { searchDictionary } from 'lib/services/search'
 import { isArray } from 'volva'
+import { hasProperty } from 'spyrjari'
 
 describe('Search tests', () => {
   const dictionary = getAllWords()
@@ -11,6 +12,14 @@ describe('Search tests', () => {
     expect(isArray(result)).toBeTruthy()
   })
 
+  test('Results contain foundIn statement', () => {
+    const result = searchDictionary('skilja', dictionary)
+
+    result.forEach((entry) => {
+      expect(hasProperty(entry, 'foundIn')).toBeTruthy()
+    })
+  })
+
   test('Returns results in correct formatting', () => {
     const result = searchDictionary('abbadís', dictionary)
 
@@ -18,6 +27,7 @@ describe('Search tests', () => {
       word: 'abbadís',
       definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
       slug: 'abbadis',
+      foundIn: [],
     }
 
     expect(result[0]).toEqual(expected)
@@ -30,6 +40,9 @@ describe('Search tests', () => {
       word: 'abbadís',
       definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
       slug: 'abbadis',
+      foundIn: [
+        'f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.',
+      ],
     }
 
     expect(result[0]).toEqual(expected)
@@ -42,6 +55,7 @@ describe('Search tests', () => {
       word: 'aðal-vellir',
       definitions: ['m. pl. = óðalvellir, Rm.'],
       slug: 'adal-vellir',
+      foundIn: [],
     }
 
     expect(result[0]).toEqual(expected)

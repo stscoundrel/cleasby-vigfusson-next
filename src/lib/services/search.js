@@ -1,3 +1,24 @@
+const formatResults = (results, search, criteria) => {
+  const formattedResults = results.map((result) => {
+    const foundIn = []
+
+    if (criteria.includes('definitions')) {
+      result.definitions.forEach((definition) => {
+        if (definition.toLowerCase().includes(search.toLowerCase())) {
+          foundIn.push(definition)
+        }
+      })
+    }
+
+    return {
+      ...result,
+      foundIn,
+    }
+  })
+
+  return formattedResults
+}
+
 export const searchDictionary = (search, dictionary, criteria = ['headword', 'definitions']) => {
   const filteredSearch = search.toLowerCase()
 
@@ -25,7 +46,9 @@ export const searchDictionary = (search, dictionary, criteria = ['headword', 'de
     return matchesSearch
   })
 
-  return results
+  const formattedResult = formatResults(results, search, criteria)
+
+  return formattedResult
 }
 
 export default {
