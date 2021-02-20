@@ -28,7 +28,7 @@ describe('Search tests', () => {
       definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
       slug: 'abbadis',
       foundIn: [
-        'In headword',
+        'In headword: <mark>abbadís</mark>',
       ],
     }
 
@@ -43,7 +43,7 @@ describe('Search tests', () => {
       definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
       slug: 'abbadis',
       foundIn: [
-        'f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.',
+        '<mark>f. <i>abbess.</i></mark> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.',
       ],
     }
 
@@ -58,7 +58,7 @@ describe('Search tests', () => {
       definitions: ['m. pl. = óðalvellir, Rm.'],
       slug: 'adal-vellir',
       foundIn: [
-        'In headword',
+        'In headword: aðal-vellir',
       ],
     }
 
