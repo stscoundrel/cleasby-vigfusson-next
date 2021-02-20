@@ -5503,6 +5503,11 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markari@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/markari/-/markari-1.0.0.tgz#ef7d78dc352ba0f27f2538926a6b39e33632a3a9"
+  integrity sha512-MppRzykxy79XEmvCCZd9flavoeSxjo+0gIwkZqTSLm7gL60XCSAZCmjma7igguJE7Klu5MDiKMwMxU36g587iA==
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"

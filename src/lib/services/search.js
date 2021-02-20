@@ -1,3 +1,5 @@
+import { markWords } from 'markari'
+
 const formatResults = (results, search, criteria) => {
   const formattedResults = results.map((result) => {
     const foundIn = []
@@ -5,13 +7,15 @@ const formatResults = (results, search, criteria) => {
     if (criteria.includes('definitions')) {
       result.definitions.forEach((definition) => {
         if (definition.toLowerCase().includes(search.toLowerCase())) {
-          foundIn.push(definition)
+          const highlighterDefinition = markWords(search, definition)
+          foundIn.push(highlighterDefinition)
         }
       })
     }
 
     if (foundIn.length === 0) {
-      foundIn.push('In headword')
+      const highlightedHeadword = markWords(search, result.word)
+      foundIn.push(`In headword: ${highlightedHeadword}`)
     }
 
     return {
