@@ -35,7 +35,15 @@ export default function SearchForm({ words }) {
     setIsLoading(true)
     const url = search !== '' ? `/search?query=${search}&criteria=${selectedCriteria}` : '/search'
 
-    router.push(url, undefined, { shallow: true })
+    router.push(url, undefined, { shallow: false })
+  }
+
+  const showSpinner = () => {
+    setIsLoading(true)
+  }
+
+  const hideSpinner = () => {
+    setIsLoading(false)
   }
 
   useEffect(() => {
@@ -48,6 +56,13 @@ export default function SearchForm({ words }) {
       setIsLoading(false)
     }
   }, [router.query])
+
+  useEffect(() => {
+    if (router?.events?.on) {
+      router.events.on('routeChangeStart', showSpinner)
+      router.events.on('routeChangeComplete', hideSpinner)
+    }
+  }, [])
 
   return (
     <>
