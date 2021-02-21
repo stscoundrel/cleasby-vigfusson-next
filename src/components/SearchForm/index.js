@@ -15,7 +15,7 @@ export default function SearchForm({ words }) {
   const [search, setSearch] = useState('')
   const [selectedCriteria, setSelectedCriteria] = useState('all')
   const [results, setResults] = useState([])
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   const getCriteria = (value) => {
     if (!value || value === 'all') {
@@ -32,6 +32,7 @@ export default function SearchForm({ words }) {
 
   const handleSearch = (e) => {
     e.preventDefault()
+    setIsLoading(true)
     const url = search !== '' ? `/search?query=${search}&criteria=${selectedCriteria}` : '/search'
 
     router.push(url, undefined, { shallow: true })
@@ -39,7 +40,6 @@ export default function SearchForm({ words }) {
 
   useEffect(() => {
     if (router.query.query) {
-      setIsLoading(true)
       setSearch(router.query.query)
       setSelectedCriteria(router.query.criteria ?? 'all')
 
