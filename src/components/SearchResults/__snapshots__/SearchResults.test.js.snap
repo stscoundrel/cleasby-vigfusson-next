@@ -1,80 +1,88 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SearchResults component Matches snapshot 1`] = `
-<ul
-  className="list"
->
-  <li>
-    <div
-      className="result"
-    >
-      <a
-        className="link"
-        href="/word/adal"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
+Array [
+  <p
+    className="blue"
+  >
+    3
+     results found
+  </p>,
+  <ul
+    className="list"
+  >
+    <li>
+      <div
+        className="result"
       >
-        aðal
-      </a>
-      <ul>
-        <li
-          className="foundIn"
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "[O. H. G. adal, <i>genus;</i> cp. also A. S. éðele, <i>nobilis;</i> Old Engl. and Scot. <i>ethel;</i> Germ. <i>edel;</i> eðla- and eðal- came from mod. Dan. into Icel. aðall, <i>nobility.</i> It does not occur in old writings in this sense.]",
+        <a
+          className="link"
+          href="/word/adal"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aðal
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "[O. H. G. adal, <i>genus;</i> cp. also A. S. éðele, <i>nobilis;</i> Old Engl. and Scot. <i>ethel;</i> Germ. <i>edel;</i> eðla- and eðal- came from mod. Dan. into Icel. aðall, <i>nobility.</i> It does not occur in old writings in this sense.]",
+              }
             }
-          }
-        />
-      </ul>
-    </div>
-  </li>
-  <li>
-    <div
-      className="result"
-    >
-      <a
-        className="link"
-        href="/word/adal-vellir"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
       >
-        aðal-vellir
-      </a>
-      <ul>
-        <li
-          className="foundIn"
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "In headword",
+        <a
+          className="link"
+          href="/word/adal-vellir"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          aðal-vellir
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
             }
-          }
-        />
-      </ul>
-    </div>
-  </li>
-  <li>
-    <div
-      className="result"
-    >
-      <a
-        className="link"
-        href="/word/af"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
       >
-        af
-      </a>
-      <ul>
-        <li
-          className="foundIn"
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<strong>4.</strong> denoting <i>distance;</i> þat er komit af þjóðleið, <i>out of the high road, remote,</i> Eg. 369; af þjóðbraut, Grág. ii. 264, i. 15; Otradalr (a farm) var mjök af vegi, <i>far out of the way,</i> Háv. 53.",
+        <a
+          className="link"
+          href="/word/af"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<strong>4.</strong> denoting <i>distance;</i> þat er komit af þjóðleið, <i>out of the high road, remote,</i> Eg. 369; af þjóðbraut, Grág. ii. 264, i. 15; Otradalr (a farm) var mjök af vegi, <i>far out of the way,</i> Háv. 53.",
+              }
             }
-          }
-        />
-      </ul>
-    </div>
-  </li>
-</ul>
+          />
+        </ul>
+      </div>
+    </li>
+  </ul>,
+]
 `;
