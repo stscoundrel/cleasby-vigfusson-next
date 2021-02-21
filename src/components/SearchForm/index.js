@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 import { searchDictionary } from 'lib/services/search'
 
 // Components.
+import LoadingSpinner from 'components/LoadingSpinner'
 import SearchResults from 'components/SearchResults'
 
 import styles from './SearchForm.module.scss'
@@ -14,6 +15,7 @@ export default function SearchForm({ words }) {
   const [search, setSearch] = useState('')
   const [selectedCriteria, setSelectedCriteria] = useState('all')
   const [results, setResults] = useState([])
+  const [isLoading, setIsLoading] = useState(false)
 
   const getCriteria = (value) => {
     if (!value || value === 'all') {
@@ -37,11 +39,13 @@ export default function SearchForm({ words }) {
 
   useEffect(() => {
     if (router.query.query) {
+      setIsLoading(true)
       setSearch(router.query.query)
       setSelectedCriteria(router.query.criteria ?? 'all')
 
       const formattedCriteria = getCriteria(router.query.criteria)
       setResults(searchDictionary(router.query.query, words, formattedCriteria))
+      setIsLoading(false)
     }
   }, [router.query])
 
@@ -65,7 +69,8 @@ export default function SearchForm({ words }) {
         <button className="button" type="submit">Search</button>
       </form>
 
-      <SearchResults words={results} />
+      {isLoading && <LoadingSpinner /> }
+      {!isLoading && <SearchResults words={results} /> }
 
       { results.length === 0 && <p>No search results</p> }
     </>
