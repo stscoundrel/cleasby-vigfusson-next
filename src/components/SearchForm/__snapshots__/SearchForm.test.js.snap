@@ -68,6 +68,12 @@ Array [
       Search
     </button>
   </form>,
+  <p
+    className="blue"
+  >
+    0
+     results found
+  </p>,
   <ul
     className="list"
   />,
