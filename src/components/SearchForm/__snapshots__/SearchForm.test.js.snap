@@ -68,9 +68,14 @@ Array [
       Search
     </button>
   </form>,
-  <img
-    className="spinner"
-    src="/loading.svg"
+  <p
+    className="blue"
+  >
+    0
+     results found
+  </p>,
+  <ul
+    className="list"
   />,
   <p>
     No search results

@@ -15,7 +15,7 @@ export default function SearchForm({ words }) {
   const [search, setSearch] = useState('')
   const [selectedCriteria, setSelectedCriteria] = useState('all')
   const [results, setResults] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(false)
 
   const getCriteria = (value) => {
     if (!value || value === 'all') {
@@ -48,21 +48,15 @@ export default function SearchForm({ words }) {
 
   useEffect(() => {
     if (router.query.query) {
+      showSpinner()
       setSearch(router.query.query)
       setSelectedCriteria(router.query.criteria ?? 'all')
 
       const formattedCriteria = getCriteria(router.query.criteria)
       setResults(searchDictionary(router.query.query, words, formattedCriteria))
-      setIsLoading(false)
+      hideSpinner()
     }
   }, [router.query])
-
-  useEffect(() => {
-    if (router?.events?.on) {
-      router.events.on('routeChangeStart', showSpinner)
-      router.events.on('routeChangeComplete', hideSpinner)
-    }
-  }, [])
 
   return (
     <>
