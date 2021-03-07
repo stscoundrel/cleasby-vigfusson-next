@@ -15,11 +15,20 @@ describe('Hamburger button', () => {
     const mockHandler = jest.fn()
 
     const tree = renderer.create(
-         <Hamburger action={mockHandler} />,
+      <Hamburger action={mockHandler} />,
     )
 
-    await tree.root.findByType('div').props.onClick()
+    // Hamburger is closed at start.
+    const closedState = tree.toJSON()
 
-    expect(mockHandler).toHaveBeenCalled()
+    // Click hamburger.
+    await renderer.act(async () => {
+      await tree.root.findByType('div').props.onClick()
+
+      // Assert hamburger has open stat & callback was called.
+      const openState = tree.toJSON()
+      expect(closedState).not.toEqual(openState)
+      expect(mockHandler).toHaveBeenCalled()
+    })
   })
 })
