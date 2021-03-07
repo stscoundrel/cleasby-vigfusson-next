@@ -28,7 +28,7 @@ describe('Word page: render', () => {
 describe('Word page: data fetching', () => {
   test('getStaticPaths works', async () => {
     const expected = {
-      paths: {},
+      paths: [],
       fallback: 'blocking',
     }
 
