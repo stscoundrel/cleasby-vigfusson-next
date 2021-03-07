@@ -16,5 +16,5 @@ module.exports = {
   },
   testRunner: 'jest',
   coverageAnalysis: 'perTest',
-  thresholds: { high: 95, low: 92, break: 90 },
+  thresholds: { high: 90, low: 80, break: 90 },
 }

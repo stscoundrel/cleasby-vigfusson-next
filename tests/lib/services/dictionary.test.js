@@ -25,6 +25,16 @@ describe('Dictionary tests', () => {
     })
   })
 
+  test('Dictionary slugs are unique', () => {
+    const slugs = new Set()
+
+    dictionary.forEach((entry) => {
+      slugs.add(entry.slug)
+    })
+
+    expect(slugs.size).toEqual(dictionary.length)
+  })
+
   test('Dictionary urls do not start with dashes', () => {
     dictionary.forEach((entry) => {
       expect(entry.slug.charAt(0)).not.toEqual('-')
