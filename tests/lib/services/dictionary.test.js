@@ -25,6 +25,16 @@ describe('Dictionary tests', () => {
     })
   })
 
+  test('Dictionary slugs are unique', () => {
+    const slugs = new Set()
+
+    dictionary.forEach((entry) => {
+      slugs.add(entry.slug)
+    })
+
+    expect(slugs.size).toEqual(dictionary.length)
+  })
+
   test('Dictionary urls do not start with dashes', () => {
     dictionary.forEach((entry) => {
       expect(entry.slug.charAt(0)).not.toEqual('-')
@@ -32,8 +42,11 @@ describe('Dictionary tests', () => {
   })
 
   test('Dictionary gets words by letter', () => {
-    const aWords = getByLetter('a')
+    const aWords = getByLetter('A')
     const þWords = getByLetter('þ')
+
+    expect(aWords.length).toBe(1411)
+    expect(þWords.length).toBe(1074)
 
     aWords.forEach((entry) => {
       expect(entry.word.charAt(0).toLowerCase()).toBe('a')
@@ -73,6 +86,28 @@ describe('Dictionary tests', () => {
     alphabet.forEach((entry) => {
       expect(matchesSchema(entry, expected)).toBeTruthy()
     })
+  })
+
+  test('Alphabet does not contain invalid chars.', () => {
+    const alphabet = getAlphabet()
+    const invalids = ['ǫ', 'ø']
+
+    alphabet.forEach((letter) => {
+      expect(invalids.includes(letter.letter)).toBeFalsy()
+    })
+  })
+
+  test('Alphabet contains added ö letter.', () => {
+    const alphabet = getAlphabet()
+    let foundÖ = false
+
+    alphabet.forEach((letter) => {
+      if (letter.letter === 'ö') {
+        foundÖ = true
+      }
+    })
+
+    expect(foundÖ).toBeTruthy();
   })
 
   /**
