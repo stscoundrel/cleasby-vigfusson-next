@@ -88,6 +88,28 @@ describe('Dictionary tests', () => {
     })
   })
 
+  test('Alphabet does not contain invalid chars.', () => {
+    const alphabet = getAlphabet()
+    const invalids = ['ǫ', 'ø']
+
+    alphabet.forEach((letter) => {
+      expect(invalids.includes(letter.letter)).toBeFalsy()
+    })
+  })
+
+  test('Alphabet contains added ö letter.', () => {
+    const alphabet = getAlphabet()
+    let foundÖ = false
+
+    alphabet.forEach((letter) => {
+      if (letter.letter === 'ö') {
+        foundÖ = true
+      }
+    })
+
+    expect(foundÖ).toBeTruthy();
+  })
+
   /**
    * This test needs Node 14 to pass.
    */
