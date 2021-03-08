@@ -3,7 +3,23 @@ import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
 import renderer from 'react-test-renderer'
 import { getAlphabet } from 'lib/services/dictionary'
 
-describe('Word page: render', () => {
+const mockHandler = jest.fn()
+
+/**
+ * Mock router
+ */
+jest.mock('next/router', () => ({
+  useRouter() {
+    return {
+      locale: undefined,
+      defaultLocale: undefined,
+      asPath: '/test',
+      back: mockHandler,
+    }
+  },
+}))
+
+describe('Word page: render & usage', () => {
   const word = {
     word: 'Völva',
     definitions: [
@@ -22,6 +38,27 @@ describe('Word page: render', () => {
   test('Matches snapshot', () => {
     const tree = renderer.create(<Word entry={word} letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
+  })
+
+  test('Returns null if entry is unavailable', () => {
+    const tree = renderer.create(<Word entry={null} letters={getAlphabet()} />).toJSON()
+    expect(tree).toBeNull()
+  })
+
+  test('Back button works', async () => {
+    const tree = renderer.create(
+      <Word entry={word} letters={getAlphabet()} />,
+    )
+
+    // Click back btn.
+    await renderer.act(async () => {
+      expect(mockHandler).not.toHaveBeenCalled()
+      await tree.root.findByProps({ text: 'Back' }).props.action()
+
+      // Assert mockrouter received a push.
+      expect(mockHandler).toHaveBeenCalled()
+      expect(mockHandler.mock.calls.length).toBe(1);
+    })
   })
 })
 
@@ -50,6 +87,17 @@ describe('Word page: data fetching', () => {
     }
 
     const result = await getStaticProps({ params: { word: 'staekja' } })
+
+    expect(result).toEqual(expected)
+  })
+
+  test('getStaticProps returns 404 redirect for unkown words', async () => {
+    const expected = {
+      props: {},
+      notFound: true,
+    }
+
+    const result = await getStaticProps({ params: { word: 'loremipsum' } })
 
     expect(result).toEqual(expected)
   })

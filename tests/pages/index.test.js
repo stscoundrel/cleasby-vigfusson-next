@@ -15,6 +15,11 @@ describe('Index page', () => {
     const tree = renderer.create(<Index words={getAllWords()} letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  test('Returns null if words are unavailable', () => {
+    const tree = renderer.create(<Index words={null} letters={getAlphabet()} />).toJSON()
+    expect(tree).toBeNull()
+  })
 })
 
 describe('Index page: data fetching', () => {
