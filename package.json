@@ -19,7 +19,8 @@
     "fix": "eslint src tests --fix",
     "jest": "jest --verbose --runInBand --passWithNoTests",
     "test": "yarn lint && yarn jest",
-    "test:mutation": "stryker run"
+    "test:mutation": "stryker run",
+    "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'"
   },
   "dependencies": {
     "cleasby-vigfusson-dictionary": "^1.0.8",
