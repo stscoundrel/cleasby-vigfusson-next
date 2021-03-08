@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Word page: render Matches snapshot 1`] = `
+exports[`Word page: render & usage Matches snapshot 1`] = `
 Array [
   <header>
     <nav

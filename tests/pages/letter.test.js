@@ -14,6 +14,11 @@ describe('Letter page: render', () => {
     const tree = renderer.create(<Letter words={getByLetter('a')} letters={getAlphabet()} letter="e" />).toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  test('Returns null if words are unavailable', () => {
+    const tree = renderer.create(<Letter words={null} letters={getAlphabet()} letter="e" />).toJSON()
+    expect(tree).toBeNull()
+  })
 })
 
 describe('Letter page: data fetching', () => {
