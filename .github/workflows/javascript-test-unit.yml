@@ -1,4 +1,4 @@
-name: JavaScript - Test
+name: JavaScript - Unit Test
 
 on: [pull_request]
 
@@ -18,6 +18,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn install --production=false
-    - run: yarn jest
+    - run: yarn test:unit
       env:
         CI: true

@@ -10,7 +10,8 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/src/components/',
     '<rootDir>/src/pages/',
-    '<rootDir>/tests/pages/',
+    '<rootDir>/tests/unit/pages/',
+    '<rootDir>/tests/integration/',
     '<rootDir>/node_modules/',
   ],
 }
