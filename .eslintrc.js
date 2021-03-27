@@ -7,6 +7,7 @@ module.exports = {
     node: true,
     es6: true,
     jest: true,
+    'cypress/globals': true,
   },
   globals: {
     document: true,
@@ -17,6 +18,7 @@ module.exports = {
     'react',
     'react-hooks',
     'jest',
+    'cypress',
   ],
   parser: 'babel-eslint',
   settings: {

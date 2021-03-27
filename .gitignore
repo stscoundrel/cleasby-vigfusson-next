@@ -35,3 +35,6 @@ yarn-error.log*
 /.env
 /.stryker-tmp
 /reports
+
+# Cypress
+tests/integration/logs
