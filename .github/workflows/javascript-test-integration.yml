@@ -13,3 +13,4 @@ jobs:
         with:
           build: yarn install && yarn build
           start: yarn start
+          command: yarn test:integration
