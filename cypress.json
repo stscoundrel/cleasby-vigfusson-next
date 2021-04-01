@@ -1,5 +1,5 @@
 {
-  "defaultCommandTimeout": 10000,
+  "defaultCommandTimeout": 30000,
   "fixturesFolder": "tests/integration/config/fixtures",
   "integrationFolder": "tests/integration/tests",
   "pluginsFile": "tests/integration/config/plugins/index.js",
