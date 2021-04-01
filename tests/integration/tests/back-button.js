@@ -1,4 +1,7 @@
 it('Back button works', () => {
+  // First visit target page to ensure it's build for client navigaiton.
+  cy.visit('/word/abbindi')
+
   cy.visit('/letter/a');
 
   // Got o a word page.
