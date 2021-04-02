@@ -62,7 +62,7 @@ export default function SearchForm({ words }) {
     <>
       <form className={styles.form} onSubmit={(e) => handleSearch(e)}>
         <h1 className="h3">Search</h1>
-        <input className={styles.input} type="text" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
+        <input className={styles.input} type="search" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
         <ul className={styles.list}>
           <p>Search from:</p>
           <li className={styles.listItem}>
