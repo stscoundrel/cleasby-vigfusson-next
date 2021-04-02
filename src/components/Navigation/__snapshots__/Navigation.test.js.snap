@@ -412,7 +412,7 @@ exports[`Navigation component Matches snapshot 1`] = `
         className="input"
         name="search"
         onChange={[Function]}
-        type="text"
+        type="search"
         value=""
       />
       <button
