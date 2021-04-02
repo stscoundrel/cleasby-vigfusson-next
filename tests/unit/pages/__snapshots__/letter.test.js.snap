@@ -414,7 +414,7 @@ Array [
             className="input"
             name="search"
             onChange={[Function]}
-            type="text"
+            type="search"
             value=""
           />
           <button

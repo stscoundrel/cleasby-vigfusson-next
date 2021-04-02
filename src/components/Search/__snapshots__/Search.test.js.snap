@@ -10,7 +10,7 @@ exports[`Search component Matches snapshot 1`] = `
     className="input"
     name="search"
     onChange={[Function]}
-    type="text"
+    type="search"
     value=""
   />
   <button
@@ -33,7 +33,7 @@ exports[`Search component Triggers router action when submitted 1`] = `
     className="input"
     name="search"
     onChange={[Function]}
-    type="text"
+    type="search"
     value=""
   />
   <button
