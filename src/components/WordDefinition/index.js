@@ -9,6 +9,10 @@ export default function WordDefinition({ data }) {
     <article className={styles.section}>
       <header>
         <h1 lang="non">{capitalize(word)}</h1>
+
+        <small className={styles.subHeading}>
+          Cleasby & Vigfusson Dictionary - {word.toLowerCase()}
+        </small>
         <p>Possible runic inscription in <em>Younger Futhark:</em> { lettersToRunes(word) }</p>
         <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em></p>
       </header>
