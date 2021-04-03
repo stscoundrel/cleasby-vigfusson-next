@@ -38,7 +38,7 @@ describe('Schema structure tests', () => {
   })
 
   test('Handles "letter" Schema', () => {
-    const expected = JSON.stringify(      
+    const expected = JSON.stringify(
       {
         '@context': 'https://schema.org/',
         '@type': 'DefinedTermSet',
