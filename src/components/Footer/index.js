@@ -51,6 +51,12 @@ export default function Footer({ letters }) {
             <ul>
               <li>
                 <ExternalLink
+                  title="Younger Futhark Runes"
+                  href="https://github.com/stscoundrel/younger-futhark"
+                />
+              </li>
+              <li>
+                <ExternalLink
                   title="Old Norse Alphabet"
                   href="https://github.com/stscoundrel/old-norse-alphabet"
                 />
@@ -61,6 +67,7 @@ export default function Footer({ letters }) {
                   href="https://github.com/stscoundrel/old-norse-alphabet-sort"
                 />
               </li>
+              <li></li>
               <li>
                 <ExternalLink
                   title="Gangleri"
