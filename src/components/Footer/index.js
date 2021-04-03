@@ -67,7 +67,6 @@ export default function Footer({ letters }) {
                   href="https://github.com/stscoundrel/old-norse-alphabet-sort"
                 />
               </li>
-              <li></li>
               <li>
                 <ExternalLink
                   title="Gangleri"

@@ -482,6 +482,14 @@ Array [
           Völva
         </h1>
         <p>
+          Possible runic inscription in 
+          <em>
+            Younger Futhark:
+          </em>
+           
+          ᚢᚢᛚᚢᛅ
+        </p>
+        <p>
           Meaning of Old Norse word 
           <em>
             "
@@ -619,6 +627,15 @@ Array [
             Related packages
           </h4>
           <ul>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
+              </a>
+            </li>
             <li>
               <a
                 href="https://github.com/stscoundrel/old-norse-alphabet"
