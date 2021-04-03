@@ -473,16 +473,22 @@ Array [
         E
       </h1>
       <small
+        className="subHeading"
+      >
+        Cleasby & Vigfusson Dictionary - Letter 
+        E
+      </small>
+      <p>
+        Old Norse words starting with letter 
+        E
+      </p>
+      <small
         className="count"
       >
         Total of 
         1411
          words
       </small>
-      <p>
-        Old Norse words starting with letter 
-        E
-      </p>
     </header>
     <ul
       className="list"

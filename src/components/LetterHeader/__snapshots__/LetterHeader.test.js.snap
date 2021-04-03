@@ -11,15 +11,21 @@ exports[`LetterHeader component Matches snapshot 1`] = `
     S
   </h1>
   <small
+    className="subHeading"
+  >
+    Cleasby & Vigfusson Dictionary - Letter 
+    S
+  </small>
+  <p>
+    Old Norse words starting with letter 
+    S
+  </p>
+  <small
     className="count"
   >
     Total of 
     60
      words
   </small>
-  <p>
-    Old Norse words starting with letter 
-    S
-  </p>
 </header>
 `;

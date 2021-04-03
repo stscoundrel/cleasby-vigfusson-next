@@ -10,6 +10,12 @@ exports[`WordDefinition component Matches snapshot 1`] = `
     >
       Af-burðr
     </h1>
+    <small
+      className="subHeading"
+    >
+      Cleasby & Vigfusson Dictionary - 
+      af-burðr
+    </small>
     <p>
       Possible runic inscription in 
       <em>

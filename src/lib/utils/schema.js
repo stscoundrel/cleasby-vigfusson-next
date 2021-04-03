@@ -12,7 +12,7 @@ const getDefinedTermSetData = (content) => {
     '@context': 'https://schema.org/',
     '@type': 'DefinedTermSet',
     '@id': getLetterLink(letter),
-    name: removeHTML(`Cleasby & Vigfusson Dictionary - ${letter.letter.toUpperCase()}`),
+    name: removeHTML(`Cleasby & Vigfusson Dictionary - Letter ${letter.letter.toUpperCase()}`),
     description: removeHTML(`Old Norse words starting with letter ${letter.letter.toUpperCase()}`),
   }
 }
@@ -67,10 +67,7 @@ export const getSchema = (content, type) => {
 
   if (type === 'letter') {
     const termSet = getDefinedTermSetData(content)
-    const terms = content.map((word) => getDefinedTermData(word))
-
-    const data = [termSet, ...terms]
-    return JSON.stringify(data)
+    return JSON.stringify(termSet)
   }
 
   if (type === 'breadcrumbs') {

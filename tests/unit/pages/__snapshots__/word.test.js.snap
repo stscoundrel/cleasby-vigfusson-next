@@ -480,6 +480,12 @@ Array [
         >
           Völva
         </h1>
+        <small
+          className="subHeading"
+        >
+          Cleasby & Vigfusson Dictionary - 
+          völva
+        </small>
         <p>
           Possible runic inscription in 
           <em>
