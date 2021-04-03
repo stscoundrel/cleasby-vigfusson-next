@@ -476,7 +476,6 @@ Array [
     >
       <header>
         <h1
-          className="capitalize"
           lang="non"
         >
           Völva
