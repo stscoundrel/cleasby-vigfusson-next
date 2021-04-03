@@ -38,32 +38,14 @@ describe('Schema structure tests', () => {
   })
 
   test('Handles "letter" Schema', () => {
-    const expected = JSON.stringify(
-      [
-        {
-          '@context': 'https://schema.org/',
-          '@type': 'DefinedTermSet',
-          '@id': 'https://cleasbyvigfusson.test/letter/a',
-          name: 'Cleasby & Vigfusson Dictionary - A',
-          description: 'Old Norse words starting with letter A',
-        },
-        {
-          '@context': 'https://schema.org/',
-          '@type': 'DefinedTerm',
-          '@id': 'https://cleasbyvigfusson.test/word/af-dalr',
-          name: 'Cleasby & Vigfusson Dictionary - Af-dalr',
-          description: 'm. an ‘off-dale,’ remote valley; freq. in tales and rhymes of hidden valleys, esp. in pl., e. g. Hvað hét hundr karls er í afdölum bjó, in a nursery rhyme, K. Þ. K. 38, Fms. v. 183.',
-          inDefinedTermSet: 'https://cleasbyvigfusson.test',
-        },
-        {
-          '@context': 'https://schema.org/',
-          '@type': 'DefinedTerm',
-          '@id': 'https://cleasbyvigfusson.test/word/af-bud',
-          name: 'Cleasby & Vigfusson Dictionary - Af-búð',
-          description: 'f. an ‘off-booth,’ side-booth, apartment, Korm. 116.',
-          inDefinedTermSet: 'https://cleasbyvigfusson.test',
-        },
-      ],
+    const expected = JSON.stringify(      
+      {
+        '@context': 'https://schema.org/',
+        '@type': 'DefinedTermSet',
+        '@id': 'https://cleasbyvigfusson.test/letter/a',
+        name: 'Cleasby & Vigfusson Dictionary - Letter A',
+        description: 'Old Norse words starting with letter A',
+      },
     )
 
     const result = getSchema(words, 'letter')

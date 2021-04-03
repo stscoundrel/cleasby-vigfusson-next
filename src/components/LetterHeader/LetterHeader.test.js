@@ -17,6 +17,6 @@ describe('LetterHeader component', () => {
   test('Outputs correct count', () => {
     const tree = renderer.create(<LetterHeader letter="s" count={60} />)
     const { root } = tree
-    expect(root.findByType('small').children.join(' ').includes('60')).toBeTruthy()
+    expect(root.findAllByType('small')[1].children.join(' ').includes('60')).toBeTruthy()
   })
 })
