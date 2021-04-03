@@ -51,6 +51,7 @@ export default function Head({ type, content }) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: schema } }/>
+        <meta name="google-site-verification" content="N-03eZsrRsGlfb-7XOYf0ZwyqEfDNrm3zXD6Kh_nBW4" />
     </NextHead>
   )
 }
