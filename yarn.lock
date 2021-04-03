@@ -7342,3 +7342,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+younger-futhark@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/younger-futhark/-/younger-futhark-1.0.0.tgz#b539391ea315d740f2b66753a822a9d7ccb5df52"
+  integrity sha512-ohRNKZnfm/LNQp1mTdrqcF39k/GIQHn8JWetM2B9rbwc6+jhBby7IXFJv8W68GtO+oQI+lS9R4J5ClOrceloXw==

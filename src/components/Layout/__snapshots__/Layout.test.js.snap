@@ -544,6 +544,15 @@ Array [
           <ul>
             <li>
               <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://github.com/stscoundrel/old-norse-alphabet"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -1551,6 +1560,15 @@ Array [
             Related packages
           </h4>
           <ul>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
+              </a>
+            </li>
             <li>
               <a
                 href="https://github.com/stscoundrel/old-norse-alphabet"
