@@ -3,6 +3,7 @@ import Head from 'components/Head'
 import Footer from 'components/Footer'
 import Breadcrumbs from 'components/Breadcrumbs'
 import Navigation from 'components/Navigation'
+import BackToTop from 'components/BackToTop'
 
 export default function Layout({
   type, content, children, letters, noSearch = false,
@@ -16,6 +17,7 @@ export default function Layout({
       </header>
       <main className="container">
         {children}
+        <BackToTop />
       </main>
       <Footer letters={letters}/>
     </>

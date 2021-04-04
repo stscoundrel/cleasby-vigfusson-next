@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackToTop button Matches the snapshot 1`] = `
+<div
+  aria-label="Back to top"
+  className="backToTop"
+  onClick={[Function]}
+  role="button"
+>
+  ↑
+</div>
+`;
