@@ -38,3 +38,5 @@ yarn-error.log*
 
 # Cypress
 tests/integration/logs
+/public/sw.js
+public/workbox-*.js
