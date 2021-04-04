@@ -462,7 +462,16 @@ Array [
   </header>,
   <main
     className="container"
-  />,
+  >
+    <div
+      aria-label="Back to top"
+      className="backToTop"
+      onClick={[Function]}
+      role="button"
+    >
+      ↑
+    </div>
+  </main>,
   <footer
     className="section"
   >
@@ -1480,7 +1489,16 @@ Array [
   </header>,
   <main
     className="container"
-  />,
+  >
+    <div
+      aria-label="Back to top"
+      className="backToTop"
+      onClick={[Function]}
+      role="button"
+    >
+      ↑
+    </div>
+  </main>,
   <footer
     className="section"
   >

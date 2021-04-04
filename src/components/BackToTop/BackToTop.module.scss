@@ -1,0 +1,23 @@
+.backToTop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-blue;
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .backToTop {
+    bottom: 30px;
+    right: 30px;
+  }
+}

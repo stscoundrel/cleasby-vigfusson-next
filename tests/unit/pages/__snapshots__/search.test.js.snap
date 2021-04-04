@@ -513,6 +513,14 @@ Array [
     <p>
       No search results
     </p>
+    <div
+      aria-label="Back to top"
+      className="backToTop"
+      onClick={[Function]}
+      role="button"
+    >
+      ↑
+    </div>
   </main>,
   <footer
     className="section"
