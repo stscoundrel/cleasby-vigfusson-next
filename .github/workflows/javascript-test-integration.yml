@@ -15,7 +15,15 @@ jobs:
         uses: actions/checkout@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Cypress run
+      - name: Test with Headless
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          headless: true
+          build: yarn build
+          start: yarn start
+          command: yarn test:integration
+      - name: Test with Chrome
         uses: cypress-io/github-action@v2
         with:
           browser: chrome
