@@ -33,9 +33,11 @@ export async function getStaticPaths() {
  */
 export async function getStaticProps({ params }) {
   const { letter } = params
-  const decodedLetter = decodeLetter(letter)
-  const words = getByLetter(decodedLetter)
   const letters = getAlphabet()
+  const decodedLetter = letters.filter(
+    (alphabetLetter) => alphabetLetter.letter === decodeLetter(letter),
+  )[0]
+  const words = getByLetter(decodedLetter.letter)
 
   return {
     props: {
@@ -52,8 +54,8 @@ export default function Letter({ words, letter, letters }) {
   }
 
   return (
-     <Layout type="letter" content={words} letters={letters}>
-      <LetterHeader letter={letter} count={words.length} />
+     <Layout type="letter" content={words} letter={letter} letters={letters}>
+      <LetterHeader letter={letter.letter} count={words.length} />
       <WordList words={words} />
     </Layout>
   )

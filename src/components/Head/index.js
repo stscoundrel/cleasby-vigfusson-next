@@ -3,10 +3,12 @@ import NextHead from 'next/head'
 // Utils.
 import { getSeo } from 'lib/utils/seo'
 import { getSchema } from 'lib/utils/schema'
+import { getCanonicalUrl } from 'lib/utils/links'
 
-export default function Head({ type, content }) {
+export default function Head({ type, content, letter = false }) {
   const { title, description } = getSeo(content, type)
   const schema = getSchema(content, type)
+  const canonicalUrl = getCanonicalUrl(content, type, letter)
 
   return (
     <NextHead>
@@ -31,7 +33,7 @@ export default function Head({ type, content }) {
         />
         <meta
             property='og:url'
-            content={process.env.NEXT_PUBLIC_SITE_URL}
+            content={canonicalUrl}
           />
         <meta
           property='og:locale'
@@ -47,6 +49,9 @@ export default function Head({ type, content }) {
           name='twitter:description'
           content={description}
         />
+
+        <link rel="canonical" href={canonicalUrl} />
+
         <meta name="theme-color" content="#3b4f68" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

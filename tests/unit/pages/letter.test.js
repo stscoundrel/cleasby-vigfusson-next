@@ -6,12 +6,12 @@ import { getByLetter, getAlphabet } from 'lib/services/dictionary'
 describe('Letter page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Letter words={getByLetter('a')} letters={getAlphabet()} letter="s" />, div)
+    ReactDOM.render(<Letter words={getByLetter('a')} letters={getAlphabet()} letter={ { letter: 'e', slug: 'e' } } />, div)
     ReactDOM.unmountComponentAtNode(div)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Letter words={getByLetter('a')} letters={getAlphabet()} letter="e" />).toJSON()
+    const tree = renderer.create(<Letter words={getByLetter('a')} letters={getAlphabet()} letter={ { letter: 'e', slug: 'e' } } />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
@@ -40,7 +40,7 @@ describe('Letter page: data fetching', () => {
       props: {
         words: getByLetter('a'),
         letters: getAlphabet(),
-        letter: 'a',
+        letter: { letter: 'a', slug: 'a' },
       },
     }
 

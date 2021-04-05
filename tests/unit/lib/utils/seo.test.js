@@ -54,7 +54,7 @@ describe('SEO / meta tags tests', () => {
 
   test('Handles "letter" seo fields', () => {
     const expected = {
-      title: 'Cleasby & Vigfusson Dictionary - words starting with letter A',
+      title: 'Cleasby & Vigfusson - Old Norse words starting with letter A',
       description: 'Meanings of Old Norse words starting with "A", such as af-burðr, af-búð, af-dalr and af-deilingr',
     }
 
