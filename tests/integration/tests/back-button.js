@@ -1,9 +1,14 @@
 it('Back button works', () => {
+  // Ensure screen is large enough for desktop menu.
+  cy.viewport('macbook-15')
+
   // First visit target page to ensure it's build for client navigaiton.
+  cy.visit('/letter/a')
   cy.visit('/word/abbindi')
 
   // Start main test.
   cy.visit('/letter/a')
+  cy.wait(5000)
 
   // Got o a word page.
   cy.contains('abbindi').click();

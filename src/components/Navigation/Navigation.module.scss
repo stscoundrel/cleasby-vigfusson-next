@@ -2,13 +2,25 @@
   color: white;
   background-color: $color-blue;
   padding: 16px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1989;
+  border-bottom: 1px solid white;
+}
+
+.topBarSpacer {
+  display: block;
+  height: 70px;
 }
 
 .topbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   text-align: right;
-  padding: 10px 0;
+  height: 38px;
 }
 
 .content {
@@ -44,6 +56,19 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .section {
+    position: initial;
+    top: initial;
+    left: initial;
+    right: initial;
+    z-index: initial;
+    border-bottom: initial;
+  }
+  
+  .topBarSpacer {
+    display: none;
+  }
+
   .content {
     flex-wrap: nowrap;
     padding: 0;

@@ -3,12 +3,24 @@
 exports[`Word page: render & usage Matches snapshot 1`] = `
 Array [
   <header>
+    <div
+      className="topBarSpacer"
+    />
     <nav
       className="section"
     >
       <div
         className="topbar container"
       >
+        <img
+          alt="To home"
+          height="30"
+          loading="lazy"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          src="/favicon-48x48.png"
+          width="30"
+        />
         <div
           aria-label="Open menu"
           className="hamburger"
