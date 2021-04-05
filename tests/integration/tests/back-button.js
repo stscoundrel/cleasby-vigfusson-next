@@ -8,6 +8,7 @@ it('Back button works', () => {
 
   // Start main test.
   cy.visit('/letter/a')
+  cy.wait(5000)
 
   // Got o a word page.
   cy.contains('abbindi').click();
