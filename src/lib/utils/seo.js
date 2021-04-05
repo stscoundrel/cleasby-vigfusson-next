@@ -15,7 +15,7 @@ export const getSeo = (content = null, type = null) => {
   if (type === 'letter') {
     const firstWords = content.slice(0, 4).map((word) => word.word.toLowerCase())
     return {
-      title: `Cleasby & Vigfusson Dictionary - words starting with letter ${firstWords[0].charAt(0).toUpperCase()}`,
+      title: `Cleasby & Vigfusson - Old Norse words starting with letter ${firstWords[0].charAt(0).toUpperCase()}`,
       description: `Meanings of Old Norse words starting with "${firstWords[0].charAt(0).toUpperCase()}", such as ${joinWithConj(firstWords)}`,
     }
   }
