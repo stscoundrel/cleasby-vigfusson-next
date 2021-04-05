@@ -4,9 +4,9 @@ on: [pull_request]
 
 jobs:
   cypress-run:
-    runs-on: ubuntu-16.04
     strategy:
       matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
         node-version: [14.x, 15.x]
     steps:
       - name: Checkout
@@ -16,6 +16,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          browser: chrome
           build: yarn build
           start: yarn start
           command: yarn test:integration
