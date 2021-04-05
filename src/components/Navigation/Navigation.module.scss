@@ -6,9 +6,10 @@
 
 .topbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   text-align: right;
-  padding: 10px 0;
+  height: 38px;
 }
 
 .content {

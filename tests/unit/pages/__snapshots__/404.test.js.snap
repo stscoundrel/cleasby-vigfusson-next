@@ -9,6 +9,15 @@ Array [
       <div
         className="topbar container"
       >
+        <img
+          alt="To home"
+          height="30"
+          loading="lazy"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          src="/favicon-48x48.png"
+          width="30"
+        />
         <div
           aria-label="Open menu"
           className="hamburger"
