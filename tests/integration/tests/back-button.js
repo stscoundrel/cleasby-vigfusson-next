@@ -3,6 +3,7 @@ it('Back button works', () => {
   cy.viewport('macbook-15')
 
   // First visit target page to ensure it's build for client navigaiton.
+  cy.visit('/letter/a')
   cy.visit('/word/abbindi')
 
   // Start main test.
