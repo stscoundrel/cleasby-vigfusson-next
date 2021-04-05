@@ -10,7 +10,6 @@ export const getCanonicalUrl = (content, type, letter = false) => {
   }
 
   if (type === 'letter') {
-    console.log(letter)
     return getLetterLink(letter)
   }
 
