@@ -3,6 +3,9 @@
 exports[`Word page: render & usage Matches snapshot 1`] = `
 Array [
   <header>
+    <div
+      className="topBarSpacer"
+    />
     <nav
       className="section"
     >

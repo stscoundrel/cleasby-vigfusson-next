@@ -19,23 +19,26 @@ export default function Navigation({ letters, noSearch = false }) {
   const getOpenClass = () => (isOpen ? styles.opened : null)
 
   return (
-    <nav className={styles.section}>
-      <div className={`${styles.topbar} container`}>
-        <Link href="/">
-          <img src="/favicon-48x48.png" width="30" height="30" alt="To home" loading="lazy" />
-        </Link>
-        <Hamburger action={openNav} />
-      </div>
-      <div className={`${styles.content} ${getOpenClass()} container`}>
-        <ul className={styles.list}>
-          {letters.map((entry) => (
-            <li className={styles.listItem} key={entry.slug}>
-              <LetterLink letter={entry} />
-            </li>
-          ))}
-        </ul>
-        { !noSearch && <Search /> }
-      </div>
-    </nav>
+    <>
+      <div className={styles.topBarSpacer}></div>
+      <nav className={styles.section}>
+        <div className={`${styles.topbar} container`}>
+          <Link href="/">
+            <img src="/favicon-48x48.png" width="30" height="30" alt="To home" loading="lazy" />
+          </Link>
+          <Hamburger action={openNav} />
+        </div>
+        <div className={`${styles.content} ${getOpenClass()} container`}>
+          <ul className={styles.list}>
+            {letters.map((entry) => (
+              <li className={styles.listItem} key={entry.slug}>
+                <LetterLink letter={entry} />
+              </li>
+            ))}
+          </ul>
+          { !noSearch && <Search /> }
+        </div>
+      </nav>
+    </>
   )
 }

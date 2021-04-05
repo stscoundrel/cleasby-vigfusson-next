@@ -3,6 +3,9 @@
 exports[`Layout component Letter layout Matches snapshot 1`] = `
 Array [
   <header>
+    <div
+      className="topBarSpacer"
+    />
     <nav
       className="section"
     >
@@ -1031,6 +1034,9 @@ Array [
 exports[`Layout component Word layout Matches snapshot 1`] = `
 Array [
   <header>
+    <div
+      className="topBarSpacer"
+    />
     <nav
       className="section"
     >

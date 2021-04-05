@@ -3,6 +3,9 @@
 exports[`Letter page: render Matches snapshot 1`] = `
 Array [
   <header>
+    <div
+      className="topBarSpacer"
+    />
     <nav
       className="section"
     >
