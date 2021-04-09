@@ -13,7 +13,9 @@ export default function WordDefinition({ data }) {
         <small className={styles.subHeading}>
           Cleasby & Vigfusson Dictionary - {word.toLowerCase()}
         </small>
-        <p>Possible runic inscription in <em>Younger Futhark:</em> { lettersToRunes(word) }</p>
+        <p>Possible runic inscription in <em>Younger Futhark:</em>
+          <span className={styles.rune}>{ lettersToRunes(word) }</span>
+        </p>
         <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em></p>
       </header>
 

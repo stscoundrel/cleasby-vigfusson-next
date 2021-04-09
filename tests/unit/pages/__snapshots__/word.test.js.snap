@@ -503,8 +503,11 @@ Array [
           <em>
             Younger Futhark:
           </em>
-           
-          ᚢᚢᛚᚢᛅ
+          <span
+            className="rune"
+          >
+            ᚢᚢᛚᚢᛅ
+          </span>
         </p>
         <p>
           Meaning of Old Norse word 

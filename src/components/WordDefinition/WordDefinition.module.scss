@@ -7,12 +7,27 @@
   margin-bottom: 30px;
 }
 
+.rune {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 .definitionList {
   margin-bottom: 20px;
 }
 
 .itemDescription {
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rune {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0;
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
