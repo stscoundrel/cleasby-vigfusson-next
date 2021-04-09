@@ -21,8 +21,11 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       <em>
         Younger Futhark:
       </em>
-       
-      ᛅᚠ-ᛒᚢᚱᚦᚱ
+      <span
+        className="rune"
+      >
+        ᛅᚠ-ᛒᚢᚱᚦᚱ
+      </span>
     </p>
     <p>
       Meaning of Old Norse word 
