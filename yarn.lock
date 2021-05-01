@@ -8293,10 +8293,10 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volva@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/volva/-/volva-1.0.3.tgz#0606b15259b005425ef8ace61f8f423cb085ccc6"
-  integrity sha512-A4dHZsB3LZzQqwrS35bG6kjECUVQyQrE8+eyMFkJEl6PwDaRgsQzxrJ6E+HPUmKL/ZyMN5tNxWL9yWtjnFCEBQ==
+volva@^1.0.3, volva@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/volva/-/volva-1.0.4.tgz#83b7d8022dd2e79ccd2046cbc64f17d8b82ed338"
+  integrity sha512-CyXweqmn3Z/uiUTM+eG3QNfw+1oPAVDFpkcTnSEWKr4HiUOcrKCCzDgoWDp4PRqZpiUUWvDmZqKqx7RiXqXvAQ==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
