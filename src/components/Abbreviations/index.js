@@ -6,14 +6,18 @@ export default function Abbreviations({ abbreviations }) {
 
   return (
     <div className={styles.abbreviations}>
-      <div className={styles.column}>
-        <h4>Abbreviations used:</h4>
-        <AbbreviationList abbreviations={commonAbbreviations} />
-      </div>
-      <div className={styles.column}>
-        <h4>Works & Authors cited:</h4>
-        <AbbreviationList abbreviations={workAbbreviations} />
-      </div>
+      {commonAbbreviations.length > 0
+        && <div className={styles.column}>
+          <h4>Abbreviations used:</h4>
+          <AbbreviationList abbreviations={commonAbbreviations} />
+        </div>
+      }
+      {workAbbreviations.length > 0
+        && <div className={styles.column}>
+          <h4>Works & Authors cited:</h4>
+          <AbbreviationList abbreviations={workAbbreviations} />
+        </div>
+      }
     </div>
   )
 }
