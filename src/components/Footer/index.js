@@ -112,7 +112,7 @@ export default function Footer({ letters }) {
             </ul>
           </nav>
         </div>
-        <small className={styles.copyright}>Copyright © 2020
+        <small className={styles.copyright}>{`Copyright © ${new Date().getFullYear()}`}
           <ExternalLink
             title="Sampo Silvennoinen / StScoundrel"
             href="https://github.com/stscoundrel"
