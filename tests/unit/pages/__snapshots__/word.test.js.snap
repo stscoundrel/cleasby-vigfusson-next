@@ -602,13 +602,6 @@ Array [
             </dd>
           </dl>
         </div>
-        <div
-          className="column"
-        >
-          <h4>
-            Works & Authors cited:
-          </h4>
-        </div>
       </div>
     </article>
     <a
