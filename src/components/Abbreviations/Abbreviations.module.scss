@@ -1,0 +1,15 @@
+.column {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .abbreviations {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .column {
+    flex-basis: 50%;
+    width: 50%;
+  }
+}

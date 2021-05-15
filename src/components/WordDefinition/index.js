@@ -5,7 +5,6 @@ import styles from './WordDefinition.module.scss'
 
 export default function WordDefinition({ data, abbreviations }) {
   const { word, definitions } = data
-  const { common: commonAbbreviations, works: workAbbreviations } = abbreviations
 
   return (
     <article className={styles.section}>
@@ -32,14 +31,7 @@ export default function WordDefinition({ data, abbreviations }) {
         </dl>
       ))}
 
-      <div>
-        <div>
-          <Abbreviations abbreviations={commonAbbreviations} />
-        </div>
-        <div>
-          <Abbreviations abbreviations={workAbbreviations} />
-        </div>
-      </div>
+      <Abbreviations abbreviations={abbreviations} />
     </article>
   )
 }
