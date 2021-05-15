@@ -43,6 +43,12 @@ export default function Footer({ letters }) {
                   href="https://github.com/stscoundrel/cleasby-vigfusson-dictionary"
                 />
               </li>
+              <li>
+                <ExternalLink
+                  title="Abbreviations"
+                  href="https://github.com/stscoundrel/cleasby-vigfusson-abbreviations"
+                />
+              </li>
             </ul>
           </nav>
 
