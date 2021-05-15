@@ -560,6 +560,56 @@ Array [
           }
         />
       </dl>
+      <div
+        className="abbreviations"
+      >
+        <div
+          className="column"
+        >
+          <h4>
+            Abbreviations used:
+          </h4>
+          <dl
+            className="wrap"
+          >
+            <dt
+              className="abbreviation"
+            >
+              <strong>
+                ch.
+              </strong>
+            </dt>
+            <dd
+              className="explanation"
+            >
+              chapter.
+            </dd>
+          </dl>
+          <dl
+            className="wrap"
+          >
+            <dt
+              className="abbreviation"
+            >
+              <strong>
+                f.
+              </strong>
+            </dt>
+            <dd
+              className="explanation"
+            >
+              feminine.
+            </dd>
+          </dl>
+        </div>
+        <div
+          className="column"
+        >
+          <h4>
+            Works & Authors cited:
+          </h4>
+        </div>
+      </div>
     </article>
     <a
       className="button"
@@ -642,6 +692,15 @@ Array [
                 target="_blank"
               >
                 Data source
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/cleasby-vigfusson-abbreviations"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Abbreviations
               </a>
             </li>
           </ul>

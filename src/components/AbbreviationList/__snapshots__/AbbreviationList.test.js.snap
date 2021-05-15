@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AbbreviationList component Matches the snapshot 1`] = `
+Array [
+  <dl
+    className="wrap"
+  >
+    <dt
+      className="abbreviation"
+    >
+      <strong>
+        f.
+      </strong>
+    </dt>
+    <dd
+      className="explanation"
+    >
+      feminine.
+    </dd>
+  </dl>,
+  <dl
+    className="wrap"
+  >
+    <dt
+      className="abbreviation"
+    >
+      <strong>
+        n.
+      </strong>
+    </dt>
+    <dd
+      className="explanation"
+    >
+      neuter.
+    </dd>
+  </dl>,
+]
+`;

@@ -29,25 +29,46 @@ describe('Word page: render & usage', () => {
     slug: 'volva',
   }
 
+  const abbreviations = {
+    common: [
+      {
+        abbreviation: 'ch.',
+        explanation: 'chapter.',
+      },
+      {
+        abbreviation: 'f.',
+        explanation: 'feminine.',
+      },
+    ],
+    works: [],
+  }
+
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Word entry={word} letters={getAlphabet()} />, div)
+    ReactDOM.render(
+      <Word entry={word} letters={getAlphabet()} abbreviations={abbreviations} />,
+      div,
+    )
     ReactDOM.unmountComponentAtNode(div)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Word entry={word} letters={getAlphabet()} />).toJSON()
+    const tree = renderer.create(
+      <Word entry={word} letters={getAlphabet()} abbreviations={abbreviations} />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Returns null if entry is unavailable', () => {
-    const tree = renderer.create(<Word entry={null} letters={getAlphabet()} />).toJSON()
+    const tree = renderer.create(
+      <Word entry={null} letters={getAlphabet()} abbreviations={abbreviations} />,
+    ).toJSON()
     expect(tree).toBeNull()
   })
 
   test('Back button works', async () => {
     const tree = renderer.create(
-      <Word entry={word} letters={getAlphabet()} />,
+      <Word entry={word} letters={getAlphabet()} abbreviations={abbreviations} />,
     )
 
     // Click back btn.
@@ -81,6 +102,19 @@ describe('Word page: data fetching', () => {
           word: 'stækja',
           definitions: ['u, f. <i>a bad stench.</i>'],
           slug: 'staekja',
+        },
+        abbreviations: {
+          common: [
+            {
+              abbreviation: 'ch.',
+              explanation: 'chapter.',
+            },
+            {
+              abbreviation: 'f.',
+              explanation: 'feminine.',
+            },
+          ],
+          works: [],
         },
         letters: getAlphabet(),
       },
