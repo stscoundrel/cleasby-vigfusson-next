@@ -1,11 +1,9 @@
 import {
   getAbbreviations,
-  getSerializableAbbreviations,
-  getMapFromSerializedAbbreviations,
 } from 'lib/services/abbreviations'
 
 // Test utils.
-import { isObject } from 'volva'
+import { isObject, isArray } from 'volva'
 import { hasProperty } from 'spyrjari'
 
 describe('Abbreviations tests', () => {
@@ -23,37 +21,30 @@ describe('Abbreviations tests', () => {
     expect(isObject(abbreviations)).toBeTruthy()
     expect(hasProperty(abbreviations, 'common')).toBeTruthy()
     expect(hasProperty(abbreviations, 'works')).toBeTruthy()
-    expect(abbreviations.common instanceof Map).toBeTruthy()
-    expect(abbreviations.works instanceof Map).toBeTruthy()
+    expect(isArray(abbreviations.common)).toBeTruthy()
+    expect(isArray(abbreviations.works)).toBeTruthy()
   })
 
   test('Abbreviations have expected content', () => {
     const { common, works } = getAbbreviations(simpleEntry)
 
-    const expectedAbbrs = new Map()
-    expectedAbbrs.set('f.', 'feminine.')
-    expectedAbbrs.set('v.', 'vide.')
+    const expectedAbbrs = [
+      {
+        abbreviation: 'f.',
+        explanation: 'feminine.',
+      },
+      {
+        abbreviation: 'v.',
+        explanation: 'vide.',
+      },
+    ]
 
-    const expectedWorks = new Map()
-    expectedWorks.set('Lv.', 'Ljósvetninga Saga. (D. II.)')
-
-    expect(common).toEqual(expectedAbbrs)
-    expect(works).toEqual(expectedWorks)
-  })
-
-  test('Can serialize & deserialize abbreviation maps.', () => {
-    const serializedAbbreviations = getSerializableAbbreviations(simpleEntry)
-    const { common, works } = getMapFromSerializedAbbreviations(serializedAbbreviations)
-
-    /**
-     * Assert content remained the same through transforms.
-     */
-    const expectedAbbrs = new Map()
-    expectedAbbrs.set('f.', 'feminine.')
-    expectedAbbrs.set('v.', 'vide.')
-
-    const expectedWorks = new Map()
-    expectedWorks.set('Lv.', 'Ljósvetninga Saga. (D. II.)')
+    const expectedWorks = [
+      {
+        abbreviation: 'Lv.',
+        explanation: 'Ljósvetninga Saga. (D. II.)',
+      },
+    ]
 
     expect(common).toEqual(expectedAbbrs)
     expect(works).toEqual(expectedWorks)
