@@ -5,6 +5,7 @@ import styles from './WordDefinition.module.scss'
 
 export default function WordDefinition({ data, abbreviations }) {
   const { word, definitions } = data
+  console.log(abbreviations)
 
   return (
     <article className={styles.section}>

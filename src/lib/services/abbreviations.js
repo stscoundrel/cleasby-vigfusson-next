@@ -6,15 +6,19 @@ import { findAbbreviations, findWorksAndAuthors } from 'cleasby-vigfusson-abbrev
  */
 const combineAbbreviations = ({ definitions }, find) => {
   const combinedAbbreviations = []
+  const abbreviationSet = new Set()
 
   definitions.forEach((definition) => {
     const abbreviations = find(definition)
     abbreviations.forEach((explanation, abbreviation) => {
-      combinedAbbreviations.push({ abbreviation, explanation })
+      if (!abbreviationSet.has(abbreviation)) {
+        abbreviationSet.add(abbreviation)
+        combinedAbbreviations.push({ abbreviation, explanation })
+      }
     })
   })
 
-  return combinedAbbreviations
+  return combinedAbbreviations;
 }
 
 export const getAbbreviations = (entry) => ({
