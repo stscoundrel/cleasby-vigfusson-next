@@ -20,7 +20,7 @@ module.exports = {
     'jest',
     'cypress',
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   settings: {
     react: {
       version: '17.0.1',
