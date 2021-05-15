@@ -1,9 +1,11 @@
 import { capitalize } from 'lib/utils/strings'
 import { lettersToRunes } from 'younger-futhark'
+import Abbreviations from 'components/Abbreviations'
 import styles from './WordDefinition.module.scss'
 
-export default function WordDefinition({ data }) {
+export default function WordDefinition({ data, abbreviations }) {
   const { word, definitions } = data
+  const { common: commonAbbreviations, works: workAbbreviations } = abbreviations
 
   return (
     <article className={styles.section}>
@@ -29,6 +31,15 @@ export default function WordDefinition({ data }) {
           ></dd>
         </dl>
       ))}
+
+      <div>
+        <div>
+          <Abbreviations abbreviations={commonAbbreviations} />
+        </div>
+        <div>
+          <Abbreviations abbreviations={workAbbreviations} />
+        </div>
+      </div>
     </article>
   )
 }
