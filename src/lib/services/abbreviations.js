@@ -22,6 +22,28 @@ export const getAbbreviations = (entry) => ({
   works: combineAbbreviations(entry, findWorksAndAuthors),
 })
 
+/**
+ * Get serializable version of abbreviations.
+ * Next.js needs to make JSON of these if returned from server-side / build time.
+ */
+export const getSerializableAbbreviations = (entry) => {
+  const { common, works } = getAbbreviations(entry)
+
+  return {
+    common: Object.fromEntries(common),
+    works: Object.fromEntries(works),
+  }
+}
+
+/**
+ * Parse serialized abbreviations back to Maps.
+ */
+export const getMapFromSerializedAbbreviations = ({ common, works }) => ({
+  common: new Map(Object.entries(common)),
+  works: new Map(Object.entries(works)),
+})
+
 export default {
   getAbbreviations,
+  getSerializableAbbreviations,
 }

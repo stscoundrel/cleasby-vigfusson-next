@@ -1,5 +1,7 @@
 import {
   getAbbreviations,
+  getSerializableAbbreviations,
+  getMapFromSerializedAbbreviations,
 } from 'lib/services/abbreviations'
 
 // Test utils.
@@ -28,6 +30,24 @@ describe('Abbreviations tests', () => {
   test('Abbreviations have expected content', () => {
     const { common, works } = getAbbreviations(simpleEntry)
 
+    const expectedAbbrs = new Map()
+    expectedAbbrs.set('f.', 'feminine.')
+    expectedAbbrs.set('v.', 'vide.')
+
+    const expectedWorks = new Map()
+    expectedWorks.set('Lv.', 'Ljósvetninga Saga. (D. II.)')
+
+    expect(common).toEqual(expectedAbbrs)
+    expect(works).toEqual(expectedWorks)
+  })
+
+  test('Can serialize & deserialize abbreviation maps.', () => {
+    const serializedAbbreviations = getSerializableAbbreviations(simpleEntry)
+    const { common, works } = getMapFromSerializedAbbreviations(serializedAbbreviations)
+
+    /**
+     * Assert content remained the same through transforms.
+     */
     const expectedAbbrs = new Map()
     expectedAbbrs.set('f.', 'feminine.')
     expectedAbbrs.set('v.', 'vide.')
