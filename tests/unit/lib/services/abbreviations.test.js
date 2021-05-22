@@ -502,7 +502,7 @@ describe('Abbreviations tests', () => {
     const abbreviations = getAbbreviations(simpleEntry)
 
     const result = addAbbreviationsToContent(simpleEntry.definitions[0], abbreviations)
-    const expected = '<abbr title="feminine.">f.</abbr> = hvalreki, L<abbr title="vide.">v.</abbr>'
+    const expected = '<abbr title="feminine.">f.</abbr> = hvalreki, L<abbr title="vide.">v.</abbr> 58.'
 
     expect(result).toEqual(expected)
   })

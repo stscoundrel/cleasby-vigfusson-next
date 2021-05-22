@@ -89,6 +89,11 @@ small {
   font-size: smaller;
 }
 
+abbr {
+  text-decoration: none;
+  border-bottom: 2px dotted $color-blue;
+}
+
 a {
   color: $color-blue;
   text-decoration: none;
