@@ -1,4 +1,5 @@
 import { findAbbreviations, findWorksAndAuthors } from 'cleasby-vigfusson-abbreviations'
+import { abbreviate } from 'abbreviatrix'
 
 /**
  * Combine abbreviations from definitions array.
@@ -26,6 +27,21 @@ export const getAbbreviations = (entry) => ({
   works: combineAbbreviations(entry, findWorksAndAuthors),
 })
 
+/**
+ * Add abbr tags to content with explanations.
+ */
+export const addAbbreviationsToContent = (content, abbreviations) => {
+  const combinedAbbrs = [...abbreviations.common, ...abbreviations.works]
+  let result = content
+
+  combinedAbbrs.forEach(({ abbreviation, explanation }) => {
+    result = abbreviate(abbreviation, explanation, result)
+  })
+
+  return result
+}
+
 export default {
   getAbbreviations,
+  addAbbreviationsToContent,
 }
