@@ -1,4 +1,5 @@
 import { markWords } from 'markari'
+import { getAbbreviations, addAbbreviationsToContent } from 'lib/services/abbreviations'
 
 const formatResults = (results, search, criteria) => {
   const formattedResults = results.map((result) => {
@@ -7,8 +8,13 @@ const formatResults = (results, search, criteria) => {
     if (criteria.includes('definitions')) {
       result.definitions.forEach((definition) => {
         if (definition.toLowerCase().includes(search.toLowerCase())) {
+          const abbreviations = getAbbreviations(result)
           const highlighterDefinition = markWords(search, definition)
-          foundIn.push(highlighterDefinition)
+          const abbrTaggedDefinition = addAbbreviationsToContent(
+            highlighterDefinition,
+            abbreviations,
+          )
+          foundIn.push(abbrTaggedDefinition)
         }
       })
     }
