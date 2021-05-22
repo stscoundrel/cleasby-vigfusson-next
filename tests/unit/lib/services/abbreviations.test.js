@@ -1,5 +1,6 @@
 import {
   getAbbreviations,
+  addAbbreviationsToContent,
 } from 'lib/services/abbreviations'
 
 // Test utils.
@@ -495,5 +496,14 @@ describe('Abbreviations tests', () => {
 
     expect(common).toEqual(expectedAbbrs)
     expect(works).toEqual(expectedWorks)
+  })
+
+  test('Adds abbr tags to content', () => {
+    const abbreviations = getAbbreviations(simpleEntry)
+
+    const result = addAbbreviationsToContent(simpleEntry.definitions[0], abbreviations)
+    const expected = '<abbr title="feminine.">f.</abbr> = hvalreki, L<abbr title="vide.">v.</abbr> 58.'
+
+    expect(result).toEqual(expected)
   })
 })

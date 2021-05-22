@@ -1,5 +1,6 @@
 import { capitalize } from 'lib/utils/strings'
 import { lettersToRunes } from 'younger-futhark'
+import { addAbbreviationsToContent } from 'lib/services/abbreviations'
 import Abbreviations from 'components/Abbreviations'
 import styles from './WordDefinition.module.scss'
 
@@ -26,7 +27,9 @@ export default function WordDefinition({ data, abbreviations }) {
           <dt><strong>{word}</strong></dt>
           <dd
             className={styles.itemDescription}
-            dangerouslySetInnerHTML={ { __html: definition } }
+            dangerouslySetInnerHTML={{
+              __html: addAbbreviationsToContent(definition, abbreviations),
+            } }
           ></dd>
         </dl>
       ))}

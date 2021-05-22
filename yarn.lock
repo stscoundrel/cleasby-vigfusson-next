@@ -1737,6 +1737,11 @@ abab@^2.0.3, abab@^2.0.5:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==
 
+abbreviatrix@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/abbreviatrix/-/abbreviatrix-1.0.0.tgz#c47990ceaf54dd44d0be34a879064aa3ae24ecf9"
+  integrity sha512-N7GwrEDS07YcCHHABz+MmDGMX5kUzCrPJ0j3rKfqqZuaVGt15tTuDs3uDmeUUOvVovReCGYcm7DHcK/s7eQNAg==
+
 accepts@^1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"

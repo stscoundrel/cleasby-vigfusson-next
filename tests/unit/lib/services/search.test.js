@@ -43,7 +43,7 @@ describe('Search tests', () => {
       definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
       slug: 'abbadis',
       foundIn: [
-        '<mark>f. <i>abbess.</i></mark> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.',
+        '<mark><abbr title="feminine.">f.</abbr> <i>abbess.</i></mark> <abbr title="Heimskringla. (E. I.)">Hkr.</abbr> iii. 398, <abbr title="Fornmanna Sögur. (E. I.)">Fms.</abbr> vii. 239, Gþ<abbr title="line.">l.</abbr> 365.',
       ],
     }
 
