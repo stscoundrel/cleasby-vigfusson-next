@@ -24,7 +24,7 @@
     "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'"
   },
   "dependencies": {
-    "abbreviatrix": "^1.0.1",
+    "abbreviatrix": "^1.0.2",
     "cleasby-vigfusson-abbreviations": "^1.0.1",
     "cleasby-vigfusson-dictionary": "^1.0.9",
     "markari": "^1.0.1",
