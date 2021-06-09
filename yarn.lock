@@ -8336,10 +8336,10 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volva@^1.0.3, volva@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/volva/-/volva-1.0.4.tgz#83b7d8022dd2e79ccd2046cbc64f17d8b82ed338"
-  integrity sha512-CyXweqmn3Z/uiUTM+eG3QNfw+1oPAVDFpkcTnSEWKr4HiUOcrKCCzDgoWDp4PRqZpiUUWvDmZqKqx7RiXqXvAQ==
+volva@^1.0.3, volva@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/volva/-/volva-1.1.0.tgz#d8cac653acd06d4c1a2514187af18f323387a636"
+  integrity sha512-GyB38wOYgW+XNqiXODJN+NfJOv7Wr1+Our4s6hJ3pq/FQIV/2VD+naDzWNW/sPCzi5/3TGM5dJQFwGwrl6wIAA==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
