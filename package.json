@@ -43,7 +43,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/eslint-parser": "^7.14.2",
-    "@stryker-mutator/core": "^5.0.0",
+    "@stryker-mutator/core": "^5.0.1",
     "@stryker-mutator/jest-runner": "^5.0.0",
     "babel-jest": "^26.6.1",
     "cypress": "^7.3.0",
