@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
-    "@babel/eslint-parser": "^7.14.2",
+    "@babel/eslint-parser": "^7.14.4",
     "@stryker-mutator/core": "^5.0.0",
     "@stryker-mutator/jest-runner": "^5.0.0",
     "babel-jest": "^26.6.1",
