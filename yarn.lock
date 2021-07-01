@@ -1420,6 +1420,15 @@
     mutation-testing-report-schema "1.7.1"
     tslib "~2.2.0"
 
+"@stryker-mutator/api@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-5.1.0.tgz#e6d558b852f5e29ac467c1c1308c05ad5b99bdc1"
+  integrity sha512-mTRYwxDq5voEd1qRWGDPeX/JxAnJoHFK9ErqT94x+F/a9fjrh1Myv7LHvlOevWt5NmF1uZoXiZ+rp/cxEib7EA==
+  dependencies:
+    mutation-testing-metrics "1.7.2"
+    mutation-testing-report-schema "1.7.1"
+    tslib "~2.2.0"
+
 "@stryker-mutator/core@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-5.0.0.tgz#0825a16caa07660957098e50344f27a0551879bb"
@@ -1470,20 +1479,27 @@
     angular-html-parser "~1.8.0"
     weapon-regex "~0.5.1"
 
-"@stryker-mutator/jest-runner@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-5.0.0.tgz#700c7ec3ae3613eb2b6337db369354a75eabdde5"
-  integrity sha512-wB7Do87ehQ21jhUngAUHoc7c7KTqetWP8AJgL7lGzG7f/79wZODA0TD9tBIb0gQuhRLxuYNT4fxyB2mhZ0f0Xw==
+"@stryker-mutator/jest-runner@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-5.1.0.tgz#a572730dcfb62da0854d5e14ddbeda3de9e6c5fe"
+  integrity sha512-5gI1iA/JVbUW8kL3q4Onzk9j07BZqMWIVszWNgYWmn/4yDPeO+J04eKYkikO49Lt9BCvJYvdmIkvK0JojOGIDA==
   dependencies:
-    "@stryker-mutator/api" "5.0.0"
-    "@stryker-mutator/util" "5.0.0"
-    semver "~6.3.0"
+    "@stryker-mutator/api" "5.1.0"
+    "@stryker-mutator/util" "5.1.0"
+    semver "~7.3.5"
     tslib "~2.2.0"
 
 "@stryker-mutator/util@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-5.0.0.tgz#31597d75f63de001a4b1a6c956b352b0df15ce63"
   integrity sha512-R2lL/qISDiCh7hjJ5wLtghLANVSRR94ZWHqYbEgZIztPUr4/P8j5vlf/QlBcJ6fdYyXV3sWSnRQi4Bj0suinHA==
+  dependencies:
+    lodash.flatmap "~4.5.0"
+
+"@stryker-mutator/util@5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-5.1.0.tgz#add43547dbd0b4fb9670994b2ae18998a31f60f9"
+  integrity sha512-Apk/W3w5pjKL2dIth7kpH88x4jT2QmsF3ISJOoBBQXXWZCOwwE0B4fBnQhS58idjOZccEVEd0BsGZf9ZwbPmBQ==
   dependencies:
     lodash.flatmap "~4.5.0"
 
@@ -7207,12 +7223,12 @@ semver@7.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
 
-semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0, semver@~6.3.0:
+semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.2.1, semver@^7.3.2:
+semver@^7.2.1, semver@^7.3.2, semver@~7.3.5:
   version "7.3.5"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
   integrity sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
