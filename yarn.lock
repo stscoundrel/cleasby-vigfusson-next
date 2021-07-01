@@ -1737,10 +1737,10 @@ abab@^2.0.3, abab@^2.0.5:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==
 
-abbreviatrix@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/abbreviatrix/-/abbreviatrix-1.0.2.tgz#cac707c53a397d6cb02dc766a3c4e24ef849356d"
-  integrity sha512-/xWD+VV4BDmaZEsFYCitOr5uh0HM8CZmDe2B3Z1/fMySnhH/RFMQGwqGGOcrvw/eNVf0+VhSt/Ah4XfWNLjObA==
+abbreviatrix@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/abbreviatrix/-/abbreviatrix-1.0.3.tgz#f1b47f4281b0a02a670aad0660ee8ca8be43aaf6"
+  integrity sha512-+q/8pQe6FviZCwxGsxGtVuK6Pkp4GJ50dnyGhDVNA1r6+u476d5Xg1WXFNh4jDpMa0ZC8leWBYN6i1IvuljUpQ==
 
 accepts@^1.3.7:
   version "1.3.7"
@@ -2618,15 +2618,15 @@ clean-webpack-plugin@^3.0.0:
     "@types/webpack" "^4.4.31"
     del "^4.1.1"
 
-cleasby-vigfusson-abbreviations@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.1.tgz#c351a50e64e274c2eb822ffa8059efc037fe42e1"
-  integrity sha512-kyf5XRo85OHwtIRgWDwA2hTr8sQV0k9qvwp310BI0lOe6OwfiSi7HwfE1RgQNkcACR4Tpvp+PKmzGGq5WE+IHg==
+cleasby-vigfusson-abbreviations@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.2.tgz#8a4d5746624dc5c920d32ede042a51b397c69d92"
+  integrity sha512-bqBq5s2rYhfHVXpFN/gwuFgyklkgdoNcjwKtUhe0dA0VBGqR7kV8pzSEMpDF99nowBKGmckOD2GaHfeWJi8SSQ==
 
-cleasby-vigfusson-dictionary@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.9.tgz#bd0625c8f7332860635742bbcfcea48a178d36ef"
-  integrity sha512-n/yJHId3pQSStjhKdYihT6S4XNVH5WelQ/94Gvu6iFoRZTuPAgO9VRcuYohtL5gd/Zri63K15sN7/RkeieFT7g==
+cleasby-vigfusson-dictionary@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.10.tgz#70d0efeeffc10f3a7885786e631b027173083788"
+  integrity sha512-QhMP38iL+4SJD7PZRrDqyKYyWrhcyGRf9Zw5PMVbSRusP15ra2wxnnYV5Pa+Y5p2r80wyKC5TzNoQbYnyC9A6A==
 
 cli-cursor@^1.0.2:
   version "1.0.2"
@@ -5669,10 +5669,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markari@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/markari/-/markari-1.0.1.tgz#8374d59c38b02732288a966ba32fc3da8c5f9785"
-  integrity sha512-B5GNknOqIMNEu0n6klp22NHB6lc3HVtIPzeAPp8yIZ0645DaT3SKn8skVdRulfehb9iAUpwhUlKQ3XVh1yrTWQ==
+markari@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/markari/-/markari-1.0.2.tgz#5102715277da5c41c3746293c1754eae45df522e"
+  integrity sha512-Q+wapwqW2AtMW7HfvX8xYZ91I/kSWSOlxNJjdAy64cRKwrullNaWYZp4/l5QfhAMoWcfic8RL9crWzNgmuR4zg==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -6179,17 +6179,17 @@ object.values@^1.1.3, object.values@^1.1.4:
     define-properties "^1.1.3"
     es-abstract "^1.18.2"
 
-old-norse-alphabet-sort@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/old-norse-alphabet-sort/-/old-norse-alphabet-sort-1.1.1.tgz#d46f4eb1e2e2a07310cd4e44de6f542f4b9066ea"
-  integrity sha512-CKFZbwse3hn8JJKXc/GZTaHL0ePJVfsz9qD0g0Tq14UNQNcK3HcRupuLZZGih4lEVZLRmfeF2Fuj7tT/atqEiQ==
+old-norse-alphabet-sort@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/old-norse-alphabet-sort/-/old-norse-alphabet-sort-1.1.2.tgz#b570a3cf11f87ca0b2305ca836489e7209e3cbcd"
+  integrity sha512-iNY706PD8d97P3X5/Ode2SWO9LP4IU+zw4O2Z6HytuJT20Wxpwp/LY6LQwlfAB7+BF4N/HBUAp7SXzUQo4GLFA==
   dependencies:
-    old-norse-alphabet "^1.1.0"
+    old-norse-alphabet "^1.1.2"
 
-old-norse-alphabet@^1.1.0, old-norse-alphabet@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/old-norse-alphabet/-/old-norse-alphabet-1.1.1.tgz#4fc4dddd975ade71b86fcb81ac3b26c9dc82b396"
-  integrity sha512-g/W4F00Uchsfed+t5N5jnD5kOlD/mYzFUCN37JyiDDMUJbQePDrgJU8R8rKJBT11toKsna4xQGPmmmtDrfhHGw==
+old-norse-alphabet@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/old-norse-alphabet/-/old-norse-alphabet-1.1.2.tgz#4a081f742ea73c2a9d01c1bd699ecc1afb5d378b"
+  integrity sha512-7zeH94UtVrn3Z5DiCy8CqT9a/kFj8QjE/4YOqCGE6zBii85Fp+nJuMkJS2DJvqpNOFY/jPPQmXyLeMLp0+FYJQ==
 
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
@@ -8336,10 +8336,15 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volva@^1.0.3, volva@^1.0.4:
+volva@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/volva/-/volva-1.0.4.tgz#83b7d8022dd2e79ccd2046cbc64f17d8b82ed338"
   integrity sha512-CyXweqmn3Z/uiUTM+eG3QNfw+1oPAVDFpkcTnSEWKr4HiUOcrKCCzDgoWDp4PRqZpiUUWvDmZqKqx7RiXqXvAQ==
+
+volva@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/volva/-/volva-1.1.0.tgz#d8cac653acd06d4c1a2514187af18f323387a636"
+  integrity sha512-GyB38wOYgW+XNqiXODJN+NfJOv7Wr1+Our4s6hJ3pq/FQIV/2VD+naDzWNW/sPCzi5/3TGM5dJQFwGwrl6wIAA==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
@@ -8743,7 +8748,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-younger-futhark@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/younger-futhark/-/younger-futhark-1.0.1.tgz#533555024438bdcdedd0472751099f90e4e1c5ff"
-  integrity sha512-wqPoNFVP118xhLlC2U8cRyffMacEbfxCLjqw2iAAHST6HjLKCqy76UVMp5DBeNxoES8u/tQVUhMc2h0kC+JTtA==
+younger-futhark@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/younger-futhark/-/younger-futhark-1.0.2.tgz#9f3385f7ce5e42723da01b4001f8f18e4399fc6b"
+  integrity sha512-juk8c5YegFUvjC1VydDVeMo5V1INNsFK5YKwOhBzKRrKZyGxMdZKCGaQLeQIYlSzn8HRySekphW8CE5q9apBeQ==
