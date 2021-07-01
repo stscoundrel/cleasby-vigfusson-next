@@ -47,7 +47,7 @@
     "@stryker-mutator/jest-runner": "^5.0.0",
     "babel-jest": "^26.6.1",
     "cypress": "^7.3.0",
-    "eslint": "^7.26.0",
+    "eslint": "^7.29.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-import": "^2.23.1",
