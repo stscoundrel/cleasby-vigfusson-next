@@ -6918,10 +6918,10 @@ table@^6.0.9:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
 
-teljari@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/teljari/-/teljari-0.9.1.tgz#6729068dae87283025d633a56f364f859e479a5a"
-  integrity sha512-JaNt4NdzvqTFJiPeCYGzNKwCpf6cKKyEQ1GSRnpr4LjPuVOwcGl5rpcdUPGaJ9f1BJ4cO7XMO0SAOdm8vOP4Kw==
+teljari@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/teljari/-/teljari-1.1.0.tgz#fb9f39c3146f2ee613629b2b6e991420677c8891"
+  integrity sha512-Cy/4uO3XX6PrpjSCxdp68exvdyWnFrXnBQefcsv0GiS04EcSrkgv4Dv1nzJeyiH3aLuvlYuv7RSjs1UdIafvUA==
 
 temp-dir@^2.0.0:
   version "2.0.0"
