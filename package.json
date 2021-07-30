@@ -37,7 +37,7 @@
     "sass": "^1.36.0",
     "sitemap": "^7.0.0",
     "slugify": "^1.6.0",
-    "teljari": "^0.9.1",
+    "teljari": "^1.1.0",
     "younger-futhark": "^1.1.0"
   },
   "devDependencies": {
