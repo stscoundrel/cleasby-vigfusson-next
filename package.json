@@ -41,7 +41,7 @@
     "younger-futhark": "^1.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
+    "@babel/core": "^7.14.8",
     "@babel/eslint-parser": "^7.14.7",
     "@stryker-mutator/core": "^5.1.1",
     "@stryker-mutator/jest-runner": "^5.1.1",
