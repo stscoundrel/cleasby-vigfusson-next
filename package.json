@@ -26,7 +26,7 @@
   "dependencies": {
     "abbreviatrix": "^1.0.3",
     "cleasby-vigfusson-abbreviations": "^1.0.2",
-    "cleasby-vigfusson-dictionary": "^1.0.10",
+    "cleasby-vigfusson-dictionary": "^1.0.11",
     "markari": "^1.0.2",
     "next": "11.1.0",
     "next-pwa": "^5.3.1",
