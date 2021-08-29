@@ -1798,21 +1798,21 @@ Array [
       <li>
         <a
           className="link"
-          href="/word/af-moeding"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          af-mœðing
-        </a>
-      </li>
-      <li>
-        <a
-          className="link"
           href="/word/af-mynda"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
           af-mynda
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/word/af-moeding"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          af-mœðing
         </a>
       </li>
       <li>
@@ -14458,6 +14458,16 @@ Array [
       <li>
         <a
           className="link"
+          href="/word/ay"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          ay
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
           href="/word/ax"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -14603,16 +14613,6 @@ Array [
           onMouseEnter={[Function]}
         >
           axull
-        </a>
-      </li>
-      <li>
-        <a
-          className="link"
-          href="/word/ay"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-        >
-          ay
         </a>
       </li>
     </ul>
