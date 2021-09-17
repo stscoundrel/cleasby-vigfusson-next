@@ -2605,10 +2605,10 @@ clean-webpack-plugin@^3.0.0:
     "@types/webpack" "^4.4.31"
     del "^4.1.1"
 
-cleasby-vigfusson-abbreviations@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.3.tgz#db559d052488551d3afb62b0d8abe8d4a4fdebf7"
-  integrity sha512-kXloTwwVtt3Q+oJy800wsHCDOOWBpSwQXSRL3ppcYOD50HV8wdqvf7CjA77W9DJSkHufg857Osg5+zqLKz0bFA==
+cleasby-vigfusson-abbreviations@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.4.tgz#b1101fdcc4442978865075f16e64ef63b9027b96"
+  integrity sha512-HnicfAZIhiPh0+WDKZ2Zq2U2W6iQlf4JS5NIC12ds7QE/Kf3zng1wo4H5tJ2Gg1WUtCaqJtfj0tbYoxBT6E/gw==
 
 cleasby-vigfusson-dictionary@^1.0.11:
   version "1.0.11"
