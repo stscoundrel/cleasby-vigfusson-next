@@ -2610,10 +2610,10 @@ cleasby-vigfusson-abbreviations@^1.0.4:
   resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.4.tgz#b1101fdcc4442978865075f16e64ef63b9027b96"
   integrity sha512-HnicfAZIhiPh0+WDKZ2Zq2U2W6iQlf4JS5NIC12ds7QE/Kf3zng1wo4H5tJ2Gg1WUtCaqJtfj0tbYoxBT6E/gw==
 
-cleasby-vigfusson-dictionary@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.11.tgz#531381efa6b9629f2d63d8a6a9735aa212199c38"
-  integrity sha512-DPSIsbKvNeqz5zC2PvEcq7rrYRN8oDKsajVVcObfD7QqW9MQ/QvqWI2G9JnwYtxgBMvMUtvqe0pAeu0aJrbwLQ==
+cleasby-vigfusson-dictionary@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-dictionary/-/cleasby-vigfusson-dictionary-1.0.12.tgz#605074983266f26a19557435bf04dbf7c43de0e4"
+  integrity sha512-0LfV4D6MjgBrQMX5enrG2lV9OCjNbsN21l/0NzbzkBjQDWTLmQ1JYWq5Rz1yZKU/j3TI3yGiXl/BUJzCRY64qQ==
 
 cli-cursor@^3.1.0:
   version "3.1.0"
