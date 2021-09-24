@@ -37,13 +37,13 @@
     "sass": "^1.42.1",
     "sitemap": "^7.0.0",
     "slugify": "^1.6.0",
-    "teljari": "^1.1.0",
+    "teljari": "^1.1.1",
     "younger-futhark": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.7",
-    "@stryker-mutator/core": "^5.3.0",
+    "@stryker-mutator/core": "^5.4.0",
     "@stryker-mutator/jest-runner": "^5.4.0",
     "babel-jest": "^27.2.1",
     "cypress": "^8.4.1",
