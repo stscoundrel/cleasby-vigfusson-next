@@ -63,7 +63,7 @@
     "old-norse-alphabet-sort": "^1.1.8",
     "react-test-renderer": "^17.0.2",
     "spyrjari": "^1.0.0",
-    "terser-webpack-plugin": "^5.2.4",
+    "terser-webpack-plugin": "^5.2.5",
     "volva": "^1.1.0"
   }
 }
