@@ -45,7 +45,7 @@
     "@babel/eslint-parser": "^7.16.3",
     "@stryker-mutator/core": "^5.4.1",
     "@stryker-mutator/jest-runner": "^5.4.1",
-    "babel-jest": "^27.3.1",
+    "babel-jest": "^27.4.2",
     "cypress": "^9.1.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.0",
