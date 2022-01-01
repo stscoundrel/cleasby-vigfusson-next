@@ -36,7 +36,7 @@
     "reset-css": "^5.0.1",
     "sass": "^1.45.0",
     "sitemap": "^7.0.0",
-    "slugify": "^1.6.3",
+    "slugify": "^1.6.4",
     "teljari": "^1.1.1",
     "younger-futhark": "^1.1.0"
   },
