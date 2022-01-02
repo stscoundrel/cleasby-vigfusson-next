@@ -43,7 +43,7 @@ describe('SEO / meta tags tests', () => {
 
   test('Handles "word" seo fields', () => {
     const expected = {
-      title: 'Cleasby & Vigfusson Dictionary - Af-búð',
+      title: 'Old Norse Dictionary - Af-búð',
       description: 'Meaning of Old Norse word "af-búð"',
     }
 
@@ -54,7 +54,7 @@ describe('SEO / meta tags tests', () => {
 
   test('Handles "letter" seo fields', () => {
     const expected = {
-      title: 'Cleasby & Vigfusson - Old Norse words starting with letter A',
+      title: 'Old Norse words starting with letter A',
       description: 'Meanings of Old Norse words starting with "A", such as af-burðr, af-búð, af-dalr and af-deilingr',
     }
 
@@ -65,7 +65,7 @@ describe('SEO / meta tags tests', () => {
 
   test('Handles default response', () => {
     const expected = {
-      title: 'Cleasby & Vigfusson Dictionary - Old Norse to English',
+      title: 'Old Norse Dictionary - Old Norse to English',
       description: 'Over 35 000 Old Norse words with dictionary definitions',
     }
 

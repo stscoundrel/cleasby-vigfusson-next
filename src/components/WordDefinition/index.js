@@ -13,7 +13,7 @@ export default function WordDefinition({ data, abbreviations }) {
         <h1 lang="non">{capitalize(word)}</h1>
 
         <small className={styles.subHeading}>
-          Cleasby & Vigfusson Dictionary - {word.toLowerCase()}
+          Old Norse Dictionary - {word.toLowerCase()}
         </small>
         <p>Possible runic inscription in <em>Younger Futhark:</em>
           <span className={styles.rune}>{ lettersToRunes(word) }</span>
