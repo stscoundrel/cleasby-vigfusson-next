@@ -405,6 +405,10 @@ describe('Abbreviations tests', () => {
         explanation: 'Konungs Skugg-sjá. (H. II.)',
       },
       {
+        abbreviation: 'Sól.',
+        explanation: 'Sólarljóð. (A. III.)',
+      },
+      {
         abbreviation: 'Fsm.',
         explanation: 'Fjölsvinns-mál. (A. II.)',
       },
