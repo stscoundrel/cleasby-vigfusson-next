@@ -15167,7 +15167,8 @@ Array [
       <small
         className="copyright"
       >
-        Copyright © 2020
+        Copyright © 2020 - 2020
+        <br />
         <a
           href="https://github.com/stscoundrel"
           rel="noopener noreferrer"
