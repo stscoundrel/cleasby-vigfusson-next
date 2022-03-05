@@ -20,7 +20,7 @@
     "jest": "jest --verbose --runInBand --passWithNoTests",
     "test:unit": "yarn jest",
     "test:integration": "yarn cypress run --env env=test --spec 'tests/integration/tests/**/*'",
-    "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'"
+    "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"85\", \"lines\":\"90\"}}'"
   },
   "dependencies": {
     "abbreviatrix": "^1.0.3",
