@@ -10,4 +10,5 @@ module.exports = withPWA({
         @import 'styles/variables';
       `,
   },
+  swcMinify: true,
 })

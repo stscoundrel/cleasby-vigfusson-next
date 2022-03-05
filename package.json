@@ -20,8 +20,7 @@
     "jest": "jest --verbose --runInBand --passWithNoTests",
     "test:unit": "yarn jest",
     "test:integration": "yarn cypress run --env env=test --spec 'tests/integration/tests/**/*'",
-    "test:mutation": "stryker run",
-    "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'"
+    "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"85\", \"lines\":\"90\"}}'"
   },
   "dependencies": {
     "abbreviatrix": "^1.0.3",
@@ -41,11 +40,6 @@
     "younger-futhark": "^1.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
-    "@babel/eslint-parser": "^7.17.0",
-    "@stryker-mutator/core": "^5.6.1",
-    "@stryker-mutator/jest-runner": "^5.6.1",
-    "babel-jest": "^27.5.1",
     "cypress": "^9.5.1",
     "eslint": "^8.10.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -63,7 +57,6 @@
     "old-norse-alphabet-sort": "^1.1.8",
     "react-test-renderer": "^17.0.2",
     "spyrjari": "^1.0.0",
-    "terser-webpack-plugin": "^5.3.1",
     "volva": "^1.2.1"
   }
 }
