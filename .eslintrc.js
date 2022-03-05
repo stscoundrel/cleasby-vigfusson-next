@@ -5,9 +5,12 @@ module.exports = {
   ],
   env: {
     node: true,
-    es6: true,
+    es2020: true,
     jest: true,
     'cypress/globals': true,
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
   },
   globals: {
     document: true,
@@ -20,7 +23,6 @@ module.exports = {
     'jest',
     'cypress',
   ],
-  parser: '@babel/eslint-parser',
   settings: {
     react: {
       version: '17.0.1',
