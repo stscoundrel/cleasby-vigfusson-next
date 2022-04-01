@@ -30,8 +30,8 @@
     "next": "12.1.0",
     "next-pwa": "^5.4.5",
     "old-norse-alphabet": "^1.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
     "reset-css": "^5.0.1",
     "sass": "^1.49.9",
     "sitemap": "^7.1.1",
@@ -55,7 +55,7 @@
     "jest": "^27.5.1",
     "node-mocks-http": "^1.11.0",
     "old-norse-alphabet-sort": "^1.1.8",
-    "react-test-renderer": "^17.0.2",
+    "react-test-renderer": "^18.0.0",
     "spyrjari": "^1.0.0",
     "volva": "^1.2.1"
   }
