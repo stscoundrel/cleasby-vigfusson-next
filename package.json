@@ -30,7 +30,7 @@
     "next": "12.1.4",
     "next-pwa": "^5.4.6",
     "old-norse-alphabet": "^1.2.0",
-    "react": "18.0.0",
+    "react": "18.1.0",
     "react-dom": "18.0.0",
     "reset-css": "^5.0.1",
     "sass": "^1.49.11",
