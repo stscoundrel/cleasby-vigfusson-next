@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "abbreviatrix": "^1.0.3",
-    "cleasby-vigfusson-abbreviations": "^1.0.6",
+    "cleasby-vigfusson-abbreviations": "^1.0.8",
     "cleasby-vigfusson-dictionary": "^1.0.12",
     "markari": "^1.0.3",
     "next": "12.1.4",
