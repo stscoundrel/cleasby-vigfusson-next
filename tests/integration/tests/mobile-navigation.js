@@ -10,7 +10,7 @@ it('Mobile navigation works', () => {
   cy.location('pathname').should('equal', '/letter/a')
 
   // Open menu again.
-  cy.get('div[aria-label="Open menu"]').click({force: true})
+  cy.get('div[aria-label="Open menu"]').click({ force: true })
 
   // Click different letter
   cy.get('a[href="/letter/th"]:visible').first().click({ force: true })
