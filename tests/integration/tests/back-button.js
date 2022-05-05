@@ -11,10 +11,10 @@ it('Back button works', () => {
   cy.wait(5000)
 
   // Got o a word page.
-  cy.contains('abbindi').click({force: true});
+  cy.contains('abbindi').click({ force: true });
   cy.location('pathname').should('equal', '/word/abbindi')
 
   // Try to go back using "back" button.
-  cy.contains('Back').click({force: true})
+  cy.contains('Back').click({ force: true })
   cy.location('pathname').should('equal', '/letter/a')
 })
