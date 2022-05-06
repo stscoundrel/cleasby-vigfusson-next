@@ -8,7 +8,7 @@ it('Back to top button works', () => {
     .should('not.equal', 0)
 
   // Click back to top.
-  cy.get('div[aria-label="Back to top"]').click()
+  cy.get('div[aria-label="Back to top"]').click({ force: true })
 
   // Should have scrolled back up.
   cy.window().its('scrollY').should('equal', 0)
