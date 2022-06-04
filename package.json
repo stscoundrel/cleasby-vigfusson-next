@@ -55,7 +55,7 @@
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
     "node-mocks-http": "^1.11.0",
-    "old-norse-alphabet-sort": "^1.1.8",
+    "old-norse-alphabet-sort": "^1.1.10",
     "react-test-renderer": "^18.1.0",
     "spyrjari": "^1.0.0",
     "volva": "^2.0.0"
