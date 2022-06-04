@@ -6006,10 +6006,15 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-volva@^1.0.3, volva@^1.2.3:
+volva@^1.0.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/volva/-/volva-1.2.3.tgz#b40b2d846c18e5cd940fa6308b5e6d0ad1f7888c"
   integrity sha512-06uT9l9AijuO8uzp+RN0kO893PhAcPQtZH4y3NMmnmiizSOhI6kGT218Lvp2D40Mg3PB/X3sjWFBv5QrDBcKmw==
+
+volva@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/volva/-/volva-2.0.0.tgz#ea11546397c6345ff868b08995a0e2ce1a830899"
+  integrity sha512-3UwX8A5LmG0zw8RuEfuYAqdfhPR3X4geNQTpHDtDynyTLyTear00CGhJjOmZGIV2SyEqW71LWFuhaoVfxjmOPw==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"

@@ -58,6 +58,6 @@
     "old-norse-alphabet-sort": "^1.1.8",
     "react-test-renderer": "^18.1.0",
     "spyrjari": "^1.0.0",
-    "volva": "^1.2.3"
+    "volva": "^2.0.0"
   }
 }
