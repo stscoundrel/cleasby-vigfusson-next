@@ -4528,10 +4528,10 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-markari@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/markari/-/markari-1.0.4.tgz#7f81b659849620aafccc374ee7aecdb36770d6de"
-  integrity sha512-i5d+QpNvZRnBvFXSPqXiZw1mPmsCXgeziqFRCkfP/7PC+i+4xY5E1RJwDj8sKTdsPe++dxg0sZAVAbicnGo4ww==
+markari@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/markari/-/markari-1.0.5.tgz#fca138cc4361b1c5b274fe351e375bb919a6919f"
+  integrity sha512-zsQ1r9yrwaoA2Tf0OWYWKI/UYE6Sbdjazz06ePPtAc1qs8t40V4yt+Vb1H4zpgQydYH1l/A5qwLAUzldX78b3Q==
 
 media-typer@0.3.0:
   version "0.3.0"
