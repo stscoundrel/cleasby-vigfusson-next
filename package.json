@@ -37,7 +37,7 @@
     "sitemap": "^7.1.1",
     "slugify": "^1.6.5",
     "teljari": "^1.1.1",
-    "younger-futhark": "^1.1.3"
+    "younger-futhark": "^1.2.0"
   },
   "devDependencies": {
     "cypress": "^9.7.0",
