@@ -6011,10 +6011,10 @@ volva@^1.0.3:
   resolved "https://registry.yarnpkg.com/volva/-/volva-1.2.3.tgz#b40b2d846c18e5cd940fa6308b5e6d0ad1f7888c"
   integrity sha512-06uT9l9AijuO8uzp+RN0kO893PhAcPQtZH4y3NMmnmiizSOhI6kGT218Lvp2D40Mg3PB/X3sjWFBv5QrDBcKmw==
 
-volva@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/volva/-/volva-2.0.0.tgz#ea11546397c6345ff868b08995a0e2ce1a830899"
-  integrity sha512-3UwX8A5LmG0zw8RuEfuYAqdfhPR3X4geNQTpHDtDynyTLyTear00CGhJjOmZGIV2SyEqW71LWFuhaoVfxjmOPw==
+volva@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/volva/-/volva-2.0.1.tgz#5c0de8c0e9fc905fd8cc90d456f4855a81751d4a"
+  integrity sha512-nqI7lO8gPQb9iJeom+cVrt0l9HvFbPA2tTsNL0/LPaC0BrLdfwX/kh9HYYhLM96AcUDZHHqAXGbdD8TCsjCeaA==
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
