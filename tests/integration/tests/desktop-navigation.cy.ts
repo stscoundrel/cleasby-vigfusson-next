@@ -12,3 +12,5 @@ it('Desktop navigation works', () => {
   cy.get('a[href="/letter/b"]:visible').first().click({ force: true })
   cy.location('pathname').should('equal', '/letter/b')
 })
+
+export {};

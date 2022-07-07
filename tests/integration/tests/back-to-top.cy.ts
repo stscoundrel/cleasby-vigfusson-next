@@ -13,3 +13,5 @@ it('Back to top button works', () => {
   // Should have scrolled back up.
   cy.window().its('scrollY').should('equal', 0)
 })
+
+export {};
