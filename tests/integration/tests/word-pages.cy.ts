@@ -15,3 +15,5 @@ describe('Word pages', () => {
     cy.visit('/word/jafningi')
   })
 })
+
+export {};

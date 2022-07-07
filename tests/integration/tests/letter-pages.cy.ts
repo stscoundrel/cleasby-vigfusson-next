@@ -93,3 +93,5 @@ describe('By letter archives', () => {
     cy.visit('/letter/oe')
   })
 })
+
+export {};
