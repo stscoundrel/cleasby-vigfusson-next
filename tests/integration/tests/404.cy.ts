@@ -3,3 +3,5 @@ describe('404 page', () => {
     cy.visit('/totally-not-here', { failOnStatusCode: false })
   })
 })
+
+export {};

@@ -19,6 +19,6 @@ module.exports = {
   },
   moduleDirectories: ['src', 'node_modules'],
   setupFiles: [
-    '<rootDir>/setupTests.js',
+    '<rootDir>/setupTests.ts',
   ],
 };

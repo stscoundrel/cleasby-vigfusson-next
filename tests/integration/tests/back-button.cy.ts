@@ -18,3 +18,5 @@ it('Back button works', () => {
   cy.contains('Back').click({ force: true })
   cy.location('pathname').should('equal', '/letter/a')
 })
+
+export {};

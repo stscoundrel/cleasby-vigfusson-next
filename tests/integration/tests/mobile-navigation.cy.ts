@@ -27,3 +27,5 @@ it('Mobile home icon works', () => {
   // Assert page was changed to home.
   cy.location('pathname').should('equal', '/')
 })
+
+export {};
