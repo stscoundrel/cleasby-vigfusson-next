@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import WordList from './index'
 
@@ -45,8 +45,8 @@ const words = [
 describe('WordList component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<WordList words={words} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<WordList words={words} />)
   })
 
   test('Matches snapshot', () => {

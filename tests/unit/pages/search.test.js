@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Search, { getStaticProps } from 'pages/search'
 import renderer from 'react-test-renderer'
 import { getAllWords, getAlphabet } from 'lib/services/dictionary'
@@ -17,8 +17,8 @@ jest.mock('next/router', () => ({
 describe('Search page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Search words={getAllWords().slice(0, 100)} letters={getAlphabet()} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Search words={getAllWords().slice(0, 100)} letters={getAlphabet()} />)
   })
 
   test('Matches snapshot', () => {

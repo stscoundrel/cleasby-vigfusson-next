@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import { getAllWords } from 'lib/services/dictionary'
 import SeachForm from './index'
@@ -22,8 +22,8 @@ describe('SearchForm component', () => {
 
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<SeachForm words={dictionary} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<SeachForm words={dictionary} />)
   })
 
   test('Matches snapshot', () => {

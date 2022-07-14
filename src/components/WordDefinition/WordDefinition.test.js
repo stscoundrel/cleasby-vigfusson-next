@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import WordDefinition from './index'
 import styles from './WordDefinition.module.scss'
@@ -34,8 +34,8 @@ const abbreviations = {
 describe('WordDefinition component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<WordDefinition data={word} abbreviations={abbreviations} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<WordDefinition data={word} abbreviations={abbreviations} />)
   })
 
   test('Matches snapshot', () => {

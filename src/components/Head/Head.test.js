@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Head from 'components/Head'
 import renderer from 'react-test-renderer'
 import { getByLetter, getWord } from 'lib/services/dictionary'
@@ -8,8 +8,8 @@ describe('Head component', () => {
     test('Does not crash', () => {
       const aWords = getByLetter('a').slice(0, 10)
       const div = document.createElement('div')
-      ReactDOM.render(<Head content={aWords} type="letter" />, div)
-      ReactDOM.unmountComponentAtNode(div)
+      const root = ReactDOM.createRoot(div)
+      root.render(<Head content={aWords} type="letter" />)
     })
 
     test('Matches snapshot', () => {
@@ -24,8 +24,8 @@ describe('Head component', () => {
 
     test('Does not crash', () => {
       const div = document.createElement('div')
-      ReactDOM.render(<Head content={word} type="word" />, div)
-      ReactDOM.unmountComponentAtNode(div)
+      const root = ReactDOM.createRoot(div)
+      root.render(<Head content={word} type="word" />)
     })
 
     test('Matches snapshot', () => {

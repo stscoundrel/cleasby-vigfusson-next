@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import SearchResults from './index'
 
@@ -42,8 +42,8 @@ const words = [
 describe('SearchResults component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<SearchResults words={words} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<SearchResults words={words} />)
   })
 
   test('Matches snapshot', () => {

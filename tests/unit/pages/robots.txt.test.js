@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Robots, { getServerSideProps } from 'pages/robots.txt'
 import renderer from 'react-test-renderer'
 import { createMocks } from 'node-mocks-http'
@@ -8,8 +8,8 @@ describe('Robots.txt page: render', () => {
 
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Robots />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Robots />)
   })
 
   test('Matches snapshot', () => {

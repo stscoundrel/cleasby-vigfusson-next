@@ -1,12 +1,12 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import Breadcrumbs from './index'
 
 describe('Breadcrumbs component', () => {
   test('Default page: does not crach', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Breadcrumbs type="page" />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Breadcrumbs type="page" />)
   })
 
   test('Default page: matches snapshot', () => {
@@ -23,8 +23,8 @@ describe('Breadcrumbs component', () => {
 
   test('Letter page: does not crach', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Breadcrumbs type="letter" content={[{ word: 'random' }]} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Breadcrumbs type="letter" content={[{ word: 'random' }]} />)
   })
 
   test('Letter page: matches snapshot', () => {
@@ -41,8 +41,8 @@ describe('Breadcrumbs component', () => {
 
   test('Word page: does not crach', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Breadcrumbs type="word" content={{ word: 'random' }} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Breadcrumbs type="word" content={{ word: 'random' }} />)
   })
 
   test('Word page: matches snapshot', () => {
