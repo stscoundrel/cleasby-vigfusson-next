@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   env: {
     node: true,
