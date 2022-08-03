@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import SearchTeaser from './index'
 
@@ -16,8 +16,8 @@ const word = {
 describe('Search teaser component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<SearchTeaser data={word} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<SearchTeaser data={word} />)
   })
 
   test('Matches snapshot', () => {

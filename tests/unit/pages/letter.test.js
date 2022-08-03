@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Letter, { getStaticProps, getStaticPaths } from 'pages/letter/[letter]'
 import renderer from 'react-test-renderer'
 import { getByLetter, getAlphabet } from 'lib/services/dictionary'
@@ -6,8 +6,8 @@ import { getByLetter, getAlphabet } from 'lib/services/dictionary'
 describe('Letter page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Letter words={getByLetter('a')} letters={getAlphabet()} letter={ { letter: 'e', slug: 'e' } } />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Letter words={getByLetter('a')} letters={getAlphabet()} letter={ { letter: 'e', slug: 'e' } } />)
   })
 
   test('Matches snapshot', () => {

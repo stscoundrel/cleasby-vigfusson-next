@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Page404, { getStaticProps } from 'pages/404'
 import renderer from 'react-test-renderer'
 import { getAlphabet } from 'lib/services/dictionary'
@@ -6,8 +6,8 @@ import { getAlphabet } from 'lib/services/dictionary'
 describe('404 page page', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Page404 letters={getAlphabet()} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Page404 letters={getAlphabet()} />)
   })
 
   test('Matches snapshot', () => {

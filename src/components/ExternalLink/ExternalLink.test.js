@@ -1,12 +1,12 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import ExternalLink from './index'
 
 describe('ExternalLink component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<ExternalLink title="Other site" href="www.takemeontheotherside.com" />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<ExternalLink title="Other site" href="www.takemeontheotherside.com" />)
   })
 
   test('Matches snapshot', () => {

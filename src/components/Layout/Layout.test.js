@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Layout from 'components/Layout'
 import renderer from 'react-test-renderer'
 import { getByLetter, getWord, getAlphabet } from 'lib/services/dictionary'
@@ -9,8 +9,8 @@ describe('Layout component', () => {
 
     test('Does not crash', () => {
       const div = document.createElement('div')
-      ReactDOM.render(<Layout content={aWords} type="letter" letters={getAlphabet()} />, div)
-      ReactDOM.unmountComponentAtNode(div)
+      const root = ReactDOM.createRoot(div)
+      root.render(<Layout content={aWords} type="letter" letters={getAlphabet()} />)
     })
 
     test('Matches snapshot', () => {
@@ -24,8 +24,8 @@ describe('Layout component', () => {
 
     test('Does not crash', () => {
       const div = document.createElement('div')
-      ReactDOM.render(<Layout content={word} type="word" letters={getAlphabet()} />, div)
-      ReactDOM.unmountComponentAtNode(div)
+      const root = ReactDOM.createRoot(div)
+      root.render(<Layout content={word} type="word" letters={getAlphabet()} />)
     })
 
     test('Matches snapshot', () => {
