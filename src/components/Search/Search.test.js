@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import Search from './index'
 
@@ -23,8 +23,8 @@ jest.mock('next/router', () => ({
 describe('Search component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Search />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Search />)
   })
 
   test('Matches snapshot', () => {

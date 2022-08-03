@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
 import renderer from 'react-test-renderer'
 import { getAlphabet } from 'lib/services/dictionary'
@@ -45,11 +45,10 @@ describe('Word page: render & usage', () => {
 
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(
+    const root = ReactDOM.createRoot(div)
+    root.render(
       <Word entry={word} letters={getAlphabet()} abbreviations={abbreviations} />,
-      div,
     )
-    ReactDOM.unmountComponentAtNode(div)
   })
 
   test('Matches snapshot', () => {

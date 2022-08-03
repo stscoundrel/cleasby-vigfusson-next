@@ -1,6 +1,6 @@
-const { getDictionary } = require('cleasby-vigfusson-dictionary')
-const { VALID_AS_FIRST } = require('old-norse-alphabet')
-const { slugifyWord, slugifyLetter } = require('../utils/slugs')
+import { getDictionary } from 'cleasby-vigfusson-dictionary'
+import { VALID_AS_FIRST } from 'old-norse-alphabet'
+import { slugifyWord, slugifyLetter } from '../utils/slugs'
 
 let cachedDictionary = null
 

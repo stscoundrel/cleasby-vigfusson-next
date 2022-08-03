@@ -1,4 +1,4 @@
-const slugify = require('slugify')
+import slugify from 'slugify'
 
 const slugTable = [
   {
@@ -51,7 +51,7 @@ const slugTable = [
   },
 ]
 
-const slugifyLetter = (letter) => {
+export const slugifyLetter = (letter) => {
   let slug = null
 
   slugTable.forEach((entry) => {
@@ -67,9 +67,9 @@ const slugifyLetter = (letter) => {
   return slug
 }
 
-const slugifyWord = (word) => slugify(word)
+export const slugifyWord = (word) => slugify(word)
 
-const decodeLetter = (slug) => {
+export const decodeLetter = (slug) => {
   let letter = null
 
   slugTable.forEach((entry) => {
@@ -85,7 +85,7 @@ const decodeLetter = (slug) => {
   return letter
 }
 
-module.exports = {
+export default {
   slugifyLetter,
   slugifyWord,
   decodeLetter,

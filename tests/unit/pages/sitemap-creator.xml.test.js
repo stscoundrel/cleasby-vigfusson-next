@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Sitemap, { getServerSideProps } from 'pages/sitemap-creator.xml'
 import renderer from 'react-test-renderer'
 import { createMocks } from 'node-mocks-http'
@@ -8,8 +8,8 @@ describe('Sitemap page: render', () => {
 
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<Sitemap />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<Sitemap />)
   })
 
   test('Matches snapshot', () => {

@@ -1,12 +1,12 @@
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
 import LetterHeader from './index'
 
 describe('LetterHeader component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
-    ReactDOM.render(<LetterHeader letter="a" count={12345} />, div)
-    ReactDOM.unmountComponentAtNode(div)
+    const root = ReactDOM.createRoot(div)
+    root.render(<LetterHeader letter="a" count={12345} />)
   })
 
   test('Matches snapshot', () => {
