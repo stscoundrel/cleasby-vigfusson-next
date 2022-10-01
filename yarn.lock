@@ -4973,10 +4973,10 @@ object.values@^1.1.5:
     define-properties "^1.1.3"
     es-abstract "^1.19.1"
 
-old-norse-alphabet-sort@^1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/old-norse-alphabet-sort/-/old-norse-alphabet-sort-1.1.10.tgz#21eb366bdac5631086ec6c0193dd0481b1245e7a"
-  integrity sha512-KeZr8Hw/GSAk9fPzRhd+aWOMWgKxXwjH5eXtSLwtOb4NhJfads0Dm5DEaf2qPSQsx85ItB+i9a/xndcOY8VDug==
+old-norse-alphabet-sort@^1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/old-norse-alphabet-sort/-/old-norse-alphabet-sort-1.1.11.tgz#fb22af707e4b8667c2957f2a50f4ea1e16d55180"
+  integrity sha512-1NcnawJihI8xVU3qWupkttsLo5/6iGS7jTytTfnT9lcAgIpwPajvxW4/d0Yfg3K4PHtB45QmeXwI9ppq8ZbILg==
   dependencies:
     old-norse-alphabet "^1.1.2"
 
