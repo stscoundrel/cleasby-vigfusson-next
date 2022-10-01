@@ -1,6 +1,11 @@
 import slugify from 'slugify'
 
-const slugTable = [
+interface SlugMapping {
+  letter: string,
+  slug: string
+}
+
+const slugTable: SlugMapping[] = [
   {
     letter: 'á',
     slug: 'a2',
@@ -51,8 +56,8 @@ const slugTable = [
   },
 ]
 
-export const slugifyLetter = (letter) => {
-  let slug = null
+export const slugifyLetter = (letter: string): string => {
+  let slug = ''
 
   slugTable.forEach((entry) => {
     if (entry.letter === letter) {
@@ -60,17 +65,17 @@ export const slugifyLetter = (letter) => {
     }
   })
 
-  if (!slug) {
+  if (slug === '') {
     slug = slugify(letter)
   }
 
-  return slug
+  return slug.toLowerCase()
 }
 
-export const slugifyWord = (word) => slugify(word)
+export const slugifyWord = (word: string): string => slugify(word).toLowerCase()
 
-export const decodeLetter = (slug) => {
-  let letter = null
+export const decodeLetter = (slug: string): string => {
+  let letter = ''
 
   slugTable.forEach((entry) => {
     if (entry.slug === slug) {
@@ -78,7 +83,7 @@ export const decodeLetter = (slug) => {
     }
   })
 
-  if (!letter) {
+  if (letter === '') {
     letter = slug
   }
 

@@ -56,7 +56,7 @@ export default function SearchForm({ words }) {
       setResults(searchDictionary(router.query.query, words, formattedCriteria))
       hideSpinner()
     }
-  }, [router.query])
+  }, [router.query, words])
 
   return (
     <>
