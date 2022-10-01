@@ -36,4 +36,9 @@ describe('Slug utils', () => {
     expect(decodeLetter('oe3')).toEqual('œ')
     expect(decodeLetter('oe4')).toEqual('ǫ')
   })
+
+  test('Uses lowercase for slugs', () => {
+    expect(slugifyLetter('A')).toEqual('a')
+    expect(slugifyWord('Ymir')).toEqual('ymir')
+  })
 })

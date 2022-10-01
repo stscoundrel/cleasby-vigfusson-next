@@ -463,7 +463,7 @@ Array [
         </a>
         <a
           className="link"
-          href="/word/Volva"
+          href="/word/volva"
           onClick={[Function]}
           onMouseEnter={[Function]}
         >
@@ -472,7 +472,7 @@ Array [
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter V\\",\\"item\\":\\"undefined/letter/v\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Völva\\",\\"item\\":\\"undefined/word/Volva\\"}]}",
+              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter V\\",\\"item\\":\\"undefined/letter/v\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Völva\\",\\"item\\":\\"undefined/word/volva\\"}]}",
             }
           }
           type="application/ld+json"
