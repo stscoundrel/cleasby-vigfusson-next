@@ -4980,10 +4980,10 @@ old-norse-alphabet-sort@^1.1.10:
   dependencies:
     old-norse-alphabet "^1.1.2"
 
-old-norse-alphabet@^1.1.2, old-norse-alphabet@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/old-norse-alphabet/-/old-norse-alphabet-1.2.2.tgz#fb2102ad0d83e4329e44c31244266dc5d40a690b"
-  integrity sha512-t/CMoRgIo6bGwqX61RG+lomiiWpvyERZ8BdGCDdq0jEyXLhHvgy6MKU0JyemMJ8txAAdfO6EXgdeO9gSqKnjsw==
+old-norse-alphabet@^1.1.2, old-norse-alphabet@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/old-norse-alphabet/-/old-norse-alphabet-1.2.3.tgz#7e916da1040b24ba2c488a32de71a5ae110d71dc"
+  integrity sha512-WCRU84cKk62fkVOHTUuun17gzH1cAaxmx/jYZKK2vL1uXIGCYnMbHsFz/hH6SAfEV6VooE5Hd8QA9cMhq0wh1A==
 
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
