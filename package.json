@@ -25,7 +25,7 @@
   "dependencies": {
     "@types/jest": "^28.1.6",
     "abbreviatrix": "^1.0.6",
-    "cleasby-vigfusson-abbreviations": "^1.0.9",
+    "cleasby-vigfusson-abbreviations": "^1.0.11",
     "cleasby-vigfusson-dictionary": "^1.0.13",
     "markari": "^1.0.6",
     "next": "12.2.3",
