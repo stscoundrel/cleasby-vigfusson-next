@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Layout component Letter layout Matches snapshot 1`] = `
-Array [
+[
   <header>
     <div
       className="topBarSpacer"
@@ -18,6 +18,7 @@ Array [
           loading="lazy"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
           src="/favicon-48x48.png"
           width="30"
         />
@@ -52,6 +53,7 @@ Array [
               href="/letter/a"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               a
             </a>
@@ -64,6 +66,7 @@ Array [
               href="/letter/a2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               á
             </a>
@@ -76,6 +79,7 @@ Array [
               href="/letter/b"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               b
             </a>
@@ -88,6 +92,7 @@ Array [
               href="/letter/d"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               d
             </a>
@@ -100,6 +105,7 @@ Array [
               href="/letter/e"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               e
             </a>
@@ -112,6 +118,7 @@ Array [
               href="/letter/e2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               é
             </a>
@@ -124,6 +131,7 @@ Array [
               href="/letter/f"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               f
             </a>
@@ -136,6 +144,7 @@ Array [
               href="/letter/g"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               g
             </a>
@@ -148,6 +157,7 @@ Array [
               href="/letter/h"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               h
             </a>
@@ -160,6 +170,7 @@ Array [
               href="/letter/i"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               i
             </a>
@@ -172,6 +183,7 @@ Array [
               href="/letter/i2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               í
             </a>
@@ -184,6 +196,7 @@ Array [
               href="/letter/j"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               j
             </a>
@@ -196,6 +209,7 @@ Array [
               href="/letter/k"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               k
             </a>
@@ -208,6 +222,7 @@ Array [
               href="/letter/l"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               l
             </a>
@@ -220,6 +235,7 @@ Array [
               href="/letter/m"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               m
             </a>
@@ -232,6 +248,7 @@ Array [
               href="/letter/n"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               n
             </a>
@@ -244,6 +261,7 @@ Array [
               href="/letter/o"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               o
             </a>
@@ -256,6 +274,7 @@ Array [
               href="/letter/o2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ó
             </a>
@@ -268,6 +287,7 @@ Array [
               href="/letter/p"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               p
             </a>
@@ -280,6 +300,7 @@ Array [
               href="/letter/r"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               r
             </a>
@@ -292,6 +313,7 @@ Array [
               href="/letter/s"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               s
             </a>
@@ -304,6 +326,7 @@ Array [
               href="/letter/t"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               t
             </a>
@@ -316,6 +339,7 @@ Array [
               href="/letter/u"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               u
             </a>
@@ -328,6 +352,7 @@ Array [
               href="/letter/u2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ú
             </a>
@@ -340,6 +365,7 @@ Array [
               href="/letter/v"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               v
             </a>
@@ -352,6 +378,7 @@ Array [
               href="/letter/y"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               y
             </a>
@@ -364,6 +391,7 @@ Array [
               href="/letter/y2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ý
             </a>
@@ -376,6 +404,7 @@ Array [
               href="/letter/th"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               þ
             </a>
@@ -388,6 +417,7 @@ Array [
               href="/letter/ae"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               æ
             </a>
@@ -400,6 +430,7 @@ Array [
               href="/letter/oe3"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               œ
             </a>
@@ -412,6 +443,7 @@ Array [
               href="/letter/oe"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ö
             </a>
@@ -450,6 +482,7 @@ Array [
           href="/"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Cleasby & Vigfusson Dictionary
         </a>
@@ -458,13 +491,14 @@ Array [
           href="/letter/a"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Letter A
         </a>
         <script
           dangerouslySetInnerHTML={
-            Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter A\\",\\"item\\":\\"undefined/letter/a\\"}]}",
+            {
+              "__html": "{"@context":"https://schema.org/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cleasby & Vigfusson Dictionary","item":"undefined/"},{"@type":"ListItem","position":2,"name":"Letter A","item":"undefined/letter/a"}]}",
             }
           }
           type="application/ld+json"
@@ -656,6 +690,7 @@ Array [
                 href="/letter/a"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 a
               </a>
@@ -668,6 +703,7 @@ Array [
                 href="/letter/a2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 á
               </a>
@@ -680,6 +716,7 @@ Array [
                 href="/letter/b"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 b
               </a>
@@ -692,6 +729,7 @@ Array [
                 href="/letter/d"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 d
               </a>
@@ -704,6 +742,7 @@ Array [
                 href="/letter/e"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 e
               </a>
@@ -716,6 +755,7 @@ Array [
                 href="/letter/e2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 é
               </a>
@@ -728,6 +768,7 @@ Array [
                 href="/letter/f"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 f
               </a>
@@ -740,6 +781,7 @@ Array [
                 href="/letter/g"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 g
               </a>
@@ -752,6 +794,7 @@ Array [
                 href="/letter/h"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 h
               </a>
@@ -764,6 +807,7 @@ Array [
                 href="/letter/i"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 i
               </a>
@@ -776,6 +820,7 @@ Array [
                 href="/letter/i2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 í
               </a>
@@ -788,6 +833,7 @@ Array [
                 href="/letter/j"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 j
               </a>
@@ -800,6 +846,7 @@ Array [
                 href="/letter/k"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 k
               </a>
@@ -812,6 +859,7 @@ Array [
                 href="/letter/l"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 l
               </a>
@@ -824,6 +872,7 @@ Array [
                 href="/letter/m"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 m
               </a>
@@ -836,6 +885,7 @@ Array [
                 href="/letter/n"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 n
               </a>
@@ -848,6 +898,7 @@ Array [
                 href="/letter/o"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 o
               </a>
@@ -860,6 +911,7 @@ Array [
                 href="/letter/o2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ó
               </a>
@@ -872,6 +924,7 @@ Array [
                 href="/letter/p"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 p
               </a>
@@ -884,6 +937,7 @@ Array [
                 href="/letter/r"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 r
               </a>
@@ -896,6 +950,7 @@ Array [
                 href="/letter/s"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 s
               </a>
@@ -908,6 +963,7 @@ Array [
                 href="/letter/t"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 t
               </a>
@@ -920,6 +976,7 @@ Array [
                 href="/letter/u"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 u
               </a>
@@ -932,6 +989,7 @@ Array [
                 href="/letter/u2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ú
               </a>
@@ -944,6 +1002,7 @@ Array [
                 href="/letter/v"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 v
               </a>
@@ -956,6 +1015,7 @@ Array [
                 href="/letter/y"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 y
               </a>
@@ -968,6 +1028,7 @@ Array [
                 href="/letter/y2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ý
               </a>
@@ -980,6 +1041,7 @@ Array [
                 href="/letter/th"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 þ
               </a>
@@ -992,6 +1054,7 @@ Array [
                 href="/letter/ae"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 æ
               </a>
@@ -1004,6 +1067,7 @@ Array [
                 href="/letter/oe3"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 œ
               </a>
@@ -1016,6 +1080,7 @@ Array [
                 href="/letter/oe"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ö
               </a>
@@ -1042,7 +1107,7 @@ Array [
 `;
 
 exports[`Layout component Word layout Matches snapshot 1`] = `
-Array [
+[
   <header>
     <div
       className="topBarSpacer"
@@ -1059,6 +1124,7 @@ Array [
           loading="lazy"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
           src="/favicon-48x48.png"
           width="30"
         />
@@ -1093,6 +1159,7 @@ Array [
               href="/letter/a"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               a
             </a>
@@ -1105,6 +1172,7 @@ Array [
               href="/letter/a2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               á
             </a>
@@ -1117,6 +1185,7 @@ Array [
               href="/letter/b"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               b
             </a>
@@ -1129,6 +1198,7 @@ Array [
               href="/letter/d"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               d
             </a>
@@ -1141,6 +1211,7 @@ Array [
               href="/letter/e"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               e
             </a>
@@ -1153,6 +1224,7 @@ Array [
               href="/letter/e2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               é
             </a>
@@ -1165,6 +1237,7 @@ Array [
               href="/letter/f"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               f
             </a>
@@ -1177,6 +1250,7 @@ Array [
               href="/letter/g"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               g
             </a>
@@ -1189,6 +1263,7 @@ Array [
               href="/letter/h"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               h
             </a>
@@ -1201,6 +1276,7 @@ Array [
               href="/letter/i"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               i
             </a>
@@ -1213,6 +1289,7 @@ Array [
               href="/letter/i2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               í
             </a>
@@ -1225,6 +1302,7 @@ Array [
               href="/letter/j"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               j
             </a>
@@ -1237,6 +1315,7 @@ Array [
               href="/letter/k"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               k
             </a>
@@ -1249,6 +1328,7 @@ Array [
               href="/letter/l"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               l
             </a>
@@ -1261,6 +1341,7 @@ Array [
               href="/letter/m"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               m
             </a>
@@ -1273,6 +1354,7 @@ Array [
               href="/letter/n"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               n
             </a>
@@ -1285,6 +1367,7 @@ Array [
               href="/letter/o"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               o
             </a>
@@ -1297,6 +1380,7 @@ Array [
               href="/letter/o2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ó
             </a>
@@ -1309,6 +1393,7 @@ Array [
               href="/letter/p"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               p
             </a>
@@ -1321,6 +1406,7 @@ Array [
               href="/letter/r"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               r
             </a>
@@ -1333,6 +1419,7 @@ Array [
               href="/letter/s"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               s
             </a>
@@ -1345,6 +1432,7 @@ Array [
               href="/letter/t"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               t
             </a>
@@ -1357,6 +1445,7 @@ Array [
               href="/letter/u"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               u
             </a>
@@ -1369,6 +1458,7 @@ Array [
               href="/letter/u2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ú
             </a>
@@ -1381,6 +1471,7 @@ Array [
               href="/letter/v"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               v
             </a>
@@ -1393,6 +1484,7 @@ Array [
               href="/letter/y"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               y
             </a>
@@ -1405,6 +1497,7 @@ Array [
               href="/letter/y2"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ý
             </a>
@@ -1417,6 +1510,7 @@ Array [
               href="/letter/th"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               þ
             </a>
@@ -1429,6 +1523,7 @@ Array [
               href="/letter/ae"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               æ
             </a>
@@ -1441,6 +1536,7 @@ Array [
               href="/letter/oe3"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               œ
             </a>
@@ -1453,6 +1549,7 @@ Array [
               href="/letter/oe"
               onClick={[Function]}
               onMouseEnter={[Function]}
+              onTouchStart={[Function]}
             >
               ö
             </a>
@@ -1491,6 +1588,7 @@ Array [
           href="/"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Cleasby & Vigfusson Dictionary
         </a>
@@ -1499,6 +1597,7 @@ Array [
           href="/letter/s"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Letter S
         </a>
@@ -1507,13 +1606,14 @@ Array [
           href="/word/skilja"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Skilja
         </a>
         <script
           dangerouslySetInnerHTML={
-            Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Cleasby & Vigfusson Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter S\\",\\"item\\":\\"undefined/letter/s\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Skilja\\",\\"item\\":\\"undefined/word/skilja\\"}]}",
+            {
+              "__html": "{"@context":"https://schema.org/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cleasby & Vigfusson Dictionary","item":"undefined/"},{"@type":"ListItem","position":2,"name":"Letter S","item":"undefined/letter/s"},{"@type":"ListItem","position":3,"name":"Skilja","item":"undefined/word/skilja"}]}",
             }
           }
           type="application/ld+json"
@@ -1705,6 +1805,7 @@ Array [
                 href="/letter/a"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 a
               </a>
@@ -1717,6 +1818,7 @@ Array [
                 href="/letter/a2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 á
               </a>
@@ -1729,6 +1831,7 @@ Array [
                 href="/letter/b"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 b
               </a>
@@ -1741,6 +1844,7 @@ Array [
                 href="/letter/d"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 d
               </a>
@@ -1753,6 +1857,7 @@ Array [
                 href="/letter/e"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 e
               </a>
@@ -1765,6 +1870,7 @@ Array [
                 href="/letter/e2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 é
               </a>
@@ -1777,6 +1883,7 @@ Array [
                 href="/letter/f"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 f
               </a>
@@ -1789,6 +1896,7 @@ Array [
                 href="/letter/g"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 g
               </a>
@@ -1801,6 +1909,7 @@ Array [
                 href="/letter/h"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 h
               </a>
@@ -1813,6 +1922,7 @@ Array [
                 href="/letter/i"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 i
               </a>
@@ -1825,6 +1935,7 @@ Array [
                 href="/letter/i2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 í
               </a>
@@ -1837,6 +1948,7 @@ Array [
                 href="/letter/j"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 j
               </a>
@@ -1849,6 +1961,7 @@ Array [
                 href="/letter/k"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 k
               </a>
@@ -1861,6 +1974,7 @@ Array [
                 href="/letter/l"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 l
               </a>
@@ -1873,6 +1987,7 @@ Array [
                 href="/letter/m"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 m
               </a>
@@ -1885,6 +2000,7 @@ Array [
                 href="/letter/n"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 n
               </a>
@@ -1897,6 +2013,7 @@ Array [
                 href="/letter/o"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 o
               </a>
@@ -1909,6 +2026,7 @@ Array [
                 href="/letter/o2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ó
               </a>
@@ -1921,6 +2039,7 @@ Array [
                 href="/letter/p"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 p
               </a>
@@ -1933,6 +2052,7 @@ Array [
                 href="/letter/r"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 r
               </a>
@@ -1945,6 +2065,7 @@ Array [
                 href="/letter/s"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 s
               </a>
@@ -1957,6 +2078,7 @@ Array [
                 href="/letter/t"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 t
               </a>
@@ -1969,6 +2091,7 @@ Array [
                 href="/letter/u"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 u
               </a>
@@ -1981,6 +2104,7 @@ Array [
                 href="/letter/u2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ú
               </a>
@@ -1993,6 +2117,7 @@ Array [
                 href="/letter/v"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 v
               </a>
@@ -2005,6 +2130,7 @@ Array [
                 href="/letter/y"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 y
               </a>
@@ -2017,6 +2143,7 @@ Array [
                 href="/letter/y2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ý
               </a>
@@ -2029,6 +2156,7 @@ Array [
                 href="/letter/th"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 þ
               </a>
@@ -2041,6 +2169,7 @@ Array [
                 href="/letter/ae"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 æ
               </a>
@@ -2053,6 +2182,7 @@ Array [
                 href="/letter/oe3"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 œ
               </a>
@@ -2065,6 +2195,7 @@ Array [
                 href="/letter/oe"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
+                onTouchStart={[Function]}
               >
                 ö
               </a>

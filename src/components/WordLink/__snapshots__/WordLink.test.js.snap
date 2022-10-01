@@ -6,6 +6,7 @@ exports[`WordLink component Matches snapshot 1`] = `
   href="/word/af-burdr"
   onClick={[Function]}
   onMouseEnter={[Function]}
+  onTouchStart={[Function]}
 >
   af-burðr
 </a>

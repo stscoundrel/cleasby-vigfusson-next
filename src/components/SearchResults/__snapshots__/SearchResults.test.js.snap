@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SearchResults component Matches snapshot 1`] = `
-Array [
+[
   <p
     className="blue"
   >
@@ -20,6 +20,7 @@ Array [
           href="/word/adal"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           aðal
         </a>
@@ -27,7 +28,7 @@ Array [
           <li
             className="foundIn"
             dangerouslySetInnerHTML={
-              Object {
+              {
                 "__html": "[O. H. G. adal, <i>genus;</i> cp. also A. S. éðele, <i>nobilis;</i> Old Engl. and Scot. <i>ethel;</i> Germ. <i>edel;</i> eðla- and eðal- came from mod. Dan. into Icel. aðall, <i>nobility.</i> It does not occur in old writings in this sense.]",
               }
             }
@@ -44,6 +45,7 @@ Array [
           href="/word/adal-vellir"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           aðal-vellir
         </a>
@@ -51,7 +53,7 @@ Array [
           <li
             className="foundIn"
             dangerouslySetInnerHTML={
-              Object {
+              {
                 "__html": "In headword",
               }
             }
@@ -68,6 +70,7 @@ Array [
           href="/word/af"
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           af
         </a>
@@ -75,7 +78,7 @@ Array [
           <li
             className="foundIn"
             dangerouslySetInnerHTML={
-              Object {
+              {
                 "__html": "<strong>4.</strong> denoting <i>distance;</i> þat er komit af þjóðleið, <i>out of the high road, remote,</i> Eg. 369; af þjóðbraut, Grág. ii. 264, i. 15; Otradalr (a farm) var mjök af vegi, <i>far out of the way,</i> Háv. 53.",
               }
             }
