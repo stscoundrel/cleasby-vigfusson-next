@@ -1,14 +1,16 @@
-const withPWA = require('next-pwa')
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  disable: process.env.NODE_ENV !== 'production',
+})
 
 module.exports = withPWA({
-  pwa: {
-    dest: 'public',
-    disable: process.env.NODE_ENV !== 'production',
-  },
   sassOptions: {
     prependData: `
         @import 'styles/variables';
       `,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
   swcMinify: true,
 })
