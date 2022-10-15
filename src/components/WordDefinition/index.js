@@ -15,7 +15,7 @@ export default function WordDefinition({ data, abbreviations }) {
         <small className={styles.subHeading}>
           Old Norse Dictionary - {word.toLowerCase()}
         </small>
-        <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em></p>
+        <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em> in English.</p>
       </header>
 
       {definitions.length > 1 && <p><dfn className="capitalize">{word}</dfn> Old Norse word can mean:</p>}
