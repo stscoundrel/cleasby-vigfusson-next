@@ -15,9 +15,6 @@ export default function WordDefinition({ data, abbreviations }) {
         <small className={styles.subHeading}>
           Old Norse Dictionary - {word.toLowerCase()}
         </small>
-        <p>Possible runic inscription in <em>Younger Futhark:</em>
-          <span className={styles.rune}>{ lettersToRunes(word) }</span>
-        </p>
         <p>Meaning of Old Norse word <em>&quot;{word}&quot;</em></p>
       </header>
 
@@ -33,6 +30,11 @@ export default function WordDefinition({ data, abbreviations }) {
           ></dd>
         </dl>
       ))}
+
+
+      <p>Possible runic inscription in <em>Younger Futhark:</em>
+        <span className={styles.rune}>{ lettersToRunes(word) }</span>
+      </p>
 
       <Abbreviations abbreviations={abbreviations} />
     </article>

@@ -534,17 +534,6 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           völva
         </small>
         <p>
-          Possible runic inscription in 
-          <em>
-            Younger Futhark:
-          </em>
-          <span
-            className="rune"
-          >
-            ᚢᚢᛚᚢᛅ
-          </span>
-        </p>
-        <p>
           Meaning of Old Norse word 
           <em>
             "
@@ -595,6 +584,17 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           }
         />
       </dl>
+      <p>
+        Possible runic inscription in 
+        <em>
+          Younger Futhark:
+        </em>
+        <span
+          className="rune"
+        >
+          ᚢᚢᛚᚢᛅ
+        </span>
+      </p>
       <div
         className="abbreviations"
       >

@@ -17,17 +17,6 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       af-burðr
     </small>
     <p>
-      Possible runic inscription in 
-      <em>
-        Younger Futhark:
-      </em>
-      <span
-        className="rune"
-      >
-        ᛅᚠ-ᛒᚢᚱᚦᚱ
-      </span>
-    </p>
-    <p>
       Meaning of Old Norse word 
       <em>
         "
@@ -78,6 +67,17 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       }
     />
   </dl>
+  <p>
+    Possible runic inscription in 
+    <em>
+      Younger Futhark:
+    </em>
+    <span
+      className="rune"
+    >
+      ᛅᚠ-ᛒᚢᚱᚦᚱ
+    </span>
+  </p>
   <div
     className="abbreviations"
   >
