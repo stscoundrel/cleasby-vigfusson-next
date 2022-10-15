@@ -1,7 +1,11 @@
-export const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
+export const capitalize = (
+  content: string,
+): string => (
+  content.charAt(0).toUpperCase() + content.slice(1).toLowerCase()
+)
 
-export const removeHTML = (string) => {
-  let filteredString = string
+export const removeHTML = (content: string): string => {
+  let filteredString = content
   if (filteredString) {
     const removes = ['<strong>', '</strong>', '<i>', '</i>']
 
