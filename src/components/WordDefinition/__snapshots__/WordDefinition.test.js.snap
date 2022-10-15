@@ -27,6 +27,9 @@ exports[`WordDefinition component Matches snapshot 1`] = `
     </p>
   </header>
   <p>
+    As defined by the Cleasby & Vigfusson Old Norse to English dictionary:
+  </p>
+  <p>
     <dfn
       className="capitalize"
     >
