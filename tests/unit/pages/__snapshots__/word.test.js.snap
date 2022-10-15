@@ -534,25 +534,18 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           völva
         </small>
         <p>
-          Possible runic inscription in 
-          <em>
-            Younger Futhark:
-          </em>
-          <span
-            className="rune"
-          >
-            ᚢᚢᛚᚢᛅ
-          </span>
-        </p>
-        <p>
           Meaning of Old Norse word 
           <em>
             "
             Völva
             "
           </em>
+           in English.
         </p>
       </header>
+      <p>
+        As defined by the Cleasby & Vigfusson Old Norse to English dictionary:
+      </p>
       <p>
         <dfn
           className="capitalize"
@@ -595,6 +588,17 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           }
         />
       </dl>
+      <p>
+        Possible runic inscription in 
+        <em>
+          Younger Futhark:
+        </em>
+        <span
+          className="rune"
+        >
+          ᚢᚢᛚᚢᛅ
+        </span>
+      </p>
       <div
         className="abbreviations"
       >

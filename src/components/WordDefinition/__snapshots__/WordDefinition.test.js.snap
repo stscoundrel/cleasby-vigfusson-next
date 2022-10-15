@@ -17,25 +17,18 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       af-burðr
     </small>
     <p>
-      Possible runic inscription in 
-      <em>
-        Younger Futhark:
-      </em>
-      <span
-        className="rune"
-      >
-        ᛅᚠ-ᛒᚢᚱᚦᚱ
-      </span>
-    </p>
-    <p>
       Meaning of Old Norse word 
       <em>
         "
         af-burðr
         "
       </em>
+       in English.
     </p>
   </header>
+  <p>
+    As defined by the Cleasby & Vigfusson Old Norse to English dictionary:
+  </p>
   <p>
     <dfn
       className="capitalize"
@@ -78,6 +71,17 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       }
     />
   </dl>
+  <p>
+    Possible runic inscription in 
+    <em>
+      Younger Futhark:
+    </em>
+    <span
+      className="rune"
+    >
+      ᛅᚠ-ᛒᚢᚱᚦᚱ
+    </span>
+  </p>
   <div
     className="abbreviations"
   >
