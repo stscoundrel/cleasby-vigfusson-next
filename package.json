@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.0",
-    "@types/react": "^18.0.21",
+    "@types/react": "^18.0.24",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "cypress": "^10.10.0",
     "eslint": "^8.25.0",
