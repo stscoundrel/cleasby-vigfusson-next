@@ -41,7 +41,7 @@
     "younger-futhark": "^1.2.4"
   },
   "devDependencies": {
-    "@types/node": "^18.11.0",
+    "@types/node": "^18.11.8",
     "@types/react": "^18.0.21",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "cypress": "^10.10.0",
