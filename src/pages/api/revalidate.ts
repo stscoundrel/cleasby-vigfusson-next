@@ -12,18 +12,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(400).json({ message: 'Start and/or end param not provided' })
   }
 
-  if (typeof req.query.start !== 'number' || typeof req.query.end !== 'number') {
-    return res.status(400).json({ message: 'Start and end expected number values' })
+  if (typeof req.query.start !== 'string' || typeof req.query.end !== 'string') {
+    return res.status(400).json({ message: 'Start and end expected string (number) values' })
   }
 
   try {
     const words = getAllWords()
     const { start, end: givenEnd } = req.query
-    const end = parseInt(givenEnd, 10) <= words.length ? givenEnd : words.length - 1
+    const end = parseInt(givenEnd, 10) <= words.length ? parseInt(givenEnd, 10) : words.length - 1
     const revalidates = words
       .sort((a, b) => a.slug.localeCompare(b.slug))
       .map((word) => getWordPath(word))
-      .slice(start, end)
+      .slice(parseInt(start, 10), end)
       .map((path) => res.revalidate(path))
 
     await Promise.all(revalidates)
