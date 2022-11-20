@@ -6,8 +6,8 @@ export default function SearchTeaser({ data }) {
 
   return (
     <div className={styles.result}>
-      <Link key={`link${slug}`} href={`/word/${slug}`}>
-        <a className={styles.link}>{word.toLowerCase()}</a>
+      <Link key={`link${slug}`} href={`/word/${slug}`} className={styles.link}>
+        {word.toLowerCase()}
       </Link>
       <ul>
         { foundIn.map((searchResult, index) => (
@@ -19,5 +19,5 @@ export default function SearchTeaser({ data }) {
         )) }
       </ul>
     </div>
-  )
+  );
 }
