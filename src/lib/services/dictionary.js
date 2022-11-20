@@ -41,9 +41,17 @@ export const getAllWords = () => {
    */
   const formattedWords = addSlugs(words)
 
-  cachedDictionary = formattedWords
+  /**
+   * Ensure headwords are lowercased.
+   * Original source has some in all caps.
+   * That is true to the layout of the book,
+   * but makes little sense in website.
+   */
+  const dictionary = formattedWords.map((entry) => ({ ...entry, word: entry.word.toLowerCase() }))
 
-  return formattedWords
+  cachedDictionary = dictionary
+
+  return dictionary
 }
 
 export const getByLetter = (letter) => {
