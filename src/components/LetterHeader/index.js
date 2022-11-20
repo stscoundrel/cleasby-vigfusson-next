@@ -1,6 +1,6 @@
 import styles from './LetterHeader.module.scss'
 
-export default function LetterLink({ letter, count }) {
+export default function LetterHeader({ letter, count }) {
   return (
    <header className={styles.section}>
     <h1 className={styles.title}>Letter {letter.toUpperCase()}</h1>

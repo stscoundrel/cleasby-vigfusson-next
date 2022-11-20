@@ -36,8 +36,8 @@ export default function Index({ words, letters }) {
           Containing over 35 000 entries with English definitions,
           it is one of the most important resources for the norse language.</p>
 
-        <Link href="/search">
-         <a className="button">Search the dictionary</a>
+        <Link href="/search" className="button">
+         Search the dictionary
         </Link>
       </ContentArea>
 
@@ -53,5 +53,5 @@ export default function Index({ words, letters }) {
       <h3>Random entries from the dictionary:</h3>
       <WordList words={words} />
     </Layout>
-  )
+  );
 }

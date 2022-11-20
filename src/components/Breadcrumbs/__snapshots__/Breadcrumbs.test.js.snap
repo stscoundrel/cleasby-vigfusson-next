@@ -8,7 +8,6 @@ exports[`Breadcrumbs component Default page: matches snapshot 1`] = `
     className="container"
   >
     <a
-      className="link"
       href="/"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -36,7 +35,6 @@ exports[`Breadcrumbs component Letter page: matches snapshot 1`] = `
     className="container"
   >
     <a
-      className="link"
       href="/"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -45,7 +43,6 @@ exports[`Breadcrumbs component Letter page: matches snapshot 1`] = `
       Cleasby & Vigfusson Dictionary
     </a>
     <a
-      className="link"
       href="/letter/r"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -73,7 +70,6 @@ exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
     className="container"
   >
     <a
-      className="link"
       href="/"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -82,7 +78,6 @@ exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
       Cleasby & Vigfusson Dictionary
     </a>
     <a
-      className="link"
       href="/letter/r"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -91,7 +86,6 @@ exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
       Letter R
     </a>
     <a
-      className="link"
       href="/word/random"
       onClick={[Function]}
       onMouseEnter={[Function]}
