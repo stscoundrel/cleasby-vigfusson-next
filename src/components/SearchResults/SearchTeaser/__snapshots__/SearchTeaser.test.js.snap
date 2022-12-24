@@ -5,6 +5,7 @@ exports[`Search teaser component Matches snapshot 1`] = `
   className="result"
 >
   <a
+    className="link"
     href="/word/adal-vellir"
     onClick={[Function]}
     onMouseEnter={[Function]}

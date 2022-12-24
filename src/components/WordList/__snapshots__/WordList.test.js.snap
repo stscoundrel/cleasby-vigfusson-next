@@ -6,6 +6,7 @@ exports[`WordList component Matches snapshot 1`] = `
 >
   <li>
     <a
+      className="link"
       href="/word/af-burdr"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -16,6 +17,7 @@ exports[`WordList component Matches snapshot 1`] = `
   </li>
   <li>
     <a
+      className="link"
       href="/word/af-bud"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -26,6 +28,7 @@ exports[`WordList component Matches snapshot 1`] = `
   </li>
   <li>
     <a
+      className="link"
       href="/word/af-dalr"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -36,6 +39,7 @@ exports[`WordList component Matches snapshot 1`] = `
   </li>
   <li>
     <a
+      className="link"
       href="/word/af-deilingr"
       onClick={[Function]}
       onMouseEnter={[Function]}
@@ -46,6 +50,7 @@ exports[`WordList component Matches snapshot 1`] = `
   </li>
   <li>
     <a
+      className="link"
       href="/word/af-drattr"
       onClick={[Function]}
       onMouseEnter={[Function]}
