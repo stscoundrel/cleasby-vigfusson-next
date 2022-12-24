@@ -2,6 +2,7 @@
 
 exports[`WordLink component Matches snapshot 1`] = `
 <a
+  className="link"
   href="/word/af-burdr"
   onClick={[Function]}
   onMouseEnter={[Function]}

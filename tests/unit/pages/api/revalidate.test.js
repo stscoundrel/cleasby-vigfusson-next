@@ -73,8 +73,8 @@ describe('Revalidate  API endpoint', () => {
     // Setup query params for revalidate.
     req.query = {
       secret: 'test-secret',
-      start: 0,
-      end: 500,
+      start: '0',
+      end: '500',
     }
 
     // Append fake for Next.js specific method.

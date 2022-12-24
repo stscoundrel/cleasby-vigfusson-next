@@ -49,6 +49,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/a"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -61,6 +62,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/a2"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -73,6 +75,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/b"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -85,6 +88,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/d"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -97,6 +101,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/e"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -109,6 +114,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/e2"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -121,6 +127,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/f"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -133,6 +140,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/g"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -145,6 +153,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/h"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -157,6 +166,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/i"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -169,6 +179,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/i2"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -181,6 +192,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/j"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -193,6 +205,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/k"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -205,6 +218,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/l"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -217,6 +231,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/m"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -229,6 +244,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/n"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -241,6 +257,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/o"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -253,6 +270,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/o2"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -265,6 +283,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/p"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -277,6 +296,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/r"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -289,6 +309,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/s"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -301,6 +322,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/t"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -313,6 +335,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/u"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -325,6 +348,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/u2"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -337,6 +361,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/v"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -349,6 +374,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/y"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -361,6 +387,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/y2"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -373,6 +400,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/th"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -385,6 +413,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/ae"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -397,6 +426,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/oe3"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -409,6 +439,7 @@ exports[`404 page page Matches snapshot 1`] = `
             className="listItem"
           >
             <a
+              className="link"
               href="/letter/oe"
               onClick={[Function]}
               onMouseEnter={[Function]}
@@ -447,6 +478,7 @@ exports[`404 page page Matches snapshot 1`] = `
         className="container"
       >
         <a
+          className="link"
           href="/"
           onClick={[Function]}
           onMouseEnter={[Function]}
@@ -572,16 +604,34 @@ exports[`404 page page Matches snapshot 1`] = `
           <h4
             className="navTitle"
           >
-            Related packages
+            Related dictionary projects
           </h4>
           <ul>
             <li>
               <a
-                href="https://github.com/stscoundrel/younger-futhark"
+                href="https://old-icelandic.vercel.app/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Younger Futhark Runes
+                A Concise Dictionary of Old Icelandic
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://old-swedish-dictionary.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                K.F Söderwall's Old Swedish Dictionary
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://old-norwegian-dictionary.vercel.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Dictionary of the Old Norwegian Language
               </a>
             </li>
             <li>
@@ -591,51 +641,6 @@ exports[`404 page page Matches snapshot 1`] = `
                 target="_blank"
               >
                 Old Norse Alphabet
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/stscoundrel/old-norse-alphabet-sort"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Old Norse Alphabet Sort
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/stscoundrel/gangleri"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Gangleri
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/stscoundrel/teljari"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Teljari
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/stscoundrel/markari"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Markari
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/stscoundrel/spyrjari"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Spyrjari
               </a>
             </li>
           </ul>
@@ -655,6 +660,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/a"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -667,6 +673,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/a2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -679,6 +686,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/b"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -691,6 +699,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/d"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -703,6 +712,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/e"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -715,6 +725,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/e2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -727,6 +738,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/f"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -739,6 +751,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/g"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -751,6 +764,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/h"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -763,6 +777,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/i"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -775,6 +790,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/i2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -787,6 +803,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/j"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -799,6 +816,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/k"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -811,6 +829,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/l"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -823,6 +842,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/m"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -835,6 +855,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/n"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -847,6 +868,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/o"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -859,6 +881,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/o2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -871,6 +894,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/p"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -883,6 +907,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/r"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -895,6 +920,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/s"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -907,6 +933,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/t"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -919,6 +946,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/u"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -931,6 +959,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/u2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -943,6 +972,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/v"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -955,6 +985,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/y"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -967,6 +998,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/y2"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -979,6 +1011,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/th"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -991,6 +1024,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/ae"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -1003,6 +1037,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/oe3"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
@@ -1015,6 +1050,7 @@ exports[`404 page page Matches snapshot 1`] = `
               className="navColumnItem"
             >
               <a
+                className="link"
                 href="/letter/oe"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
