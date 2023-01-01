@@ -26,7 +26,7 @@
     "@types/cleasby-vigfusson-dictionary": "^1.0.0",
     "abbreviatrix": "^1.0.7",
     "cleasby-vigfusson-abbreviations": "^1.0.11",
-    "cleasby-vigfusson-dictionary": "^1.0.13",
+    "cleasby-vigfusson-dictionary": "^1.0.15",
     "markari": "^1.0.7",
     "next": "13.1.0",
     "next-pwa": "^5.6.0",
