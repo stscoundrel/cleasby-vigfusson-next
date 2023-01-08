@@ -735,6 +735,15 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
                 Abbreviations
               </a>
             </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
+              </a>
+            </li>
           </ul>
         </nav>
         <nav
