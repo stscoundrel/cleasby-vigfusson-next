@@ -13,7 +13,7 @@ export async function getStaticProps() {
   const letters = getAlphabet()
   const words = allWords
     .sort(() => Math.random() - 0.5)
-    .slice(0, 100)
+    .slice(0, 36)
     .sort((a, b) => oldNorseSort(a.word, b.word))
 
   return {
