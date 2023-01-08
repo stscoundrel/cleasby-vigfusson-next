@@ -49,6 +49,12 @@ export default function Footer({ letters }) {
                   href="https://github.com/stscoundrel/cleasby-vigfusson-abbreviations"
                 />
               </li>
+              <li>
+                <ExternalLink
+                  title="Younger Futhark Runes"
+                  href="https://github.com/stscoundrel/younger-futhark"
+                />
+              </li>
             </ul>
           </nav>
 
