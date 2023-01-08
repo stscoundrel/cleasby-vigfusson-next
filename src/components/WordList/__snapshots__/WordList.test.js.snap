@@ -1,5 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`WordList component Matches snapshot (with definitions) 1`] = `
+<ul
+  className="list"
+>
+  <li>
+    <a
+      className="link"
+      href="/word/af-burdr"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      af-burðr
+    </a>
+    <p
+      dangerouslySetInnerHTML={
+        {
+          "__html": "m. (also spelt abb-), <i>odds, balance, bias, success</i> (cp. bera af, <i>to prevail</i>); kvað honum eigi annat vænna til afburðar, <i>in order to get the better of it,</i> Sd. 166; sá hann at engi varð afburðrinn, <i>they fought ‘aequo Marte,’</i> Sturl. ii. 74; hann ætlaði sér afburð, <i>he meant to keep the odds in his own hand,</i> Ísl. ii. 450; skal nú faraí haustvíking, ok vilda ek, at hon yrði eigi með minnum afburðum, <i>less glorious,</i> Orkn. 464.",
+        }
+      }
+    />
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/af-bud"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      af-búð
+    </a>
+    <p
+      dangerouslySetInnerHTML={
+        {
+          "__html": "f. <i>an ‘off-booth,’ side-booth, apartment,</i> Korm. 116.",
+        }
+      }
+    />
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/af-dalr"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      af-dalr
+    </a>
+    <p
+      dangerouslySetInnerHTML={
+        {
+          "__html": "m. <i>an ‘off-dale,’ remote valley;</i> freq. in tales and rhymes of <i>hidden valleys,</i> esp. in pl., e. g. Hvað hét hundr karls er í afdölum bjó, in a nursery rhyme, K. Þ. K. 38, Fms. v. 183.",
+        }
+      }
+    />
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/af-deilingr"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      af-deilingr
+    </a>
+    <p
+      dangerouslySetInnerHTML={
+        {
+          "__html": "m. <i>part, portion, share,</i> Bs. i. 881.",
+        }
+      }
+    />
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/af-drattr"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      af-dráttr
+    </a>
+    <p
+      dangerouslySetInnerHTML={
+        {
+          "__html": "m. [draga af, <i>to detract</i>], <i>diminution, deduction,</i> Ann. 1358 (of <i>duties, fines</i>), Dipl. i. 7, Jm. 135 <i>= costs.</i>",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
+
 exports[`WordList component Matches snapshot 1`] = `
 <ul
   className="list"

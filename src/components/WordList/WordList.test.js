@@ -54,6 +54,11 @@ describe('WordList component', () => {
     expect(tree).toMatchSnapshot()
   })
 
+  test('Matches snapshot (with definitions)', () => {
+    const tree = renderer.create(<WordList words={words} showDefinition={true}/>).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
   test('Renders correct amount of words', () => {
     const tree = renderer.create(<WordList words={words} />)
     const { root } = tree
