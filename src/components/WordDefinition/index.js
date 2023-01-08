@@ -33,8 +33,10 @@ export default function WordDefinition({ data, abbreviations }) {
         </dl>
       ))}
 
-      <p>Possible runic inscription in <em>Younger Futhark:</em>
-        <span className={styles.rune}>{ lettersToRunes(word) }</span>
+<p>Possible runic inscription in <em>Younger Futhark</em>:
+        <span className={styles.rune}>{ lettersToRunes(word) }</span><br />
+      <small>Younger Futhark runes were used from 8th to 12th centuries
+        in Scandinavia and their overseas settlements</small>
       </p>
 
       <Abbreviations abbreviations={abbreviations} />

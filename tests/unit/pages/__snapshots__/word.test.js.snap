@@ -591,13 +591,18 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
       <p>
         Possible runic inscription in 
         <em>
-          Younger Futhark:
+          Younger Futhark
         </em>
+        :
         <span
           className="rune"
         >
           ᚢᚢᛚᚢᛅ
         </span>
+        <br />
+        <small>
+          Younger Futhark runes were used from 8th to 12th centuries in Scandinavia and their overseas settlements
+        </small>
       </p>
       <div
         className="abbreviations"
@@ -733,6 +738,15 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
                 target="_blank"
               >
                 Abbreviations
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
               </a>
             </li>
           </ul>

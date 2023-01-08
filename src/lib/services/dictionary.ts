@@ -1,5 +1,6 @@
 import { getDictionary, DictionaryEntry as RawDictionaryEntry } from 'cleasby-vigfusson-dictionary'
 import { VALID_AS_FIRST } from 'old-norse-alphabet'
+import { oldNorseSort } from 'old-norse-alphabet-sort'
 import { slugifyWord, slugifyLetter } from '../utils/slugs'
 
 interface DictionaryEntry extends RawDictionaryEntry {
@@ -75,6 +76,16 @@ export const getWord = (slug: string): DictionaryEntry => (
   getAllWords().filter((entry) => entry.slug === slug)[0]
 )
 
+export const getRandomEntries = (): DictionaryEntry[] => (
+  // Return entries fit to be randomized "teasers"
+  // Therefore, content should be short.
+  getAllWords()
+    .sort(() => Math.random() - 0.5)
+    .filter((entry) => entry.definitions[0].length < 50)
+    .slice(0, 36)
+    .sort((a, b) => oldNorseSort(a.word, b.word))
+)
+
 export const getAlphabet = (): AlphabetLetter[] => {
   const letters = [...VALID_AS_FIRST.filter((letter) => letter !== 'ǫ' && letter !== 'ø'), 'ö']
 
@@ -90,5 +101,6 @@ export default {
   getAllWords,
   getByLetter,
   getWord,
+  getRandomEntries,
   getAlphabet,
 }

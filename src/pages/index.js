@@ -1,5 +1,5 @@
 // Services.
-import { getAllWords, getAlphabet } from 'lib/services/dictionary'
+import { getRandomEntries, getAlphabet } from 'lib/services/dictionary'
 
 // Components.
 import Layout from 'components/Layout'
@@ -8,13 +8,12 @@ import Link from 'next/link'
 import WordList from 'components/WordList'
 
 export async function getStaticProps() {
-  const allWords = getAllWords()
   const letters = getAlphabet()
-  const words = allWords.sort(() => Math.random() - 0.5).slice(0, 100)
+  const randomEntries = getRandomEntries()
 
   return {
     props: {
-      words,
+      words: randomEntries,
       letters,
     },
   }
@@ -51,7 +50,7 @@ export default function Index({ words, letters }) {
       </ContentArea>
 
       <h3>Random entries from the dictionary:</h3>
-      <WordList words={words} />
+      <WordList words={words} showDefinition={true}/>
     </Layout>
   );
 }

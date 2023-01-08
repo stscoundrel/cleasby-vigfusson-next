@@ -595,6 +595,15 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 Abbreviations
               </a>
             </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
+              </a>
+            </li>
           </ul>
         </nav>
         <nav
@@ -1681,6 +1690,15 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 target="_blank"
               >
                 Abbreviations
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/stscoundrel/younger-futhark"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Younger Futhark Runes
               </a>
             </li>
           </ul>
