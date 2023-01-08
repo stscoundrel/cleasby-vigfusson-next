@@ -6,11 +6,15 @@ import Layout from 'components/Layout'
 import ContentArea from 'components/ContentArea'
 import Link from 'next/link'
 import WordList from 'components/WordList'
+import { oldNorseSort } from 'old-norse-alphabet-sort'
 
 export async function getStaticProps() {
   const allWords = getAllWords()
   const letters = getAlphabet()
-  const words = allWords.sort(() => Math.random() - 0.5).slice(0, 100)
+  const words = allWords
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 100)
+    .sort((a, b) => oldNorseSort(a.word, b.word))
 
   return {
     props: {
