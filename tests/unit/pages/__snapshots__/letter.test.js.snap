@@ -516,17 +516,14 @@ exports[`Letter page: render Matches snapshot 1`] = `
         className="title"
       >
         Letter 
-        E
       </h1>
       <small
         className="subHeading"
       >
         Old Norse Dictionary - Letter 
-        E
       </small>
       <p>
         Old Norse words starting with letter 
-        E
       </p>
       <small
         className="count"

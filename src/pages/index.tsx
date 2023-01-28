@@ -1,11 +1,18 @@
 // Services.
-import { getRandomEntries, getAlphabet } from 'lib/services/dictionary'
+import {
+  getRandomEntries, getAlphabet, DictionaryEntry, AlphabetLetter,
+} from 'lib/services/dictionary'
 
 // Components.
 import Layout from 'components/Layout'
 import ContentArea from 'components/ContentArea'
 import Link from 'next/link'
 import WordList from 'components/WordList'
+
+interface IndexProps{
+  words: DictionaryEntry[],
+  letters: AlphabetLetter[],
+}
 
 export async function getStaticProps() {
   const letters = getAlphabet()
@@ -19,13 +26,13 @@ export async function getStaticProps() {
   }
 }
 
-export default function Index({ words, letters }) {
+export default function Index({ words, letters }: IndexProps) {
   if (!words) {
     return null
   }
 
   return (
-    <Layout letters={letters} type='page'>
+    <Layout letters={letters} type='page' content={null}>
       <ContentArea>
         <h1 className="h2">Cleasby & Vigfusson Old Norse dictionary</h1>
         <p>Online version of the classic Old Norse / Old Icelandic
@@ -47,6 +54,26 @@ export default function Index({ words, letters }) {
         <p>It was spoken by Scandinavians during the Viking Age,
           making it the &quot;language of vikings&quot;.
         </p>
+      </ContentArea>
+
+      <ContentArea>
+        <h2 className="h3">Written language of the dictionary</h2>
+        <p>The dictionary was published in the late 1800&apos;s, making the language
+          of the definitions a bit old fashioned. The author also seemed to prefer cognates,
+          meaning that definition may use lesser known English word that happens to have more
+          similar root to the Old Norse word. For example, <em>spyrja</em> is not simply
+          &quot;to ask&quot;, but instead &quot;to speer&quot;,
+          which is an older English word meaning the same thing.
+        </p>
+
+       <p>
+        The Cleasby & Vigfusson book also used modern Icelandic practice of using letter <em>ö </em>
+        to represent the original Old Norse vowel <em>ǫ</em>.
+        Whenever this letter appears in a headword, an automatic alternative form is also provided.
+       </p>
+
+       <p>For example, <em>völlr</em> would become <em>vǫllr</em>.</p>
+
       </ContentArea>
 
       <h3>Random entries from the dictionary:</h3>

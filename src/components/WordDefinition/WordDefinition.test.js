@@ -12,6 +12,14 @@ const word = {
   slug: 'af-burdr',
 }
 
+const wordWithOlderSpellingVariant = {
+  word: 'ör-væna',
+  definitions: [
+    'u, f. anything beyond hope; mér er Sveins á engri stundu örvæna, no hour at which I may not expect Sweyn, Orkn. 412 (örvænt, v. l.); margir menn mæla, at eigi sé örvæna at ek koma þar, that it is not past hope, that …, it may well be that …, Ld. 204.',
+  ],
+  slug: 'or-vana',
+}
+
 const abbreviations = {
   common: [
     {
@@ -41,6 +49,13 @@ describe('WordDefinition component', () => {
   test('Matches snapshot', () => {
     const tree = renderer.create(
       <WordDefinition data={word} abbreviations={abbreviations} />,
+    ).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  test('Matches snapshot (older spelling variant)', () => {
+    const tree = renderer.create(
+      <WordDefinition data={wordWithOlderSpellingVariant} abbreviations={abbreviations} />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
   })
