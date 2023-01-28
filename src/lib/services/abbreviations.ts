@@ -1,6 +1,8 @@
-import { findAbbreviations, findWorksAndAuthors } from 'cleasby-vigfusson-abbreviations'
+import abbreviationsService from 'cleasby-vigfusson-abbreviations'
 import { abbreviate } from 'abbreviatrix'
 import { DictionaryEntry } from 'lib/services/dictionary'
+
+const { findAbbreviations, findWorksAndAuthors, getWorksAndAuthorsMapping } = abbreviationsService
 
 export interface Abbreviation{
   abbreviation: string,
@@ -40,6 +42,13 @@ export const getAbbreviations = (entry: DictionaryEntry): CombinedAbbreviations 
   common: combineAbbreviations(entry, findAbbreviations),
   works: combineAbbreviations(entry, findWorksAndAuthors),
 })
+
+export const getAllSorces = (): Abbreviation[] => {
+  const abbrs = getWorksAndAuthorsMapping()
+  return Array
+    .from(abbrs, ([abbreviation, explanation]) => ({ explanation, abbreviation }))
+    .sort((a, b) => a.abbreviation.localeCompare(b.abbreviation))
+}
 
 /**
  * Add abbr tags to content with explanations.
