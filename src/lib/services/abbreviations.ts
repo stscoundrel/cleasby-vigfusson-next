@@ -1,16 +1,30 @@
 import { findAbbreviations, findWorksAndAuthors } from 'cleasby-vigfusson-abbreviations'
 import { abbreviate } from 'abbreviatrix'
+import { DictionaryEntry } from 'lib/services/dictionary'
+
+export interface Abbreviation{
+  abbreviation: string,
+  explanation: string
+}
+
+export interface CombinedAbbreviations {
+  common: Abbreviation[],
+  works: Abbreviation[],
+}
 
 /**
  * Combine abbreviations from definitions array.
  * Accepts finder method to use.
  */
-const combineAbbreviations = ({ definitions }, find) => {
-  const combinedAbbreviations = []
+const combineAbbreviations = (
+  { definitions }: DictionaryEntry,
+  abbreviationFinder: (s: string) => Map<string, string>,
+): Abbreviation[] => {
+  const combinedAbbreviations: Abbreviation[] = []
   const abbreviationSet = new Set()
 
   definitions.forEach((definition) => {
-    const abbreviations = find(definition)
+    const abbreviations = abbreviationFinder(definition)
     abbreviations.forEach((explanation, abbreviation) => {
       if (!abbreviationSet.has(abbreviation)) {
         abbreviationSet.add(abbreviation)
@@ -22,7 +36,7 @@ const combineAbbreviations = ({ definitions }, find) => {
   return combinedAbbreviations;
 }
 
-export const getAbbreviations = (entry) => ({
+export const getAbbreviations = (entry: DictionaryEntry): CombinedAbbreviations => ({
   common: combineAbbreviations(entry, findAbbreviations),
   works: combineAbbreviations(entry, findWorksAndAuthors),
 })
@@ -30,7 +44,10 @@ export const getAbbreviations = (entry) => ({
 /**
  * Add abbr tags to content with explanations.
  */
-export const addAbbreviationsToContent = (content, abbreviations) => {
+export const addAbbreviationsToContent = (
+  content: string,
+  abbreviations: CombinedAbbreviations,
+): string => {
   const combinedAbbrs = [...abbreviations.common, ...abbreviations.works]
   let result = content
 
