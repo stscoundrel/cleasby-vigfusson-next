@@ -1,5 +1,176 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`WordDefinition component Matches snapshot (older spelling variant) 1`] = `
+<article
+  className="section"
+>
+  <header>
+    <h1
+      lang="non"
+    >
+      Ör-væna
+    </h1>
+    <small
+      className="subHeading"
+    >
+      Old Norse Dictionary - 
+      ör-væna
+    </small>
+    <p>
+      Meaning of Old Norse word 
+      <em>
+        "
+        ör-væna
+        "
+      </em>
+       (or 
+      <em>
+        ǫr-væna
+      </em>
+      )
+       in English.
+    </p>
+  </header>
+  <p>
+    As defined by the Cleasby & Vigfusson Old Norse to English dictionary:
+  </p>
+  <dl
+    className="definitionList"
+  >
+    <dt>
+      <strong>
+        ör-væna
+      </strong>
+       
+      (
+      ǫr-væna
+      )
+    </dt>
+    <dd
+      className="itemDescription"
+      dangerouslySetInnerHTML={
+        {
+          "__html": "u, <abbr title="feminine.">f.</abbr> anything beyond hope; mér er Sveins á engri stundu örvæna, no hour at which I may not expect Sweyn, Ork<abbr title="neuter.">n.</abbr> 412 (örvænt, v. l.); margir menn mæla, at eigi sé örvæna at ek koma þar, that it is not past hope, that …, it may well be that …, Ld. 204.",
+        }
+      }
+    />
+  </dl>
+  <p>
+    <strong>
+      Orthography: 
+    </strong>
+    The Cleasby & Vigfusson book used letter 
+    <em>
+      ö 
+    </em>
+    to represent the original Old Norse vowel 
+    <em>
+      ǫ
+    </em>
+    . Therefore, 
+    <em>
+      ör-væna
+    </em>
+     may be more accurately written as 
+    <em>
+      ǫr-væna
+    </em>
+    .
+  </p>
+  <p>
+    Possible runic inscription in 
+    <em>
+      Younger Futhark
+    </em>
+    :
+    <span
+      className="rune"
+    >
+      ᚢᚱ-ᚢᛅᚾᛅ
+    </span>
+    <br />
+    <small>
+      Younger Futhark runes were used from 8th to 12th centuries in Scandinavia and their overseas settlements
+    </small>
+  </p>
+  <div
+    className="abbreviations"
+  >
+    <div
+      className="column"
+    >
+      <h4>
+        Abbreviations used:
+      </h4>
+      <dl
+        className="wrap"
+      >
+        <dt
+          className="abbreviation"
+        >
+          <strong>
+            f.
+          </strong>
+        </dt>
+        <dd
+          className="explanation"
+        >
+          feminine.
+        </dd>
+      </dl>
+      <dl
+        className="wrap"
+      >
+        <dt
+          className="abbreviation"
+        >
+          <strong>
+            n.
+          </strong>
+        </dt>
+        <dd
+          className="explanation"
+        >
+          neuter.
+        </dd>
+      </dl>
+    </div>
+    <div
+      className="column"
+    >
+      <h4>
+        Works & Authors cited:
+      </h4>
+      <dl
+        className="wrap"
+      >
+        <dt
+          className="abbreviation"
+        >
+          <strong>
+            Björn
+          </strong>
+        </dt>
+        <dd
+          className="explanation"
+        >
+          Biörn Halldórsson.
+        </dd>
+      </dl>
+    </div>
+    <a
+      className="link"
+      href="/source-list"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      ➞ See all works cited in the dictionary
+    </a>
+  </div>
+</article>
+`;
+
 exports[`WordDefinition component Matches snapshot 1`] = `
 <article
   className="section"
@@ -44,6 +215,7 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       <strong>
         af-burðr
       </strong>
+       
     </dt>
     <dd
       className="itemDescription"
@@ -61,6 +233,7 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       <strong>
         af-burðr
       </strong>
+       
     </dt>
     <dd
       className="itemDescription"
@@ -152,6 +325,15 @@ exports[`WordDefinition component Matches snapshot 1`] = `
         </dd>
       </dl>
     </div>
+    <a
+      className="link"
+      href="/source-list"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      ➞ See all works cited in the dictionary
+    </a>
   </div>
 </article>
 `;

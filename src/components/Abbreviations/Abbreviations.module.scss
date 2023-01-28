@@ -2,6 +2,14 @@
   margin-bottom: 30px;
 }
 
+.abbreviations {
+  flex-wrap: wrap;
+}
+
+.link {
+  flex-basis: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .abbreviations {
     display: flex;

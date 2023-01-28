@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Abbreviations component Matches the snapshot 1`] = `
+<div
+  className="abbreviations"
+>
+  <div
+    className="column"
+  >
+    <h4>
+      Abbreviations used:
+    </h4>
+    <dl
+      className="wrap"
+    >
+      <dt
+        className="abbreviation"
+      >
+        <strong>
+          f.
+        </strong>
+      </dt>
+      <dd
+        className="explanation"
+      >
+        feminine.
+      </dd>
+    </dl>
+    <dl
+      className="wrap"
+    >
+      <dt
+        className="abbreviation"
+      >
+        <strong>
+          n.
+        </strong>
+      </dt>
+      <dd
+        className="explanation"
+      >
+        neuter.
+      </dd>
+    </dl>
+  </div>
+  <div
+    className="column"
+  >
+    <h4>
+      Works & Authors cited:
+    </h4>
+    <dl
+      className="wrap"
+    >
+      <dt
+        className="abbreviation"
+      >
+        <strong>
+          Björn
+        </strong>
+      </dt>
+      <dd
+        className="explanation"
+      >
+        Biörn Halldórsson.
+      </dd>
+    </dl>
+  </div>
+  <a
+    className="link"
+    href="/source-list"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchStart={[Function]}
+  >
+    ➞ See all works cited in the dictionary
+  </a>
+</div>
+`;
