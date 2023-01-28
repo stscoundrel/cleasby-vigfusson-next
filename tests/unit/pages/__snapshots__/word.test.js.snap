@@ -540,6 +540,11 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
             Völva
             "
           </em>
+           (or 
+          <em>
+            Vǫlva
+          </em>
+          )
            in English.
         </p>
       </header>
@@ -561,6 +566,10 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           <strong>
             Völva
           </strong>
+           
+          (
+          Vǫlva
+          )
         </dt>
         <dd
           className="itemDescription"
@@ -578,6 +587,10 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           <strong>
             Völva
           </strong>
+           
+          (
+          Vǫlva
+          )
         </dt>
         <dd
           className="itemDescription"
@@ -588,6 +601,28 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           }
         />
       </dl>
+      <p>
+        <strong>
+          Orthography: 
+        </strong>
+        The Cleasby & Vigfusson book used letter 
+        <em>
+          ö 
+        </em>
+        to represent original Old Norse vowel 
+        <em>
+          ǫ
+        </em>
+        . Therefore, 
+        <em>
+          Völva
+        </em>
+         may be more accurately written as 
+        <em>
+          Vǫlva
+        </em>
+        .
+      </p>
       <p>
         Possible runic inscription in 
         <em>
