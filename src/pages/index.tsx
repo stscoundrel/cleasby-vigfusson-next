@@ -1,11 +1,18 @@
 // Services.
-import { getRandomEntries, getAlphabet } from 'lib/services/dictionary'
+import {
+  getRandomEntries, getAlphabet, DictionaryEntry, AlphabetLetter,
+} from 'lib/services/dictionary'
 
 // Components.
 import Layout from 'components/Layout'
 import ContentArea from 'components/ContentArea'
 import Link from 'next/link'
 import WordList from 'components/WordList'
+
+interface IndexProps{
+  words: DictionaryEntry[],
+  letters: AlphabetLetter[],
+}
 
 export async function getStaticProps() {
   const letters = getAlphabet()
@@ -19,13 +26,13 @@ export async function getStaticProps() {
   }
 }
 
-export default function Index({ words, letters }) {
+export default function Index({ words, letters }: IndexProps) {
   if (!words) {
     return null
   }
 
   return (
-    <Layout letters={letters} type='page'>
+    <Layout letters={letters} type='page' content={null}>
       <ContentArea>
         <h1 className="h2">Cleasby & Vigfusson Old Norse dictionary</h1>
         <p>Online version of the classic Old Norse / Old Icelandic

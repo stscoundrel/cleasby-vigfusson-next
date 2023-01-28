@@ -3,11 +3,11 @@ import { VALID_AS_FIRST } from 'old-norse-alphabet'
 import { oldNorseSort } from 'old-norse-alphabet-sort'
 import { slugifyWord, slugifyLetter } from '../utils/slugs'
 
-interface DictionaryEntry extends RawDictionaryEntry {
+export interface DictionaryEntry extends RawDictionaryEntry {
   slug: string,
 }
 
-interface AlphabetLetter {
+export interface AlphabetLetter {
   letter: string,
   slug: string
 }
