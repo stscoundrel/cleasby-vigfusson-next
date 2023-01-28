@@ -1,5 +1,6 @@
 import AbbreviationList from 'components/AbbreviationList'
 import { CombinedAbbreviations } from 'lib/services/abbreviations'
+import Link from 'next/link'
 import styles from './Abbreviations.module.scss'
 
 interface AbbreviationProps{
@@ -25,6 +26,12 @@ export default function Abbreviations({ abbreviations }: AbbreviationProps) {
           <h4>Works & Authors cited:</h4>
           <AbbreviationList abbreviations={workAbbreviations} />
         </div>
+      }
+
+      {workAbbreviations.length > 0 && workAbbreviations.length < 100
+      && <Link href="/source-list" className={styles.link}>
+       ➞ See all works cited in the dictionary
+      </Link>
       }
     </div>
   )

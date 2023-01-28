@@ -158,6 +158,15 @@ exports[`WordDefinition component Matches snapshot (older spelling variant) 1`] 
         </dd>
       </dl>
     </div>
+    <a
+      className="link"
+      href="/source-list"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      ➞ See all works cited in the dictionary
+    </a>
   </div>
 </article>
 `;
@@ -316,6 +325,15 @@ exports[`WordDefinition component Matches snapshot 1`] = `
         </dd>
       </dl>
     </div>
+    <a
+      className="link"
+      href="/source-list"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      ➞ See all works cited in the dictionary
+    </a>
   </div>
 </article>
 `;
