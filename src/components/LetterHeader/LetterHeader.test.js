@@ -14,6 +14,11 @@ describe('LetterHeader component', () => {
     expect(tree).toMatchSnapshot()
   })
 
+  test('Matches snapshot - special formatting for "Ö"', () => {
+    const tree = renderer.create(<LetterHeader letter="ö" count={666} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
   test('Outputs correct count', () => {
     const tree = renderer.create(<LetterHeader letter="s" count={60} />)
     const { root } = tree

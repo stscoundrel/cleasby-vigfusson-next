@@ -1,5 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`LetterHeader component Matches snapshot - special formatting for "Ö" 1`] = `
+<header
+  className="section"
+>
+  <h1
+    className="title"
+  >
+    Letter 
+    Ö / Ǫ
+  </h1>
+  <small
+    className="subHeading"
+  >
+    Old Norse Dictionary - Letter 
+    Ö / Ǫ
+  </small>
+  <p>
+    Old Norse words starting with letter 
+    Ö / Ǫ
+  </p>
+  <p>
+    The Cleasby & Vigfusson book used letter 
+    <em>
+      ö 
+    </em>
+    to represent the original Old Norse vowel 
+    <em>
+      ǫ
+    </em>
+    .
+  </p>
+  <small
+    className="count"
+  >
+    Total of 
+    666
+     words
+  </small>
+</header>
+`;
+
 exports[`LetterHeader component Matches snapshot 1`] = `
 <header
   className="section"
@@ -8,17 +49,14 @@ exports[`LetterHeader component Matches snapshot 1`] = `
     className="title"
   >
     Letter 
-    S
   </h1>
   <small
     className="subHeading"
   >
     Old Norse Dictionary - Letter 
-    S
   </small>
   <p>
     Old Norse words starting with letter 
-    S
   </p>
   <small
     className="count"

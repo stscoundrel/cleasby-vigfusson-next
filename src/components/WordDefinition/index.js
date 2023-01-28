@@ -39,7 +39,7 @@ export default function WordDefinition({ data, abbreviations }) {
       {hasOlderForm
         && <p>
           <strong>Orthography: </strong>The Cleasby & Vigfusson book used letter <em>ö </em>
-          to represent original Old Norse vowel <em>ǫ</em>. Therefore, <em>{word}</em> may be
+          to represent the original Old Norse vowel <em>ǫ</em>. Therefore, <em>{word}</em> may be
           more accurately written as <em>{olderForm}</em>.
         </p>}
 
