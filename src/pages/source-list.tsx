@@ -26,7 +26,7 @@ export async function getStaticProps() {
 
 export default function SourceList({ letters, sources }: SourcePageProps) {
   return (
-    <Layout letters={letters} letter={null} type="page" word={null} words={[]}>
+    <Layout letters={letters} letter={false} type="page" content={null}>
        <ContentArea>
         <h1 className="h2">Sources list</h1>
         <p>Works and authors cited in &quot;<em>The Cleasby & Vigfusson Dictionary</em>&quot;
