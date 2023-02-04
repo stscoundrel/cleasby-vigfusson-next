@@ -1,4 +1,4 @@
-name: JavaScript - Integration Test
+name: TypeScript - Integration Test
 
 on: [pull_request]
 
