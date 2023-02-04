@@ -6,7 +6,7 @@ export default function LetterHeader({ letter, count }) {
       return 'ö / ǫ'.toUpperCase()
     }
 
-    return letter.toUpperCase
+    return letter.toUpperCase()
   }
 
   return (
