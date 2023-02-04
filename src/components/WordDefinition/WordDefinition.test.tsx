@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
+import { DictionarySource } from 'scandinavian-dictionary-crosslinker'
 import WordDefinition from './index'
 import styles from './WordDefinition.module.scss'
 
@@ -39,36 +40,60 @@ const abbreviations = {
   ],
 }
 
+const crosslinks = [
+  {
+    url: 'https://old-icelandic.vercel.app/word/fadir',
+    source: DictionarySource.OldIcelandic,
+  },
+  {
+    url: 'https://old-norwegian-dictionary.vercel.app/word/fadir',
+    source: DictionarySource.OldNorwegian,
+  },
+  {
+    url: 'https://old-swedish-dictionary.vercel.app/word/fadhir',
+    source: DictionarySource.OldSwedish,
+  },
+]
+
 describe('WordDefinition component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
     const root = ReactDOM.createRoot(div)
-    root.render(<WordDefinition data={word} abbreviations={abbreviations} />)
+    root.render(
+      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks}
+    />,
+    )
   })
 
   test('Matches snapshot', () => {
     const tree = renderer.create(
-      <WordDefinition data={word} abbreviations={abbreviations} />,
+      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks} />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Matches snapshot (older spelling variant)', () => {
     const tree = renderer.create(
-      <WordDefinition data={wordWithOlderSpellingVariant} abbreviations={abbreviations} />,
+      <WordDefinition
+        entry={wordWithOlderSpellingVariant} abbreviations={abbreviations} crosslinks={crosslinks}
+      />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Has correct label', () => {
-    const tree = renderer.create(<WordDefinition data={word} abbreviations={abbreviations} />)
+    const tree = renderer.create(
+      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks} />,
+    )
     const { root } = tree
 
     expect(root.findByType('h1').children).toEqual(['Af-burðr'])
   })
 
   test('Has correct amount of definitions', () => {
-    const tree = renderer.create(<WordDefinition data={word} abbreviations={abbreviations} />)
+    const tree = renderer.create(
+      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks} />,
+    )
     const { root } = tree
 
     expect(root.findAllByProps({ className: styles.definitionList }).length).toEqual(2)

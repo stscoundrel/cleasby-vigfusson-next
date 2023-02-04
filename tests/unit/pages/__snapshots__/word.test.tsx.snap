@@ -682,6 +682,50 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
           </dl>
         </div>
       </div>
+      <br />
+      <h4>
+        Also available in related dictionaries:
+      </h4>
+      <p>
+        This headword also appears in dictionaries of other languages descending from Old Norse.
+      </p>
+      <ul
+        className="list"
+      >
+        <li
+          className="listItem"
+        >
+          <a
+            href="https://old-icelandic.vercel.app/word/fadir"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Old Icelandic - Geir Zoëga's Dictionary
+          </a>
+        </li>
+        <li
+          className="listItem"
+        >
+          <a
+            href="https://old-norwegian-dictionary.vercel.app/word/fadir"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Old Norwegian - Johan Fritzner's Dictionary
+          </a>
+        </li>
+        <li
+          className="listItem"
+        >
+          <a
+            href="https://old-swedish-dictionary.vercel.app/word/fadhir"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Old Swedish - K.F Söderwall's Dictionary
+          </a>
+        </li>
+      </ul>
     </article>
     <a
       className="button"

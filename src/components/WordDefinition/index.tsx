@@ -1,11 +1,20 @@
 import { capitalize, getOlderSpelling } from 'lib/utils/strings'
 import { lettersToRunes } from 'younger-futhark'
-import { addAbbreviationsToContent } from 'lib/services/abbreviations'
+import { addAbbreviationsToContent, CombinedAbbreviations } from 'lib/services/abbreviations'
 import Abbreviations from 'components/Abbreviations'
+import { DictionaryEntry } from 'lib/services/dictionary'
+import { Crosslink } from 'scandinavian-dictionary-crosslinker'
+import Crosslinks from 'components/Crosslinks'
 import styles from './WordDefinition.module.scss'
 
-export default function WordDefinition({ data, abbreviations }) {
-  const { word, definitions } = data
+interface WordDefinitionProps{
+  entry: DictionaryEntry,
+  abbreviations: CombinedAbbreviations,
+  crosslinks: Crosslink[],
+}
+
+export default function WordDefinition({ entry, abbreviations, crosslinks }: WordDefinitionProps) {
+  const { word, definitions } = entry
   const olderForm = getOlderSpelling(word)
   const hasOlderForm = word !== olderForm
 
@@ -50,6 +59,8 @@ export default function WordDefinition({ data, abbreviations }) {
       </p>
 
       <Abbreviations abbreviations={abbreviations} />
+      <br />
+      <Crosslinks crosslinks={crosslinks} />
     </article>
   )
 }

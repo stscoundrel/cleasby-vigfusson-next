@@ -1,4 +1,4 @@
-name: JavaScript - Test Coverage
+name: JavaScript / TypeScript - Test Coverage
 
 on: [pull_request]
 
