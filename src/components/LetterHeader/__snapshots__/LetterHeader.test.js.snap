@@ -49,14 +49,17 @@ exports[`LetterHeader component Matches snapshot 1`] = `
     className="title"
   >
     Letter 
+    S
   </h1>
   <small
     className="subHeading"
   >
     Old Norse Dictionary - Letter 
+    S
   </small>
   <p>
     Old Norse words starting with letter 
+    S
   </p>
   <small
     className="count"
