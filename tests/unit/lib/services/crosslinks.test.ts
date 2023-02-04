@@ -30,18 +30,17 @@ describe('Crosslinks service tests', () => {
     const expected = [
       {
         url: 'https://old-icelandic.vercel.app/word/fadir',
-        source: 'old-icelandic'
+        source: 'old-icelandic',
       },
       {
         url: 'https://old-norwegian-dictionary.vercel.app/word/fadir',
-        source: 'old-norwegian'
+        source: 'old-norwegian',
       },
       {
         url: 'https://old-swedish-dictionary.vercel.app/word/fadhir',
-        source: 'old-swedish'
-      }
+        source: 'old-swedish',
+      },
     ]
-
 
     const result = getCrossLinks(entry2)
     expect(result).toEqual(expected)
