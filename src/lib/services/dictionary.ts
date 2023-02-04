@@ -78,10 +78,10 @@ export const getWord = (slug: string): DictionaryEntry => (
 
 export const getRandomEntries = (): DictionaryEntry[] => (
   // Return entries fit to be randomized "teasers"
-  // Therefore, content should be short.
+  // Therefore, content should be short, but not too short.
   getAllWords()
     .sort(() => Math.random() - 0.5)
-    .filter((entry) => entry.definitions[0].length < 50)
+    .filter((entry) => entry.definitions[0].length < 50 && entry.definitions[0].length > 15)
     .slice(0, 36)
     .sort((a, b) => oldNorseSort(a.word, b.word))
 )
