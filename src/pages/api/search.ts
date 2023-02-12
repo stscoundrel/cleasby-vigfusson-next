@@ -13,8 +13,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const dictionary = getAllWords();
   const results = searchDictionary(String(search), dictionary, formattedCriteria)
 
-  if (results.length > 100) {
-    return res.status(200).json(results.slice(0, 100))
+  if (results.length > 150) {
+    return res.status(200).json(results.slice(0, 150))
   }
 
   return res.status(200).json(results)

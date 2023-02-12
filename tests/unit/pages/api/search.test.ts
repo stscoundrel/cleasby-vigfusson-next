@@ -43,7 +43,7 @@ describe('Search API endpoint', () => {
     // Should be valid response with results
     expect(res.finished).toBeTruthy()
     expect(res.statusCode).toBe(200)
-    expect(response.length).toEqual(100)
+    expect(response.length).toEqual(150)
     expect(response).toMatchSnapshot()
   })
 })
