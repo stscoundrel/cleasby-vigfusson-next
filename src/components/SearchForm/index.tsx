@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 
 // Services.
-import { searchDictionary } from 'lib/services/search'
+import { Criteria, searchDictionary, SearchResult } from 'lib/services/search'
 
 // Components.
 import LoadingSpinner from 'components/LoadingSpinner'
@@ -14,10 +14,10 @@ export default function SearchForm({ words }) {
   const router = useRouter()
   const [search, setSearch] = useState('')
   const [selectedCriteria, setSelectedCriteria] = useState('all')
-  const [results, setResults] = useState([])
+  const [results, setResults] = useState<SearchResult[]>([])
   const [isLoading, setIsLoading] = useState(false)
 
-  const getCriteria = (value) => {
+  const getCriteria = (value: Criteria): Criteria[] => {
     if (!value || value === 'all') {
       return ['headword', 'definitions']
     }
@@ -49,11 +49,13 @@ export default function SearchForm({ words }) {
   useEffect(() => {
     if (router.query.query) {
       showSpinner()
-      setSearch(router.query.query)
-      setSelectedCriteria(router.query.criteria ?? 'all')
+      const stringQuery = String(router.query.query)
+      const stringCriteria = String(router.query.criteria)
+      setSearch(stringQuery)
+      setSelectedCriteria(stringCriteria ?? 'all')
 
-      const formattedCriteria = getCriteria(router.query.criteria)
-      setResults(searchDictionary(router.query.query, words, formattedCriteria))
+      const formattedCriteria = getCriteria(stringCriteria as Criteria)
+      setResults(searchDictionary(stringQuery, words, formattedCriteria))
       hideSpinner()
     }
   }, [router.query, words])
