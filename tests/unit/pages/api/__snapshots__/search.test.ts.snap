@@ -1,0 +1,1511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search API endpoint Should return search results 1`] = `
+[
+  {
+    "definitions": [
+      "m. = aðili, Sturl. iii. 240, Orkn. 212.",
+    ],
+    "foundIn": [
+      "In headword: aðilðar-maðr",
+    ],
+    "slug": "adildar-madr",
+    "word": "aðilðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a great man,</i> Fms. x. 293 (where spelt abb-).",
+    ],
+    "foundIn": [
+      "In headword: afbragðs-maðr",
+    ],
+    "slug": "afbragds-madr",
+    "word": "afbragðs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>descendant,</i> Stj. 39, 160.",
+    ],
+    "foundIn": [
+      "In headword: afkvæmis-maðr",
+    ],
+    "slug": "afkvaemis-madr",
+    "word": "afkvæmis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>powerful, strong,</i> Lv. 12, 109.",
+    ],
+    "foundIn": [
+      "In headword: afla-maðr",
+    ],
+    "slug": "afla-madr",
+    "word": "afla-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a valiant man;</i> a. at afli ok áræðí, Eg. I; en þat hefi ek spurt, at hirð hans er skipuð afreksmönnum einurn, <i>heroes,</i> 19, 84; a. um vöxt eðr afl, Ísl. ii. 190.",
+    ],
+    "foundIn": [
+      "In headword: afreks-maðr",
+    ],
+    "slug": "afreks-madr",
+    "word": "afreks-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a determined, obstinate person;</i> hón var a. mikill um þetta mál, <i>he was very stubborn in this case,</i> Hkr. ii. 74.",
+    ],
+    "foundIn": [
+      "In headword: aftaka-maðr",
+    ],
+    "slug": "aftaka-madr",
+    "word": "aftaka-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>ploughman, tiller of ground,</i> Fms. vi. 187.",
+    ],
+    "foundIn": [
+      "In headword: akr-maðr",
+    ],
+    "slug": "akr-madr",
+    "word": "akr-maðr",
+  },
+  {
+    "definitions": [
+      "<i>m. ploughman,</i> Stj. 255.",
+    ],
+    "foundIn": [
+      "In headword: akr-plógsmaðr",
+    ],
+    "slug": "akr-plogsmadr",
+    "word": "akr-plógsmaðr",
+  },
+  {
+    "definitions": [
+      "m. <i>ploughmen,</i> Nj. 54.",
+    ],
+    "foundIn": [
+      "In headword: akrgörðar-maðr",
+    ],
+    "slug": "akrgordar-madr",
+    "word": "akrgörðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a reaper,</i> Stj. Ruth ii. 21 (<i>young men</i>).",
+    ],
+    "foundIn": [
+      "In headword: akrskurðar-maðr",
+    ],
+    "slug": "akrskurdar-madr",
+    "word": "akrskurðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>ploughman, tiller of the ground,</i> Ver. 5. Gen. iv. 2.",
+    ],
+    "foundIn": [
+      "In headword: akrverks-maðr",
+    ],
+    "slug": "akrverks-madr",
+    "word": "akrverks-maðr",
+  },
+  {
+    "definitions": [
+      "m. [from the A. S. <i>ealdorman</i>], <i>an alderman,</i> Pd.",
+    ],
+    "foundIn": [
+      "In headword: aldor-maðr",
+    ],
+    "slug": "aldor-madr",
+    "word": "aldor-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>alderman</i> [A. S. <i>ealdorman</i>], Pd. 13.",
+    ],
+    "foundIn": [
+      "In headword: aldur-maðr",
+    ],
+    "slug": "aldur-madr",
+    "word": "aldur-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>devoted friend,</i> Fms. vi. 34.",
+    ],
+    "foundIn": [
+      "In headword: alúðar-maðr",
+    ],
+    "slug": "aludar-madr",
+    "word": "alúðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a working man,</i> Vd. 172 old Ed., wrongly instead of alþýða manna, Fs. 67.",
+    ],
+    "foundIn": [
+      "In headword: alþýðu-maðr",
+    ],
+    "slug": "althydu-madr",
+    "word": "alþýðu-maðr",
+  },
+  {
+    "definitions": [
+      "m. a law term, <i>a respondent, defender,</i> Jb. 30.",
+    ],
+    "foundIn": [
+      "In headword: andsvara-maðr",
+    ],
+    "slug": "andsvara-madr",
+    "word": "andsvara-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>who impedes a thing,</i> Bs. i. 733.",
+    ],
+    "foundIn": [
+      "In headword: aptrhalds-maðr",
+    ],
+    "slug": "aptrhalds-madr",
+    "word": "aptrhalds-maðr",
+  },
+  {
+    "definitions": [
+      "m., v. above.",
+    ],
+    "foundIn": [
+      "In headword: arfsals-maðr",
+    ],
+    "slug": "arfsals-madr",
+    "word": "arfsals-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an heir, successor to an inheritance,</i> Grág. i. 62, Sturl. i. 98, Fms. v. 53.",
+    ],
+    "foundIn": [
+      "In headword: arftöku-maðr",
+    ],
+    "slug": "arftoku-madr",
+    "word": "arftöku-maðr",
+  },
+  {
+    "definitions": [
+      "m. [A. S. <i>äscmen,</i> vide Adam Brem. below], <i>a viking, pirate,</i> a cognom., Eg., Fms., Hkr.",
+    ],
+    "foundIn": [
+      "In headword: ask-maðr",
+    ],
+    "slug": "ask-madr",
+    "word": "ask-maðr",
+  },
+  {
+    "definitions": [
+      "m., mikill a., <i>a good housekeeper,</i> Eb. 26.",
+    ],
+    "foundIn": [
+      "In headword: atdrátta-maðr",
+    ],
+    "slug": "atdratta-madr",
+    "word": "atdrátta-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a skilful man,</i> Bs. i. 639.",
+    ],
+    "foundIn": [
+      "In headword: atferðar-maðr",
+    ],
+    "slug": "atferdar-madr",
+    "word": "atferðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man of vigour,</i> Bret. 12, 155.",
+    ],
+    "foundIn": [
+      "In headword: atfærslu-maðr",
+    ],
+    "slug": "atfaerslu-madr",
+    "word": "atfærslu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a ready man,</i> El. 15, Sturl. ii. 127.",
+    ],
+    "foundIn": [
+      "In headword: atgörða-maðr",
+    ],
+    "slug": "atgorda-madr",
+    "word": "atgörða-maðr",
+  },
+  {
+    "definitions": [
+      "and more freq. <strong>atgörvis-maðr,</strong> m. <i>a man of great</i> (physical) <i>accomplishments,</i> Fms. i. 17, Eg. 685 (where it is used of a young promising poet), 22, Ld. 12; used of an artist, Ísl. ii. 171: a. um marga hluti, <i>man of great capacity,</i> 191; used of a musician, Grett. 158.",
+    ],
+    "foundIn": [
+      "In headword: atgörvi-maðr",
+    ],
+    "slug": "atgorvi-madr",
+    "word": "atgörvi-maðr",
+  },
+  {
+    "definitions": [
+      "and <strong>athafna-,</strong> m. <i>a busy enterprising man,</i> Hkr. ii. 255, Fær. 209. In a bad sense, <i>a laughing-stock;</i> göra e-n at athafnarmanni, <i>to make a butt of him,</i> Sturl. i. 24, 181, this last sense seems to be peculiar to the first and second part (þáttr) of the Sturl., which were not written by Sturla himself, but by an unknown author.",
+    ],
+    "foundIn": [
+      "In headword: athafnar-maðr",
+    ],
+    "slug": "athafnar-madr",
+    "word": "athafnar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man of weighty utterance, of importance,</i> Fms. xi. 223.",
+    ],
+    "foundIn": [
+      "In headword: atkvæða-maðr",
+    ],
+    "slug": "atkvaeda-madr",
+    "word": "atkvæða-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an active man.</i>",
+    ],
+    "foundIn": [
+      "In headword: atorku-maðr",
+    ],
+    "slug": "atorku-madr",
+    "word": "atorku-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>aggressor,</i> Fs. 70.",
+    ],
+    "foundIn": [
+      "In headword: atsóknar-maðr",
+    ],
+    "slug": "atsoknar-madr",
+    "word": "atsóknar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a wealthy man,</i> Fms. ii. 21, Ísl. ii. 385, 125.",
+    ],
+    "foundIn": [
+      "In headword: auð-maðr",
+    ],
+    "slug": "aud-madr",
+    "word": "auð-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a lucky man, luck’s favourite,</i> Gullþ. 28, Ld. 40, Fas. i. 340.",
+    ],
+    "foundIn": [
+      "In headword: auðmi-maðr",
+    ],
+    "slug": "audmi-madr",
+    "word": "auðmi-maðr",
+  },
+  {
+    "definitions": [
+      "m., pl. austmenn, in Icel. and in the northern part of the British Islands a standing name of those who came from the Scandinavian continent, esp. Norse merchants, vide the old Irish chronicles, and the Sagas, passim. The English used ‘easterling’ in the same sense, and <i>sterling</i> is an abbreviation of the word from the coin which the ‘easterlings’ brought with them in trade. Eyvindr austmaðr, Landn., Nj. 81, Eg. 744, Ísl. ii. 192, 128, Sturl. ii. 47, Lv. 23, Valla L. 216, Landn. 36, 290, 305, Eb. 104, 196, etc. In the Norse GÞl. 450 it is used of Swedes in Norway: <strong>austmanna-skelfir,</strong> m. <i>‘skelper’ (conqueror, terror) of the east men,</i> a nickname, Landn. 305.",
+    ],
+    "foundIn": [
+      "In headword: aust-maðr",
+    ],
+    "slug": "aust-madr",
+    "word": "aust-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man from the east,</i> Old Engl. <i>easterling,</i> Sturl. iii. 248.",
+    ],
+    "foundIn": [
+      "In headword: austan-maðr",
+    ],
+    "slug": "austan-madr",
+    "word": "austan-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an inhabitant of</i> Austrvegir, Hkr. i. 44.",
+    ],
+    "foundIn": [
+      "In headword: austrvegs-maðr",
+    ],
+    "slug": "austrvegs-madr",
+    "word": "austrvegs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a wretch, laggard,</i> 655, vide Sturl. ii. 139, Fær. 74, Þorf. Karl. 426.",
+    ],
+    "foundIn": [
+      "In headword: auvirðs-maðr",
+    ],
+    "slug": "auvirds-madr",
+    "word": "auvirðs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>inhabitant,</i> Stj. 368.",
+    ],
+    "foundIn": [
+      "In headword: ábúðar-maðr",
+    ],
+    "slug": "abudar-madr",
+    "word": "ábúðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an aggressive man,</i> Lv. 79, Stj. 65.",
+    ],
+    "foundIn": [
+      "In headword: ágangs-maðr",
+    ],
+    "slug": "agangs-madr",
+    "word": "ágangs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a hot-headed, impetuous person,</i> Korm. 8, Þórð. 43: now used of a man that works <i>by fits and starts,</i> not steadily.",
+    ],
+    "foundIn": [
+      "In headword: áhlaupa-maðr",
+    ],
+    "slug": "ahlaupa-madr",
+    "word": "áhlaupa-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an eager, aspiring man,</i> Bs. i. 686.",
+    ],
+    "foundIn": [
+      "In headword: áhuga-maðr",
+    ],
+    "slug": "ahuga-madr",
+    "word": "áhuga-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an accuser,</i> Stj. 42.",
+    ],
+    "foundIn": [
+      "In headword: ákæru-maðr",
+    ],
+    "slug": "akaeru-madr",
+    "word": "ákæru-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>monitor,</i> Fms. v. 125.",
+    ],
+    "foundIn": [
+      "In headword: áminningar-maðr",
+    ],
+    "slug": "aminningar-madr",
+    "word": "áminningar-maðr",
+  },
+  {
+    "definitions": [
+      "m. [árr, <i>nuntius,</i> or ár, <i>annona</i>], <i>a steward,</i> esp. of <i>royal estates</i> in Denmark, Sweden, and Norway, also of the earls’ estates in the Orkneys. As Icel. had neither earls nor kings, it is very rare, perhaps an απ. λεγ. in Landn. 124 (of the stewards of Geirmund heljarskinn). In Norway the ármenn of the king were often persons of low birth, and looked upon with hatred and disrespect by the free noblemen of the country, cp. e. g. Ó. H. 113, 120 (synonymous with konungs þræll), Eb. ch. 2; the ármenn were a sort of royal policemen and tax gatherers, Fms. xi. 261, Orkn. 444, Eg. 79, 466, Gþl. 12 (where it is different from sýslumaðr); erkibiskups á., N. G. L. i. 175.",
+      "COMPD: ármannsréttr.",
+    ],
+    "foundIn": [
+      "In headword: ár-maðr",
+    ],
+    "slug": "ar-madr",
+    "word": "ár-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an intercessor,</i> esp. of Christ and the saints, Magn. 504.",
+    ],
+    "foundIn": [
+      "In headword: árnaðar-maðr",
+    ],
+    "slug": "arnadar-madr",
+    "word": "árnaðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bold man,</i> Grett. 141 A, Fbr. 149.",
+    ],
+    "foundIn": [
+      "In headword: áræðis-maðr",
+    ],
+    "slug": "araedis-madr",
+    "word": "áræðis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a perpetrator of an</i> áverki (I.), Grág. ii. 13.",
+    ],
+    "foundIn": [
+      "In headword: áverka-maðr",
+    ],
+    "slug": "averka-madr",
+    "word": "áverka-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a slayer,</i> Fms. i. 215.",
+    ],
+    "foundIn": [
+      "In headword: bana-maðr",
+    ],
+    "slug": "bana-madr",
+    "word": "bana-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a warrior,</i> Þiðr. 67.",
+    ],
+    "foundIn": [
+      "In headword: baráttu-maðr",
+    ],
+    "slug": "barattu-madr",
+    "word": "baráttu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a warrior,</i> Fms. vi. 56, Stj. 456.",
+    ],
+    "foundIn": [
+      "In headword: bardaga-maðr",
+    ],
+    "slug": "bardaga-madr",
+    "word": "bardaga-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>the bearer of a baby to be christened;</i> þar á at ala líkmenn ok barnmenn, Vm. 77.",
+    ],
+    "foundIn": [
+      "In headword: barn-maðr",
+    ],
+    "slug": "barn-madr",
+    "word": "barn-maðr",
+  },
+  {
+    "definitions": [
+      "m. = bauggildismaðr, N. G. L. i. 81, 82, 186.",
+    ],
+    "foundIn": [
+      "In headword: bauga-maðr",
+    ],
+    "slug": "bauga-madr",
+    "word": "bauga-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a boatman,</i> Hkr. iii. 128, Fms. vi. 320.",
+    ],
+    "foundIn": [
+      "In headword: bát-maðr",
+    ],
+    "slug": "bat-madr",
+    "word": "bát-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a promoter,</i> H. E. ii. 93.",
+    ],
+    "foundIn": [
+      "In headword: beina-maðr",
+    ],
+    "slug": "beina-madr",
+    "word": "beina-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>owner of a pasture,</i> Grág. ii. 286, Jb. 245.",
+    ],
+    "foundIn": [
+      "In headword: beitar-maðr",
+    ],
+    "slug": "beitar-madr",
+    "word": "beitar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a youth, childish person,</i> Hkr. ii. 156.",
+    ],
+    "foundIn": [
+      "In headword: bernsku-maðr",
+    ],
+    "slug": "bernsku-madr",
+    "word": "bernsku-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an ascetic,</i> Bs. ii. 146; mod. <i>a teetotaler.</i>",
+    ],
+    "foundIn": [
+      "In headword: bindandis-maðr",
+    ],
+    "slug": "bindandis-madr",
+    "word": "bindandis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>one in the service of a bishop,</i> Fms. ix. 317.",
+    ],
+    "foundIn": [
+      "In headword: biskups-maðr",
+    ],
+    "slug": "biskups-madr",
+    "word": "biskups-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a well-to-do man.</i>",
+    ],
+    "foundIn": [
+      "In headword: bjargálna-maðr",
+    ],
+    "slug": "bjargalna-madr",
+    "word": "bjargálna-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a hard-working man,</i> Bs. i. 309.",
+    ],
+    "foundIn": [
+      "In headword: bjargs-maðr",
+    ],
+    "slug": "bjargs-madr",
+    "word": "bjargs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a black man, negro,</i> i. e. <i>an Ethiopian,</i> Al. 51, Orkn. 364 (referring to A. D. 1152), distinguished from the Saracens and Arabians; three ‘blámenn’ were sent as a present to the German emperor Frederic the Second, Fms. x. 3: in romances blámenn are mentioned as a kind of ‘berserkers,’ q. v., Finnb. ch. 16, Kjalnes. S. ch. 15; cp. Scott’s Ivanhoe, note B.",
+    ],
+    "foundIn": [
+      "In headword: blá-maðr",
+    ],
+    "slug": "bla-madr",
+    "word": "blá-maðr",
+  },
+  {
+    "definitions": [
+      "part. <i>blue-embroidered,</i> Pm. 12.",
+    ],
+    "foundIn": [
+      "In headword: blá-saumaðr",
+    ],
+    "slug": "bla-saumadr",
+    "word": "blá-saumaðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a coward,</i> Nj. 54, Fms. vi. 260.",
+    ],
+    "foundIn": [
+      "In headword: bleyði-maðr",
+    ],
+    "slug": "bleydi-madr",
+    "word": "bleyði-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a blood-letter.</i>",
+    ],
+    "foundIn": [
+      "In headword: blóðtöku-maðr",
+    ],
+    "slug": "blodtoku-madr",
+    "word": "blóðtöku-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a heathen worshipper,</i> Bret. 57, Eg. 179, Fms. i. 294, 263, Andr. 65.",
+    ],
+    "foundIn": [
+      "In headword: blót-maðr",
+    ],
+    "slug": "blot-madr",
+    "word": "blót-maðr",
+  },
+  {
+    "definitions": [
+      "m. [blakkr], <i>a blackamoor,</i> sometimes <i>a negro,</i> (mod.)",
+    ],
+    "foundIn": [
+      "In headword: blökku-maðr",
+    ],
+    "slug": "blokku-madr",
+    "word": "blökku-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a public officer,</i> N. G. L. i. 409.",
+    ],
+    "foundIn": [
+      "In headword: boð-orða-maðr",
+    ],
+    "slug": "bod-orda-madr",
+    "word": "boð-orða-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a guest at a feast, wedding,</i> Nj. 11, Fms. ii. 193.",
+    ],
+    "foundIn": [
+      "In headword: boðs-maðr",
+    ],
+    "slug": "bods-madr",
+    "word": "boðs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bowman, archer,</i> Fas. i. 382, Ingv. 34, Lv. 63, Fær. 56, Fms. vi. 413. <strong>bogmanns-merki,</strong> n. the zodiacal sign, <i>Arcitenens,</i> Rb. 102.",
+    ],
+    "foundIn": [
+      "In headword: bog-maðr",
+    ],
+    "slug": "bog-madr",
+    "word": "bog-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a table-companion,</i> Sks. 262.",
+    ],
+    "foundIn": [
+      "In headword: borð-maðr",
+    ],
+    "slug": "bord-madr",
+    "word": "borð-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bailsman,</i> Bs. i. 770, Jb. 112, Band. 33 new Ed.",
+    ],
+    "foundIn": [
+      "In headword: borganar-maðr",
+    ],
+    "slug": "borganar-madr",
+    "word": "borganar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a townsman, citizen,</i> Eg. 244, Fms. i. 103, Sks. 649, mostly in pl., Lat. <i>concivis</i> is rendered by b., Hom. 17.",
+    ],
+    "foundIn": [
+      "In headword: borgar-maðr",
+    ],
+    "slug": "borgar-madr",
+    "word": "borgar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a beggarman,</i> H. E. ii. 585.",
+    ],
+    "foundIn": [
+      "In headword: bónar-maðr",
+    ],
+    "slug": "bonar-madr",
+    "word": "bónar-maðr",
+  },
+  {
+    "definitions": [
+      "m. a law term, <i>a man who has to receive</i> ‘bætr’ for hurt or damage suffered, Ann. 1372, Gþl. 160; hence óbótamaðr, <i>exlex, an outlaw, who has forfeited his right to</i> ‘bætr.’",
+    ],
+    "foundIn": [
+      "In headword: bóta-maðr",
+    ],
+    "slug": "bota-madr",
+    "word": "bóta-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an incendiary,</i> Nj. 203.",
+    ],
+    "foundIn": [
+      "In headword: brennu-maðr",
+    ],
+    "slug": "brennu-madr",
+    "word": "brennu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a letter-carrier, public courier,</i> Fms. ix. 20.",
+    ],
+    "foundIn": [
+      "In headword: bréfa-maðr",
+    ],
+    "slug": "brefa-madr",
+    "word": "bréfa-maðr",
+  },
+  {
+    "definitions": [
+      "m. a law term, <i>one whose lands are escheated, but may be redeemed,</i> Grág. ii. 253, Gþl. 290.",
+    ],
+    "foundIn": [
+      "In headword: brigðar-maðr",
+    ],
+    "slug": "brigdar-madr",
+    "word": "brigðar-maðr",
+  },
+  {
+    "definitions": [
+      "part. <i>budded,</i> Lex. Poët.",
+    ],
+    "foundIn": [
+      "In headword: brumaðr",
+    ],
+    "slug": "brumadr",
+    "word": "brumaðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bridegroom’s man,</i> N. G. L. i. 27: collect. <i>the bridesmen and bridesmaids when on a bride’s journey,</i> Grág. i. 436, Eg. 201, Rd. 270.",
+    ],
+    "foundIn": [
+      "In headword: brúð-maðr",
+    ],
+    "slug": "brud-madr",
+    "word": "brúð-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bearer,</i> Fms. i. 271.",
+    ],
+    "foundIn": [
+      "In headword: burðar-maðr",
+    ],
+    "slug": "burdar-madr",
+    "word": "burðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a tilter,</i> Mag. 8, Fas. iii. 241.",
+    ],
+    "foundIn": [
+      "In headword: burtreiðar-maðr",
+    ],
+    "slug": "burtreidar-madr",
+    "word": "burtreiðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a husbandman;</i> góðr, mikill b., a <i>good householder, skilled husbandman,</i> Band. 8, Finnb. 334.",
+    ],
+    "foundIn": [
+      "In headword: bú-maðr",
+    ],
+    "slug": "bu-madr",
+    "word": "bú-maðr",
+  },
+  {
+    "definitions": [
+      "m. = búandi. Grág. i. 479, 480, Fms. v. 77.",
+    ],
+    "foundIn": [
+      "In headword: búand-maðr",
+    ],
+    "slug": "buand-madr",
+    "word": "búand-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an inmate of a booth,</i> Fær. 222.",
+    ],
+    "foundIn": [
+      "In headword: búðar-maðr",
+    ],
+    "slug": "budar-madr",
+    "word": "búðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. = búðsetumaðr, Nj. 236.",
+    ],
+    "foundIn": [
+      "In headword: búðar-setumaðr",
+    ],
+    "slug": "budar-setumadr",
+    "word": "búðar-setumaðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a cottager,</i> answering to ‘husmand’ in Norway, or búandi bóndi in Icel., Nj. 236, Grág. i. 294; vide bóndi above.",
+    ],
+    "foundIn": [
+      "In headword: búðsetu-maðr",
+    ],
+    "slug": "budsetu-madr",
+    "word": "búðsetu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a neighbour-man,</i> Sturl. i. 82 C, 167.",
+    ],
+    "foundIn": [
+      "In headword: búi-maðr",
+    ],
+    "slug": "bui-madr",
+    "word": "búi-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a neighbour,</i> Stj. 197.",
+    ],
+    "foundIn": [
+      "In headword: bygðarlags-maðr",
+    ],
+    "slug": "bygdarlags-madr",
+    "word": "bygðarlags-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a merchant-seaman,</i> Fær. 4, Fms. ix. 18.",
+    ],
+    "foundIn": [
+      "In headword: byrðings-maðr",
+    ],
+    "slug": "byrdings-madr",
+    "word": "byrðings-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man doomed to die,</i> Fms. vii. 33; hafa e-n at dauðamanni. 656 A. I. 25, Eg. 416.",
+    ],
+    "foundIn": [
+      "In headword: dauða-maðr",
+    ],
+    "slug": "dauda-madr",
+    "word": "dauða-maðr",
+  },
+  {
+    "definitions": [
+      "<i>adj. flavoured,</i> Sks. 164.",
+    ],
+    "foundIn": [
+      "In headword: dámaðr",
+    ],
+    "slug": "damadr",
+    "word": "dámaðr",
+  },
+  {
+    "definitions": [
+      "v. dældarmaðr.",
+    ],
+    "foundIn": [
+      "In headword: deildar-maðr",
+    ],
+    "slug": "deildar-madr",
+    "word": "deildar-maðr",
+  },
+  {
+    "definitions": [
+      "m. = dólgr, Hkv. 2. 49 (Ed. dólgar mær).",
+    ],
+    "foundIn": [
+      "In headword: dólg-maðr",
+    ],
+    "slug": "dolg-madr",
+    "word": "dólg-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man who appears to another in a dream,</i> Fms. ii. 230, viii. 107: <i>a dreamer,</i> Stj. 193. Gen. xxxvii. 19.",
+    ],
+    "foundIn": [
+      "In headword: draum-maðr",
+    ],
+    "slug": "draum-madr",
+    "word": "draum-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a great dreamer,</i> Gísl. 41.",
+    ],
+    "foundIn": [
+      "In headword: drauma-maðr",
+    ],
+    "slug": "drauma-madr",
+    "word": "drauma-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bachelor,</i> opp. to bóndi, N. G. L. i. 31, 98: <i>a stout doughty man,</i> Lex. Poët.",
+    ],
+    "foundIn": [
+      "In headword: dreng-maðr",
+    ],
+    "slug": "dreng-madr",
+    "word": "dreng-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a queen’s husband, a prince consort,</i> Nj. 5, v. l.",
+    ],
+    "foundIn": [
+      "In headword: drottningar-maðr",
+    ],
+    "slug": "drottningar-madr",
+    "word": "drottningar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a great drinker,</i> Fms. vii. 175, viii. 238, Edda 32.",
+    ],
+    "foundIn": [
+      "In headword: drykkju-maðr",
+    ],
+    "slug": "drykkju-madr",
+    "word": "drykkju-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an aider, help in need,</i> 656 A, Fms. vi. 118, Fas. iii. 181: <i>a honest hard-working man</i> (mod.)",
+    ],
+    "foundIn": [
+      "In headword: dugnaðar-maðr",
+    ],
+    "slug": "dugnadar-madr",
+    "word": "dugnaðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a trusty man,</i> Grett. 147 A.",
+    ],
+    "foundIn": [
+      "In headword: dygðar-maðr",
+    ],
+    "slug": "dygdar-madr",
+    "word": "dygðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a glorious man,</i> Hkr. iii. 250, Bs. i. 90.",
+    ],
+    "foundIn": [
+      "In headword: dýrðar-maðr",
+    ],
+    "slug": "dyrdar-madr",
+    "word": "dýrðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man to be imitated,</i> Greg. 12.",
+    ],
+    "foundIn": [
+      "In headword: dæma-maðr",
+    ],
+    "slug": "daema-madr",
+    "word": "dæma-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>one’s own wedded husband,</i> K. Á. 136, Titus i. 6.",
+    ],
+    "foundIn": [
+      "In headword: eigin-maðr",
+    ],
+    "slug": "eigin-madr",
+    "word": "eigin-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an owner, possessor,</i> Jb. 371, Dipl. v. 9.",
+    ],
+    "foundIn": [
+      "In headword: eignar-maðr",
+    ],
+    "slug": "eignar-madr",
+    "word": "eignar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an anchorite,</i> Fms. i. 145.",
+    ],
+    "foundIn": [
+      "In headword: einsetu-maðr",
+    ],
+    "slug": "einsetu-madr",
+    "word": "einsetu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>one who fights in single combat,</i> Fms. x. 88.",
+    ],
+    "foundIn": [
+      "In headword: einvígis-maðr",
+    ],
+    "slug": "einvigis-madr",
+    "word": "einvígis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an energetic man,</i> Fms. iv. 163, viii. 447.",
+    ],
+    "foundIn": [
+      "In headword: eljunar-maðr",
+    ],
+    "slug": "eljunar-madr",
+    "word": "eljunar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a minister</i> (priest), Hom. 119, Sks. 162, Fms. v. 146: in mod. use, embættismaðr, -lauss, etc. (= Germ, <i>beamter,</i> Dan. <i>embedsman</i>) mean <i>an officer,</i> chiefly in a secular sense.",
+    ],
+    "foundIn": [
+      "In headword: embættis-maðr",
+    ],
+    "slug": "embaettis-madr",
+    "word": "embættis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>the owner of a meadow,</i> Grág. ii. 289.",
+    ],
+    "foundIn": [
+      "In headword: engis-maðr",
+    ],
+    "slug": "engis-madr",
+    "word": "engis-maðr",
+  },
+  {
+    "definitions": [
+      "(<strong>Engils-maðr</strong>), m. <i>an Englishman</i>, Fms. v, Fas. iii. 354.",
+    ],
+    "foundIn": [
+      "In headword: englis-maðr",
+    ],
+    "slug": "englis-madr",
+    "word": "englis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a prosecutor,</i> Bárð. 171.",
+    ],
+    "foundIn": [
+      "In headword: eptirmáls-maðr",
+    ],
+    "slug": "eptirmals-madr",
+    "word": "eptirmáls-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a prying, inquisitive person.</i>",
+    ],
+    "foundIn": [
+      "In headword: eptirrýninga-maðr",
+    ],
+    "slug": "eptirryninga-madr",
+    "word": "eptirrýninga-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an heir,</i> Js. 38.",
+    ],
+    "foundIn": [
+      "In headword: erfða-maðr",
+    ],
+    "slug": "erfda-madr",
+    "word": "erfða-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a spendthrift,</i> þorst. hv. 35.",
+    ],
+    "foundIn": [
+      "In headword: eyðslu-maðr",
+    ],
+    "slug": "eydslu-madr",
+    "word": "eyðslu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a seaman, sea-faring man,</i> Landn. 180, Bs. i. 66, Nj. 61, Eg. 154, Fms. i. 11, iv. 124, 174. Þorst. hv. 44, Grág. i. 190.",
+      "COMPDS: farmannabúðir, farmannalög.",
+    ],
+    "foundIn": [
+      "In headword: far-maðr",
+    ],
+    "slug": "far-madr",
+    "word": "far-maðr",
+  },
+  {
+    "definitions": [
+      "m. = farmaðr, N. G. L. i. 199.",
+    ],
+    "foundIn": [
+      "In headword: farar-maðr",
+    ],
+    "slug": "farar-madr",
+    "word": "farar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an abusive man,</i> Þorst. Síðu H. 175.",
+    ],
+    "foundIn": [
+      "In headword: fárs-maðr",
+    ],
+    "slug": "fars-madr",
+    "word": "fárs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a poor man,</i> 655 xxxii. 24.",
+    ],
+    "foundIn": [
+      "In headword: fátækis-maðr",
+    ],
+    "slug": "fataekis-madr",
+    "word": "fátækis-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a traveller,</i> Stj. 400. Sturl. i. 89.",
+    ],
+    "foundIn": [
+      "In headword: ferða-maðr",
+    ],
+    "slug": "ferda-madr",
+    "word": "ferða-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a ferryman,</i> Vm. 16: <i>the inmate of a ferry-house,</i> Sd. 226.",
+    ],
+    "foundIn": [
+      "In headword: ferju-maðr",
+    ],
+    "slug": "ferju-madr",
+    "word": "ferju-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a betrothed man,</i> Grág. i. 355, Gþl. 212.",
+    ],
+    "foundIn": [
+      "In headword: festar-maðr",
+    ],
+    "slug": "festar-madr",
+    "word": "festar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a bail, surety,</i> Fms. vii. 39.",
+    ],
+    "foundIn": [
+      "In headword: festu-maðr",
+    ],
+    "slug": "festu-madr",
+    "word": "festu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a fisherman,</i> Bs. i. 360, Blas. 38, Fms. vii. 121, 122.",
+    ],
+    "foundIn": [
+      "In headword: fiski-maðr",
+    ],
+    "slug": "fiski-madr",
+    "word": "fiski-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a sorcerer,</i> Stj. 647, 651.",
+    ],
+    "foundIn": [
+      "In headword: fítóns-maðr",
+    ],
+    "slug": "fitons-madr",
+    "word": "fítóns-maðr",
+  },
+  {
+    "definitions": [
+      "m. = fjallgöngumaðr, Sd. 156.",
+    ],
+    "foundIn": [
+      "In headword: fjall-maðr",
+    ],
+    "slug": "fjall-madr",
+    "word": "fjall-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a foe-man,</i> Lv. 106, Fms. v. 273, Orkn. 224.",
+    ],
+    "foundIn": [
+      "In headword: fjánd-maðr",
+    ],
+    "slug": "fjand-madr",
+    "word": "fjánd-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a spendthrift,</i> Fms. iii. 83.",
+    ],
+    "foundIn": [
+      "In headword: fjáreyðslu-maðr",
+    ],
+    "slug": "fjareydslu-madr",
+    "word": "fjáreyðslu-maðr",
+  },
+  {
+    "definitions": [
+      "m., mikill f., <i>a thrifty man,</i> Sturl. i. 225.",
+    ],
+    "foundIn": [
+      "In headword: fjárgæzlu-maðr",
+    ],
+    "slug": "fjargaezlu-madr",
+    "word": "fjárgæzlu-maðr",
+  },
+  {
+    "definitions": [
+      "m., góðr, lítill f., <i>a good, bad, manager,</i> Fms. v. 321.",
+    ],
+    "foundIn": [
+      "In headword: fjárhaga-maðr",
+    ],
+    "slug": "fjarhaga-madr",
+    "word": "fjárhaga-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a guardian,</i> 260.",
+    ],
+    "foundIn": [
+      "In headword: fjárhalds-maðr",
+    ],
+    "slug": "fjarhalds-madr",
+    "word": "fjárhalds-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a wealthy man,</i> Fas. iii. 30.",
+    ],
+    "foundIn": [
+      "In headword: fjárorku-maðr",
+    ],
+    "slug": "fjarorku-madr",
+    "word": "fjárorku-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a trustee,</i> Grág. i. 282.",
+    ],
+    "foundIn": [
+      "In headword: fjárvarðveizlu-maðr",
+    ],
+    "slug": "fjarvardveizlu-madr",
+    "word": "fjárvarðveizlu-maðr",
+  },
+  {
+    "definitions": [
+      "(<strong>fjörs-maðr,</strong> Fagrsk. 181), m. <i>a traitor against one’s life.</i>",
+    ],
+    "foundIn": [
+      "In headword: fjörráðs-maðr",
+    ],
+    "slug": "fjorrads-madr",
+    "word": "fjörráðs-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>the owner of the shore,</i> Grág. ii. 367, Jb. 318.",
+    ],
+    "foundIn": [
+      "In headword: fjöru-maðr",
+    ],
+    "slug": "fjoru-madr",
+    "word": "fjöru-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man belonging to a</i> f. Fms. vii. 252, Sturl. iii. 242.",
+    ],
+    "foundIn": [
+      "In headword: flokks-maðr",
+    ],
+    "slug": "flokks-madr",
+    "word": "flokks-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>‘a man of flies,’ a wizard,</i> occurs in this sense in the old Swed. law (Verel.): hence metaph. <i>a hired bandit, an assassin,</i> Landn. 181, N. G. L. ii. 51, Fms. v. 45, 190, vi. 188, Glúm. 361, Rd. 307, Lv. 57.",
+    ],
+    "foundIn": [
+      "In headword: flugu-maðr",
+    ],
+    "slug": "flugu-madr",
+    "word": "flugu-maðr",
+  },
+  {
+    "definitions": [
+      "m.",
+      "<strong>I.</strong> <i>a ‘fore-man,’ captain,</i> Fms. vii. 246. ix. 348, xi. 243, 402, Nj. 43, Magn. 486:—<i>a master, ruler,</i> Edda (pref.); formaðr konunga, <i>the foremost among kings,</i> Fms. ii. 292; f. annars fólks, <i>the foremost man of other folk,</i> vi. 38.",
+      "COMPDS: formannslauss, formannsskapr.",
+      "<strong>II.</strong> mod. <i>the foreman</i> or <i>captain in a fishing vessel</i> or <i>boat;</i> in many compds, e. g. <strong>formanns-hlutr,</strong> m. <i>the captains share</i> (of the fish caught).",
+    ],
+    "foundIn": [
+      "In headword: for-maðr",
+    ],
+    "slug": "for-madr",
+    "word": "for-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an execrable man,</i> Fms. xi. 432.",
+    ],
+    "foundIn": [
+      "In headword: fordæðu-maðr",
+    ],
+    "slug": "fordaedu-madr",
+    "word": "fordæðu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man of the olden time:</i> <strong>forn-menn,</strong> m. pl. <i>the ancients,</i> in many compds: the old biographies of the kings of Norway edited 1825 sqq. are by the editors (less correctly) called <strong>Fornmanna-sögur,</strong> instead of the true old name Konunga-sögur or Konunga-æfi.",
+    ],
+    "foundIn": [
+      "In headword: forn-maðr",
+    ],
+    "slug": "forn-madr",
+    "word": "forn-maðr",
+  },
+  {
+    "definitions": [
+      "and <strong>forráðs-maðr,</strong> m. <i>a manager, warden,</i> Grág. ii. 405, Vm. 108; f. kristninnar, <i>the leaders of the church,</i> 656 C. 17, Hom. 95; f. ok höfðingi, Ver. 18, Hkr. i. 83; f. á skipi, <i>the captain of a ship,</i> Landn. 56.",
+    ],
+    "foundIn": [
+      "In headword: forráða-maðr",
+    ],
+    "slug": "forrada-madr",
+    "word": "forráða-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an angry man,</i> Korm. 80.",
+    ],
+    "foundIn": [
+      "In headword: fors-maðr",
+    ],
+    "slug": "fors-madr",
+    "word": "fors-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a warden, overseer,</i> Stj. 243, Fms. i. 290, x. 421, Sturl. i. 198.",
+    ],
+    "foundIn": [
+      "In headword: forsjá-maðr",
+    ],
+    "slug": "forsja-madr",
+    "word": "forsjá-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a manager,</i> Ver. 36, Rb. 404.",
+    ],
+    "foundIn": [
+      "In headword: forstöðu-maðr",
+    ],
+    "slug": "forstodu-madr",
+    "word": "forstöðu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man of distinction,</i> Bs. i. Laur. S.",
+    ],
+    "foundIn": [
+      "In headword: frama-maðr",
+    ],
+    "slug": "frama-madr",
+    "word": "frama-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a pauper.</i> Jb. 181, Þorst. St. 55; = mod. sveitar-ómagi.",
+    ],
+    "foundIn": [
+      "In headword: framfærslu-maðr",
+    ],
+    "slug": "framfaerslu-madr",
+    "word": "framfærslu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a man of prowess,</i> Nj. 181, Fms. i. 15, xi. 232.",
+    ],
+    "foundIn": [
+      "In headword: framkvæmdar-maðr",
+    ],
+    "slug": "framkvaemdar-madr",
+    "word": "framkvæmdar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an historian,</i> 732. 15 (better sagna-maðr).",
+    ],
+    "foundIn": [
+      "In headword: frásagna-maðr",
+    ],
+    "slug": "frasagna-madr",
+    "word": "frásagna-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an adulterer,</i> = Gr. μοιχός, N. T.; in pl., Bs. i. 684.",
+    ],
+    "foundIn": [
+      "In headword: frillu-maðr",
+    ],
+    "slug": "frillu-madr",
+    "word": "frillu-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>an assailant,</i> Grág. ii. 13.",
+    ],
+    "foundIn": [
+      "In headword: frumhlaups-maðr",
+    ],
+    "slug": "frumhlaups-madr",
+    "word": "frumhlaups-maðr",
+  },
+  {
+    "definitions": [
+      "(<strong>fræða-maðr,</strong> Edda pref.), m. <i>a learned man, scholar,</i> Skálda 159; f. á kvæði, Fms. vi. 391: <i>an historian,</i> eptir sögn Ara prests ok annarra fræðimanna, iv. 5 (v. l.), xi. 64, Ó. H. pref. 3, Sturl. i. 9, Ísl. ii. 189.",
+    ],
+    "foundIn": [
+      "In headword: fræði-maðr",
+    ],
+    "slug": "fraedi-madr",
+    "word": "fræði-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a famous man,</i> Fms. ii. 271, Grett. 196 new Ed.",
+    ],
+    "foundIn": [
+      "In headword: frægðar-maðr",
+    ],
+    "slug": "fraegdar-madr",
+    "word": "frægðar-maðr",
+  },
+  {
+    "definitions": [
+      "m. <i>a helper,</i> Bret. 78, Sks. 611, Sd. 170, Rd. 254, Bs. i. 683, passim.",
+    ],
+    "foundIn": [
+      "In headword: fulltings-maðr",
+    ],
+    "slug": "fulltings-madr",
+    "word": "fulltings-maðr",
+  },
+]
+`;

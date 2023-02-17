@@ -1,9 +1,16 @@
 import { markWords } from 'markari'
 import { getAbbreviations, addAbbreviationsToContent } from 'lib/services/abbreviations'
+import { DictionaryEntry } from './dictionary'
 
-const formatResults = (results, search, criteria) => {
+export interface SearchResult extends DictionaryEntry{
+  foundIn: string[],
+}
+
+export type Criteria = 'all' | 'headword' | 'definitions'
+
+const formatResults = (results, search, criteria): SearchResult[] => {
   const formattedResults = results.map((result) => {
-    const foundIn = []
+    const foundIn: string[] = []
 
     if (criteria.includes('definitions')) {
       result.definitions.forEach((definition) => {
@@ -33,7 +40,11 @@ const formatResults = (results, search, criteria) => {
   return formattedResults
 }
 
-export const searchDictionary = (search, dictionary, criteria = ['headword', 'definitions']) => {
+export const searchDictionary = (
+  search: string,
+  dictionary: DictionaryEntry[],
+  criteria: Criteria[] = ['headword', 'definitions'],
+): SearchResult[] => {
   const filteredSearch = search.toLowerCase()
 
   const results = dictionary.filter((entry) => {

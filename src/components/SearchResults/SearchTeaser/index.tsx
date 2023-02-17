@@ -1,7 +1,12 @@
+import { SearchResult } from 'lib/services/search';
 import Link from 'next/link'
 import styles from './SearchTeaser.module.scss'
 
-export default function SearchTeaser({ data }) {
+interface SearchTeaserProps {
+  data: SearchResult
+}
+
+export default function SearchTeaser({ data }: SearchTeaserProps) {
   const { slug, word, foundIn } = data
 
   return (
