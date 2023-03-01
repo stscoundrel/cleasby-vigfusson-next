@@ -45,7 +45,7 @@
     "@types/jest": "^29.4.0",
     "@types/node": "^18.13.0",
     "@types/react": "^18.0.28",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "cypress": "^12.6.0",
     "eslint": "^8.34.0",
     "eslint-config-airbnb": "^19.0.4",
