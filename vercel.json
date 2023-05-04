@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/search.ts": {
+      "pages/api/search.ts": {
         "memory": 512
       }
     }
