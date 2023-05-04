@@ -1,0 +1,7 @@
+{
+    "functions": {
+      "api/search.ts": {
+        "memory": 512
+      }
+    }
+  }

@@ -2,14 +2,6 @@ import { getAllWords } from 'lib/services/dictionary'
 import { Criteria, searchDictionary } from 'lib/services/search';
 import { NextApiRequest, NextApiResponse } from 'next';
 
-export const config = {
-  /**
-   * Default Vercel memory allocation is a bit too generous,
-   * easily multiplying GBh usage per momth. Limit it.
-   */
-  memory: 512, // Half of default 1GB.
-}
-
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (!req.query.search || !req.query.criteria) {
     return res.status(422).json({ message: 'Missing search term or criteria' })
