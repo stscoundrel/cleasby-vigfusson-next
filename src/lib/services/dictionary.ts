@@ -7,6 +7,11 @@ export interface DictionaryEntry extends RawDictionaryEntry {
   slug: string,
 }
 
+export interface DictionaryEntryDTO {
+  word: string,
+  slug: string
+}
+
 export interface AlphabetLetter {
   letter: string,
   slug: string
@@ -64,10 +69,16 @@ export const getAllWords = (): DictionaryEntry[] => {
   return dictionary
 }
 
-export const getByLetter = (letter: string): DictionaryEntry[] => {
+export const getByLetter = (letter: string): DictionaryEntryDTO[] => {
   const words = getAllWords()
-  const byLetter = words.filter((entry) => (
-    entry.word.charAt(0).toLowerCase() === letter.toLowerCase()))
+  const byLetter = words
+    .filter((entry) => (
+      entry.word.charAt(0).toLowerCase() === letter.toLowerCase()))
+    .map((entry) => {
+      // Simpler DTO dictionary entry.
+      const { word, slug } = entry
+      return { word, slug }
+    })
 
   return byLetter
 }

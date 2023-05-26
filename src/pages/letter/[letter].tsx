@@ -1,5 +1,7 @@
 // Services.
-import { getAlphabet, getByLetter } from 'lib/services/dictionary'
+import {
+  AlphabetLetter, DictionaryEntryDTO, getAlphabet, getByLetter,
+} from 'lib/services/dictionary'
 import { decodeLetter } from 'lib/utils/slugs'
 
 // Components.
@@ -7,10 +9,31 @@ import Layout from 'components/Layout'
 import LetterHeader from 'components/LetterHeader'
 import WordList from 'components/WordList'
 
+interface LetterPath{
+  params: {
+      letter: string
+  }
+}
+
+interface LetterPageStaticPaths{
+  paths: LetterPath[]
+  fallback: boolean
+}
+
+interface LetterPageProps{
+  words: DictionaryEntryDTO[] | null,
+  letters: AlphabetLetter[],
+  letter: AlphabetLetter
+}
+
+interface LetterPageStaticProps{
+  props: LetterPageProps
+}
+
 /**
  * Get list of possible letter pages
  */
-export async function getStaticPaths() {
+export async function getStaticPaths(): Promise<LetterPageStaticPaths> {
   const letters = getAlphabet()
   const paths = letters.map((letter) => ({
     params: { letter: letter.slug },
@@ -25,7 +48,7 @@ export async function getStaticPaths() {
 /**
  * Get words by letter.
  */
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }): Promise<LetterPageStaticProps> {
   const { letter } = params
   const letters = getAlphabet()
   const decodedLetter = letters.filter(
