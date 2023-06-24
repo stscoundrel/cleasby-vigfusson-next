@@ -8,6 +8,7 @@ import Layout from 'components/Layout'
 import ContentArea from 'components/ContentArea'
 import Link from 'next/link'
 import WordList from 'components/WordList'
+import SampleText from 'components/SampleText'
 
 interface IndexProps{
   words: DictionaryEntry[],
@@ -54,6 +55,8 @@ export default function Index({ words, letters }: IndexProps) {
         <p>It was spoken by Scandinavians during the Viking Age,
           making it the &quot;language of vikings&quot;.
         </p>
+
+        <SampleText />
       </ContentArea>
 
       <ContentArea>
