@@ -14,7 +14,7 @@ export default function WordList({ words, showDefinition = false }: WordListProp
     <ul className={styles.list}>
       { words.map((word) => (
         <li key={word.slug}>
-          <WordLink data={word} />
+          <WordLink data={word} useLowerCase={true} />
           {showDefinition && hasProperty(word, 'definitions') && <p dangerouslySetInnerHTML={{
             __html: word.definitions[0],
           } } />}

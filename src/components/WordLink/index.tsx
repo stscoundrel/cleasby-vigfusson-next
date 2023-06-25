@@ -1,7 +1,13 @@
 import Link from 'next/link'
+import { DictionaryEntry } from 'lib/services/dictionary';
 import styles from './WordLink.module.scss'
 
-export default function WordLink({ data, useLowerCase = true }) {
+interface WordLinkProps{
+  data: DictionaryEntry,
+  useLowerCase: boolean,
+}
+
+export default function WordLink({ data, useLowerCase = true }: WordLinkProps) {
   const { slug, word } = data
 
   return (
