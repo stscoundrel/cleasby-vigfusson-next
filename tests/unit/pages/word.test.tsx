@@ -65,6 +65,7 @@ describe('Word page: render & usage', () => {
     root.render(
       <Word
         entry={word}
+        similarEntries={[]}
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
@@ -76,6 +77,7 @@ describe('Word page: render & usage', () => {
     const tree = renderer.create(
       <Word
         entry={word}
+        similarEntries={[]}
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
@@ -88,6 +90,7 @@ describe('Word page: render & usage', () => {
     const tree = renderer.create(
       <Word
         entry={null}
+        similarEntries={[]}
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={[]}
@@ -100,6 +103,7 @@ describe('Word page: render & usage', () => {
     const tree = renderer.create(
       <Word
         entry={word}
+        similarEntries={[]}
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
@@ -138,6 +142,7 @@ describe('Word page: data fetching', () => {
           definitions: ['u, f. <i>a bad stench.</i>'],
           slug: 'staekja',
         },
+        similarEntries: [],
         abbreviations: {
           common: [
             {

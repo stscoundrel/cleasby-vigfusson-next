@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Similar entries component Matches the snapshot 1`] = `
+[
+  <h4>
+    Similar entries:
+  </h4>,
+  <ul>
+    <li>
+      <a
+        className="link"
+        href="/word/fadhurlikhet-2"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onTouchStart={[Function]}
+      >
+        Fadhurlikhet (II)
+      </a>
+    </li>
+  </ul>,
+]
+`;

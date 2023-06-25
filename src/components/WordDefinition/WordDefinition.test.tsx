@@ -60,14 +60,23 @@ describe('WordDefinition component', () => {
     const div = document.createElement('div')
     const root = ReactDOM.createRoot(div)
     root.render(
-      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks}
-    />,
+      <WordDefinition
+        entry={word}
+        abbreviations={abbreviations}
+        similarEntries={[]}
+        crosslinks={crosslinks}
+      />,
     )
   })
 
   test('Matches snapshot', () => {
     const tree = renderer.create(
-      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks} />,
+      <WordDefinition
+        entry={word}
+        abbreviations={abbreviations}
+        similarEntries={[]}
+        crosslinks={crosslinks}
+      />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
   })
@@ -75,7 +84,10 @@ describe('WordDefinition component', () => {
   test('Matches snapshot (older spelling variant)', () => {
     const tree = renderer.create(
       <WordDefinition
-        entry={wordWithOlderSpellingVariant} abbreviations={abbreviations} crosslinks={crosslinks}
+        entry={wordWithOlderSpellingVariant}
+        similarEntries={[]}
+        abbreviations={abbreviations}
+        crosslinks={crosslinks}
       />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
@@ -83,7 +95,12 @@ describe('WordDefinition component', () => {
 
   test('Has correct label', () => {
     const tree = renderer.create(
-      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks} />,
+      <WordDefinition
+        entry={word}
+        abbreviations={abbreviations}
+        similarEntries={[]}
+        crosslinks={crosslinks}
+      />,
     )
     const { root } = tree
 
@@ -92,7 +109,12 @@ describe('WordDefinition component', () => {
 
   test('Has correct amount of definitions', () => {
     const tree = renderer.create(
-      <WordDefinition entry={word} abbreviations={abbreviations} crosslinks={crosslinks} />,
+      <WordDefinition
+        entry={word}
+        abbreviations={abbreviations}
+        similarEntries={[]}
+        crosslinks={crosslinks}
+      />,
     )
     const { root } = tree
 
