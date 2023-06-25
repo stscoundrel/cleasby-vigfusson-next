@@ -97,6 +97,10 @@ export const getRandomEntries = (): DictionaryEntry[] => (
     .sort((a, b) => oldNorseSort(a.word, b.word))
 )
 
+export const getSimilarWords = (entry: DictionaryEntry) : DictionaryEntry[] => getAllWords()
+  .filter((dEntry) => dEntry.word.toLocaleLowerCase() === entry.word.toLocaleLowerCase()
+  && dEntry.slug !== entry.slug)
+
 export const getAlphabet = (): AlphabetLetter[] => {
   const letters = [...VALID_AS_FIRST.filter((letter) => letter !== 'ǫ' && letter !== 'ø'), 'ö']
 
