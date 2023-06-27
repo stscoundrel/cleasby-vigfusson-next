@@ -5864,10 +5864,10 @@ saxes@^6.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-scandinavian-dictionary-crosslinker@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/scandinavian-dictionary-crosslinker/-/scandinavian-dictionary-crosslinker-0.4.2.tgz#1d6b30cb506f9d25c0859d0ebdc5fd3d1b5a4cfe"
-  integrity sha512-v/xBAHgimjQ750cn/eFoN4DEfO4V3Dm28tljg6H4NDl2Fi90T7N43egL+8UGh+R4Ij56vTQiCNYFVVjYKiuPNQ==
+scandinavian-dictionary-crosslinker@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/scandinavian-dictionary-crosslinker/-/scandinavian-dictionary-crosslinker-0.5.0.tgz#17e30415e638ece7eaf9fd65eccb8a311c4747e9"
+  integrity sha512-w9OOl2x/da0zbTDdgTCRPeT1aJMty1SYYkEVhjjVmtkFwK6fayRzYGpVgjfP6Kw/+rX1qqCRcgRE7C01VeAI1g==
 
 scheduler@^0.23.0:
   version "0.23.0"
