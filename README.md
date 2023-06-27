@@ -14,9 +14,12 @@ Related projects:
 - Online version of classic Old Norse dictionary
 - Over 35 000 statically generated pages
 - Search words & definitions
+- Automatic similar entries / homoonyms mapping.
+- Crosslinks to dictionaries of related languages.
+- Abbreviated dictionary content mapped to their full meanings.
 - High test coverage.
 - Optimized for fast load times.
-- SEO, Accessibility and Schema optimized, high lighthouse scores
+- SEO, Accessibility and Schema optimized, high lighthouse scores.
 
 ## Motivation
 
