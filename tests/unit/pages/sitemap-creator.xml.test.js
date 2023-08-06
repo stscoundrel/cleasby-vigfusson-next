@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
-import Sitemap, { getServerSideProps } from 'pages/sitemap-creator.xml'
 import renderer from 'react-test-renderer'
 import { createMocks } from 'node-mocks-http'
+import Sitemap, { getServerSideProps } from 'pages/sitemap-creator.xml'
 
 describe('Sitemap page: render', () => {
   process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'

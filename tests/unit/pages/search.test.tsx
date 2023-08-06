@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import Search, { getStaticProps } from 'pages/search'
 import renderer from 'react-test-renderer'
+import Search, { getStaticProps } from 'pages/search'
 import { getAlphabet } from 'lib/services/dictionary'
 
 /**

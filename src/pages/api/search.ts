@@ -1,6 +1,6 @@
+import { NextApiRequest, NextApiResponse } from 'next';
 import { getAllWords } from 'lib/services/dictionary'
 import { Criteria, searchDictionary } from 'lib/services/search';
-import { NextApiRequest, NextApiResponse } from 'next';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (!req.query.search || !req.query.criteria) {

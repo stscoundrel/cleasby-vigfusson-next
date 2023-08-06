@@ -1,7 +1,7 @@
-import { getSitemapContent, formatSitemap } from 'lib/services/sitemap'
 import { SitemapStream, streamToPromise } from 'sitemap'
 import { hasProperty } from 'spyrjari'
 import { isArray } from 'volva'
+import { getSitemapContent, formatSitemap } from 'lib/services/sitemap'
 
 describe('Sitemap tests', () => {
   process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'

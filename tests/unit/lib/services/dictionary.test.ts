@@ -1,10 +1,10 @@
 import { getDictionary } from 'cleasby-vigfusson-dictionary'
-import {
-  getAllWords, getByLetter, getWord, getAlphabet, getSimilarWords,
-} from 'lib/services/dictionary'
 import { isArray } from 'volva'
 import { matchesSchema } from 'jafningjar'
 import { oldNorseSort } from 'old-norse-alphabet-sort'
+import {
+  getAllWords, getByLetter, getWord, getAlphabet, getSimilarWords,
+} from 'lib/services/dictionary'
 
 describe('Dictionary tests', () => {
   const dictionary = getAllWords()

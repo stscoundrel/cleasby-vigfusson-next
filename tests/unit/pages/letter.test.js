@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import Letter, { getStaticProps, getStaticPaths } from 'pages/letter/[letter]'
 import renderer from 'react-test-renderer'
+import Letter, { getStaticProps, getStaticPaths } from 'pages/letter/[letter]'
 import { getByLetter, getAlphabet } from 'lib/services/dictionary'
 
 describe('Letter page: render', () => {

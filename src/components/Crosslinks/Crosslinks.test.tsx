@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer'
-import { Crosslink } from 'lib/services/crosslinks'
 import { DictionarySource } from 'scandinavian-dictionary-crosslinker'
+import { Crosslink } from 'lib/services/crosslinks'
 import Crosslinks from './index'
 import styles from './Crosslinks.module.scss'
 

@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import Layout from 'components/Layout'
 import renderer from 'react-test-renderer'
+import Layout from 'components/Layout'
 import { getByLetter, getWord, getAlphabet } from 'lib/services/dictionary'
 
 describe('Layout component', () => {

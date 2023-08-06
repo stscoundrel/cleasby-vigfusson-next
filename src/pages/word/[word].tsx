@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 
 // Services.
+import { Crosslink } from 'scandinavian-dictionary-crosslinker'
 import {
   getWord, getAlphabet, DictionaryEntry, AlphabetLetter, getSimilarWords,
 } from 'lib/services/dictionary'
@@ -13,7 +14,6 @@ import { redirect404, Redirect404ResponseSchema } from 'lib/utils/redirect-404'
 import Layout from 'components/Layout'
 import WordDefinition from 'components/WordDefinition'
 import Button from 'components/Button'
-import { Crosslink } from 'scandinavian-dictionary-crosslinker'
 import { decodeLetter } from 'lib/utils/slugs'
 import { getCrossLinks } from 'lib/services/crosslinks'
 

@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import Sources, { getStaticProps } from 'pages/source-list'
 import renderer from 'react-test-renderer'
+import Sources, { getStaticProps } from 'pages/source-list'
 import { getAlphabet } from 'lib/services/dictionary'
 import { getAllSorces } from 'lib/services/abbreviations'
 

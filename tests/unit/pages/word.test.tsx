@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom/client'
-import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
 import renderer from 'react-test-renderer'
-import { getAlphabet } from 'lib/services/dictionary'
 import { DictionarySource } from 'scandinavian-dictionary-crosslinker'
+import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
+import { getAlphabet } from 'lib/services/dictionary'
 
 const mockHandler = jest.fn()
 
