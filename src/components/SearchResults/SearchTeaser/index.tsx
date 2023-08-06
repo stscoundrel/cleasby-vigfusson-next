@@ -1,5 +1,5 @@
-import { SearchResult } from 'lib/services/search';
 import Link from 'next/link'
+import { SearchResult } from 'lib/services/search';
 import styles from './SearchTeaser.module.scss'
 
 interface SearchTeaserProps {

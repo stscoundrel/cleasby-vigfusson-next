@@ -1,6 +1,6 @@
+import Link from 'next/link'
 import { getBreadcrumbs } from 'lib/utils/breadcrumbs'
 import { getSchema } from 'lib/utils/schema'
-import Link from 'next/link'
 import styles from './Breadcrumbs.module.scss'
 
 export default function Breadcrumbs({ type, content }) {

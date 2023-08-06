@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom/client'
-import Index, { getStaticProps } from 'pages/index'
 import renderer from 'react-test-renderer'
-import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 import { matchesSchema } from 'jafningjar'
+import Index, { getStaticProps } from 'pages/index'
+import { getAllWords, getAlphabet } from 'lib/services/dictionary'
 
 describe('Index page', () => {
   test('Does not crash', () => {

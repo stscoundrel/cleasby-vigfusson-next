@@ -1,7 +1,7 @@
-import { getAllWords } from 'lib/services/dictionary'
-import { searchDictionary } from 'lib/services/search'
 import { isArray } from 'volva'
 import { hasProperty } from 'spyrjari'
+import { getAllWords } from 'lib/services/dictionary'
+import { searchDictionary } from 'lib/services/search'
 
 describe('Search tests', () => {
   const dictionary = getAllWords()

@@ -1,6 +1,6 @@
 // Services.
-import { getSitemapContent, formatSitemap } from 'lib/services/sitemap'
 import { SitemapStream, streamToPromise } from 'sitemap'
+import { getSitemapContent, formatSitemap } from 'lib/services/sitemap'
 
 export async function getServerSideProps({ res }) {
   const content = getSitemapContent()

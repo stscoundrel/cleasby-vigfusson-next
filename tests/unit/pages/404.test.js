@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import Page404, { getStaticProps } from 'pages/404'
 import renderer from 'react-test-renderer'
+import Page404, { getStaticProps } from 'pages/404'
 import { getAlphabet } from 'lib/services/dictionary'
 
 describe('404 page page', () => {

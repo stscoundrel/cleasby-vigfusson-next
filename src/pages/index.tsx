@@ -1,4 +1,5 @@
 // Services.
+import Link from 'next/link'
 import {
   getRandomEntries, getAlphabet, DictionaryEntry, AlphabetLetter,
 } from 'lib/services/dictionary'
@@ -6,7 +7,6 @@ import {
 // Components.
 import Layout from 'components/Layout'
 import ContentArea from 'components/ContentArea'
-import Link from 'next/link'
 import WordList from 'components/WordList'
 import SampleText from 'components/SampleText'
 

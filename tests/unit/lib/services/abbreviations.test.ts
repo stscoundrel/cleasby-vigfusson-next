@@ -1,11 +1,10 @@
+// Test utils.
+import { isObject, isArray } from 'volva'
+import { hasProperty } from 'spyrjari'
 import {
   getAbbreviations,
   addAbbreviationsToContent,
 } from 'lib/services/abbreviations'
-
-// Test utils.
-import { isObject, isArray } from 'volva'
-import { hasProperty } from 'spyrjari'
 
 describe('Abbreviations tests', () => {
   const simpleEntry = {

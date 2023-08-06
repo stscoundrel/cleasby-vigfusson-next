@@ -1,5 +1,5 @@
-import { DictionaryEntry } from 'lib/services/dictionary'
 import renderer from 'react-test-renderer'
+import { DictionaryEntry } from 'lib/services/dictionary'
 import SimilarEntries from './index'
 
 describe('Similar entries component', () => {

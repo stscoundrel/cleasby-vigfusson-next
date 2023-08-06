@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import Head from 'components/Head'
 import renderer from 'react-test-renderer'
+import Head from 'components/Head'
 import { getByLetter, getWord } from 'lib/services/dictionary'
 
 describe('Head component', () => {

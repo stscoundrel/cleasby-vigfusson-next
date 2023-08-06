@@ -1,7 +1,7 @@
 import { DictionaryEntry } from 'cleasby-vigfusson-dictionary'
+import { hasProperty } from 'spyrjari'
 import WordLink from 'components/WordLink'
 import { DictionaryEntryDTO } from 'lib/services/dictionary'
-import { hasProperty } from 'spyrjari'
 import styles from './WordList.module.scss'
 
 interface WordListProps {

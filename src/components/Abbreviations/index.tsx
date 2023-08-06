@@ -1,6 +1,6 @@
+import Link from 'next/link'
 import AbbreviationList from 'components/AbbreviationList'
 import { CombinedAbbreviations } from 'lib/services/abbreviations'
-import Link from 'next/link'
 import styles from './Abbreviations.module.scss'
 
 interface AbbreviationProps{
