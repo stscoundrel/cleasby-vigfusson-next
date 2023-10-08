@@ -79,6 +79,7 @@ export const getByLetter = (letter: string): DictionaryEntryDTO[] => {
       const { word, slug } = entry
       return { word, slug }
     })
+    .sort((a, b) => oldNorseSort(a.word, b.word))
 
   return byLetter
 }
