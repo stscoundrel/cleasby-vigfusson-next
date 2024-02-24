@@ -86,8 +86,8 @@ export default function Footer({ letters }: FooterProps) {
               </li>
               <li>
                 <ExternalLink
-                  title="Old Norse Alphabet"
-                  href="https://github.com/stscoundrel/old-norse-alphabet"
+                  title="Otto Kalkar's Old Danish Dictionary"
+                  href="https://old-danish-dictionary.vercel.app/"
                 />
               </li>
             </ul>
