@@ -44,6 +44,17 @@ exports[`Crosslinks component Matches the snapshot 1`] = `
         Old Norwegian - Johan Fritzner's Dictionary
       </a>
     </li>
+    <li
+      className="listItem"
+    >
+      <a
+        href="https://old-danish-dictionary.vercel.app/word/fader"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Old Danish - Otto Kalkar's Dictionary
+      </a>
+    </li>
   </ul>,
 ]
 `;
