@@ -20,6 +20,10 @@ export default function Crosslinks({ crosslinks }: CrossLinkProps) {
       return 'Old Icelandic - Geir Zoëga\'s Dictionary'
     }
 
+    if (source === 'old-danish') {
+      return 'Old Danish - Otto Kalkar\'s Dictionary'
+    }
+
     return ''
   }
 
