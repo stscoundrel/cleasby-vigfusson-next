@@ -1,9 +1,14 @@
 import ExternalLink from 'components/ExternalLink'
 import LetterLink from 'components/LetterLink'
 import ContentArea from 'components/ContentArea'
+import { AlphabetLetter } from 'lib/services/dictionary'
 import styles from './Footer.module.scss'
 
-export default function Footer({ letters }) {
+interface FooterProps{
+  letters: AlphabetLetter[]
+}
+
+export default function Footer({ letters }: FooterProps) {
   return (
     <footer className={styles.section}>
       <div className="container">
