@@ -29,12 +29,12 @@ describe('Crosslinks service tests', () => {
   test('Returns crosslinks when slugs match', () => {
     const expected = [
       {
-        url: 'https://old-norwegian-dictionary.vercel.app/word/fadir',
-        source: 'old-norwegian',
-      },
-      {
         url: 'https://old-icelandic.vercel.app/word/fadir',
         source: 'old-icelandic',
+      },
+      {
+        url: 'https://old-norwegian-dictionary.vercel.app/word/fadir',
+        source: 'old-norwegian',
       },
       {
         url: 'https://old-swedish-dictionary.vercel.app/word/fadhir',
