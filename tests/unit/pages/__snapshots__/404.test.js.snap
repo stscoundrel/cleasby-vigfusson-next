@@ -645,11 +645,11 @@ exports[`404 page page Matches snapshot 1`] = `
             </li>
             <li>
               <a
-                href="https://github.com/stscoundrel/old-norse-alphabet"
+                href="https://old-danish-dictionary.vercel.app/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Old Norse Alphabet
+                Otto Kalkar's Old Danish Dictionary
               </a>
             </li>
           </ul>
