@@ -43,9 +43,9 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.11.20",
-    "@types/react": "^18.2.58",
-    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
     "cypress": "^13.6.6",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
