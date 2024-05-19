@@ -43,7 +43,7 @@ export default function Index({ words, letters }: IndexProps) {
           Containing over 35 000 entries with English definitions,
           it is one of the most important resources for the norse language.</p>
 
-        <Link href="/search" className="button">
+        <Link href="/search" className="button" prefetch={false}>
          Search the dictionary
         </Link>
       </ContentArea>

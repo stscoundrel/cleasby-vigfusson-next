@@ -11,7 +11,7 @@ export default function SearchTeaser({ data }: SearchTeaserProps) {
 
   return (
     <div className={styles.result}>
-      <Link key={`link${slug}`} href={`/word/${slug}`} className={styles.link}>
+      <Link key={`link${slug}`} href={`/word/${slug}`} className={styles.link} prefetch={false}>
         {word.toLowerCase()}
       </Link>
       <ul>

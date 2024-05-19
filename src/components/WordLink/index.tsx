@@ -11,7 +11,7 @@ export default function WordLink({ data, useLowerCase = true }: WordLinkProps) {
   const { slug, word } = data
 
   return (
-    <Link key={`link${slug}`} href={`/word/${slug}`} className={styles.link}>
+    <Link key={`link${slug}`} href={`/word/${slug}`} className={styles.link} prefetch={false}>
        {useLowerCase ? word.toLowerCase() : word}
      </Link>
   );
