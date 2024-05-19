@@ -30,7 +30,7 @@ export default function Breadcrumbs({ type, content }) {
     <nav className={styles.section}>
       <div className="container">
         {breadcrumbs.map(({ label, url }) => (
-          <Link key={url} href={url} className={styles.link}>
+          <Link key={url} href={url} className={styles.link} prefetch={false}>
             {label}
           </Link>
         ))}
