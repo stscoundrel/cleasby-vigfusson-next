@@ -17,7 +17,7 @@
     "start": "next start",
     "lint": "eslint src tests",
     "fix": "eslint src tests --fix",
-    "jest": "jest --verbose --runInBand --passWithNoTests",
+    "jest": "jest --verbose --passWithNoTests",
     "test:unit": "yarn jest",
     "test:integration": "yarn cypress run --env env=test --spec 'tests/integration/tests/**/*'",
     "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"80\", \"branches\":\"80\", \"lines\":\"90\"}}'"
