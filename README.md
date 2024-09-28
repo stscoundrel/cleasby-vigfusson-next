@@ -7,7 +7,6 @@ See live site [here](https://cleasby-vigfusson-dictionary.vercel.app/)
 Related projects:
 - [Cleasby & Vigfusson Dictionary](https://github.com/stscoundrel/cleasby-vigfusson-dictionary).
 - [Cleasby & Vigfusson Abbreviations](https://github.com/stscoundrel/cleasby-vigfusson-abbreviations).
-- [Cleasby & Vigfusson Gatsby Source Plugin](https://github.com/stscoundrel/gatsby-source-cleasby-vigfusson)
 
 ## Features
 
