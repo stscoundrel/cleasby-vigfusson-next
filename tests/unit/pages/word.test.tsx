@@ -59,6 +59,8 @@ describe('Word page: render & usage', () => {
     },
   ]
 
+  const runes = 'ᚢᚢᛚᚢᛅ'
+
   test('Does not crash', () => {
     const div = document.createElement('div')
     const root = ReactDOM.createRoot(div)
@@ -69,6 +71,7 @@ describe('Word page: render & usage', () => {
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     )
   })
@@ -81,6 +84,7 @@ describe('Word page: render & usage', () => {
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
@@ -94,6 +98,7 @@ describe('Word page: render & usage', () => {
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={[]}
+        runes={runes}
       />,
     ).toJSON()
     expect(tree).toBeNull()
@@ -107,6 +112,7 @@ describe('Word page: render & usage', () => {
         letters={getAlphabet()}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     )
 
@@ -161,6 +167,7 @@ describe('Word page: data fetching', () => {
 
         crosslinks: [],
         letters: getAlphabet(),
+        runes: 'ᛋᛏᛅᚴᛁᛅ',
       },
     }
 
