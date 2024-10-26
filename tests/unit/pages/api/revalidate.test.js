@@ -2,7 +2,7 @@ import { createMocks } from 'node-mocks-http'
 // eslint-disable-next-line import/no-unresolved
 import revalidateHandler from 'pages/api/revalidate'
 
-describe('Revalidate  API endpoint', () => {
+describe('Revalidate API endpoint', () => {
   test('Should error if incorrect secret', async () => {
     process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasby-vigfusson-test.test'
     process.env.REVALIDATE_SECRET = 'test-secret'
@@ -86,6 +86,7 @@ describe('Revalidate  API endpoint', () => {
     // Should've received call for each word.
     expect(res.finished).toBeTruthy()
     expect(res.statusCode).toBe(200)
-    expect(mockRevalidate).toBeCalledTimes(500)
+
+    expect(mockRevalidate).toHaveBeenCalledTimes(500)
   })
 })

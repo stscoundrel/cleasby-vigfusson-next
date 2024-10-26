@@ -3,7 +3,7 @@ import { isArray } from 'volva'
 import { matchesSchema } from 'jafningjar'
 import { oldNorseSort } from 'old-norse-alphabet-sort'
 import {
-  getAllWords, getByLetter, getWord, getAlphabet, getSimilarWords,
+  getAllWords, getByLetter, getWord, getAlphabet, getSimilarWords, getInitialWordsToBuild,
 } from 'lib/services/dictionary'
 
 describe('Dictionary tests', () => {
@@ -151,9 +151,6 @@ describe('Dictionary tests', () => {
     expect(foundÖ).toBeTruthy();
   })
 
-  /**
-   * This test needs Node 14 to pass.
-   */
   test('Dictionary entries are alphabetically sorted', () => {
     const maybeUnsorted = getDictionary()
 
@@ -161,5 +158,22 @@ describe('Dictionary tests', () => {
       oldNorseSort(a.word, b.word)))
 
     expect(maybeUnsorted).toEqual(sortedDictionry)
+  })
+
+  test('Returns initial batch of pages to build', () => {
+    const wordsToBuild = getInitialWordsToBuild()
+
+    // Correct amount sampled.
+    expect(wordsToBuild.length).toEqual(5030)
+
+    // Deterministic entry slugs, roughly spread through dictionary.
+    expect(wordsToBuild[0]).toEqual('a')
+    expect(wordsToBuild[10]).toEqual('af-heima')
+    expect(wordsToBuild[100]).toEqual('althydu-mal')
+    expect(wordsToBuild[1000]).toEqual('flosa-legr')
+    expect(wordsToBuild[2000]).toEqual('haeti')
+    expect(wordsToBuild[3000]).toEqual('nafn')
+    expect(wordsToBuild[4000]).toEqual('stefnu-timi')
+    expect(wordsToBuild[5000]).toEqual('ond')
   })
 })

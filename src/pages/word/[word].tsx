@@ -1,14 +1,15 @@
 import { useRouter } from 'next/router'
 
 // Services.
-import { Crosslink } from 'scandinavian-dictionary-crosslinker'
+import type { Crosslink } from 'scandinavian-dictionary-crosslinker'
 import {
-  getWord, getAlphabet, DictionaryEntry, AlphabetLetter, getSimilarWords,
+  getWord, getAlphabet, type DictionaryEntry, type AlphabetLetter, getSimilarWords,
+  getInitialWordsToBuild,
 } from 'lib/services/dictionary'
-import { CombinedAbbreviations, getAbbreviations } from 'lib/services/abbreviations'
+import { type CombinedAbbreviations, getAbbreviations } from 'lib/services/abbreviations'
 
 // Utils.
-import { redirect404, Redirect404ResponseSchema } from 'lib/utils/redirect-404'
+import { redirect404, type Redirect404ResponseSchema } from 'lib/utils/redirect-404'
 
 // Components.
 import Layout from 'components/Layout'
@@ -32,8 +33,14 @@ interface WordPageParams{
   }
 }
 
+interface WordPath{
+  params: {
+      word: string
+  }
+}
+
 interface WordPageStaticPathsResponseSchema{
-  paths: string[]
+  paths: WordPath[]
   fallback: string | boolean
 }
 
@@ -45,11 +52,16 @@ interface WordPageStaticPropsResponseSchema{
  * There are too many word paths for Vercel to build.
  * It hits 16 000 file limit.
  *
- * Let's just build them as they are accessed.
+ * Build around 5000 pages initially and rest as they are accessed
+ * or remotely revalidated via API.
  */
 export async function getStaticPaths(): Promise<WordPageStaticPathsResponseSchema> {
+  const initialPages = getInitialWordsToBuild()
+
   return {
-    paths: [],
+    paths: initialPages.map((slug) => ({
+      params: { word: slug },
+    })),
     fallback: 'blocking',
   }
 }

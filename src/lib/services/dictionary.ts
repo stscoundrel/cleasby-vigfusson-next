@@ -1,4 +1,5 @@
-import { getDictionary, DictionaryEntry as RawDictionaryEntry } from 'cleasby-vigfusson-dictionary'
+import { getDictionary } from 'cleasby-vigfusson-dictionary'
+import type { DictionaryEntry as RawDictionaryEntry } from 'cleasby-vigfusson-dictionary'
 import { VALID_AS_FIRST } from 'old-norse-alphabet'
 import { oldNorseSort } from 'old-norse-alphabet-sort'
 import { slugifyWord, slugifyLetter } from '../utils/slugs'
@@ -18,6 +19,7 @@ export interface AlphabetLetter {
 }
 
 let cachedDictionary: DictionaryEntry[] | null = null
+let cachedInitialPages: string[] | null = null
 
 const addSlugs = (words: RawDictionaryEntry[]): DictionaryEntry[] => {
   const existingSlugs = {}
@@ -111,6 +113,25 @@ export const getAlphabet = (): AlphabetLetter[] => {
   }))
 
   return formattedLetters
+}
+
+/**
+ * Initial word pages to build are basically 5000
+ * headword pages based on modulus. Larger number
+ * can not be deployed in one go.
+ */
+export const getInitialWordsToBuild = (): string[] => {
+  if (cachedInitialPages) return cachedInitialPages
+
+  const allWords = getAllWords()
+
+  const result: string[] = []
+  for (let i = 0; i < allWords.length; i += 7) {
+    result.push(allWords[i].slug);
+  }
+
+  cachedInitialPages = result
+  return cachedInitialPages
 }
 
 export default {
