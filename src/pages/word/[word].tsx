@@ -17,6 +17,7 @@ import WordDefinition from 'components/WordDefinition'
 import Button from 'components/Button'
 import { decodeLetter } from 'lib/utils/slugs'
 import { getCrossLinks } from 'lib/services/crosslinks'
+import { youngerFuthark } from 'riimut'
 
 interface WordPageProps{
   entry: DictionaryEntry,
@@ -25,6 +26,7 @@ interface WordPageProps{
   letter: AlphabetLetter,
   abbreviations: CombinedAbbreviations,
   crosslinks: Crosslink[],
+  runes: string,
 }
 
 interface WordPageParams{
@@ -88,6 +90,7 @@ export async function getStaticProps(
   )[0]
   const abbreviations = getAbbreviations(entry)
   const crosslinks = getCrossLinks(entry)
+  const runes = youngerFuthark.lettersToRunes(entry.word)
 
   return {
     props: {
@@ -97,12 +100,13 @@ export async function getStaticProps(
       letters,
       abbreviations,
       crosslinks,
+      runes,
     },
   }
 }
 
 export default function Word({
-  entry, similarEntries, letters, abbreviations, crosslinks,
+  entry, similarEntries, letters, abbreviations, crosslinks, runes,
 }) {
   const router = useRouter()
 
@@ -117,6 +121,7 @@ export default function Word({
         similarEntries={similarEntries}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
+        runes={runes}
       />
       <Button text="Back" action={() => router.back()} />
     </Layout>

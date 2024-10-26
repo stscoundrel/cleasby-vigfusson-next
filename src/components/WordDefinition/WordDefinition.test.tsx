@@ -55,6 +55,8 @@ const crosslinks = [
   },
 ]
 
+const runes = 'ᛅᚠ-ᛒᚢᚱᚦᚱ'
+
 describe('WordDefinition component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
@@ -65,6 +67,7 @@ describe('WordDefinition component', () => {
         abbreviations={abbreviations}
         similarEntries={[]}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     )
   })
@@ -76,6 +79,7 @@ describe('WordDefinition component', () => {
         abbreviations={abbreviations}
         similarEntries={[]}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
@@ -88,6 +92,7 @@ describe('WordDefinition component', () => {
         similarEntries={[]}
         abbreviations={abbreviations}
         crosslinks={crosslinks}
+        runes="ᚢᚱ-ᚢᛅᚾᛅ"
       />,
     ).toJSON()
     expect(tree).toMatchSnapshot()
@@ -100,6 +105,7 @@ describe('WordDefinition component', () => {
         abbreviations={abbreviations}
         similarEntries={[]}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     )
     const { root } = tree
@@ -114,6 +120,7 @@ describe('WordDefinition component', () => {
         abbreviations={abbreviations}
         similarEntries={[]}
         crosslinks={crosslinks}
+        runes={runes}
       />,
     )
     const { root } = tree
