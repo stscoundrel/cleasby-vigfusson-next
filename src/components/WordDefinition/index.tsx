@@ -1,9 +1,9 @@
-import { lettersToRunes } from 'younger-futhark'
-import { Crosslink } from 'scandinavian-dictionary-crosslinker'
+import { youngerFuthark } from 'riimut'
+import type { Crosslink } from 'scandinavian-dictionary-crosslinker'
 import { capitalize, getOlderSpelling } from 'lib/utils/strings'
-import { addAbbreviationsToContent, CombinedAbbreviations } from 'lib/services/abbreviations'
+import { addAbbreviationsToContent, type CombinedAbbreviations } from 'lib/services/abbreviations'
 import Abbreviations from 'components/Abbreviations'
-import { DictionaryEntry } from 'lib/services/dictionary'
+import type { DictionaryEntry } from 'lib/services/dictionary'
 import Crosslinks from 'components/Crosslinks'
 import SimilarEntries from 'components/SimilarEntries'
 import styles from './WordDefinition.module.scss'
@@ -57,7 +57,7 @@ export default function WordDefinition({
         </p>}
 
       <p>Possible runic inscription in <em>Younger Futhark</em>:
-        <span className={styles.rune}>{ lettersToRunes(word) }</span><br />
+        <span className={styles.rune}>{ youngerFuthark.lettersToRunes(word) }</span><br />
       <small>Younger Futhark runes were used from 8th to 12th centuries
         in Scandinavia and their overseas settlements</small>
       </p>
