@@ -57,7 +57,7 @@ export default function Footer({ letters }: FooterProps) {
               <li>
                 <ExternalLink
                   title="Younger Futhark Runes"
-                  href="https://github.com/stscoundrel/younger-futhark"
+                  href="https://github.com/stscoundrel/riimut"
                 />
               </li>
             </ul>

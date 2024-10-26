@@ -597,7 +597,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
             </li>
             <li>
               <a
-                href="https://github.com/stscoundrel/younger-futhark"
+                href="https://github.com/stscoundrel/riimut"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1694,7 +1694,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
             </li>
             <li>
               <a
-                href="https://github.com/stscoundrel/younger-futhark"
+                href="https://github.com/stscoundrel/riimut"
                 rel="noopener noreferrer"
                 target="_blank"
               >
