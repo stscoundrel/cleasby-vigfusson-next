@@ -6554,10 +6554,10 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@^1.77.2:
-  version "1.90.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.90.0.tgz#d6fc2be49c7c086ce86ea0b231a35bf9e33cb84b"
-  integrity sha512-9GUyuksjw70uNpb1MTYWsH9MQHOHY6kwfnkafC24+7aOMZn9+rVMBxRbLvw756mrBFbIsFg6Xw9IkR2Fnn3k+Q==
+sass@^1.94.2:
+  version "1.94.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.94.2.tgz#198511fc6fdd2fc0a71b8d1261735c12608d4ef3"
+  integrity sha512-N+7WK20/wOr7CzA2snJcUSSNTCzeCGUTFY3OgeQP3mZ1aj9NMQ0mSTXwlrnd89j33zzQJGqIN52GIOmYrfq46A==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
@@ -6577,10 +6577,10 @@ saxes@^6.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-scandinavian-dictionary-crosslinker@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/scandinavian-dictionary-crosslinker/-/scandinavian-dictionary-crosslinker-0.6.0.tgz#5f846968ef852511752b796fb7df3ca4dcb3c76e"
-  integrity sha512-iTMGCgZBVhLJtQtkTaa9DqCW0Q1o240akJfkyBSO8wAfvs/wZ6/K887GJZpYZ3aQ0yInfk0IbPQ0QUobzNwtvA==
+scandinavian-dictionary-crosslinker@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/scandinavian-dictionary-crosslinker/-/scandinavian-dictionary-crosslinker-0.7.0.tgz#6ee92a224f94ce5d4770504846cdf0fb35024a23"
+  integrity sha512-mNqBLcehOgJU+3YohjkQctXhNx8UvbRvz1EhGFB7K64QyYCMCo2ldlR2wl7P9KoYyhp2VV00BzXKaUwrrpXGCA==
 
 scheduler@^0.23.2:
   version "0.23.2"
@@ -7358,10 +7358,10 @@ typed-array-length@^1.0.7:
     possible-typed-array-names "^1.0.0"
     reflect.getprototypeof "^1.0.6"
 
-typescript@^5.4.5:
-  version "5.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.2.tgz#d93450cddec5154a2d5cabe3b8102b83316fb2a6"
-  integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
+typescript@^5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
+  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
 unbox-primitive@^1.1.0:
   version "1.1.0"

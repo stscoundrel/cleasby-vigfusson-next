@@ -35,8 +35,8 @@
     "react-dom": "18.3.1",
     "reset-css": "^5.0.2",
     "riimut": "^0.9.1",
-    "sass": "^1.77.2",
-    "scandinavian-dictionary-crosslinker": "^0.6.0",
+    "sass": "^1.94.2",
+    "scandinavian-dictionary-crosslinker": "^0.7.0",
     "sitemap": "^7.1.1",
     "slugify": "^1.6.6",
     "teljari": "^1.1.1"
@@ -65,7 +65,7 @@
     "react-test-renderer": "^18.3.1",
     "spyrjari": "^1.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5",
+    "typescript": "^5.9.3",
     "volva": "^2.0.5"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
