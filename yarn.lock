@@ -2895,10 +2895,10 @@ clean-webpack-plugin@^4.0.0:
   dependencies:
     del "^4.1.1"
 
-cleasby-vigfusson-abbreviations@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.11.tgz#6a4e3f2b7bd1878eba8f80183fe09c2fc4cc3694"
-  integrity sha512-An3NhauAuOWLblY90S13ODw8ZsQEFSJUDfVpj2I1IblRUxsQN8OTbXsOxnzuflqT655+poBSOJGkTdFH8+K5aA==
+cleasby-vigfusson-abbreviations@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/cleasby-vigfusson-abbreviations/-/cleasby-vigfusson-abbreviations-1.0.12.tgz#651aeb5f07b18bed523a0505919a5f3e379a3eee"
+  integrity sha512-lk+iYm4X2p4w3SGrFuHwGypfC8t3+fG+9g9nJEjz0qV3GHGhh5W/tcUvlQWn+TxDybrygsf5lXQQO8B9vZZ7Fg==
 
 cleasby-vigfusson-dictionary@^1.0.16:
   version "1.0.17"
@@ -3102,10 +3102,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
-cypress@^15.7.0:
-  version "15.7.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-15.7.0.tgz#4d2a317766360232920f63c7d11ea8f5d83bc358"
-  integrity sha512-1C81zKxnQckYm2XGi37rPV4rN0bzUoWhydhKdOyshJn5gJKszEx5as9VLSZI0jp0ye49QxmnbU4TtMpcD+OmGQ==
+cypress@^15.8.1:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-15.8.1.tgz#48fcb0859b8b656534c9bb3f3abbf37554a2bb2d"
+  integrity sha512-ogc62stTQGh1395ipKxfCE5hQuSApTzeH5e0d9U6m7wYO9HQeCpgnkYtBtd0MbkN2Fnch5Od2mX9u4hoTlrH4Q==
   dependencies:
     "@cypress/request" "^3.0.9"
     "@cypress/xvfb" "^1.2.4"
@@ -3144,7 +3144,7 @@ cypress@^15.7.0:
     proxy-from-env "1.0.0"
     request-progress "^3.0.0"
     supports-color "^8.1.1"
-    systeminformation "5.27.7"
+    systeminformation "^5.27.14"
     tmp "~0.2.4"
     tree-kill "1.2.2"
     untildify "^4.0.0"
@@ -6532,10 +6532,10 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@^1.77.2:
-  version "1.90.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.90.0.tgz#d6fc2be49c7c086ce86ea0b231a35bf9e33cb84b"
-  integrity sha512-9GUyuksjw70uNpb1MTYWsH9MQHOHY6kwfnkafC24+7aOMZn9+rVMBxRbLvw756mrBFbIsFg6Xw9IkR2Fnn3k+Q==
+sass@^1.97.1:
+  version "1.97.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.1.tgz#f36e492baf8ccdd08d591b58d3d8b53ea35ab905"
+  integrity sha512-uf6HoO8fy6ClsrShvMgaKUn14f2EHQLQRtpsZZLeU/Mv0Q1K5P0+x2uvH6Cub39TVVbWNSrraUhDAoFph6vh0A==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
@@ -6555,10 +6555,10 @@ saxes@^6.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-scandinavian-dictionary-crosslinker@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/scandinavian-dictionary-crosslinker/-/scandinavian-dictionary-crosslinker-0.6.0.tgz#5f846968ef852511752b796fb7df3ca4dcb3c76e"
-  integrity sha512-iTMGCgZBVhLJtQtkTaa9DqCW0Q1o240akJfkyBSO8wAfvs/wZ6/K887GJZpYZ3aQ0yInfk0IbPQ0QUobzNwtvA==
+scandinavian-dictionary-crosslinker@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/scandinavian-dictionary-crosslinker/-/scandinavian-dictionary-crosslinker-0.7.0.tgz#6ee92a224f94ce5d4770504846cdf0fb35024a23"
+  integrity sha512-mNqBLcehOgJU+3YohjkQctXhNx8UvbRvz1EhGFB7K64QyYCMCo2ldlR2wl7P9KoYyhp2VV00BzXKaUwrrpXGCA==
 
 scheduler@^0.23.2:
   version "0.23.2"
@@ -7057,10 +7057,10 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-systeminformation@5.27.7:
-  version "5.27.7"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.27.7.tgz#4dc9d436419948cd5e5f076779a1298220d19a72"
-  integrity sha512-saaqOoVEEFaux4v0K8Q7caiauRwjXC4XbD2eH60dxHXbpKxQ8kH9Rf7Jh+nryKpOUSEFxtCdBlSUx0/lO6rwRg==
+systeminformation@^5.27.14:
+  version "5.27.16"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.27.16.tgz#f1d2a392a4a7dcdce3f816f3a2111adcc3b94a01"
+  integrity sha512-aimHO/bE7QFtu3uB3vtpwn7V2DXXGX7NyTY7V1g+hPa7in2k10Bp3AL+Enmg3X71n7HbgLfwy/bbf+2cBSKURQ==
 
 teljari@^1.1.1:
   version "1.1.1"
@@ -7346,10 +7346,10 @@ typed-array-length@^1.0.7:
     possible-typed-array-names "^1.0.0"
     reflect.getprototypeof "^1.0.6"
 
-typescript@^5.4.5:
-  version "5.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.2.tgz#d93450cddec5154a2d5cabe3b8102b83316fb2a6"
-  integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
+typescript@^5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
+  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
 unbox-primitive@^1.1.0:
   version "1.1.0"
