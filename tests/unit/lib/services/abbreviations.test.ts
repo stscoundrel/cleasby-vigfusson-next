@@ -222,7 +222,7 @@ describe('Abbreviations tests', () => {
       },
       {
         abbreviation: 'reflex.',
-        explanation: 'retlexive.',
+        explanation: 'reflexive.',
       },
       {
         abbreviation: 'ch.',
