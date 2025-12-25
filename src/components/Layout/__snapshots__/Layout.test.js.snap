@@ -12,16 +12,20 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
       <div
         className="topbar container"
       >
-        <img
-          alt="To home"
-          height="30"
-          loading="lazy"
+        <a
+          href="/"
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
-          src="/favicon-48x48.png"
-          width="30"
-        />
+        >
+          <img
+            alt="To home"
+            height="30"
+            loading="lazy"
+            src="/favicon-48x48.png"
+            width="30"
+          />
+        </a>
         <div
           aria-label="Open menu"
           className="hamburger"
@@ -1100,16 +1104,20 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
       <div
         className="topbar container"
       >
-        <img
-          alt="To home"
-          height="30"
-          loading="lazy"
+        <a
+          href="/"
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
-          src="/favicon-48x48.png"
-          width="30"
-        />
+        >
+          <img
+            alt="To home"
+            height="30"
+            loading="lazy"
+            src="/favicon-48x48.png"
+            width="30"
+          />
+        </a>
         <div
           aria-label="Open menu"
           className="hamburger"
