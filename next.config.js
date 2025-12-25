@@ -9,8 +9,4 @@ module.exports = withPWA({
         @import 'styles/variables';
       `,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  swcMinify: true,
 })
