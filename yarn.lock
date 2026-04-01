@@ -2290,7 +2290,7 @@
     tinyglobby "^0.2.15"
     ts-api-utils "^2.5.0"
 
-"@typescript-eslint/utils@8.58.0", "@typescript-eslint/utils@^6.0.0 || ^7.0.0 || ^8.0.0":
+"@typescript-eslint/utils@8.58.0", "@typescript-eslint/utils@^8.0.0":
   version "8.58.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-8.58.0.tgz#21a74a7963b0d288b719a4121c7dd555adaab3c3"
   integrity sha512-RfeSqcFeHMHlAWzt4TBjWOAtoW9lnsAGiP3GbaX9uVgTYYrMbVnGONEfUCiSss+xMHFl+eHZiipmA8WkQ7FuNA==
@@ -3818,12 +3818,12 @@ eslint-plugin-import@^2.28.1, eslint-plugin-import@^2.29.1:
     string.prototype.trimend "^1.0.9"
     tsconfig-paths "^3.15.0"
 
-eslint-plugin-jest@^28.5.0:
-  version "28.14.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-28.14.0.tgz#02da77dc27d7b4c5480df3552ea26de056857b36"
-  integrity sha512-P9s/qXSMTpRTerE2FQ0qJet2gKbcGyFTPAJipoKxmWqR6uuFqIqk8FuEfg5yBieOezVrEfAMZrEwJ6yEp+1MFQ==
+eslint-plugin-jest@^29.15.1:
+  version "29.15.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-29.15.1.tgz#f663f9f7903a7181efddea5a92d1d31e66362596"
+  integrity sha512-6BjyErCQauz3zfJvzLw/kAez2lf4LEpbHLvWBfEcG4EI0ZiRSwjoH2uZulMouU8kRkBH+S0rhqn11IhTvxKgKw==
   dependencies:
-    "@typescript-eslint/utils" "^6.0.0 || ^7.0.0 || ^8.0.0"
+    "@typescript-eslint/utils" "^8.0.0"
 
 eslint-plugin-jsx-a11y@^6.7.1, eslint-plugin-jsx-a11y@^6.8.0:
   version "6.10.2"
