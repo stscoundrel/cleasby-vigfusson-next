@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom/client'
 import renderer from 'react-test-renderer'
-import { getAllWords } from 'lib/services/dictionary'
 import SeachForm from './index'
 
 /**
@@ -18,16 +17,14 @@ jest.mock('next/router', () => ({
 }))
 
 describe('SearchForm component', () => {
-  const dictionary = getAllWords()
-
   test('Does not crash', () => {
     const div = document.createElement('div')
     const root = ReactDOM.createRoot(div)
-    root.render(<SeachForm words={dictionary} />)
+    root.render(<SeachForm />)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<SeachForm words={dictionary} />).toJSON()
+    const tree = renderer.create(<SeachForm />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
