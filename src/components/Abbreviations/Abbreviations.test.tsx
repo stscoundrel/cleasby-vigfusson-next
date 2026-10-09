@@ -23,15 +23,15 @@ describe('Abbreviations component', () => {
   }
 
   test('Matches the snapshot', () => {
-    const tree = renderer.create(
-      <Abbreviations abbreviations={abbreviations} />,
-    ).toJSON()
+    const tree = renderer
+      .create(<Abbreviations abbreviations={abbreviations} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Does not print empty abbreviation blocks', () => {
     const tree = renderer.create(
-      <Abbreviations abbreviations={ { ...abbreviations, works: [] } } />,
+      <Abbreviations abbreviations={{ ...abbreviations, works: [] }} />,
     )
 
     expect(JSON.stringify(tree)).toContain('Abbreviations used:')

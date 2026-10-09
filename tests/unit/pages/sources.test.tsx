@@ -12,9 +12,9 @@ describe('Sources page', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(
-        <Sources letters={getAlphabet()} sources={getAllSorces()} />,
-    ).toJSON()
+    const tree = renderer
+      .create(<Sources letters={getAlphabet()} sources={getAllSorces()} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

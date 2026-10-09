@@ -25,11 +25,11 @@ describe('Search tests', () => {
 
     const expected = {
       word: 'abbadís',
-      definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
-      slug: 'abbadis',
-      foundIn: [
-        'In headword: <mark>abbadís</mark>',
+      definitions: [
+        'f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.',
       ],
+      slug: 'abbadis',
+      foundIn: ['In headword: <mark>abbadís</mark>'],
     }
 
     expect(result[0]).toEqual(expected)
@@ -40,7 +40,9 @@ describe('Search tests', () => {
 
     const expected = {
       word: 'abbadís',
-      definitions: ['f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.'],
+      definitions: [
+        'f. <i>abbess.</i> Hkr. iii. 398, Fms. vii. 239, Gþl. 365.',
+      ],
       slug: 'abbadis',
       foundIn: [
         '<mark><abbr title="feminine.">f.</abbr> <i>abbess.</i></mark> <abbr title="Heimskringla. (E. I.)">Hkr.</abbr> iii. 398, <abbr title="Fornmanna Sögur. (E. I.)">Fms.</abbr> vii. 239, Gþ<abbr title="line.">l.</abbr> 365.',
@@ -57,9 +59,7 @@ describe('Search tests', () => {
       word: 'aðal-vellir',
       definitions: ['m. pl. = óðalvellir, Rm.'],
       slug: 'adal-vellir',
-      foundIn: [
-        'In headword: aðal-vellir',
-      ],
+      foundIn: ['In headword: aðal-vellir'],
     }
 
     expect(result[0]).toEqual(expected)

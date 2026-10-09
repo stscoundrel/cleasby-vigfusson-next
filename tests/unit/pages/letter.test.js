@@ -7,16 +7,32 @@ describe('Letter page: render', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
     const root = ReactDOM.createRoot(div)
-    root.render(<Letter words={getByLetter('a')} letters={getAlphabet()} letter={ { letter: 'e', slug: 'e' } } />)
+    root.render(
+      <Letter
+        words={getByLetter('a')}
+        letters={getAlphabet()}
+        letter={{ letter: 'e', slug: 'e' }}
+      />,
+    )
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Letter words={getByLetter('a')} letters={getAlphabet()} letter={ { letter: 'e', slug: 'e' } } />).toJSON()
+    const tree = renderer
+      .create(
+        <Letter
+          words={getByLetter('a')}
+          letters={getAlphabet()}
+          letter={{ letter: 'e', slug: 'e' }}
+        />,
+      )
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Returns null if words are unavailable', () => {
-    const tree = renderer.create(<Letter words={null} letters={getAlphabet()} letter="e" />).toJSON()
+    const tree = renderer
+      .create(<Letter words={null} letters={getAlphabet()} letter="e" />)
+      .toJSON()
     expect(tree).toBeNull()
   })
 })

@@ -10,11 +10,17 @@ describe('Layout component', () => {
     test('Does not crash', () => {
       const div = document.createElement('div')
       const root = ReactDOM.createRoot(div)
-      root.render(<Layout content={aWords} type="letter" letters={getAlphabet()} />)
+      root.render(
+        <Layout content={aWords} type="letter" letters={getAlphabet()} />,
+      )
     })
 
     test('Matches snapshot', () => {
-      const tree = renderer.create(<Layout content={aWords} type="letter" letters={getAlphabet()} />).toJSON()
+      const tree = renderer
+        .create(
+          <Layout content={aWords} type="letter" letters={getAlphabet()} />,
+        )
+        .toJSON()
       expect(tree).toMatchSnapshot()
     })
   })
@@ -29,7 +35,9 @@ describe('Layout component', () => {
     })
 
     test('Matches snapshot', () => {
-      const tree = renderer.create(<Layout content={word} type="word" letters={getAlphabet()} />).toJSON()
+      const tree = renderer
+        .create(<Layout content={word} type="word" letters={getAlphabet()} />)
+        .toJSON()
       expect(tree).toMatchSnapshot()
     })
   })

@@ -3,13 +3,23 @@ import { useRouter } from 'next/router'
 // Services.
 import type { Crosslink } from 'scandinavian-dictionary-crosslinker'
 import {
-  getWord, getAlphabet, type DictionaryEntry, type AlphabetLetter, getSimilarWords,
+  getWord,
+  getAlphabet,
+  type DictionaryEntry,
+  type AlphabetLetter,
+  getSimilarWords,
   getInitialWordsToBuild,
 } from 'lib/services/dictionary'
-import { type CombinedAbbreviations, getAbbreviations } from 'lib/services/abbreviations'
+import {
+  type CombinedAbbreviations,
+  getAbbreviations,
+} from 'lib/services/abbreviations'
 
 // Utils.
-import { redirect404, type Redirect404ResponseSchema } from 'lib/utils/redirect-404'
+import {
+  redirect404,
+  type Redirect404ResponseSchema,
+} from 'lib/utils/redirect-404'
 
 // Components.
 import Layout from 'components/Layout'
@@ -19,34 +29,34 @@ import { decodeLetter } from 'lib/utils/slugs'
 import { getCrossLinks } from 'lib/services/crosslinks'
 import { youngerFuthark } from 'riimut'
 
-interface WordPageProps{
-  entry: DictionaryEntry,
-  similarEntries: DictionaryEntry[],
-  letters: AlphabetLetter[],
-  letter: AlphabetLetter,
-  abbreviations: CombinedAbbreviations,
-  crosslinks: Crosslink[],
-  runes: string,
+interface WordPageProps {
+  entry: DictionaryEntry
+  similarEntries: DictionaryEntry[]
+  letters: AlphabetLetter[]
+  letter: AlphabetLetter
+  abbreviations: CombinedAbbreviations
+  crosslinks: Crosslink[]
+  runes: string
 }
 
-interface WordPageParams{
+interface WordPageParams {
   params: {
-      word: string
+    word: string
   }
 }
 
-interface WordPath{
+interface WordPath {
   params: {
-      word: string
+    word: string
   }
 }
 
-interface WordPageStaticPathsResponseSchema{
+interface WordPageStaticPathsResponseSchema {
   paths: WordPath[]
   fallback: string | boolean
 }
 
-interface WordPageStaticPropsResponseSchema{
+interface WordPageStaticPropsResponseSchema {
   props: WordPageProps
 }
 
@@ -71,9 +81,11 @@ export async function getStaticPaths(): Promise<WordPageStaticPathsResponseSchem
 /**
  * Get word by slug.
  */
-export async function getStaticProps(
-  { params }: WordPageParams,
-): Promise<WordPageStaticPropsResponseSchema | Redirect404ResponseSchema> {
+export async function getStaticProps({
+  params,
+}: WordPageParams): Promise<
+  WordPageStaticPropsResponseSchema | Redirect404ResponseSchema
+> {
   const { word } = params
   const entry = getWord(word)
 
@@ -84,9 +96,9 @@ export async function getStaticProps(
   const similarEntries = getSimilarWords(entry)
   const letters = getAlphabet()
   const letter = letters.filter(
-    (alphabetLetter) => alphabetLetter.letter === decodeLetter(
-      entry.word.charAt(0).toLocaleLowerCase(),
-    ),
+    (alphabetLetter) =>
+      alphabetLetter.letter ===
+      decodeLetter(entry.word.charAt(0).toLocaleLowerCase()),
   )[0]
   const abbreviations = getAbbreviations(entry)
   const crosslinks = getCrossLinks(entry)
@@ -106,7 +118,12 @@ export async function getStaticProps(
 }
 
 export default function Word({
-  entry, similarEntries, letters, abbreviations, crosslinks, runes,
+  entry,
+  similarEntries,
+  letters,
+  abbreviations,
+  crosslinks,
+  runes,
 }) {
   const router = useRouter()
 

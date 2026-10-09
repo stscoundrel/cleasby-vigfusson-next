@@ -23,12 +23,14 @@ exports[`WordDefinition component Matches snapshot (older spelling variant) 1`] 
         ör-væna
         "
       </em>
-       (or 
+       
+      (or 
       <em>
         ǫr-væna
       </em>
       )
-       in English.
+       
+      in English.
     </p>
   </header>
   <p>
@@ -59,7 +61,8 @@ exports[`WordDefinition component Matches snapshot (older spelling variant) 1`] 
     <strong>
       Orthography: 
     </strong>
-    The Cleasby & Vigfusson book used letter 
+    The Cleasby & Vigfusson book used letter
+     
     <em>
       ö 
     </em>
@@ -67,7 +70,8 @@ exports[`WordDefinition component Matches snapshot (older spelling variant) 1`] 
     <em>
       ǫ
     </em>
-    . Therefore, 
+    . Therefore,
+     
     <em>
       ör-væna
     </em>
@@ -238,7 +242,8 @@ exports[`WordDefinition component Matches snapshot 1`] = `
         af-burðr
         "
       </em>
-       in English.
+       
+      in English.
     </p>
   </header>
   <p>

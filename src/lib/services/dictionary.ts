@@ -5,16 +5,16 @@ import { oldNorseSort } from 'old-norse-alphabet-sort'
 import { slugifyWord, slugifyLetter } from '../utils/slugs'
 
 export interface DictionaryEntry extends RawDictionaryEntry {
-  slug: string,
+  slug: string
 }
 
 export interface DictionaryEntryDTO {
-  word: string,
+  word: string
   slug: string
 }
 
 export interface AlphabetLetter {
-  letter: string,
+  letter: string
   slug: string
 }
 
@@ -64,7 +64,10 @@ export const getAllWords = (): DictionaryEntry[] => {
    * That is true to the layout of the book,
    * but makes little sense in website.
    */
-  const dictionary = formattedWords.map((entry) => ({ ...entry, word: entry.word.toLowerCase() }))
+  const dictionary = formattedWords.map((entry) => ({
+    ...entry,
+    word: entry.word.toLowerCase(),
+  }))
 
   cachedDictionary = dictionary
 
@@ -74,8 +77,9 @@ export const getAllWords = (): DictionaryEntry[] => {
 export const getByLetter = (letter: string): DictionaryEntryDTO[] => {
   const words = getAllWords()
   const byLetter = words
-    .filter((entry) => (
-      entry.word.charAt(0).toLowerCase() === letter.toLowerCase()))
+    .filter(
+      (entry) => entry.word.charAt(0).toLowerCase() === letter.toLowerCase(),
+    )
     .map((entry) => {
       // Simpler DTO dictionary entry.
       const { word, slug } = entry
@@ -86,26 +90,33 @@ export const getByLetter = (letter: string): DictionaryEntryDTO[] => {
   return byLetter
 }
 
-export const getWord = (slug: string): DictionaryEntry => (
+export const getWord = (slug: string): DictionaryEntry =>
   getAllWords().filter((entry) => entry.slug === slug)[0]
-)
 
-export const getRandomEntries = (): DictionaryEntry[] => (
+export const getRandomEntries = (): DictionaryEntry[] =>
   // Return entries fit to be randomized "teasers"
   // Therefore, content should be short, but not too short.
   getAllWords()
     .sort(() => Math.random() - 0.5)
-    .filter((entry) => entry.definitions[0].length < 50 && entry.definitions[0].length > 15)
+    .filter(
+      (entry) =>
+        entry.definitions[0].length < 50 && entry.definitions[0].length > 15,
+    )
     .slice(0, 36)
     .sort((a, b) => oldNorseSort(a.word, b.word))
-)
 
-export const getSimilarWords = (entry: DictionaryEntry) : DictionaryEntry[] => getAllWords()
-  .filter((dEntry) => dEntry.word.toLocaleLowerCase() === entry.word.toLocaleLowerCase()
-  && dEntry.slug !== entry.slug)
+export const getSimilarWords = (entry: DictionaryEntry): DictionaryEntry[] =>
+  getAllWords().filter(
+    (dEntry) =>
+      dEntry.word.toLocaleLowerCase() === entry.word.toLocaleLowerCase() &&
+      dEntry.slug !== entry.slug,
+  )
 
 export const getAlphabet = (): AlphabetLetter[] => {
-  const letters = [...VALID_AS_FIRST.filter((letter) => letter !== 'ǫ' && letter !== 'ø'), 'ö']
+  const letters = [
+    ...VALID_AS_FIRST.filter((letter) => letter !== 'ǫ' && letter !== 'ø'),
+    'ö',
+  ]
 
   const formattedLetters = letters.map((letter) => ({
     letter,
@@ -127,7 +138,7 @@ export const getInitialWordsToBuild = (): string[] => {
 
   const result: string[] = []
   for (let i = 0; i < allWords.length; i += 7) {
-    result.push(allWords[i].slug);
+    result.push(allWords[i].slug)
   }
 
   cachedInitialPages = result

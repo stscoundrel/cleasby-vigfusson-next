@@ -12,9 +12,22 @@ export default function Search() {
   }
 
   return (
-   <form className={styles.form} onSubmit={(e) => handleSearch(e)}>
-      <input className={styles.input} aria-label="Search" type="search" name="search" value={search} onChange={(e) => setSearch(e.target.value)}/>
-      <button className="button button--secondary button--no-margs" name="submit" type="submit">Search</button>
+    <form className={styles.form} onSubmit={(e) => handleSearch(e)}>
+      <input
+        className={styles.input}
+        aria-label="Search"
+        type="search"
+        name="search"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+      <button
+        className="button button--secondary button--no-margs"
+        name="submit"
+        type="submit"
+      >
+        Search
+      </button>
     </form>
   )
 }

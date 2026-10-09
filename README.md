@@ -20,6 +20,17 @@ Related projects:
 - Optimized for fast load times.
 - SEO, Accessibility and Schema optimized, high lighthouse scores.
 
+## Development checks
+
+Install dependencies with `npm ci`.
+
+- `npm run lint` checks formatting in `src` and `tests` with Prettier.
+- `npm run fix` formats those directories with Prettier.
+- `npm run typecheck` checks TypeScript without emitting files.
+- `npm run test:unit` runs the Jest suite.
+
+Pull requests run formatting and TypeScript checks in CI. Prettier uses single quotes and omits semicolons.
+
 ## Motivation
 
 There are various versions of different Old Norse dictionaries online. Many of these are either incomplete, or their usability has grown old. Most of them are either missing a search feature, or they may be a bit hefty to load in mobile.

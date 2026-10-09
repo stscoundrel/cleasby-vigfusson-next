@@ -1,22 +1,32 @@
 import { slugifyLetter, slugifyWord } from 'lib/utils/slugs'
 import { capitalize } from 'lib/utils/strings'
 
-const getFrontpage = () => ({
+export interface Breadcrumb {
+  label: string
+  url: string
+}
+
+type BreadcrumbData =
+  | { type: 'page'; word: null; letter: null }
+  | { type: 'letter'; word: null; letter: string }
+  | { type: 'word'; word: string; letter: string }
+
+const getFrontpage = (): Breadcrumb => ({
   label: 'Cleasby & Vigfusson Dictionary',
   url: '/',
 })
 
-const getLetter = (letter) => ({
+const getLetter = (letter: string): Breadcrumb => ({
   label: `Letter ${letter.toUpperCase()}`,
   url: `/letter/${slugifyLetter(letter)}`,
 })
 
-const getWord = (word) => ({
+const getWord = (word: string): Breadcrumb => ({
   label: capitalize(word),
   url: `/word/${slugifyWord(word)}`,
 })
 
-export const getBreadcrumbs = (data) => {
+export const getBreadcrumbs = (data: BreadcrumbData): Breadcrumb[] => {
   const { type, word, letter } = data
 
   const breadcrumbs = [getFrontpage()]

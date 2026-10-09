@@ -68,4 +68,4 @@ it('Search page yields expected amount of results', () => {
   cy.get('main > ul').last().find('> li').should('have.length', 1)
 })
 
-export {};
+export {}

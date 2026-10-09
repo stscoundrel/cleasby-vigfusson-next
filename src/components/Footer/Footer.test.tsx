@@ -17,7 +17,7 @@ describe('Footer component', () => {
   test('Does not crash', () => {
     const div = document.createElement('div')
     const root = ReactDOM.createRoot(div)
-    root.render(<Footer letters={letters}/>)
+    root.render(<Footer letters={letters} />)
   })
 
   /**
