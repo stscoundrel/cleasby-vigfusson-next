@@ -4,7 +4,7 @@ import ContentArea from 'components/ContentArea'
 import { AlphabetLetter } from 'lib/services/dictionary'
 import styles from './Footer.module.scss'
 
-interface FooterProps{
+interface FooterProps {
   letters: AlphabetLetter[]
 }
 
@@ -12,24 +12,31 @@ export default function Footer({ letters }: FooterProps) {
   return (
     <footer className={styles.section}>
       <div className="container">
-
         <ContentArea>
           <h2>About</h2>
           <p>Based on Cleasby & Vigfusson Dictionary Old Norse dictionary.</p>
-          <p><em>Icelandic-English</em> dictionary was started by Richard Cleasby and
-          finished by Gudbrand Vigfusson.</p>
-          <p>It was published in 1874,
-          which leads to there being many public domain versions of the book available.</p>
+          <p>
+            <em>Icelandic-English</em> dictionary was started by Richard Cleasby
+            and finished by Gudbrand Vigfusson.
+          </p>
+          <p>
+            It was published in 1874, which leads to there being many public
+            domain versions of the book available.
+          </p>
         </ContentArea>
 
         <ContentArea>
           <h3>Old Norse language</h3>
-          <p>Old Norse was a North Germanic language that was spoken by inhabitants of
-          Scandinavia and their overseas settlements from about the 7th to the 15th centuries.</p>
+          <p>
+            Old Norse was a North Germanic language that was spoken by
+            inhabitants of Scandinavia and their overseas settlements from about
+            the 7th to the 15th centuries.
+          </p>
 
-          <p>Also known as &quot;the viking language&quot;,
-          &quot;Old Nordic&quot;, or
-          &quot;Old Scandinavian&quot;</p>
+          <p>
+            Also known as &quot;the viking language&quot;, &quot;Old
+            Nordic&quot;, or &quot;Old Scandinavian&quot;
+          </p>
         </ContentArea>
 
         <div className={styles.navs}>
@@ -104,7 +111,8 @@ export default function Footer({ letters }: FooterProps) {
             </ul>
           </nav>
         </div>
-        <small className={styles.copyright}>{`Copyright © 2020 - ${new Date().getFullYear()}`}
+        <small className={styles.copyright}>
+          {`Copyright © 2020 - ${new Date().getFullYear()}`}
           <br />
           <ExternalLink
             title="Sampo Silvennoinen / StScoundrel"

@@ -1,5 +1,4 @@
 import { createMocks } from 'node-mocks-http'
-// eslint-disable-next-line import/no-unresolved
 import robotsHandler from 'pages/api/robots'
 
 describe('Robots.txt  API endpoint', () => {
@@ -10,13 +9,17 @@ describe('Robots.txt  API endpoint', () => {
 
     // Ensure response is blank.
     expect(res.finished).toBeFalsy()
-    expect(res._headers).toEqual({}) // eslint-disable-line
+    expect(res._headers).toEqual({})
 
     await robotsHandler(req, res)
 
     expect(res.finished).toBeTruthy()
-    expect(res._headers).toEqual({ 'content-type': 'text/plain' }) // eslint-disable-line
+    expect(res._headers).toEqual({ 'content-type': 'text/plain' })
 
-    expect(res._getData().includes('Sitemap: https://cleasby-vigfusson-test.test/sitemap.xml')).toBeTruthy() // eslint-disable-line
+    expect(
+      res
+        ._getData()
+        .includes('Sitemap: https://cleasby-vigfusson-test.test/sitemap.xml'),
+    ).toBeTruthy()
   })
 })

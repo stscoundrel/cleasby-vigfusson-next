@@ -9,7 +9,10 @@ export default function Breadcrumbs({ type, content }) {
     let word = null
 
     if (type !== 'page') {
-      letter = type === 'letter' ? content[0].word.charAt(0).toLowerCase() : content.word.charAt(0).toLowerCase()
+      letter =
+        type === 'letter'
+          ? content[0].word.charAt(0).toLowerCase()
+          : content.word.charAt(0).toLowerCase()
     }
 
     if (type === 'word') {
@@ -35,8 +38,11 @@ export default function Breadcrumbs({ type, content }) {
           </Link>
         ))}
 
-        <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: schema } }/>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: schema }}
+        />
       </div>
     </nav>
-  );
+  )
 }

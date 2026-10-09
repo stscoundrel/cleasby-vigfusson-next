@@ -21,16 +21,14 @@ describe('Schema structure tests', () => {
   ]
 
   test('Handles "word" Schema', () => {
-    const expected = JSON.stringify(
-      {
-        '@context': 'https://schema.org/',
-        '@type': 'DefinedTerm',
-        '@id': 'https://cleasbyvigfusson.test/word/af-bud',
-        name: 'Cleasby & Vigfusson Dictionary - Af-búð',
-        description: 'f. an ‘off-booth,’ side-booth, apartment, Korm. 116.',
-        inDefinedTermSet: 'https://cleasbyvigfusson.test',
-      },
-    )
+    const expected = JSON.stringify({
+      '@context': 'https://schema.org/',
+      '@type': 'DefinedTerm',
+      '@id': 'https://cleasbyvigfusson.test/word/af-bud',
+      name: 'Cleasby & Vigfusson Dictionary - Af-búð',
+      description: 'f. an ‘off-booth,’ side-booth, apartment, Korm. 116.',
+      inDefinedTermSet: 'https://cleasbyvigfusson.test',
+    })
 
     const result = getSchema(words[1], 'word')
 
@@ -38,15 +36,13 @@ describe('Schema structure tests', () => {
   })
 
   test('Handles "letter" Schema', () => {
-    const expected = JSON.stringify(
-      {
-        '@context': 'https://schema.org/',
-        '@type': 'DefinedTermSet',
-        '@id': 'https://cleasbyvigfusson.test/letter/a',
-        name: 'Cleasby & Vigfusson Dictionary - Letter A',
-        description: 'Old Norse words starting with letter A',
-      },
-    )
+    const expected = JSON.stringify({
+      '@context': 'https://schema.org/',
+      '@type': 'DefinedTermSet',
+      '@id': 'https://cleasbyvigfusson.test/letter/a',
+      name: 'Cleasby & Vigfusson Dictionary - Letter A',
+      description: 'Old Norse words starting with letter A',
+    })
 
     const result = getSchema(words, 'letter')
 
@@ -54,26 +50,24 @@ describe('Schema structure tests', () => {
   })
 
   test('Handles "breadcrumbs" Schema', () => {
-    const expected = JSON.stringify(
-      {
-        '@context': 'https://schema.org/',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          {
-            '@type': 'ListItem',
-            position: 1,
-            name: 'First breadcrumb',
-            item: 'https://cleasbyvigfusson.test/first-link',
-          },
-          {
-            '@type': 'ListItem',
-            position: 2,
-            name: 'Second breadcrumb',
-            item: 'https://cleasbyvigfusson.test/second-link',
-          },
-        ],
-      },
-    )
+    const expected = JSON.stringify({
+      '@context': 'https://schema.org/',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'First breadcrumb',
+          item: 'https://cleasbyvigfusson.test/first-link',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Second breadcrumb',
+          item: 'https://cleasbyvigfusson.test/second-link',
+        },
+      ],
+    })
 
     const breadcrumbs = [
       {
@@ -91,15 +85,13 @@ describe('Schema structure tests', () => {
   })
 
   test('Handles "default" Schema', () => {
-    const expected = JSON.stringify(
-      {
-        '@context': 'https://schema.org/',
-        '@type': 'DefinedTermSet',
-        '@id': 'https://cleasbyvigfusson.test',
-        name: 'Cleasby & Vigfusson Dictionary',
-        description: 'Old Norse words with English definitions',
-      },
-    )
+    const expected = JSON.stringify({
+      '@context': 'https://schema.org/',
+      '@type': 'DefinedTermSet',
+      '@id': 'https://cleasbyvigfusson.test',
+      name: 'Cleasby & Vigfusson Dictionary',
+      description: 'Old Norse words with English definitions',
+    })
 
     const result = getSchema()
 

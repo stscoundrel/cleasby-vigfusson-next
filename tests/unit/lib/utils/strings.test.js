@@ -7,8 +7,12 @@ describe('String utils tests', () => {
   })
 
   test('Removes html', () => {
-    expect(removeHTML('<strong>Strong</strong> <i>italics</i>')).toBe('Strong italics')
-    expect(removeHTML('<strong>Strong</strong> <strong>Strong</strong>')).toBe('Strong Strong')
+    expect(removeHTML('<strong>Strong</strong> <i>italics</i>')).toBe(
+      'Strong italics',
+    )
+    expect(removeHTML('<strong>Strong</strong> <strong>Strong</strong>')).toBe(
+      'Strong Strong',
+    )
   })
 
   test('Returns incorrect content as-is', () => {

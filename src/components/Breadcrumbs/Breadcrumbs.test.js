@@ -28,12 +28,16 @@ describe('Breadcrumbs component', () => {
   })
 
   test('Letter page: matches snapshot', () => {
-    const tree = renderer.create(<Breadcrumbs type="letter" content={[{ word: 'random' }]} />).toJSON()
+    const tree = renderer
+      .create(<Breadcrumbs type="letter" content={[{ word: 'random' }]} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Letter page: renders correct amount of breadcrumbs', () => {
-    const tree = renderer.create(<Breadcrumbs type="letter" content={[{ word: 'random' }]} />)
+    const tree = renderer.create(
+      <Breadcrumbs type="letter" content={[{ word: 'random' }]} />,
+    )
     const { root } = tree
 
     expect(root.findAllByType('a').length).toEqual(2)
@@ -46,12 +50,16 @@ describe('Breadcrumbs component', () => {
   })
 
   test('Word page: matches snapshot', () => {
-    const tree = renderer.create(<Breadcrumbs type="word" content={{ word: 'random' }} />).toJSON()
+    const tree = renderer
+      .create(<Breadcrumbs type="word" content={{ word: 'random' }} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Word page: renders correct amount of breadcrumbs', () => {
-    const tree = renderer.create(<Breadcrumbs type="word" content={{ word: 'random' }} />)
+    const tree = renderer.create(
+      <Breadcrumbs type="word" content={{ word: 'random' }} />,
+    )
     const { root } = tree
 
     expect(root.findAllByType('a').length).toEqual(3)

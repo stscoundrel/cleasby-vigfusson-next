@@ -1,14 +1,12 @@
 // Services.
-import {
-  AlphabetLetter, getAlphabet,
-} from 'lib/services/dictionary'
+import { AlphabetLetter, getAlphabet } from 'lib/services/dictionary'
 
 // Components.
 import Layout from 'components/Layout'
 import SearchForm from 'components/SearchForm'
 
-interface SearchPageProps{
-  letters: AlphabetLetter[],
+interface SearchPageProps {
+  letters: AlphabetLetter[]
 }
 
 export async function getStaticProps() {

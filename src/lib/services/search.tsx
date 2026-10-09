@@ -1,9 +1,12 @@
 import { markWords } from 'markari'
-import { getAbbreviations, addAbbreviationsToContent } from 'lib/services/abbreviations'
+import {
+  getAbbreviations,
+  addAbbreviationsToContent,
+} from 'lib/services/abbreviations'
 import { DictionaryEntry } from './dictionary'
 
-export interface SearchResult extends DictionaryEntry{
-  foundIn: string[],
+export interface SearchResult extends DictionaryEntry {
+  foundIn: string[]
 }
 
 export type Criteria = 'all' | 'headword' | 'definitions'

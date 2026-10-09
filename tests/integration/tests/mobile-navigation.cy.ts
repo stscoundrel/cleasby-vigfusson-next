@@ -28,4 +28,4 @@ it('Mobile home icon works', () => {
   cy.location('pathname').should('equal', '/')
 })
 
-export {};
+export {}

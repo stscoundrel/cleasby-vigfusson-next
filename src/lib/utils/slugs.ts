@@ -1,7 +1,7 @@
 import slugify from 'slugify'
 
 interface SlugMapping {
-  letter: string,
+  letter: string
   slug: string
 }
 

@@ -10,7 +10,9 @@ describe('LetterLink component', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<LetterLink letter={{ letter: 's', slug: 's' }} />).toJSON()
+    const tree = renderer
+      .create(<LetterLink letter={{ letter: 's', slug: 's' }} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

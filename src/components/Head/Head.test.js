@@ -14,7 +14,9 @@ describe('Head component', () => {
 
     test('Matches snapshot', () => {
       const aWords = getByLetter('a').slice(0, 10)
-      const tree = renderer.create(<Head content={aWords} type="letter" />).toJSON()
+      const tree = renderer
+        .create(<Head content={aWords} type="letter" />)
+        .toJSON()
       expect(tree).toMatchSnapshot()
     })
   })

@@ -12,8 +12,12 @@ const getDefinedTermSetData = (content) => {
     '@context': 'https://schema.org/',
     '@type': 'DefinedTermSet',
     '@id': getLetterLink(letter),
-    name: removeHTML(`Cleasby & Vigfusson Dictionary - Letter ${letter.letter.toUpperCase()}`),
-    description: removeHTML(`Old Norse words starting with letter ${letter.letter.toUpperCase()}`),
+    name: removeHTML(
+      `Cleasby & Vigfusson Dictionary - Letter ${letter.letter.toUpperCase()}`,
+    ),
+    description: removeHTML(
+      `Old Norse words starting with letter ${letter.letter.toUpperCase()}`,
+    ),
   }
 }
 
@@ -21,7 +25,9 @@ const getDefinedTermData = (content) => ({
   '@context': 'https://schema.org/',
   '@type': 'DefinedTerm',
   '@id': getWordLink(content),
-  name: removeHTML(`Cleasby & Vigfusson Dictionary - ${capitalize(content.word)}`),
+  name: removeHTML(
+    `Cleasby & Vigfusson Dictionary - ${capitalize(content.word)}`,
+  ),
   description: removeHTML(content.definitions[0]),
   inDefinedTermSet: process.env.NEXT_PUBLIC_SITE_URL,
 })

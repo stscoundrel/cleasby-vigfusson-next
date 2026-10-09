@@ -27,9 +27,7 @@ const words = [
   },
   {
     word: 'af-deilingr',
-    definitions: [
-      'm. <i>part, portion, share,</i> Bs. i. 881.',
-    ],
+    definitions: ['m. <i>part, portion, share,</i> Bs. i. 881.'],
     slug: 'af-deilingr',
   },
   {
@@ -55,7 +53,9 @@ describe('WordList component', () => {
   })
 
   test('Matches snapshot (with definitions)', () => {
-    const tree = renderer.create(<WordList words={words} showDefinition={true}/>).toJSON()
+    const tree = renderer
+      .create(<WordList words={words} showDefinition={true} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
