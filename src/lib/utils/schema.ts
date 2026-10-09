@@ -1,8 +1,15 @@
+import type {
+  DictionaryEntry,
+  DictionaryEntryDTO,
+} from 'lib/services/dictionary'
+import type { Breadcrumb } from './breadcrumbs'
 import { capitalize, removeHTML } from 'lib/utils/strings'
 import { slugifyLetter } from 'lib/utils/slugs'
 import { getWordLink, getLetterLink } from 'lib/utils/links'
 
-const getDefinedTermSetData = (content) => {
+type DefinedTerm = Pick<DictionaryEntry, 'word' | 'slug' | 'definitions'>
+
+const getDefinedTermSetData = (content: DictionaryEntryDTO[]) => {
   const letter = {
     letter: content[0].word.charAt(0),
     slug: slugifyLetter(content[0].word.charAt(0)),
@@ -21,7 +28,7 @@ const getDefinedTermSetData = (content) => {
   }
 }
 
-const getDefinedTermData = (content) => ({
+const getDefinedTermData = (content: DefinedTerm) => ({
   '@context': 'https://schema.org/',
   '@type': 'DefinedTerm',
   '@id': getWordLink(content),
@@ -32,7 +39,7 @@ const getDefinedTermData = (content) => ({
   inDefinedTermSet: process.env.NEXT_PUBLIC_SITE_URL,
 })
 
-const getBreadcrumbListData = (content) => {
+const getBreadcrumbListData = (content: Breadcrumb[]) => {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 
   const listItems = content.map(({ label, url }, index) => ({
@@ -64,20 +71,23 @@ const getDefault = () => {
 /**
  * Get schema.org JSON-LD by type.
  */
-export const getSchema = (content, type) => {
+export const getSchema = (
+  content: DefinedTerm | DictionaryEntryDTO[] | Breadcrumb[] | null = null,
+  type: 'word' | 'letter' | 'breadcrumbs' | 'page' | null = null,
+): string => {
   if (type === 'word') {
-    const data = getDefinedTermData(content)
+    const data = getDefinedTermData(content as DefinedTerm)
 
     return JSON.stringify(data)
   }
 
   if (type === 'letter') {
-    const termSet = getDefinedTermSetData(content)
+    const termSet = getDefinedTermSetData(content as DictionaryEntryDTO[])
     return JSON.stringify(termSet)
   }
 
   if (type === 'breadcrumbs') {
-    const data = getBreadcrumbListData(content)
+    const data = getBreadcrumbListData(content as Breadcrumb[])
 
     return JSON.stringify(data)
   }
