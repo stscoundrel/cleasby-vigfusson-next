@@ -18,8 +18,8 @@
     "lint": "prettier src tests --check",
     "fix": "prettier src tests --write",
     "jest": "jest --verbose --passWithNoTests",
-    "test:unit": "yarn jest",
-    "test:integration": "yarn cypress run --env env=test --spec 'tests/integration/tests/**/*'",
+    "test:unit": "npm run jest --",
+    "test:integration": "cypress run --env env=test --spec \"tests/integration/tests/**/*\"",
     "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"80\", \"branches\":\"80\", \"lines\":\"90\"}}'",
     "typecheck": "tsc --noEmit"
   },
@@ -59,6 +59,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "volva": "^2.0.5"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  }
 }
