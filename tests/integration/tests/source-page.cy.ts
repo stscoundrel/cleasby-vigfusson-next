@@ -4,4 +4,4 @@ describe('Source list', () => {
   })
 })
 
-export { };
+export {}

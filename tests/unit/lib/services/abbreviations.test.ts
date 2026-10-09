@@ -9,9 +9,7 @@ import {
 describe('Abbreviations tests', () => {
   const simpleEntry = {
     word: 'hval-reið',
-    definitions: [
-      'f. = hvalreki, Lv. 58.',
-    ],
+    definitions: ['f. = hvalreki, Lv. 58.'],
     slug: 'hval-reid',
   }
 
@@ -210,7 +208,8 @@ describe('Abbreviations tests', () => {
       },
       {
         abbreviation: 'id.',
-        explanation: 'idem, referring to the passage quoted or to the translation',
+        explanation:
+          'idem, referring to the passage quoted or to the translation',
       },
       {
         abbreviation: 'R.',
@@ -441,7 +440,8 @@ describe('Abbreviations tests', () => {
       },
       {
         abbreviation: 'K. Þ. K.',
-        explanation: 'Kristinn-réttr Þorláks ok Ketils = Kristinna-laga-þáttr. (B. I.)',
+        explanation:
+          'Kristinn-réttr Þorláks ok Ketils = Kristinna-laga-þáttr. (B. I.)',
       },
       {
         abbreviation: 'Greg.',
@@ -504,8 +504,12 @@ describe('Abbreviations tests', () => {
   test('Adds abbr tags to content', () => {
     const abbreviations = getAbbreviations(simpleEntry)
 
-    const result = addAbbreviationsToContent(simpleEntry.definitions[0], abbreviations)
-    const expected = '<abbr title="feminine.">f.</abbr> = hvalreki, L<abbr title="vide.">v.</abbr> 58.'
+    const result = addAbbreviationsToContent(
+      simpleEntry.definitions[0],
+      abbreviations,
+    )
+    const expected =
+      '<abbr title="feminine.">f.</abbr> = hvalreki, L<abbr title="vide.">v.</abbr> 58.'
 
     expect(result).toEqual(expected)
   })

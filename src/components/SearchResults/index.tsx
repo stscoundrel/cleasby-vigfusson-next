@@ -9,13 +9,16 @@ interface SearchResultProps {
 export default function SearchResults({ words }: SearchResultProps) {
   return (
     <>
-      <p className="blue">{words.length}{words.length === 150 && '+'} results found</p>
+      <p className="blue">
+        {words.length}
+        {words.length === 150 && '+'} results found
+      </p>
       <ul className={styles.list}>
-        { words.map((word) => (
+        {words.map((word) => (
           <li key={word.slug}>
             <SearchTeaser data={word} />
           </li>
-        )) }
+        ))}
       </ul>
     </>
   )

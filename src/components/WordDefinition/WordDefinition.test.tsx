@@ -73,28 +73,32 @@ describe('WordDefinition component', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(
-      <WordDefinition
-        entry={word}
-        abbreviations={abbreviations}
-        similarEntries={[]}
-        crosslinks={crosslinks}
-        runes={runes}
-      />,
-    ).toJSON()
+    const tree = renderer
+      .create(
+        <WordDefinition
+          entry={word}
+          abbreviations={abbreviations}
+          similarEntries={[]}
+          crosslinks={crosslinks}
+          runes={runes}
+        />,
+      )
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Matches snapshot (older spelling variant)', () => {
-    const tree = renderer.create(
-      <WordDefinition
-        entry={wordWithOlderSpellingVariant}
-        similarEntries={[]}
-        abbreviations={abbreviations}
-        crosslinks={crosslinks}
-        runes="ᚢᚱ-ᚢᛅᚾᛅ"
-      />,
-    ).toJSON()
+    const tree = renderer
+      .create(
+        <WordDefinition
+          entry={wordWithOlderSpellingVariant}
+          similarEntries={[]}
+          abbreviations={abbreviations}
+          crosslinks={crosslinks}
+          runes="ᚢᚱ-ᚢᛅᚾᛅ"
+        />,
+      )
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
@@ -125,6 +129,8 @@ describe('WordDefinition component', () => {
     )
     const { root } = tree
 
-    expect(root.findAllByProps({ className: styles.definitionList }).length).toEqual(2)
+    expect(
+      root.findAllByProps({ className: styles.definitionList }).length,
+    ).toEqual(2)
   })
 })

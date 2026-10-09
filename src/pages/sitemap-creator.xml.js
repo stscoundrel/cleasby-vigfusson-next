@@ -15,7 +15,5 @@ export async function getServerSideProps({ res }) {
 }
 
 export default function Sitemap() {
-  return (
-   <p>Something went wrong while creating sitemap.xml.</p>
-  )
+  return <p>Something went wrong while creating sitemap.xml.</p>
 }

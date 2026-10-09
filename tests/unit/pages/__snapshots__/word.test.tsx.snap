@@ -544,12 +544,14 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
             Völva
             "
           </em>
-           (or 
+           
+          (or 
           <em>
             Vǫlva
           </em>
           )
-           in English.
+           
+          in English.
         </p>
       </header>
       <p>
@@ -609,7 +611,8 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
         <strong>
           Orthography: 
         </strong>
-        The Cleasby & Vigfusson book used letter 
+        The Cleasby & Vigfusson book used letter
+         
         <em>
           ö 
         </em>
@@ -617,7 +620,8 @@ exports[`Word page: render & usage Matches snapshot 1`] = `
         <em>
           ǫ
         </em>
-        . Therefore, 
+        . Therefore,
+         
         <em>
           Völva
         </em>

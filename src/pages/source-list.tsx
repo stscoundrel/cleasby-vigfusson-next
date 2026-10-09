@@ -7,8 +7,8 @@ import ContentArea from 'components/ContentArea'
 import { Abbreviation, getAllSorces } from 'lib/services/abbreviations'
 import Abbreviations from 'components/Abbreviations'
 
-interface SourcePageProps{
-  letters: AlphabetLetter[],
+interface SourcePageProps {
+  letters: AlphabetLetter[]
   sources: Abbreviation[]
 }
 
@@ -27,11 +27,13 @@ export async function getStaticProps() {
 export default function SourceList({ letters, sources }: SourcePageProps) {
   return (
     <Layout letters={letters} letter={false} type="page" content={null}>
-       <ContentArea>
+      <ContentArea>
         <h1 className="h2">Sources list</h1>
-        <p>Works and authors cited in &quot;<em>The Cleasby & Vigfusson Dictionary</em>&quot;
-        of Old Norse / Old Icelandic.</p>
-
+        <p>
+          Works and authors cited in &quot;
+          <em>The Cleasby & Vigfusson Dictionary</em>&quot; of Old Norse / Old
+          Icelandic.
+        </p>
       </ContentArea>
 
       <Abbreviations abbreviations={{ works: sources, common: [] }} />

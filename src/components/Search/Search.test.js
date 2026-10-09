@@ -38,9 +38,7 @@ describe('Search component', () => {
   })
 
   test('Triggers callback after click', async () => {
-    const tree = renderer.create(
-      <Search />,
-    )
+    const tree = renderer.create(<Search />)
 
     // Submit search form.
     await renderer.act(async () => {
@@ -51,7 +49,7 @@ describe('Search component', () => {
       // Assert mockrouter received a push.
       expect(mockHandler).toHaveBeenCalled()
       expect(mockHandler).toHaveBeenCalledWith('/search/?query=')
-      expect(mockHandler.mock.calls.length).toBe(1);
+      expect(mockHandler.mock.calls.length).toBe(1)
     })
   })
 })

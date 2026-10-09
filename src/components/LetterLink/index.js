@@ -8,7 +8,7 @@ export default function LetterLink({ letter }) {
       className={styles.link}
       prefetch={false}
     >
-       {letter.letter}
-     </Link>
-  );
+      {letter.letter}
+    </Link>
+  )
 }

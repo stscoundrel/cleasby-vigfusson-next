@@ -1,5 +1,4 @@
 import { createMocks } from 'node-mocks-http'
-// eslint-disable-next-line import/no-unresolved
 import revalidateHandler from 'pages/api/revalidate'
 
 describe('Revalidate API endpoint', () => {
@@ -11,7 +10,7 @@ describe('Revalidate API endpoint', () => {
 
     // Ensure response is blank.
     expect(res.finished).toBeFalsy()
-    expect(res._headers).toEqual({}) // eslint-disable-line
+    expect(res._headers).toEqual({})
 
     // Setup query params for revalidate.
     req.query = {
@@ -40,7 +39,7 @@ describe('Revalidate API endpoint', () => {
 
     // Ensure response is blank.
     expect(res.finished).toBeFalsy()
-    expect(res._headers).toEqual({}) // eslint-disable-line
+    expect(res._headers).toEqual({})
 
     // Setup query params for revalidate.
     req.query = {
@@ -68,7 +67,7 @@ describe('Revalidate API endpoint', () => {
 
     // Ensure response is blank.
     expect(res.finished).toBeFalsy()
-    expect(res._headers).toEqual({}) // eslint-disable-line
+    expect(res._headers).toEqual({})
 
     // Setup query params for revalidate.
     req.query = {

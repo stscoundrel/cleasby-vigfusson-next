@@ -2,16 +2,17 @@ import abbreviationsService from 'cleasby-vigfusson-abbreviations'
 import { abbreviate } from 'abbreviatrix'
 import { DictionaryEntry } from 'lib/services/dictionary'
 
-const { findAbbreviations, findWorksAndAuthors, getWorksAndAuthorsMapping } = abbreviationsService
+const { findAbbreviations, findWorksAndAuthors, getWorksAndAuthorsMapping } =
+  abbreviationsService
 
-export interface Abbreviation{
-  abbreviation: string,
+export interface Abbreviation {
+  abbreviation: string
   explanation: string
 }
 
 export interface CombinedAbbreviations {
-  common: Abbreviation[],
-  works: Abbreviation[],
+  common: Abbreviation[]
+  works: Abbreviation[]
 }
 
 /**
@@ -35,19 +36,22 @@ const combineAbbreviations = (
     })
   })
 
-  return combinedAbbreviations;
+  return combinedAbbreviations
 }
 
-export const getAbbreviations = (entry: DictionaryEntry): CombinedAbbreviations => ({
+export const getAbbreviations = (
+  entry: DictionaryEntry,
+): CombinedAbbreviations => ({
   common: combineAbbreviations(entry, findAbbreviations),
   works: combineAbbreviations(entry, findWorksAndAuthors),
 })
 
 export const getAllSorces = (): Abbreviation[] => {
   const abbrs = getWorksAndAuthorsMapping()
-  return Array
-    .from(abbrs, ([abbreviation, explanation]) => ({ explanation, abbreviation }))
-    .sort((a, b) => a.abbreviation.localeCompare(b.abbreviation))
+  return Array.from(abbrs, ([abbreviation, explanation]) => ({
+    explanation,
+    abbreviation,
+  })).sort((a, b) => a.abbreviation.localeCompare(b.abbreviation))
 }
 
 /**

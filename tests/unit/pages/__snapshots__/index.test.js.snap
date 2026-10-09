@@ -549,7 +549,8 @@ exports[`Index page Matches snapshot 1`] = `
       </p>
       <p>
         <em>
-          En 
+          En
+           
           <a
             href="/word/er"
             onClick={[Function]}
@@ -585,7 +586,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             verða
           </a>
-          , 
+          ,
+           
           <a
             href="/word/tha-2"
             onClick={[Function]}
@@ -611,7 +613,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             upp
           </a>
-           Heimdallr 
+           
+          Heimdallr
+           
           <a
             href="/word/ok"
             onClick={[Function]}
@@ -638,7 +642,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             ákafliga
           </a>
-           í 
+           
+          í
+           
           <a
             href="/word/gjoll"
             onClick={[Function]}
@@ -700,7 +706,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             guðin
           </a>
-          , 
+          ,
+           
           <a
             href="/word/ok"
             onClick={[Function]}
@@ -718,7 +725,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             eiga
           </a>
-           þau 
+           
+          þau
+           
           <a
             href="/word/thing"
             onClick={[Function]}
@@ -736,7 +745,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             saman
           </a>
-          . 
+          .
+           
           <a
             href="/word/tha-2"
             onClick={[Function]}
@@ -853,7 +863,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             ok
           </a>
-           sínu 
+           
+          sínu
+           
           <a
             href="/word/lidi"
             onClick={[Function]}
@@ -862,7 +874,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             liði
           </a>
-          . 
+          .
+           
           <a
             href="/word/tha-2"
             onClick={[Function]}
@@ -889,7 +902,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             askr
           </a>
-           Yggdrasils, 
+           
+          Yggdrasils,
+           
           <a
             href="/word/ok"
             onClick={[Function]}
@@ -898,7 +913,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             ok
           </a>
-           engi 
+           
+          engi
+           
           <a
             href="/word/hlutr"
             onClick={[Function]}
@@ -934,7 +951,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             óttalauss
           </a>
-           á 
+           
+          á
+           
           <a
             href="/word/himinn"
             onClick={[Function]}
@@ -943,7 +962,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             himni
           </a>
-           eða 
+           
+          eða
+           
           <a
             href="/word/jord"
             onClick={[Function]}
@@ -952,7 +973,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             jǫrðu
           </a>
-          . 
+          .
+           
           <a
             href="/word/aesir"
             onClick={[Function]}
@@ -1033,7 +1055,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             fram
           </a>
-           á 
+           
+          á
+           
           <a
             href="/word/vollr"
             onClick={[Function]}
@@ -1042,7 +1066,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             vǫlluna
           </a>
-          . 
+          .
+           
           <a
             href="/word/rida-3"
             onClick={[Function]}
@@ -1150,7 +1175,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             er
           </a>
-           Gungnir 
+           
+          Gungnir
+           
           <a
             href="/word/heita-2"
             onClick={[Function]}
@@ -1159,7 +1186,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             heitir
           </a>
-          . 
+          .
+           
           <a
             href="/word/stefnir"
             onClick={[Function]}
@@ -1186,7 +1214,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             móti
           </a>
-           Fenris
+           
+          Fenris
           <a
             href="/word/ulfr"
             onClick={[Function]}
@@ -1195,7 +1224,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             úlf
           </a>
-          , en Þórr 
+          , en Þórr
+           
           <a
             href="/word/fram"
             onClick={[Function]}
@@ -1204,7 +1234,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             fram
           </a>
-           á aðra 
+           
+          á aðra
+           
           <a
             href="/word/hlid"
             onClick={[Function]}
@@ -1222,7 +1254,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             honum
           </a>
-          , 
+          ,
+           
           <a
             href="/word/ok"
             onClick={[Function]}
@@ -1276,7 +1309,8 @@ exports[`Index page Matches snapshot 1`] = `
           >
             honum
           </a>
-          , 
+          ,
+           
           <a
             href="/word/thvi"
             onClick={[Function]}
@@ -1285,7 +1319,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             því
           </a>
-           at 
+           
+          at
+           
           <a
             href="/word/hann"
             onClick={[Function]}
@@ -1321,7 +1357,9 @@ exports[`Index page Matches snapshot 1`] = `
           >
             fang
           </a>
-           at 
+           
+          at
+           
           <a
             href="/word/berja"
             onClick={[Function]}

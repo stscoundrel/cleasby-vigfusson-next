@@ -94,4 +94,4 @@ describe('By letter archives', () => {
   })
 })
 
-export {};
+export {}

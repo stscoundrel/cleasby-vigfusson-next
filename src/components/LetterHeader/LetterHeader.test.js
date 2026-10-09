@@ -10,18 +10,24 @@ describe('LetterHeader component', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<LetterHeader letter="s" count={60} />).toJSON()
+    const tree = renderer
+      .create(<LetterHeader letter="s" count={60} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Matches snapshot - special formatting for "Ö"', () => {
-    const tree = renderer.create(<LetterHeader letter="ö" count={666} />).toJSON()
+    const tree = renderer
+      .create(<LetterHeader letter="ö" count={666} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Outputs correct count', () => {
     const tree = renderer.create(<LetterHeader letter="s" count={60} />)
     const { root } = tree
-    expect(root.findAllByType('small')[1].children.join(' ').includes('60')).toBeTruthy()
+    expect(
+      root.findAllByType('small')[1].children.join(' ').includes('60'),
+    ).toBeTruthy()
   })
 })

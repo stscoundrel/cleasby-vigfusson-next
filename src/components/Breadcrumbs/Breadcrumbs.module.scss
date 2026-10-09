@@ -14,7 +14,7 @@
   margin-bottom: 15px;
 
   &::after {
-    content: "/";
+    content: '/';
     position: absolute;
     right: -5px;
     top: 9px;
@@ -28,7 +28,7 @@
     display: block;
 
     &::after {
-      content: "";
+      content: '';
     }
   }
 }

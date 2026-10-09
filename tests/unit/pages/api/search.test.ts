@@ -1,5 +1,4 @@
 import { createMocks } from 'node-mocks-http'
-// eslint-disable-next-line import/no-unresolved
 import searchHandler from 'pages/api/search'
 
 describe('Search API endpoint', () => {
@@ -8,7 +7,7 @@ describe('Search API endpoint', () => {
 
     // Ensure response is blank.
     expect(res.finished).toBeFalsy()
-    expect(res._headers).toEqual({}) // eslint-disable-line
+    expect(res._headers).toEqual({})
 
     // Setup invalid query params
     req.query = {
@@ -27,7 +26,7 @@ describe('Search API endpoint', () => {
 
     // Ensure response is blank.
     expect(res.finished).toBeFalsy()
-    expect(res._headers).toEqual({}) // eslint-disable-line
+    expect(res._headers).toEqual({})
 
     // Setup valid query params
     req.query = {
@@ -36,8 +35,6 @@ describe('Search API endpoint', () => {
     }
 
     await searchHandler(req, res)
-
-    // eslint-disable-next-line no-underscore-dangle
     const response = JSON.parse(res._getData())
 
     // Should be valid response with results

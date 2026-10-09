@@ -26,9 +26,7 @@ describe('SEO / meta tags tests', () => {
     },
     {
       word: 'af-deilingr',
-      definitions: [
-        'm. <i>part, portion, share,</i> Bs. i. 881.',
-      ],
+      definitions: ['m. <i>part, portion, share,</i> Bs. i. 881.'],
       slug: 'af-deilingr',
     },
     {
@@ -55,7 +53,8 @@ describe('SEO / meta tags tests', () => {
   test('Handles "letter" seo fields', () => {
     const expected = {
       title: 'Old Norse words starting with letter A',
-      description: 'Meanings of Old Norse words starting with "A", such as af-burðr, af-búð, af-dalr and af-deilingr',
+      description:
+        'Meanings of Old Norse words starting with "A", such as af-burðr, af-búð, af-dalr and af-deilingr',
     }
 
     const result = getSeo(words, 'letter')

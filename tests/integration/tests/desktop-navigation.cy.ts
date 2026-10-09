@@ -13,4 +13,4 @@ it('Desktop navigation works', () => {
   cy.location('pathname').should('equal', '/letter/b')
 })
 
-export {};
+export {}

@@ -3,7 +3,12 @@ import { isArray } from 'volva'
 import { matchesSchema } from 'jafningjar'
 import { oldNorseSort } from 'old-norse-alphabet-sort'
 import {
-  getAllWords, getByLetter, getWord, getAlphabet, getSimilarWords, getInitialWordsToBuild,
+  getAllWords,
+  getByLetter,
+  getWord,
+  getAlphabet,
+  getSimilarWords,
+  getInitialWordsToBuild,
 } from 'lib/services/dictionary'
 
 describe('Dictionary tests', () => {
@@ -64,15 +69,21 @@ describe('Dictionary tests', () => {
 
     expect(word1.word.toLowerCase()).toBe('af-hlutr')
     expect(word1.slug).toBe('af-hlutr')
-    expect(word1.definitions).toEqual(['m. <i>share of a thing,</i> v. fjár-afhlutr.'])
+    expect(word1.definitions).toEqual([
+      'm. <i>share of a thing,</i> v. fjár-afhlutr.',
+    ])
 
     expect(word2.word.toLowerCase()).toBe('rið-völr')
     expect(word2.slug).toBe('rid-volr')
-    expect(word2.definitions).toEqual(['m. <i>a short round stick,</i> to carry in the hand; tók hann riðvöl í hönd sér, Dropl. 29; hann greip upp riðvöl, ok laust sveininn í höfuðit svá at blóð féll um hann, Hkr. iii. 285.'])
+    expect(word2.definitions).toEqual([
+      'm. <i>a short round stick,</i> to carry in the hand; tók hann riðvöl í hönd sér, Dropl. 29; hann greip upp riðvöl, ok laust sveininn í höfuðit svá at blóð féll um hann, Hkr. iii. 285.',
+    ])
 
     expect(word3.word.toLowerCase()).toBe('þögull')
     expect(word3.slug).toBe('thogull')
-    expect(word3.definitions).toEqual(['adj. <i>silent, of silent habits,</i> Hm. 6; hann var maðr þ., ríklundaðr ok úþýðr, Hkr. i. 28; hann var þögull, ekki nafn festisk við hann, Sæm. 96; hinn þögli áss, Edda 17; Viðars ins þögla, 60; horskr ok þögull, Hm.; sí-þögull, <i>mute;</i> see þagall.'])
+    expect(word3.definitions).toEqual([
+      'adj. <i>silent, of silent habits,</i> Hm. 6; hann var maðr þ., ríklundaðr ok úþýðr, Hkr. i. 28; hann var þögull, ekki nafn festisk við hann, Sæm. 96; hinn þögli áss, Edda 17; Viðars ins þögla, 60; horskr ok þögull, Hm.; sí-þögull, <i>mute;</i> see þagall.',
+    ])
   })
 
   test('Dictionary gets similar entries', () => {
@@ -113,7 +124,7 @@ describe('Dictionary tests', () => {
       },
     ]
 
-    expect(results).toEqual(expected);
+    expect(results).toEqual(expected)
   })
 
   test('Dictionary gets alphabet constants with slugs', () => {
@@ -148,14 +159,15 @@ describe('Dictionary tests', () => {
       }
     })
 
-    expect(foundÖ).toBeTruthy();
+    expect(foundÖ).toBeTruthy()
   })
 
   test('Dictionary entries are alphabetically sorted', () => {
     const maybeUnsorted = getDictionary()
 
-    const sortedDictionry = [...maybeUnsorted].sort((a, b) => (
-      oldNorseSort(a.word, b.word)))
+    const sortedDictionry = [...maybeUnsorted].sort((a, b) =>
+      oldNorseSort(a.word, b.word),
+    )
 
     expect(maybeUnsorted).toEqual(sortedDictionry)
   })

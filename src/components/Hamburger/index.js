@@ -18,10 +18,15 @@ export default function Hamburger({ action }) {
   }
 
   return (
-    <div role="button" aria-label="Open menu" className={getHamburgerClass()} onClick={() => openMenu()}>
-        <span className={styles.part} />
-        <span className={styles.part} />
-        <span className={styles.part} />
+    <div
+      role="button"
+      aria-label="Open menu"
+      className={getHamburgerClass()}
+      onClick={() => openMenu()}
+    >
+      <span className={styles.part} />
+      <span className={styles.part} />
+      <span className={styles.part} />
     </div>
   )
 }

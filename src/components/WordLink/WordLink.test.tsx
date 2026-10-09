@@ -17,7 +17,9 @@ describe('WordLink component', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<WordLink data={word} useLowerCase={false} />).toJSON()
+    const tree = renderer
+      .create(<WordLink data={word} useLowerCase={false} />)
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 

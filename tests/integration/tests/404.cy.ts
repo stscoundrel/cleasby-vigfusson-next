@@ -4,4 +4,4 @@ describe('404 page', () => {
   })
 })
 
-export {};
+export {}

@@ -15,9 +15,7 @@ describe('Similar entries component', () => {
   ]
 
   test('Matches the snapshot', () => {
-    const tree = renderer.create(
-      <SimilarEntries entries={entries} />,
-    ).toJSON()
+    const tree = renderer.create(<SimilarEntries entries={entries} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

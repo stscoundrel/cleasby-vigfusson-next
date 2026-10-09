@@ -5,18 +5,14 @@ import Hamburger from './index'
 describe('Hamburger button', () => {
   test('Matches the snapshot', () => {
     const mockHandler = jest.fn()
-    const tree = renderer.create(
-      <Hamburger action={mockHandler} />,
-    ).toJSON()
+    const tree = renderer.create(<Hamburger action={mockHandler} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Triggers callback after click', async () => {
     const mockHandler = jest.fn()
 
-    const tree = renderer.create(
-      <Hamburger action={mockHandler} />,
-    )
+    const tree = renderer.create(<Hamburger action={mockHandler} />)
 
     // Hamburger is closed at start.
     const closedState = tree.toJSON()

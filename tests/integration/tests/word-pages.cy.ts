@@ -16,4 +16,4 @@ describe('Word pages', () => {
   })
 })
 
-export {};
+export {}

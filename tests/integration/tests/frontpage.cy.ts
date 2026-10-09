@@ -4,4 +4,4 @@ describe('Frontpage', () => {
   })
 })
 
-export {};
+export {}

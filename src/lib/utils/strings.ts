@@ -1,8 +1,5 @@
-export const capitalize = (
-  content: string,
-): string => (
+export const capitalize = (content: string): string =>
   content.charAt(0).toUpperCase() + content.slice(1).toLowerCase()
-)
 
 export const removeHTML = (content: string): string => {
   let filteredString = content
@@ -17,27 +14,28 @@ export const removeHTML = (content: string): string => {
   return filteredString
 }
 
-const transformWithMap = (content: string, dictionary: Map<string, string>): string => {
-  let result = '';
-  const parts: string[] = content.split('');
+const transformWithMap = (
+  content: string,
+  dictionary: Map<string, string>,
+): string => {
+  let result = ''
+  const parts: string[] = content.split('')
 
   parts.forEach((part) => {
-    const partKey = part.toLocaleLowerCase();
+    const partKey = part.toLocaleLowerCase()
 
     if (dictionary.has(partKey)) {
-      result += dictionary.get(partKey);
+      result += dictionary.get(partKey)
     } else {
-      result += part;
+      result += part
     }
-  });
+  })
 
-  return result;
-};
+  return result
+}
 
 export const getOlderSpelling = (headword: string): string => {
-  const NEW_TO_OLD = new Map([
-    ['ö', 'ǫ'],
-  ])
+  const NEW_TO_OLD = new Map([['ö', 'ǫ']])
 
-  return transformWithMap(headword, NEW_TO_OLD);
-};
+  return transformWithMap(headword, NEW_TO_OLD)
+}

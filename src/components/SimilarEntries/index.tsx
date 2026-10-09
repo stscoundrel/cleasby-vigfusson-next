@@ -1,6 +1,6 @@
 import WordLink from 'components/WordLink'
 import { DictionaryEntry } from 'lib/services/dictionary'
-import { capitalize } from 'lib/utils/strings';
+import { capitalize } from 'lib/utils/strings'
 
 interface SimilarEntriesProps {
   entries: DictionaryEntry[]
@@ -20,7 +20,7 @@ postfixMap.set('10', 'X')
 
 export default function SimilarEntries({ entries }: SimilarEntriesProps) {
   const parsePostfix = (entryToParse: DictionaryEntry): string => {
-    let postfix = 'I';
+    let postfix = 'I'
     const lastChar = entryToParse.slug.slice(-1)
 
     if (postfixMap.has(lastChar)) {
@@ -40,7 +40,10 @@ export default function SimilarEntries({ entries }: SimilarEntriesProps) {
       <ul>
         {entries.map((entry, index) => (
           <li key={`similar-link-${index}`}>
-            <WordLink data={{ ...entry, word: parsePostfix(entry) }} useLowerCase={false} />
+            <WordLink
+              data={{ ...entry, word: parsePostfix(entry) }}
+              useLowerCase={false}
+            />
           </li>
         ))}
       </ul>

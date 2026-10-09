@@ -1,6 +1,6 @@
-export interface Redirect404ResponseSchema{
-  props: object,
-  notFound: boolean,
+export interface Redirect404ResponseSchema {
+  props: object
+  notFound: boolean
 }
 
 export const redirect404 = (): Redirect404ResponseSchema => ({

@@ -1,11 +1,13 @@
 import { Abbreviation } from 'lib/services/abbreviations'
 import styles from './AbbreviationList.module.scss'
 
-interface AbbreviationListProps{
+interface AbbreviationListProps {
   abbreviations: Abbreviation[]
 }
 
-export default function AbbreviationList({ abbreviations }: AbbreviationListProps) {
+export default function AbbreviationList({
+  abbreviations,
+}: AbbreviationListProps) {
   return (
     <>
       {abbreviations.map(({ abbreviation, explanation }) => (

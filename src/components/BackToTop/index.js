@@ -9,7 +9,12 @@ export default function BackToTop() {
   }
 
   return (
-    <div className={styles.backToTop} aria-label="Back to top" role="button" onClick={() => scrollToTop()}>
+    <div
+      className={styles.backToTop}
+      aria-label="Back to top"
+      role="button"
+      onClick={() => scrollToTop()}
+    >
       ↑
     </div>
   )
