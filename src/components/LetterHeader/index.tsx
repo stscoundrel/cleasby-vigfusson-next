@@ -1,6 +1,11 @@
 import styles from './LetterHeader.module.scss'
 
-export default function LetterHeader({ letter, count }) {
+interface LetterHeaderProps {
+  letter: string
+  count: number
+}
+
+export default function LetterHeader({ letter, count }: LetterHeaderProps) {
   const getLetterPresentation = () => {
     if (letter === 'ö') {
       return 'ö / ǫ'.toUpperCase()

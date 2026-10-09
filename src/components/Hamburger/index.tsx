@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import styles from './Hamburger.module.scss'
 
-export default function Hamburger({ action }) {
+interface HamburgerProps {
+  action: () => void
+}
+
+export default function Hamburger({ action }: HamburgerProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   const openMenu = () => {
