@@ -6,6 +6,11 @@ updates:
       interval: "monthly"
     open-pull-requests-limit: 25
     groups:
+      jest:
+        patterns:
+          - "jest"
+          - "jest-environment-jsdom"
+          - "@types/jest"
       react:
         patterns:
           - "react"

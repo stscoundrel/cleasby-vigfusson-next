@@ -28,7 +28,7 @@ describe('Revalidate API endpoint', () => {
     // Should've received unauthorized response
     expect(res.finished).toBeTruthy()
     expect(res.statusCode).toBe(401)
-    expect(mockRevalidate).toBeCalledTimes(0)
+    expect(mockRevalidate).toHaveBeenCalledTimes(0)
   })
 
   test('Should error if query params not given', async () => {
@@ -56,7 +56,7 @@ describe('Revalidate API endpoint', () => {
     // Should've received bad request error
     expect(res.finished).toBeTruthy()
     expect(res.statusCode).toBe(400)
-    expect(mockRevalidate).toBeCalledTimes(0)
+    expect(mockRevalidate).toHaveBeenCalledTimes(0)
   })
 
   test('Should call revalidate', async () => {
