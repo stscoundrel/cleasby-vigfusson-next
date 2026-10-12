@@ -1,10 +1,10 @@
+import { createRenderer, act } from '../../../tests/helpers/react'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import BackToTop from './index'
 
 describe('BackToTop button', () => {
   test('Matches the snapshot', () => {
-    const tree = renderer.create(<BackToTop />).toJSON()
+    const tree = createRenderer(<BackToTop />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
@@ -14,11 +14,11 @@ describe('BackToTop button', () => {
 
     let tree
 
-    await renderer.act(async () => {
-      tree = renderer.create(<BackToTop />)
+    await act(async () => {
+      tree = createRenderer(<BackToTop />)
     })
 
-    await renderer.act(async () => {
+    await act(async () => {
       await tree.root.findByType('div').props.onClick()
     })
 

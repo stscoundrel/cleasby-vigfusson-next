@@ -1,5 +1,4 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../../tests/helpers/react'
 import SearchResults from './index'
 
 const words = [
@@ -37,13 +36,11 @@ const words = [
 
 describe('SearchResults component', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<SearchResults words={words} />)
+    renderToDOM(<SearchResults words={words} />)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<SearchResults words={words} />).toJSON()
+    const tree = createRenderer(<SearchResults words={words} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

@@ -1,4 +1,4 @@
-import renderer from 'react-test-renderer'
+import { createRenderer } from '../../../tests/helpers/react'
 import { DictionaryEntry } from 'lib/services/dictionary'
 import SimilarEntries from './index'
 
@@ -15,7 +15,7 @@ describe('Similar entries component', () => {
   ]
 
   test('Matches the snapshot', () => {
-    const tree = renderer.create(<SimilarEntries entries={entries} />).toJSON()
+    const tree = createRenderer(<SimilarEntries entries={entries} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

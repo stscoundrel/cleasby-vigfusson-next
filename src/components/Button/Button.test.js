@@ -1,19 +1,19 @@
+import { createRenderer } from '../../../tests/helpers/react'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import Button from './index'
 
 describe('Button component', () => {
   test('Matches the snapshot', () => {
     const mockHandler = jest.fn()
-    const tree = renderer
-      .create(<Button text="Button text" action={mockHandler} />)
-      .toJSON()
+    const tree = createRenderer(
+      <Button text="Button text" action={mockHandler} />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Has correct button text', () => {
     const mockHandler = jest.fn()
-    const tree = renderer.create(
+    const tree = createRenderer(
       <Button text="ButtonText" action={mockHandler} />,
     )
     const { root } = tree
@@ -24,7 +24,7 @@ describe('Button component', () => {
   test('Triggers callback after click', async () => {
     const mockHandler = jest.fn()
 
-    const tree = renderer.create(
+    const tree = createRenderer(
       <Button text="Button text" action={mockHandler} />,
     )
 

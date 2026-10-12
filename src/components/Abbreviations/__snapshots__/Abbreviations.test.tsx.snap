@@ -72,6 +72,7 @@ exports[`Abbreviations component Matches the snapshot 1`] = `
     onClick={[Function]}
     onMouseEnter={[Function]}
     onTouchStart={[Function]}
+    ref={[Function]}
   >
     ➞ See all works cited in the dictionary
   </a>

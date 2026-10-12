@@ -1,7 +1,6 @@
-import ReactDOM from 'react-dom/client'
+import { createRenderer, renderToDOM } from '../../../tests/helpers/react'
 import Footer from 'components/Footer'
-// import renderer from 'react-test-renderer'
-
+//
 const letters = [
   {
     slug: 'a',
@@ -15,9 +14,7 @@ const letters = [
 
 describe('Footer component', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<Footer letters={letters} />)
+    renderToDOM(<Footer letters={letters} />)
   })
 
   /**
@@ -25,7 +22,7 @@ describe('Footer component', () => {
    * Makes very little sense, comment it for now.
    */
   // test('Matches snapshot', () => {
-  //   const tree = renderer.create(<Footer letters={letters} />).toJSON()
+  //   const tree = createRenderer(<Footer letters={letters} />).toJSON()
   //   expect(tree).toMatchSnapshot()
   // })
 })

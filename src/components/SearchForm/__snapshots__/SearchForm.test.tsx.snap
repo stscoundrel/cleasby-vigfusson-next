@@ -16,7 +16,7 @@ exports[`SearchForm component Matches snapshot 1`] = `
       name="search"
       onChange={[Function]}
       type="search"
-      value=""
+      value="madr"
     />
     <ul
       className="list"
@@ -28,7 +28,7 @@ exports[`SearchForm component Matches snapshot 1`] = `
         className="listItem"
       >
         <input
-          checked={true}
+          checked={false}
           name="all"
           onChange={[Function]}
           type="radio"
@@ -41,7 +41,7 @@ exports[`SearchForm component Matches snapshot 1`] = `
         className="listItem"
       >
         <input
-          checked={false}
+          checked={true}
           name="headword"
           onChange={[Function]}
           type="radio"

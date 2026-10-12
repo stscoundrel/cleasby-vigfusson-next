@@ -10,6 +10,7 @@ exports[`Search teaser component Matches snapshot 1`] = `
     onClick={[Function]}
     onMouseEnter={[Function]}
     onTouchStart={[Function]}
+    ref={[Function]}
   >
     aðal-vellir
   </a>

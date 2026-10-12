@@ -17,6 +17,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           <img
             alt="To home"
@@ -58,6 +59,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               a
             </a>
@@ -71,6 +73,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               á
             </a>
@@ -84,6 +87,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               b
             </a>
@@ -97,6 +101,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               d
             </a>
@@ -110,6 +115,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               e
             </a>
@@ -123,6 +129,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               é
             </a>
@@ -136,6 +143,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               f
             </a>
@@ -149,6 +157,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               g
             </a>
@@ -162,6 +171,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               h
             </a>
@@ -175,6 +185,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               i
             </a>
@@ -188,6 +199,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               í
             </a>
@@ -201,6 +213,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               j
             </a>
@@ -214,6 +227,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               k
             </a>
@@ -227,6 +241,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               l
             </a>
@@ -240,6 +255,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               m
             </a>
@@ -253,6 +269,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               n
             </a>
@@ -266,6 +283,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               o
             </a>
@@ -279,6 +297,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ó
             </a>
@@ -292,6 +311,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               p
             </a>
@@ -305,6 +325,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               r
             </a>
@@ -318,6 +339,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               s
             </a>
@@ -331,6 +353,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               t
             </a>
@@ -344,6 +367,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               u
             </a>
@@ -357,6 +381,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ú
             </a>
@@ -370,6 +395,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               v
             </a>
@@ -383,6 +409,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               y
             </a>
@@ -396,6 +423,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ý
             </a>
@@ -409,6 +437,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               þ
             </a>
@@ -422,6 +451,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               æ
             </a>
@@ -435,6 +465,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               œ
             </a>
@@ -448,6 +479,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ö
             </a>
@@ -487,6 +519,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           Cleasby & Vigfusson Dictionary
         </a>
@@ -496,6 +529,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           Letter A
         </a>
@@ -677,6 +711,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 a
               </a>
@@ -690,6 +725,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 á
               </a>
@@ -703,6 +739,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 b
               </a>
@@ -716,6 +753,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 d
               </a>
@@ -729,6 +767,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 e
               </a>
@@ -742,6 +781,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 é
               </a>
@@ -755,6 +795,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 f
               </a>
@@ -768,6 +809,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 g
               </a>
@@ -781,6 +823,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 h
               </a>
@@ -794,6 +837,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 i
               </a>
@@ -807,6 +851,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 í
               </a>
@@ -820,6 +865,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 j
               </a>
@@ -833,6 +879,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 k
               </a>
@@ -846,6 +893,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 l
               </a>
@@ -859,6 +907,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 m
               </a>
@@ -872,6 +921,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 n
               </a>
@@ -885,6 +935,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 o
               </a>
@@ -898,6 +949,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ó
               </a>
@@ -911,6 +963,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 p
               </a>
@@ -924,6 +977,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 r
               </a>
@@ -937,6 +991,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 s
               </a>
@@ -950,6 +1005,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 t
               </a>
@@ -963,6 +1019,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 u
               </a>
@@ -976,6 +1033,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ú
               </a>
@@ -989,6 +1047,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 v
               </a>
@@ -1002,6 +1061,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 y
               </a>
@@ -1015,6 +1075,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ý
               </a>
@@ -1028,6 +1089,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 þ
               </a>
@@ -1041,6 +1103,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 æ
               </a>
@@ -1054,6 +1117,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 œ
               </a>
@@ -1067,6 +1131,7 @@ exports[`Layout component Letter layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ö
               </a>
@@ -1109,6 +1174,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           <img
             alt="To home"
@@ -1150,6 +1216,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               a
             </a>
@@ -1163,6 +1230,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               á
             </a>
@@ -1176,6 +1244,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               b
             </a>
@@ -1189,6 +1258,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               d
             </a>
@@ -1202,6 +1272,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               e
             </a>
@@ -1215,6 +1286,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               é
             </a>
@@ -1228,6 +1300,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               f
             </a>
@@ -1241,6 +1314,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               g
             </a>
@@ -1254,6 +1328,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               h
             </a>
@@ -1267,6 +1342,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               i
             </a>
@@ -1280,6 +1356,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               í
             </a>
@@ -1293,6 +1370,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               j
             </a>
@@ -1306,6 +1384,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               k
             </a>
@@ -1319,6 +1398,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               l
             </a>
@@ -1332,6 +1412,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               m
             </a>
@@ -1345,6 +1426,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               n
             </a>
@@ -1358,6 +1440,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               o
             </a>
@@ -1371,6 +1454,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ó
             </a>
@@ -1384,6 +1468,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               p
             </a>
@@ -1397,6 +1482,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               r
             </a>
@@ -1410,6 +1496,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               s
             </a>
@@ -1423,6 +1510,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               t
             </a>
@@ -1436,6 +1524,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               u
             </a>
@@ -1449,6 +1538,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ú
             </a>
@@ -1462,6 +1552,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               v
             </a>
@@ -1475,6 +1566,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               y
             </a>
@@ -1488,6 +1580,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ý
             </a>
@@ -1501,6 +1594,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               þ
             </a>
@@ -1514,6 +1608,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               æ
             </a>
@@ -1527,6 +1622,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               œ
             </a>
@@ -1540,6 +1636,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
               onClick={[Function]}
               onMouseEnter={[Function]}
               onTouchStart={[Function]}
+              ref={[Function]}
             >
               ö
             </a>
@@ -1579,6 +1676,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           Cleasby & Vigfusson Dictionary
         </a>
@@ -1588,6 +1686,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           Letter S
         </a>
@@ -1597,6 +1696,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
           onClick={[Function]}
           onMouseEnter={[Function]}
           onTouchStart={[Function]}
+          ref={[Function]}
         >
           Skilja
         </a>
@@ -1778,6 +1878,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 a
               </a>
@@ -1791,6 +1892,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 á
               </a>
@@ -1804,6 +1906,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 b
               </a>
@@ -1817,6 +1920,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 d
               </a>
@@ -1830,6 +1934,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 e
               </a>
@@ -1843,6 +1948,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 é
               </a>
@@ -1856,6 +1962,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 f
               </a>
@@ -1869,6 +1976,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 g
               </a>
@@ -1882,6 +1990,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 h
               </a>
@@ -1895,6 +2004,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 i
               </a>
@@ -1908,6 +2018,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 í
               </a>
@@ -1921,6 +2032,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 j
               </a>
@@ -1934,6 +2046,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 k
               </a>
@@ -1947,6 +2060,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 l
               </a>
@@ -1960,6 +2074,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 m
               </a>
@@ -1973,6 +2088,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 n
               </a>
@@ -1986,6 +2102,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 o
               </a>
@@ -1999,6 +2116,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ó
               </a>
@@ -2012,6 +2130,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 p
               </a>
@@ -2025,6 +2144,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 r
               </a>
@@ -2038,6 +2158,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 s
               </a>
@@ -2051,6 +2172,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 t
               </a>
@@ -2064,6 +2186,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 u
               </a>
@@ -2077,6 +2200,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ú
               </a>
@@ -2090,6 +2214,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 v
               </a>
@@ -2103,6 +2228,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 y
               </a>
@@ -2116,6 +2242,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ý
               </a>
@@ -2129,6 +2256,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 þ
               </a>
@@ -2142,6 +2270,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 æ
               </a>
@@ -2155,6 +2284,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 œ
               </a>
@@ -2168,6 +2298,7 @@ exports[`Layout component Word layout Matches snapshot 1`] = `
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onTouchStart={[Function]}
+                ref={[Function]}
               >
                 ö
               </a>

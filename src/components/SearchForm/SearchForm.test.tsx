@@ -1,6 +1,7 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM, act } from '../../../tests/helpers/react'
 import SeachForm from './index'
+
+const mockQuery = { query: 'madr', criteria: 'headword' }
 
 /**
  * Mock router
@@ -8,23 +9,38 @@ import SeachForm from './index'
 jest.mock('next/router', () => ({
   useRouter() {
     return {
-      query: {
-        query: 'madr',
-        criteria: 'headword',
-      },
+      query: mockQuery,
     }
   },
 }))
 
+const originalFetch = globalThis.fetch
+
+beforeEach(() => {
+  globalThis.fetch = jest.fn().mockResolvedValue({
+    json: async () => [],
+  })
+})
+
+afterEach(() => {
+  globalThis.fetch = originalFetch
+})
+
 describe('SearchForm component', () => {
-  test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<SeachForm />)
+  test('Does not crash', async () => {
+    await act(async () => {
+      renderToDOM(<SeachForm />)
+    })
   })
 
-  test('Matches snapshot', () => {
-    const tree = renderer.create(<SeachForm />).toJSON()
-    expect(tree).toMatchSnapshot()
+  test('Matches snapshot', async () => {
+    let tree: ReturnType<typeof createRenderer>
+    await act(async () => {
+      tree = createRenderer(<SeachForm />)
+    })
+    expect(tree!.toJSON()).toMatchSnapshot()
+    expect(globalThis.fetch).toHaveBeenCalledWith(
+      '/api/search?search=madr&criteria=headword',
+    )
   })
 })
