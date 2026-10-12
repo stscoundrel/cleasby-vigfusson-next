@@ -1,7 +1,9 @@
+@use 'variables';
+
 .button {
   display: block;
-  background-color: $color-blue;
-  border: 2px solid $color-blue;
+  background-color: variables.$color-blue;
+  border: 2px solid variables.$color-blue;
   color: white;
   padding: 5px 15px;
   margin: 20px 0;
@@ -10,7 +12,7 @@
 
   &:hover {
     background-color: transparent;
-    color: $color-blue;
+    color: variables.$color-blue;
     text-decoration: none;
   }
 
@@ -21,7 +23,7 @@
 
     &:hover {
       background-color: white;
-      color: $color-blue;
+      color: variables.$color-blue;
     }
   }
 

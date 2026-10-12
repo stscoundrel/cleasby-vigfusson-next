@@ -1,11 +1,13 @@
+@use '../../styles/variables';
+
 .section {
-  border-bottom: 1px solid $color-blue;
+  border-bottom: 1px solid variables.$color-blue;
   padding: 16px 0;
 }
 
 .link {
   position: relative;
-  color: $color-blue;
+  color: variables.$color-blue;
   text-decoration: none;
   padding: 10px 0;
   padding-right: 15px;

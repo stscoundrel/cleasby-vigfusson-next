@@ -1,3 +1,5 @@
+@use '../../styles/variables';
+
 .backToTop {
   position: fixed;
   bottom: 15px;
@@ -7,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $color-blue;
+  background-color: variables.$color-blue;
   color: white;
   border-radius: 50%;
   border: 1px solid white;

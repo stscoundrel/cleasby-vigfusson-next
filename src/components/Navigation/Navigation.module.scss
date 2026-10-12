@@ -1,6 +1,8 @@
+@use '../../styles/variables';
+
 .section {
   color: white;
-  background-color: $color-blue;
+  background-color: variables.$color-blue;
   padding: 16px 0;
   position: fixed;
   top: 0;
