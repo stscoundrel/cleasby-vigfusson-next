@@ -1,8 +1,8 @@
-@import '~reset-css';
-@import 'variables';
-@import 'typography';
-@import 'containers';
-@import 'buttons';
+@use 'reset-css/sass/reset';
+@use 'variables';
+@use 'typography';
+@use 'containers';
+@use 'buttons';
 
 body,
 html {
@@ -16,5 +16,5 @@ html {
 }
 
 .blue {
-  color: $color-blue;
+  color: variables.$color-blue;
 }
