@@ -1,13 +1,10 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../helpers/react'
 import Letter, { getStaticProps, getStaticPaths } from 'pages/letter/[letter]'
 import { getByLetter, getAlphabet } from 'lib/services/dictionary'
 
 describe('Letter page: render', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(
+    renderToDOM(
       <Letter
         words={getByLetter('a')}
         letters={getAlphabet()}
@@ -17,22 +14,20 @@ describe('Letter page: render', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer
-      .create(
-        <Letter
-          words={getByLetter('a')}
-          letters={getAlphabet()}
-          letter={{ letter: 'e', slug: 'e' }}
-        />,
-      )
-      .toJSON()
+    const tree = createRenderer(
+      <Letter
+        words={getByLetter('a')}
+        letters={getAlphabet()}
+        letter={{ letter: 'e', slug: 'e' }}
+      />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Returns null if words are unavailable', () => {
-    const tree = renderer
-      .create(<Letter words={null} letters={getAlphabet()} letter="e" />)
-      .toJSON()
+    const tree = createRenderer(
+      <Letter words={null} letters={getAlphabet()} letter="e" />,
+    ).toJSON()
     expect(tree).toBeNull()
   })
 })

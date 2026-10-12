@@ -13,6 +13,7 @@ exports[`Breadcrumbs component Default page: matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       Cleasby & Vigfusson Dictionary
     </a>
@@ -41,6 +42,7 @@ exports[`Breadcrumbs component Letter page: matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       Cleasby & Vigfusson Dictionary
     </a>
@@ -50,6 +52,7 @@ exports[`Breadcrumbs component Letter page: matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       Letter R
     </a>
@@ -78,6 +81,7 @@ exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       Cleasby & Vigfusson Dictionary
     </a>
@@ -87,6 +91,7 @@ exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       Letter R
     </a>
@@ -96,6 +101,7 @@ exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       Random
     </a>

@@ -168,6 +168,7 @@ exports[`WordDefinition component Matches snapshot (older spelling variant) 1`] 
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       ➞ See all works cited in the dictionary
     </a>
@@ -380,6 +381,7 @@ exports[`WordDefinition component Matches snapshot 1`] = `
       onClick={[Function]}
       onMouseEnter={[Function]}
       onTouchStart={[Function]}
+      ref={[Function]}
     >
       ➞ See all works cited in the dictionary
     </a>

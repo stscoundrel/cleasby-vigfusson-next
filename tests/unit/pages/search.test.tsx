@@ -1,5 +1,4 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../helpers/react'
 import Search, { getStaticProps } from 'pages/search'
 import { getAlphabet } from 'lib/services/dictionary'
 
@@ -16,13 +15,11 @@ jest.mock('next/router', () => ({
 
 describe('Search page: render', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<Search letters={getAlphabet()} />)
+    renderToDOM(<Search letters={getAlphabet()} />)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Search letters={getAlphabet()} />).toJSON()
+    const tree = createRenderer(<Search letters={getAlphabet()} />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

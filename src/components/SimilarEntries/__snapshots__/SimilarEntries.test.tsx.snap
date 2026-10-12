@@ -13,6 +13,7 @@ exports[`Similar entries component Matches the snapshot 1`] = `
         onClick={[Function]}
         onMouseEnter={[Function]}
         onTouchStart={[Function]}
+        ref={[Function]}
       >
         Fadhurlikhet (II)
       </a>

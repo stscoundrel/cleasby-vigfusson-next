@@ -1,5 +1,5 @@
+import { createRenderer } from '../../../tests/helpers/react'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import AbbreviationList from './index'
 import styles from './AbbreviationList.module.scss'
 
@@ -16,14 +16,14 @@ describe('AbbreviationList component', () => {
   ]
 
   test('Matches the snapshot', () => {
-    const tree = renderer
-      .create(<AbbreviationList abbreviations={abbreviations} />)
-      .toJSON()
+    const tree = createRenderer(
+      <AbbreviationList abbreviations={abbreviations} />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Has correct amount of abbreviations', () => {
-    const tree = renderer.create(
+    const tree = createRenderer(
       <AbbreviationList abbreviations={abbreviations} />,
     )
     const { root } = tree
@@ -34,7 +34,7 @@ describe('AbbreviationList component', () => {
   })
 
   test('Has expected abbreviation content', () => {
-    const tree = renderer.create(
+    const tree = createRenderer(
       <AbbreviationList abbreviations={abbreviations} />,
     )
 

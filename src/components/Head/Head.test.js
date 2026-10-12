@@ -1,5 +1,4 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../../tests/helpers/react'
 import Head from 'components/Head'
 import { getByLetter, getWord } from 'lib/services/dictionary'
 
@@ -7,16 +6,14 @@ describe('Head component', () => {
   describe('Letter head', () => {
     test('Does not crash', () => {
       const aWords = getByLetter('a').slice(0, 10)
-      const div = document.createElement('div')
-      const root = ReactDOM.createRoot(div)
-      root.render(<Head content={aWords} type="letter" />)
+      renderToDOM(<Head content={aWords} type="letter" />)
     })
 
     test('Matches snapshot', () => {
       const aWords = getByLetter('a').slice(0, 10)
-      const tree = renderer
-        .create(<Head content={aWords} type="letter" />)
-        .toJSON()
+      const tree = createRenderer(
+        <Head content={aWords} type="letter" />,
+      ).toJSON()
       expect(tree).toMatchSnapshot()
     })
   })
@@ -25,13 +22,11 @@ describe('Head component', () => {
     const word = getWord('skilja')
 
     test('Does not crash', () => {
-      const div = document.createElement('div')
-      const root = ReactDOM.createRoot(div)
-      root.render(<Head content={word} type="word" />)
+      renderToDOM(<Head content={word} type="word" />)
     })
 
     test('Matches snapshot', () => {
-      const tree = renderer.create(<Head content={word} type="word" />).toJSON()
+      const tree = createRenderer(<Head content={word} type="word" />).toJSON()
       expect(tree).toMatchSnapshot()
     })
   })

@@ -1,5 +1,4 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../helpers/react'
 import { createMocks } from 'node-mocks-http'
 import Sitemap, { getServerSideProps } from 'pages/sitemap-creator.xml'
 
@@ -7,13 +6,11 @@ describe('Sitemap page: render', () => {
   process.env.NEXT_PUBLIC_SITE_URL = 'https://cleasbyvigfusson.test'
 
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<Sitemap />)
+    renderToDOM(<Sitemap />)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Sitemap />).toJSON()
+    const tree = createRenderer(<Sitemap />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

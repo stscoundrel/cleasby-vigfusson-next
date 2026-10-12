@@ -1,16 +1,13 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../../tests/helpers/react'
 import LoadingSpinner from './index'
 
 describe('Loading spinner component', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<LoadingSpinner />)
+    renderToDOM(<LoadingSpinner />)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<LoadingSpinner />).toJSON()
+    const tree = createRenderer(<LoadingSpinner />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

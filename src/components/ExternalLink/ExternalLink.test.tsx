@@ -1,27 +1,22 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../../tests/helpers/react'
 import ExternalLink from './index'
 
 describe('ExternalLink component', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(
+    renderToDOM(
       <ExternalLink title="Other site" href="www.takemeontheotherside.com" />,
     )
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer
-      .create(
-        <ExternalLink title="Other site" href="www.takemeontheotherside.com" />,
-      )
-      .toJSON()
+    const tree = createRenderer(
+      <ExternalLink title="Other site" href="www.takemeontheotherside.com" />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Has correct title', () => {
-    const tree = renderer.create(
+    const tree = createRenderer(
       <ExternalLink title="Other site" href="www.takemeontheotherside.com" />,
     )
     const { root } = tree
@@ -30,12 +25,12 @@ describe('ExternalLink component', () => {
   })
 
   test('Has correct url', () => {
-    const tree = renderer
-      .create(
-        <ExternalLink title="Other site" href="www.takemeontheotherside.com" />,
-      )
-      .toJSON()
+    const tree = createRenderer(
+      <ExternalLink title="Other site" href="www.takemeontheotherside.com" />,
+    )
 
-    expect(tree.props.href).toEqual('www.takemeontheotherside.com')
+    expect(tree.root.findByType('a').props.href).toEqual(
+      'www.takemeontheotherside.com',
+    )
   })
 })

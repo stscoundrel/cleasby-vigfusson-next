@@ -1,5 +1,4 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, act, renderToDOM } from '../../../tests/helpers/react'
 import Search from './index'
 
 const mockHandler = jest.fn()
@@ -22,26 +21,24 @@ jest.mock('next/router', () => ({
 
 describe('Search component', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(<Search />)
+    renderToDOM(<Search />)
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer.create(<Search />).toJSON()
+    const tree = createRenderer(<Search />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Triggers router action when submitted', () => {
-    const tree = renderer.create(<Search />).toJSON()
+    const tree = createRenderer(<Search />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Triggers callback after click', async () => {
-    const tree = renderer.create(<Search />)
+    const tree = createRenderer(<Search />)
 
     // Submit search form.
-    await renderer.act(async () => {
+    await act(async () => {
       expect(mockHandler).not.toHaveBeenCalled()
 
       await tree.root.findByType('form').props.onSubmit(mockEvent)

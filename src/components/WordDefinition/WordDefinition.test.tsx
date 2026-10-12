@@ -1,5 +1,4 @@
-import ReactDOM from 'react-dom/client'
-import renderer from 'react-test-renderer'
+import { createRenderer, renderToDOM } from '../../../tests/helpers/react'
 import { DictionarySource } from 'scandinavian-dictionary-crosslinker'
 import WordDefinition from './index'
 import styles from './WordDefinition.module.scss'
@@ -59,9 +58,7 @@ const runes = 'ᛅᚠ-ᛒᚢᚱᚦᚱ'
 
 describe('WordDefinition component', () => {
   test('Does not crash', () => {
-    const div = document.createElement('div')
-    const root = ReactDOM.createRoot(div)
-    root.render(
+    renderToDOM(
       <WordDefinition
         entry={word}
         abbreviations={abbreviations}
@@ -73,37 +70,33 @@ describe('WordDefinition component', () => {
   })
 
   test('Matches snapshot', () => {
-    const tree = renderer
-      .create(
-        <WordDefinition
-          entry={word}
-          abbreviations={abbreviations}
-          similarEntries={[]}
-          crosslinks={crosslinks}
-          runes={runes}
-        />,
-      )
-      .toJSON()
+    const tree = createRenderer(
+      <WordDefinition
+        entry={word}
+        abbreviations={abbreviations}
+        similarEntries={[]}
+        crosslinks={crosslinks}
+        runes={runes}
+      />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Matches snapshot (older spelling variant)', () => {
-    const tree = renderer
-      .create(
-        <WordDefinition
-          entry={wordWithOlderSpellingVariant}
-          similarEntries={[]}
-          abbreviations={abbreviations}
-          crosslinks={crosslinks}
-          runes="ᚢᚱ-ᚢᛅᚾᛅ"
-        />,
-      )
-      .toJSON()
+    const tree = createRenderer(
+      <WordDefinition
+        entry={wordWithOlderSpellingVariant}
+        similarEntries={[]}
+        abbreviations={abbreviations}
+        crosslinks={crosslinks}
+        runes="ᚢᚱ-ᚢᛅᚾᛅ"
+      />,
+    ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   test('Has correct label', () => {
-    const tree = renderer.create(
+    const tree = createRenderer(
       <WordDefinition
         entry={word}
         abbreviations={abbreviations}
@@ -118,7 +111,7 @@ describe('WordDefinition component', () => {
   })
 
   test('Has correct amount of definitions', () => {
-    const tree = renderer.create(
+    const tree = createRenderer(
       <WordDefinition
         entry={word}
         abbreviations={abbreviations}

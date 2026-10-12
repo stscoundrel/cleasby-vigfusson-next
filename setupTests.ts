@@ -1,3 +1,11 @@
+import 'react'
+
+declare global {
+  var IS_REACT_ACT_ENVIRONMENT: boolean
+}
+
+globalThis.IS_REACT_ACT_ENVIRONMENT = true
+
 // Nullify env var for tests.
 process.env.NEXT_PUBLIC_SITE_URL = undefined;
 
