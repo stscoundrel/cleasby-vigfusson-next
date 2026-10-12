@@ -40,3 +40,9 @@ I'm often reading Old Norse text outside in the park, but browsing back and fort
 ### About Cleasby & Vigfusson Dictionary
 
 "Icelandic-English" dictionary was started by Richard Cleasby and finished by Gudbrand Vigfusson. It was published in 1874, which leads to there being many public domain versions of the book available.
+
+## PWA support
+
+Serwist generates `public/sw.js` from `src/sw.ts` during `npm run build` and automatically registers it in production. The worker precaches application assets and uses Serwist’s default runtime caching for visited pages. It is disabled outside production. The existing manifest and icons are in `public`.
+
+The build uses webpack for the Serwist integration. To check service-worker behavior locally, run `npm run build` followed by `npm start`.
