@@ -17,9 +17,16 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        uses: cypress-io/github-action@v7
+        with:
+          runTests: false
+      - name: Check integration test types
+        run: npm run typecheck:integration
       - name: Test with Headless
         uses: cypress-io/github-action@v7
         with:
+          install: false
           browser: chrome
           headless: true
           build: npm run build
