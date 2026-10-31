@@ -40,13 +40,13 @@
     "sass": "^1.105.1",
     "scandinavian-dictionary-crosslinker": "^0.7.0",
     "serwist": "^9.5.13",
-    "sitemap": "^7.1.1",
+    "sitemap": "^10.0.0",
     "slugify": "^1.6.9",
     "teljari": "^1.1.1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.3.3",
+    "@types/node": "^26.6.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",
@@ -61,7 +61,7 @@
     "react-test-renderer": "19.3.0",
     "spyrjari": "^1.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "volva": "^2.0.5"
   }
 }
